@@ -1,0 +1,144 @@
+/* src/styles/index.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the top */
+  min-height: 100vh; /* Ensure full viewport height */
+  background-color: rgb(var(--background-rgb));
+  padding: 0 1rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem; /* Reduce padding */
+}
+
+.logoContainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo {
+  margin-right: 0.7rem;
+}
+
+.companyName {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(var(--foreground-rgb));
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #ff5500;
+  padding: 0.5rem 1.1rem;
+  border-radius: 100px;
+  margin-left: 1rem;
+}
+
+.button:hover {
+  background-color: #e34c00;
+}
+
+.textButton {
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.textButton:hover {
+  color: #555;
+}
+
+.graphicContainer {
+  margin-top: 1rem; /* Reduce margin */
+  display: flex;
+  justify-content: center;
+}
+
+.graphic {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  max-width: 670px;
+  text-align: left;
+  margin-top: 1rem; /* Adjust margin */
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+  text-align: left;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header {
+    padding: 0.5rem 1rem; /* Adjust padding */
+  }
+
+  .logo {
+    margin-right: 0.5rem;
+    height: 40px;
+    width: 40px;
+  }
+
+  .companyName {
+    display: none;
+  }
+
+  .textButton {
+    display: none;
+  }
+
+  .button {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.9rem;
+    margin-left: 0.5rem; /* Adjust margin */
+  }
+
+  .graphicContainer {
+    margin-top: 0.5rem; /* Adjust margin */
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .paragraphs {
+    font-size: 0.9rem;
+  }
+}
