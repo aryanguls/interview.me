@@ -13,15 +13,7 @@ export default function Home() {
     <main className={`${styles.container} ${inter.className}`}>
       <div className={styles.header}>
         <div className={styles.logoContainer}>
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={45}
-            height={45}
-            className={styles.logo}
-            priority
-          />
-          <span className={`${styles.companyName} ${cedarville_cursive.className}`}>Lucence</span>
+          <span className={`${styles.companyName} ${inter.className}`}>Lucence</span>
         </div>
         <div className={styles.buttonContainer}>
           <Link href="/login" className={styles.textButton}>Login</Link>

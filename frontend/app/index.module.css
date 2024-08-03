@@ -19,17 +19,14 @@
 
 .logoContainer {
   display: flex;
-  align-items: flex-end;
-}
-
-.logo {
-  margin-right: 0.7rem;
+  align-items: center;
 }
 
 .companyName {
   font-size: 1.6rem;
-  font-weight: 400;
-  color: rgb(var(--foreground-rgb));
+  font-weight: 500;
+  color: #ff5500;
+  font-family: 'Inter', sans-serif; /* Use Inter font for Lucence */
 }
 
 .buttonContainer {
@@ -56,7 +53,7 @@
 
 .textButton {
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   text-decoration: none;
   color: black;
   font-weight: 500;
@@ -65,43 +62,23 @@
 }
 
 .textButton:hover {
-  color: #555;
+  color: #ff5500;
 }
 
-.graphicContainer {
-  margin-top: 1rem; /* Reduce margin */
+.centeredContent {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+  margin-top: 5rem; /* Adjust margin to bring the text up */
 }
 
-.graphic {
-  max-width: 100%;
-  height: auto;
-}
-
-.content {
-  max-width: 670px;
-  text-align: left;
-  margin-top: 1rem; /* Adjust margin */
-}
-
-.title {
-  font-size: 1.8rem;
-  font-weight: 500;
-  margin-bottom: 1.8rem;
-  text-align: left;
-}
-
-.paragraphs {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-}
-
-.paragraph {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 0.6rem;
+.mainHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Lora', serif; /* Use Lora font for the main heading */
 }
 
 /* Responsive styles */
@@ -110,14 +87,8 @@
     padding: 0.5rem 1rem; /* Adjust padding */
   }
 
-  .logo {
-    margin-right: 0.5rem;
-    height: 40px;
-    width: 40px;
-  }
-
   .companyName {
-    display: none;
+    font-size: 1.4rem;
   }
 
   .textButton {
@@ -130,15 +101,11 @@
     margin-left: 0.5rem; /* Adjust margin */
   }
 
-  .graphicContainer {
-    margin-top: 0.5rem; /* Adjust margin */
-  }
-
-  .title {
+  .mainHeading {
     font-size: 1.4rem;
   }
 
-  .paragraphs {
-    font-size: 0.9rem;
+  .centeredContent {
+    margin-top: 3rem; /* Adjust margin for responsiveness */
   }
 }
