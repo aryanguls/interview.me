@@ -8,9 +8,9 @@ export default function Signup() {
     <>
       <main className={styles.container}>
         <div className={styles.backButtonContainer}>
-            <Link href="/" className={styles.backButton}>
-                Back
-            </Link>
+          <Link href="/" className={styles.backButton}>
+            Back
+          </Link>
         </div>
         <div className={styles.formContainer}>
           <h1 className={styles.heading}>Sign up</h1>
@@ -42,7 +42,7 @@ export default function Signup() {
               Continue with Facebook
             </button> */}
             <div className={styles.loginText}>
-                Already have an account? <Link href="/login" className={styles.loginTextHighlight}>Login</Link>
+              Already have an account? <Link href="/login" className={styles.loginTextHighlight}>Login</Link>
             </div>
           </div>
         </div>

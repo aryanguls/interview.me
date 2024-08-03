@@ -3,14 +3,14 @@ import Link from 'next/link';
 import Image from 'next/image'; // Import the Image component from Next.js
 import styles from './login.module.css';
 
-export default function Signup() {
+export default function Login() {
   return (
     <>
       <main className={styles.container}>
         <div className={styles.backButtonContainer}>
-            <Link href="/" className={styles.backButton}>
-                Back
-            </Link>
+          <Link href="/" className={styles.backButton}>
+            Back
+          </Link>
         </div>
         <div className={styles.formContainer}>
           <h1 className={styles.heading}>Login</h1>
@@ -42,7 +42,7 @@ export default function Signup() {
               Continue with Facebook
             </button> */}
             <div className={styles.loginText}>
-                Don't have an account? <Link href="/signup" className={styles.loginTextHighlight}>Sign up</Link>
+              Don&apos;t have an account? <Link href="/signup" className={styles.loginTextHighlight}>Sign up</Link>
             </div>
           </div>
         </div>
