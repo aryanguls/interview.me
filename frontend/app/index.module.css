@@ -23,10 +23,10 @@
 }
 
 .companyName {
-  font-size: 1.9rem;
-  font-weight: 500;
-  margin-left: 4px;
-  color: #333;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-left: 5px;
+  color: #000000;
   /* font-family: "Concert One", sans-serif; Use Inter font for Lucence */
 }
 
@@ -41,15 +41,17 @@
   text-decoration: none;
   color: white;
   font-weight: 500;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  background-color: #ff5500;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #0075c8;
   padding: 0.5rem 1.1rem;
   border-radius: 100px;
   margin-left: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button:hover {
-  background-color: #e34c00;
+  background-color: #004b81;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .textButton {
@@ -63,7 +65,7 @@
 }
 
 .textButton:hover {
-  color: #ff5500;
+  color: #0075c8;
 }
 
 .centeredContent {
@@ -80,6 +82,29 @@
   font-weight: bold;
   color: rgb(var(--foreground-rgb));
   font-family: 'Lora', serif; /* Use Lora font for the main heading */
+}
+
+/* New styles for the banner */
+.banner {
+  width: 100%;
+  text-align: center;
+  margin-top: 5rem; /* Adjust margin to position banner lower */
+  font-size: 4rem;
+  font-weight: 600;
+  color: #000000;
+  font-family: 'SF Pro Display', sans-serif;
+  background: linear-gradient(90deg, #0075c8, #004b81);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* New styles for the description */
+.description {
+  font-size: 1.25rem;
+  color: gray;
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 1000px;
 }
 
 /* Responsive styles */
@@ -108,5 +133,15 @@
 
   .centeredContent {
     margin-top: 3rem; /* Adjust margin for responsiveness */
+  }
+
+  .banner {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-top: 0.5rem;
   }
 }

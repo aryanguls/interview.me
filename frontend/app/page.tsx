@@ -15,20 +15,26 @@ export default function Home() {
       <div className={styles.header}>
         <div className={styles.logoContainer}>
           <Image
-            src="/logo.png"
+            src="/logo (1).png"
             alt="Logo"
             width={40}
             height={40}
             className={styles.logo}
             priority
           />
-          <span className={`${styles.companyName} ${concert_one.className}`}>Lucence</span>
+          <span className={`${styles.companyName} ${inter.className}`}>Lucence</span>
         </div>
         <div className={styles.buttonContainer}>
           <Link href="/login" className={styles.textButton}>Login</Link>
           <Link href="/signup" className={styles.button}>Get Started</Link>
         </div>
       </div>
+      <div className={styles.banner}>
+        Your AI-Native Job Interview Coach
+      </div>
+      <p className={styles.description}>
+        Lucence offers AI-driven, personalized mock interviews tailored to your target role and company. Practice, receive instant feedback, and boost your confidence to land your dream job.
+      </p>
     </main>
   );
 }
