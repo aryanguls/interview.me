@@ -35,6 +35,10 @@ export default function Home() {
       <p className={styles.description}>
         Lucence offers AI-driven, personalized mock interviews tailored to your target role and company. Practice, receive instant feedback, and boost your confidence to land your dream job.
       </p>
+      <div className={styles.buttonGroup}>
+        <Link href="/first-interview" className={styles.mainButton}>Take Your First Interview</Link>
+        <Link href="/know-more" className={styles.secondaryButton}>Know More</Link>
+      </div>
     </main>
   );
 }

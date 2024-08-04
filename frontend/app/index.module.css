@@ -26,7 +26,7 @@
   font-size: 1.7rem;
   font-weight: 600;
   margin-left: 5px;
-  color: #000000;
+  color: #00528c;
   /* font-family: "Concert One", sans-serif; Use Inter font for Lucence */
 }
 
@@ -105,6 +105,51 @@
   text-align: center;
   margin-top: 1rem;
   max-width: 1000px;
+}
+
+/* New styles for the button group */
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.mainButton {
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #0075c8;
+  padding: 0.7rem 2.2rem;
+  border-radius: 8px;
+  margin-right: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mainButton:hover {
+  background-color: #004b81;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.secondaryButton {
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #e0e0e0;
+  padding: 0.7rem 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.secondaryButton:hover {
+  background-color: #c0c0c0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Responsive styles */
