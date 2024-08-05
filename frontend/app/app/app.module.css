@@ -1,0 +1,70 @@
+/* src/styles/index.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the top */
+    min-height: 100vh; /* Ensure full viewport height */
+    background-color: rgb(var(--background-rgb));
+    padding: 0 1rem;
+  }
+  
+  .header {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem; /* Reduce padding */
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .companyName {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-left: 5px;
+    color: #00528c;
+    /* font-family: "Concert One", sans-serif; Use Inter font for Lucence */
+  }
+  
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button {
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #0075c8;
+    padding: 0.5rem 1.1rem;
+    border-radius: 100px;
+    margin-left: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:hover {
+    background-color: #004b81;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .textButton {
+    cursor: pointer;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-right: 1rem;
+    margin-left: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+  .textButton:hover {
+    color: #0075c8;
+  }
