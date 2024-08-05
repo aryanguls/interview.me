@@ -24,7 +24,7 @@
 
 .companyName {
   font-size: 1.7rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-left: 5px;
   color: #00528c;
   /* font-family: "Concert One", sans-serif; Use Inter font for Lucence */
@@ -40,7 +40,7 @@
   font-size: 0.8rem;
   text-decoration: none;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
   background-color: #000000;
   padding: 0.5rem 1.1rem;
@@ -59,7 +59,7 @@
   font-size: 0.85rem;
   text-decoration: none;
   color: black;
-  font-weight: 600;
+  font-weight: 500;
   margin-right: 1rem;
   margin-left: 0.9rem;
   transition: color 0.3s ease;

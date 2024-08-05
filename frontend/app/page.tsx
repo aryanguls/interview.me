@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col items-center justify-center text-center px-4 py-20 relative z-10">
-        <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-8 mt-12">
+        <h1 className="text-5xl md:text-6xl font-semibold text-gray-800 mb-8 mt-12">
           Ace your job interviews with AI.
         </h1>
         <p className="text-xl text-gray-600 mb-12 max-w-2xl">
