@@ -9,7 +9,7 @@ const dm_sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] });
 
 export default function Home() {
   return (
-    <main className={`${styles.container} ${dm_sans.className} min-h-screen bg-white relative overflow-hidden`}>
+    <main className={`${styles.container} ${inter.className} min-h-screen bg-white relative overflow-hidden`}>
       {/* Centered color blemishes */}
       <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 w-[600px] h-[600px]">
         <div className="absolute top-0 left-0 w-2/3 h-2/3 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
@@ -35,11 +35,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center text-center px-4 py-20 relative z-10">
-        <h1 className="text-5xl md:text-6xl font-semibold text-gray-800 mb-6 mt-12">
+      <div className={`flex flex-col items-center justify-center text-center px-4 py-20 relative z-10 ${dm_sans.className}`}>
+        <h1 className="text-5xl md:text-6xl font-medium text-gray-800 mb-6 mt-12">
           Preview your Interview with us.
         </h1>
-        <p className="text-xl font-semibold text-gray-600 mb-12 max-w-2xl">
+        <p className="text-xl font-medium text-gray-600 mb-12 max-w-2xl">
           Lucence uses AI to simulate real interviews for any job. Get personalized feedback, build confidence, accelerate your career.
         </p>
         <Link href="/app" className="bg-black text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-700 transition-all duration-400 ease-in-out mt-7">
