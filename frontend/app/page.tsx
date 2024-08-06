@@ -38,11 +38,11 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col items-center justify-center text-center px-4 py-20 relative z-10">
-        <h1 className="text-5xl md:text-6xl font-semibold text-gray-800 mb-8 mt-12">
-          Ace your job interviews with AI.
+        <h1 className="text-5xl md:text-6xl font-semibold text-gray-800 mb-6 mt-12">
+          Preview your Interview with us.
         </h1>
         <p className="text-xl text-gray-600 mb-12 max-w-2xl">
-          Lucence offers personalized mock interviews and instant feedback. Practice anytime, boost your confidence, land your dream job.
+          Lucence uses AI to simulate real interviews for any job. Get personalized feedback, build confidence, accelerate your career.
         </p>
         <Link href="/app" className="bg-black text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-700 transition-all duration-400 ease-in-out mt-7">
           Take Your First Interview →

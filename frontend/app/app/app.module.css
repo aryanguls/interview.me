@@ -1,70 +1,164 @@
-/* src/styles/index.module.css */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* Align items to the top */
-    min-height: 100vh; /* Ensure full viewport height */
-    background-color: rgb(var(--background-rgb));
-    padding: 0 1rem;
-  }
-  
-  .header {
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem; /* Reduce padding */
-  }
-  
-  .logoContainer {
-    display: flex;
-    align-items: center;
-  }
-  
-  .companyName {
-    font-size: 1.7rem;
-    font-weight: 600;
-    margin-left: 5px;
-    color: #00528c;
-    /* font-family: "Concert One", sans-serif; Use Inter font for Lucence */
-  }
-  
-  .buttonContainer {
-    display: flex;
-    align-items: center;
-  }
-  
-  .button {
-    cursor: pointer;
-    font-size: 0.8rem;
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-    background-color: #0075c8;
-    padding: 0.5rem 1.1rem;
-    border-radius: 100px;
-    margin-left: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .button:hover {
-    background-color: #004b81;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-  }
-  
-  .textButton {
-    cursor: pointer;
-    font-size: 0.85rem;
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    margin-right: 1rem;
-    margin-left: 0.9rem;
-    transition: color 0.3s ease;
-  }
-  
-  .textButton:hover {
-    color: #0075c8;
-  }
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.headerRight {
+  display: flex;
+  gap: 10px;
+}
+
+.searchInput {
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 0;
+  color: #6c757d;
+}
+
+.activeNav {
+  color: #000;
+  font-weight: 500;
+  border-bottom: 2px solid #000;
+}
+
+.main {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.mainHeader h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.mainHeader p {
+  color: #6c757d;
+  margin: 4px 0 0;
+}
+
+.secondaryButton, .primaryButton {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.secondaryButton {
+  background-color: white;
+  border: 1px solid #ced4da;
+  color: #000;
+  margin-right: 10px;
+}
+
+.primaryButton {
+  background-color: #000;
+  border: none;
+  color: white;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+.table th {
+  text-align: left;
+  padding: 12px 16px;
+  color: #6c757d;
+  font-weight: normal;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table td {
+  padding: 16px;
+  background-color: white;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table tr td:first-child {
+  border-left: 1px solid #dee2e6;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.table tr td:last-child {
+  border-right: 1px solid #dee2e6;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.productInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.pagination button {
+  background: white;
+  border: 1px solid #ced4da;
+  padding: 6px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
