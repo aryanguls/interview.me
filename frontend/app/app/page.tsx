@@ -56,6 +56,7 @@ export default function AppPage() {
             <table className={styles.table}>
               <thead>
                 <tr>
+                  <th></th>
                   <th>COMPANY</th>
                   <th>ROLE</th>
                   <th>STATUS</th>
@@ -65,7 +66,7 @@ export default function AppPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td colSpan={5} className={styles.placeholderCell}>
+                  <td colSpan={6} className={styles.placeholderCell}>
                     <div className={styles.placeholderContent}>
                       <Image
                         src="/placeholder.png"
@@ -81,7 +82,7 @@ export default function AppPage() {
               </tbody>
             </table>
             <div className={styles.pagination}>
-              <span>Showing 0 of 0 interviews</span>
+              <span>Showing <strong>0</strong> of <strong>0</strong> interviews</span>
               <div>
                 <button disabled>Prev</button>
                 <button disabled>Next</button>

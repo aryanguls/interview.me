@@ -3,11 +3,13 @@
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .contentWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 1700px;
   margin: 0 auto;
@@ -107,6 +109,8 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+  border: 1px solid #eaeaea;
+  margin-bottom: 2rem;
 }
 
 .mockInterviewHeader {
