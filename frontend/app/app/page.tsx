@@ -2,14 +2,43 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import styles from './app.module.css';
+
+function AccountDropdown({ isOpen, onClose }) {
+  if (!isOpen) return null;
+
+  return (
+    <div className={styles.dropdownMenu}>
+      <Link href="/account" className={styles.dropdownItem} onClick={onClose}>Account</Link>
+      <Link href="/settings" className={styles.dropdownItem} onClick={onClose}>Settings</Link>
+      <Link href="/signup" className={styles.dropdownItem} onClick={onClose}>Sign Up</Link>
+    </div>
+  );
+}
 
 export default function AppPage() {
   const [activeTab, setActiveTab] = useState('All');
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropdownOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
 
   return (
     <div className={styles.container}>
+      <div className={styles.backgroundBlemishes}></div>
       <div className={styles.contentWrapper}>
         <header className={styles.header}>
           <div className={styles.logoContainer}>
@@ -20,8 +49,11 @@ export default function AppPage() {
               height={40}
             />
           </div>
-          <div className={styles.accountContainer}>
-            <Link href="/account" className={styles.accountButton}>
+          <div className={styles.accountContainer} ref={dropdownRef}>
+            <button 
+              className={styles.accountButton}
+              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+            >
               <Image
                 src="/placeholder-user.jpg"
                 alt="User"
@@ -29,7 +61,11 @@ export default function AppPage() {
                 height={40}
                 className={styles.userIcon}
               />
-            </Link>
+            </button>
+            <AccountDropdown 
+              isOpen={isDropdownOpen} 
+              onClose={() => setIsDropdownOpen(false)}
+            />
           </div>
         </header>
         
@@ -59,9 +95,9 @@ export default function AppPage() {
                   <th></th>
                   <th>COMPANY</th>
                   <th>ROLE</th>
+                  <th>DATE</th>
                   <th>STATUS</th>
                   <th>SCORE</th>
-                  <th>DATE</th>
                 </tr>
               </thead>
               <tbody>
