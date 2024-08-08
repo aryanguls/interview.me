@@ -42,59 +42,21 @@
 }
 
 .main {
-  flex-grow: 1;
   width: 100%;
-  max-width: 64rem;
-  margin: 2rem auto 0;
-  padding: 0 1rem;
+  padding: 0 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.mockInterviewWrapper {
-  position: relative;
-  margin-top: 2rem;
-}
-
-.mockInterviewContainer {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-}
-
-.mockInterviewHeader {
-  margin-bottom: 1.5rem;
-}
-
-.mockInterviewTitle {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-.mockInterviewSubtitle {
-  color: #6b7280;
-  font-size: 0.875rem;
-}
-
-.addButton {
-  position: absolute;
-  top: -1rem;
-  right: 1rem;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  cursor: pointer;
-  z-index: 10;
+.controlsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .tabsContainer {
   display: flex;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #e5e7eb;
 }
 
 .tabButton {
@@ -111,6 +73,40 @@
 .tabButton.active {
   color: black;
   border-bottom: 2px solid black;
+}
+
+.addButton {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mockInterviewContainer {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.mockInterviewHeader {
+  margin-bottom: 1.5rem;
+}
+
+.mockInterviewTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.mockInterviewSubtitle {
+  color: #6b7280;
+  font-size: 0.875rem;
 }
 
 .table {
@@ -137,29 +133,4 @@
 .placeholderCell {
   text-align: center;
   padding: 3rem 0;
-}
-
-.pagination {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1rem;
-  font-size: 0.875rem;
-  color: #6b7280;
-}
-
-.pagination button {
-  background: none;
-  border: 1px solid #e5e7eb;
-  border-radius: 6px;
-  padding: 0.25rem 0.5rem;
-  margin-left: 0.5rem;
-  cursor: pointer;
-  font-size: 0.875rem;
-  color: #374151;
-}
-
-.pagination button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
 }
