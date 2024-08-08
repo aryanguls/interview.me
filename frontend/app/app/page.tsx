@@ -5,7 +5,12 @@ import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
 import styles from './app.module.css';
 
-function AccountDropdown({ isOpen, onClose }) {
+interface AccountDropdownProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+function AccountDropdown({ isOpen, onClose }: AccountDropdownProps) {
   if (!isOpen) return null;
 
   return (
