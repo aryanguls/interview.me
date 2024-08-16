@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import styles from './app.module.css';
+import styles from './modal.module.css';
 
 interface CreateInterviewModalProps {
   isOpen: boolean;
