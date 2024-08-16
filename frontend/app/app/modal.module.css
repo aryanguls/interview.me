@@ -55,6 +55,11 @@
     cursor: pointer;
     font-size: 0.875rem;
     text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .uploadButton:hover{
+    background-color: #333;
   }
   
   .fileName {
