@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useRef, useEffect, MouseEvent } from 'react';
 import styles from './app.module.css';
+import CreateInterviewModal from './CreateInterviewModal';
 
 interface AccountDropdownProps {
   isOpen: boolean;
@@ -25,6 +26,7 @@ function AccountDropdown({ isOpen, onClose }: AccountDropdownProps) {
 export default function AppPage() {
   const [activeTab, setActiveTab] = useState('All');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -44,7 +46,7 @@ export default function AppPage() {
   return (
     <div className={styles.container}>
       <div className={styles.backgroundBlemishes}></div>
-      <div className={styles.contentWrapper}>
+      <div className={`${styles.contentWrapper} ${isModalOpen ? styles.blurred : ''}`}>
         <header className={styles.header}>
           <div className={styles.logoContainer}>
             <Image
@@ -87,7 +89,12 @@ export default function AppPage() {
                 </button>
               ))}
             </div>
-            <button className={styles.addButton}>Start New Interview</button>
+            <button 
+              className={styles.addButton} 
+              onClick={() => setIsModalOpen(true)}
+            >
+              Start New Interview
+            </button>
           </div>
           <div className={styles.mockInterviewContainer}>
             <div className={styles.mockInterviewHeader}>
@@ -132,6 +139,10 @@ export default function AppPage() {
           </div>
         </main>
       </div>
+      <CreateInterviewModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
     </div>
   );
 }
