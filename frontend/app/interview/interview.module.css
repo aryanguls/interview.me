@@ -1,72 +1,31 @@
 .container {
     min-height: 100vh;
-    background-color: #f0f4f8;
+    background-color: #111;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .backgroundBlemishes {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.8;
-    pointer-events: none;
-    background: linear-gradient(
-      135deg,
-      rgba(135, 206, 250, 0.4) 0%,
-      rgba(135, 206, 250, 0.1) 25%,
-      rgba(135, 206, 250, 0.05) 50%,
-      rgba(135, 206, 250, 0.1) 75%,
-      rgba(135, 206, 250, 0.4) 100%
-    );
-    z-index: 0;
   }
   
   .contentWrapper {
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
-    position: relative;
-    z-index: 1;
+    width: 95%;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-    height: 95vh;
-  }
-  
-  .header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 4rem;
-  }
-  
-  .logoContainer {
-    display: flex;
-    justify-content: center;
   }
   
   .main {
     display: flex;
     flex: 1;
-    justify-content: space-between;
-    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
   }
   
   .interviewContainer {
-    width: 74%;
-    height: 75vh;
-    background-color: white;
-    border-radius: 12px;
+    flex: 4;
+    position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
   }
   
   .videoSection {
@@ -74,7 +33,6 @@
     width: 100%;
     height: 100%;
     background-color: #000;
-    border-radius: 12px;
     overflow: hidden;
   }
   
@@ -98,13 +56,13 @@
   
   .aiInterviewerLabel {
     position: absolute;
-    top: 2px;
-    left: 2px;
+    bottom: 4px;
+    left: 4px;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-size: 0.625rem;
+    padding: 2px 6px;
+    border-radius: 7px;
+    font-size: 0.7rem;
   }
   
   .intervieweeName {
@@ -118,16 +76,22 @@
     border-radius: 10px;
     font-size: 0.875rem;
   }
+
+  .interviewType {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 10px;
+    flex: 1;
+  }
   
   .transcriptContainer {
-    width: 25%;
-    height: 75vh;
-    background-color: white;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
   }
   
   .transcriptHeader {
@@ -142,29 +106,33 @@
     font-size: 16px;
     font-weight: 600;
     margin: 0;
-    background-color: #e6e6e6;
-    padding: 5px 15px;
-    border-radius: 7px;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
   }
   
   .transcriptBox {
     flex: 1;
     overflow-y: auto;
     padding: 15px;
-  }
-  
-  .controlsBarWrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+    color: #333;
   }
   
   .controlsBar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  .controlButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 0.5rem 1rem;
-    border-radius: 30px;
+    flex: 2;
   }
   
   .controlButton {
@@ -173,22 +141,57 @@
     color: white;
     width: 40px;
     height: 40px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.3s ease;
+    transition: opacity 0.3s ease;
   }
   
   .controlButton:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
   }
   
   .endCallButton {
-    color: #dc3545;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
   }
   
   .endCallButton:hover {
-    background-color: rgba(220, 53, 69, 0.1);
+    background-color: #c82333;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .messagePopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 500px;
+    height: 60%;
+    max-height: 400px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
   }
