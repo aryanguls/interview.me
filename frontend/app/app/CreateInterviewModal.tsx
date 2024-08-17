@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import styles from './modal.module.css';
 
 interface CreateInterviewModalProps {
@@ -10,6 +11,7 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
   const [resumeFile, setResumeFile] = useState<File | null>(null);
   const [jobLink, setJobLink] = useState('');
   const modalRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -33,6 +35,12 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
     if (event.target.files && event.target.files[0]) {
       setResumeFile(event.target.files[0]);
     }
+  };
+
+  const handleCreateInterview = () => {
+    // Here you would typically handle the form submission
+    // For now, we'll just navigate to the interview page
+    router.push('/interview');
   };
 
   return (
@@ -84,7 +92,7 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
 
         <div className={styles.modalActions}>
           <button className={styles.cancelButton} onClick={onClose}>Cancel</button>
-          <button className={styles.createButton}>Create Interview</button>
+          <button className={styles.createButton} onClick={handleCreateInterview}>Create Interview</button>
         </div>
       </div>
     </div>
