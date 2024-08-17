@@ -1,143 +1,194 @@
 .container {
-  min-height: 100vh;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  position: relative;
-  overflow: hidden;
-}
-
-.backgroundBlemishes {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.8;
-  pointer-events: none;
-  background: linear-gradient(
-    135deg,
-    rgba(135, 206, 250, 0.4) 0%,
-    rgba(135, 206, 250, 0.1) 25%,
-    rgba(135, 206, 250, 0.05) 50%,
-    rgba(135, 206, 250, 0.1) 75%,
-    rgba(135, 206, 250, 0.4) 100%
-  );
-  z-index: 0;
-}
-
-.contentWrapper {
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.logoContainer {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.endInterviewButton {
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.endInterviewButton:hover {
-  background-color: #dd0000;
-}
-
-.main {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-}
-
-.interviewContent {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-  max-width: 1400px;
-}
-
-.interviewerSection {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 300px;
-}
-
-.interviewerFace {
-  aspect-ratio: 1 / 1;
-  background-color: #e0e0e0;
-  border-radius: 12px;
-  overflow: hidden;
-  position: relative;
-}
-
-.aiInterviewerLabel {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.75rem;
-}
-
-.interviewerFace img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.transcriptBox {
-  flex: 1;
-  background-color: white;
-  border-radius: 12px;
-  padding: 1rem;
-  overflow-y: auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-size: 0.875rem;
-}
-
-.candidateSection {
-  flex: 2;
-  aspect-ratio: 16 / 9;
-  background-color: #000;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid #ccc;
-}
-
-.camera {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .backgroundBlemishes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    pointer-events: none;
+    background: linear-gradient(
+      135deg,
+      rgba(135, 206, 250, 0.4) 0%,
+      rgba(135, 206, 250, 0.1) 25%,
+      rgba(135, 206, 250, 0.05) 50%,
+      rgba(135, 206, 250, 0.1) 75%,
+      rgba(135, 206, 250, 0.4) 100%
+    );
+    z-index: 0;
+  }
+  
+  .contentWrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .interviewContainer {
+    width: 74%;
+    height: 75vh;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .videoSection {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .camera {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .interviewerFace {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+    width: 200px;
+    height: 200px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .aiInterviewerLabel {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 0.625rem;
+  }
+  
+  .intervieweeName {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.875rem;
+  }
+  
+  .transcriptContainer {
+    width: 25%;
+    height: 75vh;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transcriptHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .transcriptTitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    background-color: #e6e6e6;
+    padding: 5px 15px;
+    border-radius: 7px;
+  }
+  
+  .transcriptBox {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+  }
+  
+  .controlsBarWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .controlsBar {
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+  }
+  
+  .controlButton {
+    background: none;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controlButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .endCallButton {
+    color: #dc3545;
+  }
+  
+  .endCallButton:hover {
+    background-color: rgba(220, 53, 69, 0.1);
+  }

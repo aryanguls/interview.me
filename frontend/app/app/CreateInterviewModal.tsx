@@ -10,6 +10,7 @@ interface CreateInterviewModalProps {
 export default function CreateInterviewModal({ isOpen, onClose }: CreateInterviewModalProps) {
   const [resumeFile, setResumeFile] = useState<File | null>(null);
   const [jobLink, setJobLink] = useState('');
+  const [interviewLength, setInterviewLength] = useState('');
   const modalRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
 
@@ -88,6 +89,21 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
             value={jobLink}
             onChange={(e) => setJobLink(e.target.value)}
           />
+        </section>
+
+        <section className={styles.modalSection}>
+          <h3 className={styles.sectionTitle}>Interview Length</h3>
+          <select 
+            className={styles.dropdown}
+            value={interviewLength}
+            onChange={(e) => setInterviewLength(e.target.value)}
+          >
+            <option value="">Select Interview Length</option>
+            <option value="60">60 mins</option>
+            <option value="45">45 mins</option>
+            <option value="30">30 mins</option>
+            <option value="20">20 mins</option>
+          </select>
         </section>
 
         <div className={styles.modalActions}>
