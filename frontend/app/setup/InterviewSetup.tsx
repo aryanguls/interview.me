@@ -10,6 +10,7 @@ import styles from './setup.module.css';
 const InterviewSetup = () => {
   const [stage, setStage] = useState(0);
   const [isReady, setIsReady] = useState(false);
+  const [isCameraReady, setIsCameraReady] = useState(false);
   const router = useRouter();
 
   const stages = [
@@ -25,7 +26,7 @@ const InterviewSetup = () => {
       } else {
         setIsReady(true);
       }
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [stage]);
@@ -54,16 +55,14 @@ const InterviewSetup = () => {
         
         <main className={styles.main}>
           <div className={styles.videoPreviewContainer}>
+            <div className={`${styles.blackScreen} ${isCameraReady ? styles.fadeOut : ''}`}></div>
             <Webcam
               audio={false}
-              height={480}
-              width={720}
               videoConstraints={{
-                width: 720,
-                height: 480,
                 facingMode: "user"
               }}
-              className={styles.videoPreview}
+              className={`${styles.videoPreview} ${isCameraReady ? styles.fadeIn : ''}`}
+              onUserMedia={() => setIsCameraReady(true)}
             />
           </div>
           <div className={styles.setupInfo}>

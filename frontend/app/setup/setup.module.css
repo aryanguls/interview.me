@@ -1,220 +1,252 @@
 .container {
-    min-height: 100vh;
-    background-color: #f0f4f8;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .backgroundBlemishes {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.8;
-    pointer-events: none;
-    background: linear-gradient(
-      135deg,
-      rgba(135, 206, 250, 0.4) 0%,
-      rgba(135, 206, 250, 0.1) 25%,
-      rgba(135, 206, 250, 0.05) 50%,
-      rgba(135, 206, 250, 0.1) 75%,
-      rgba(135, 206, 250, 0.4) 100%
-    );
-    z-index: 0;
-  }
-  
-  .contentWrapper {
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
-    position: relative;
-  }
-  
-  .backLink {
-    position: absolute;
-    right: 0;
-    color: #000;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1rem;
-  }
-  
-  .logoContainer {
-    display: flex;
-    align-items: center;
-  }
-  
-  .main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-grow: 1;
-    padding: 0rem 0 2rem;
-    width: 100%;
-  }
-  
-  .videoPreviewContainer {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0;
-  }
-  
-  .videoPreview {
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    height: auto;
-    max-height: 70vh;
-    object-fit: cover;
-  }
-  
-  .setupInfo {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    padding: 2rem;
-    background-color: transparent;
-    border-radius: 15px;
-  }
-  
-  .setupTitle {
-    font-size: 2rem;
-    font-weight: 500;
-    color: #333;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-  
-  .progressBar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    margin-bottom: 3rem;
-    position: relative;
-    padding-left: 1px;
-  }
-  
-  .progressBar::before,
-  .progressBar::after {
-    content: '';
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    width: 2px;
-    height: calc(100% - 30px);
-    background-color: #e0e0e0;
-  }
-  
-  .progressBar::after {
-    background-color: #000;
-    height: 0;
-    transition: height 0.5s ease;
-  }
-  
-  .stage {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2.5rem;
-    width: 100%;
-    opacity: 0.5;
-    transition: all 0.3s ease;
-  }
-  
-  .stage:last-child {
-    margin-bottom: 0;
-  }
-  
-  .stage.active {
-    opacity: 1;
-  }
-  
-  .stageIndicator {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #e0e0e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 1.5rem;
-    position: relative;
-    z-index: 2;
-  }
-  
-  .stage.active .stageIndicator {
-    background-color: #000;
-  }
-  
-  .stageNumber {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #333;
-  }
-  
-  .stage.active .stageNumber {
-    color: white;
-  }
-  
-  .stageText {
-    font-size: 1.2rem;
-    color: #333;
-    flex-grow: 1;
-    text-align: left;
-  }
-  
-  /* Update progress bar fill based on active stage */
-  .progressBar.stage-0::after { height: 0%; }
-  .progressBar.stage-1::after { height: 33%; }
-  .progressBar.stage-2::after { height: 80%; }
-  /* .progressBar.stage-3::after { height: 0%; } */
-  
-  .startButton {
-    background-color: #000000;
-    color: white;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-    margin-top: 2rem;
-  }
-  
-  .startButton:hover:not(.disabled) {
-    background-color: #333;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .startButton.disabled {
-    background-color: #a0aec0;
-    cursor: not-allowed;
-  }
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.backgroundBlemishes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+  pointer-events: none;
+  background: linear-gradient(
+    135deg,
+    rgba(135, 206, 250, 0.4) 0%,
+    rgba(135, 206, 250, 0.1) 25%,
+    rgba(135, 206, 250, 0.05) 50%,
+    rgba(135, 206, 250, 0.1) 75%,
+    rgba(135, 206, 250, 0.4) 100%
+  );
+  z-index: 0;
+}
+
+.contentWrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.backLink {
+  position: absolute;
+  right: 0;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.backLink:hover{
+  color: #004b81;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding: 0rem 0 2rem;
+  width: 100%;
+}
+
+.videoPreviewContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  max-height: 80vh; /* Increased from 70vh to 80vh */
+  min-height: 400px; /* Added minimum height */
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blackScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 2;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.blackScreen.fadeOut {
+  opacity: 0;
+}
+
+.videoPreview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.videoPreview.fadeIn {
+  opacity: 1;
+}
+
+.setupInfo {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 2rem;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+.setupTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.progressBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-left: 1px;
+}
+
+.progressBar::before,
+.progressBar::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 2px;
+  height: calc(100% - 30px);
+  background-color: #e0e0e0;
+}
+
+.progressBar::after {
+  background-color: #000;
+  height: 0;
+  transition: height 0.5s ease;
+}
+
+.stage {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.stage:last-child {
+  margin-bottom: 0;
+}
+
+.stage.active {
+  opacity: 1;
+}
+
+.stageIndicator {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.stage.active .stageIndicator {
+  background-color: #000;
+}
+
+.stageNumber {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.stage.active .stageNumber {
+  color: white;
+}
+
+.stageText {
+  font-size: 1.2rem;
+  color: #333;
+  flex-grow: 1;
+  text-align: left;
+}
+
+/* Update progress bar fill based on active stage */
+.progressBar.stage-0::after { height: 0%; }
+.progressBar.stage-1::after { height: 33%; }
+.progressBar.stage-2::after { height: 80%; }
+/* .progressBar.stage-3::after { height: 0%; } */
+
+.startButton {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.startButton:hover:not(.disabled) {
+  background-color: #004b81;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.startButton.disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
