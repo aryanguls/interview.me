@@ -66,7 +66,7 @@
   .main {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Changed from flex-start to center */
+    align-items: center;
     flex-grow: 1;
     padding: 0rem 0 2rem;
     width: 100%;
@@ -76,8 +76,8 @@
     width: 60%;
     display: flex;
     justify-content: center;
-    align-items: center; /* Changed from flex-start to center */
-    padding-top: 0; /* Removed top padding */
+    align-items: center;
+    padding-top: 0;
   }
   
   .videoPreview {
@@ -95,7 +95,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center; /* Changed from flex-start to center */
+    align-items: center;
     padding: 2rem;
     background-color: transparent;
     border-radius: 15px;
@@ -106,27 +106,47 @@
     font-weight: 500;
     color: #333;
     margin-bottom: 2rem;
-    text-align: center; /* Added to center the title */
+    text-align: center;
   }
   
   .progressBar {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Changed from flex-start to center */
+    align-items: flex-start;
     width: 100%;
     margin-bottom: 2rem;
-    position: relative; /* Added for positioning the vertical line */
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .progressBar::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    width: 2px;
+    height: calc(100% - 40px);
+    background-color: #e0e0e0;
+  }
+  
+  .progressBar::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    width: 2px;
+    height: 0;
+    background-color: #000;
+    transition: height 0.5s ease;
   }
   
   .stage {
     display: flex;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     width: 100%;
     opacity: 0.5;
     transition: all 0.3s ease;
-    position: relative; /* Added for positioning */
-    z-index: 2; /* Ensure stages are above the line */
   }
   
   .stage.active {
@@ -134,8 +154,8 @@
   }
   
   .stageIndicator {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: #e0e0e0;
     display: flex;
@@ -143,18 +163,17 @@
     align-items: center;
     margin-right: 1rem;
     position: relative;
-    transition: all 0.3s ease;
+    z-index: 2;
   }
   
   .stage.active .stageIndicator {
-    background-color: #000; /* Changed to black */
+    background-color: #000;
   }
   
   .stageNumber {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #333;
-    transition: all 0.3s ease;
   }
   
   .stage.active .stageNumber {
@@ -162,108 +181,71 @@
   }
   
   .stageText {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #333;
     flex-grow: 1;
-    text-align: left; /* Added to ensure text alignment */
+    text-align: left;
   }
   
-  /* Added vertical line */
-  .progressBar::before {
+  /* Animated dots */
+  .stage.active .stageIndicator::before,
+  .stage.active .stageIndicator::after,
+  .stage.active .stageIndicator .middleDot {
     content: '';
     position: absolute;
-    top: 20px; /* Adjust as needed */
-    left: 20px; /* Adjust to align with circles */
-    width: 2px;
-    height: calc(100% - 40px); /* Adjust as needed */
-    background-color: #e0e0e0;
-    z-index: 1;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #000;
+    animation: dotAnimation 1.5s infinite ease-in-out;
   }
   
-  /* Added active line fill */
-  .progressBar::after {
-    content: '';
-    position: absolute;
-    top: 20px; /* Adjust as needed */
-    left: 20px; /* Adjust to align with circles */
-    width: 2px;
-    height: 0%; /* Will be updated dynamically */
-    background-color: #000; /* Black color for active line */
-    z-index: 1;
-    transition: height 0.3s ease;
+  .stage.active .stageIndicator::before {
+    left: -20px;
+    animation-delay: 0s;
   }
   
-  .startButton {
-    background-color: #000; /* Changed to black */
-    color: white;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .startButton:hover:not(.disabled) {
-    background-color: #333; /* Darker shade for hover */
-    transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .startButton.disabled {
-    background-color: #a0aec0;
-    cursor: not-allowed;
-  }
-  
-  /* Removed the pulse animation */
-  
-  .startButton {
-    background-color: #6366f1;
-    color: white;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .startButton:hover:not(.disabled) {
-    background-color: #4f46e5;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .startButton.disabled {
-    background-color: #a0aec0;
-    cursor: not-allowed;
-  }
-  
-  @keyframes pulse {
-    0% {
-      box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.7);
-    }
-    70% {
-      box-shadow: 0 0 0 10px rgba(99, 102, 241, 0);
-    }
-    100% {
-      box-shadow: 0 0 0 0 rgba(99, 102, 241, 0);
-    }
+  .stage.active .stageIndicator .middleDot {
+    animation-delay: 0.5s;
   }
   
   .stage.active .stageIndicator::after {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    border-radius: 50%;
-    animation: pulse 2s infinite;
+    right: -20px;
+    animation-delay: 1s;
+  }
+  
+  @keyframes dotAnimation {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  /* Update progress bar fill based on active stage */
+  .progressBar.stage-0::after { height: 0%; }
+  .progressBar.stage-1::after { height: 33%; }
+  .progressBar.stage-2::after { height: 66%; }
+  .progressBar.stage-3::after { height: 100%; }
+  
+  .startButton {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .startButton:hover:not(.disabled) {
+    background-color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .startButton.disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
   }

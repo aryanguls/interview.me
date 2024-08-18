@@ -68,7 +68,7 @@ const InterviewSetup = () => {
           </div>
           <div className={styles.setupInfo}>
             <h2 className={styles.setupTitle}>Ready to Join?</h2>
-            <div className={styles.progressBar}>
+            <div className={`${styles.progressBar} ${styles[`stage-${stage}`]}`}>
               {stages.map((s, index) => (
                 <div 
                   key={index} 
@@ -76,6 +76,7 @@ const InterviewSetup = () => {
                 >
                   <div className={styles.stageIndicator}>
                     <span className={styles.stageNumber}>{index + 1}</span>
+                    <span className={styles.middleDot}></span>
                   </div>
                   <div className={styles.stageText}>{s}</div>
                 </div>
