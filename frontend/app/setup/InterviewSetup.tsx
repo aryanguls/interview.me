@@ -1,35 +1,16 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import Webcam from 'react-webcam';
 import styles from './setup.module.css';
 
-interface AccountDropdownProps {
-  isOpen: boolean;
-  onClose: () => void;
-}
-
-function AccountDropdown({ isOpen, onClose }: AccountDropdownProps) {
-  if (!isOpen) return null;
-
-  return (
-    <div className={styles.dropdownMenu}>
-      <Link href="/account" className={styles.dropdownItem} onClick={onClose}>Account</Link>
-      <Link href="/settings" className={styles.dropdownItem} onClick={onClose}>Settings</Link>
-      <Link href="/signup" className={styles.dropdownItem} onClick={onClose}>Sign Up</Link>
-    </div>
-  );
-}
-
 const InterviewSetup = () => {
   const [stage, setStage] = useState(0);
   const [isReady, setIsReady] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const router = useRouter();
-  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const stages = [
     "Reading your resume",
@@ -49,21 +30,10 @@ const InterviewSetup = () => {
     return () => clearTimeout(timer);
   }, [stage]);
 
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsDropdownOpen(false);
-      }
-    }
-
-    document.addEventListener("mousedown", handleClickOutside as unknown as EventListener);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside as unknown as EventListener);
-    };
-  }, []);
-
   const handleStartInterview = () => {
-    router.push('/interview');
+    if (isReady) {
+      router.push('/interview');
+    }
   };
 
   return (
@@ -79,24 +49,7 @@ const InterviewSetup = () => {
               height={40}
             />
           </div>
-          <div className={styles.accountContainer} ref={dropdownRef}>
-            <button 
-              className={styles.accountButton}
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            >
-              <Image
-                src="/placeholder-user.jpg"
-                alt="User"
-                width={40}
-                height={40}
-                className={styles.userIcon}
-              />
-            </button>
-            <AccountDropdown 
-              isOpen={isDropdownOpen} 
-              onClose={() => setIsDropdownOpen(false)}
-            />
-          </div>
+          <Link href="/app" className={styles.backLink}>Back</Link>
         </header>
         
         <main className={styles.main}>
@@ -104,9 +57,9 @@ const InterviewSetup = () => {
             <Webcam
               audio={false}
               height={480}
-              width={640}
+              width={720}
               videoConstraints={{
-                width: 640,
+                width: 720,
                 height: 480,
                 facingMode: "user"
               }}
@@ -114,22 +67,27 @@ const InterviewSetup = () => {
             />
           </div>
           <div className={styles.setupInfo}>
+            <h2 className={styles.setupTitle}>Ready to Join?</h2>
             <div className={styles.progressBar}>
               {stages.map((s, index) => (
                 <div 
                   key={index} 
                   className={`${styles.stage} ${index <= stage ? styles.active : ''}`}
                 >
-                  <div className={styles.stageIndicator}>{index + 1}</div>
+                  <div className={styles.stageIndicator}>
+                    <span className={styles.stageNumber}>{index + 1}</span>
+                  </div>
                   <div className={styles.stageText}>{s}</div>
                 </div>
               ))}
             </div>
-            {isReady && (
-              <button className={styles.startButton} onClick={handleStartInterview}>
-                Start Interview
-              </button>
-            )}
+            <button 
+              className={`${styles.startButton} ${!isReady ? styles.disabled : ''}`} 
+              onClick={handleStartInterview}
+              disabled={!isReady}
+            >
+              Start Interview
+            </button>
           </div>
         </main>
       </div>

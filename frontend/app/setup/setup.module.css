@@ -1,6 +1,6 @@
 .container {
     min-height: 100vh;
-    background-color: #f9f9f9;
+    background-color: #f0f4f8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,118 +30,103 @@
   
   .contentWrapper {
     width: 100%;
-    max-width: 1700px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
   
   .header {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem 0;
     position: relative;
   }
   
-  .logoContainer {
+  .backLink {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 0;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
   }
   
-  .accountContainer {
-    margin-left: auto;
-    position: relative;
-  }
-  
-  .accountButton {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    background-color: #f3f4f6;
+  .logoContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 1px solid #e5e7eb;
-    cursor: pointer;
-  }
-  
-  .userIcon {
-    border-radius: 50%;
-  }
-  
-  .dropdownMenu {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background-color: white;
-    border: 1px solid #e5e7eb;
-    border-radius: 4px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    z-index: 10;
-    min-width: 120px;
-  }
-  
-  .dropdownItem {
-    display: block;
-    padding: 0.6rem 0.8rem;
-    color: #374151;
-    text-decoration: none;
-    transition: background-color 0.2s;
-    font-size: 0.875rem;
-    line-height: 1.25;
-  }
-  
-  .dropdownItem:hover {
-    background-color: #f3f4f6;
   }
   
   .main {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: calc(100vh - 80px);
-    padding: 2rem 0;
+    align-items: center; /* Changed from flex-start to center */
+    flex-grow: 1;
+    padding: 0rem 0 2rem;
+    width: 100%;
   }
   
   .videoPreviewContainer {
     width: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* Changed from flex-start to center */
+    padding-top: 0; /* Removed top padding */
   }
   
   .videoPreview {
-    border-radius: 10px;
+    border-radius: 30px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+    object-fit: cover;
   }
   
   .setupInfo {
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 2rem;
+    justify-content: flex-start;
+    align-items: center; /* Changed from flex-start to center */
+    padding: 2rem;
+    background-color: transparent;
+    border-radius: 15px;
+  }
+  
+  .setupTitle {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center; /* Added to center the title */
   }
   
   .progressBar {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center; /* Changed from flex-start to center */
+    width: 100%;
     margin-bottom: 2rem;
+    position: relative; /* Added for positioning the vertical line */
   }
   
   .stage {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
     opacity: 0.5;
-    transition: opacity 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative; /* Added for positioning */
+    z-index: 2; /* Ensure stages are above the line */
   }
   
   .stage.active {
@@ -149,37 +134,136 @@
   }
   
   .stageIndicator {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    background-color: #ccc;
+    background-color: #e0e0e0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 1rem;
-    font-weight: bold;
+    position: relative;
+    transition: all 0.3s ease;
   }
   
   .stage.active .stageIndicator {
-    background-color: #6366f1;
+    background-color: #000; /* Changed to black */
+  }
+  
+  .stageNumber {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .stage.active .stageNumber {
     color: white;
   }
   
   .stageText {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+    flex-grow: 1;
+    text-align: left; /* Added to ensure text alignment */
+  }
+  
+  /* Added vertical line */
+  .progressBar::before {
+    content: '';
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust to align with circles */
+    width: 2px;
+    height: calc(100% - 40px); /* Adjust as needed */
+    background-color: #e0e0e0;
+    z-index: 1;
+  }
+  
+  /* Added active line fill */
+  .progressBar::after {
+    content: '';
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust to align with circles */
+    width: 2px;
+    height: 0%; /* Will be updated dynamically */
+    background-color: #000; /* Black color for active line */
+    z-index: 1;
+    transition: height 0.3s ease;
   }
   
   .startButton {
-    background-color: #000;
+    background-color: #000; /* Changed to black */
     color: white;
     border: none;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 5px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
   }
   
-  .startButton:hover {
-    background-color: #333;
+  .startButton:hover:not(.disabled) {
+    background-color: #333; /* Darker shade for hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .startButton.disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+  }
+  
+  /* Removed the pulse animation */
+  
+  .startButton {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .startButton:hover:not(.disabled) {
+    background-color: #4f46e5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .startButton.disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(99, 102, 241, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(99, 102, 241, 0);
+    }
+  }
+  
+  .stage.active .stageIndicator::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
   }
