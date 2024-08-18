@@ -94,8 +94,8 @@
     width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    height: 100%;
     padding: 2rem;
     background-color: transparent;
     border-radius: 15px;
@@ -114,39 +114,39 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     position: relative;
-    padding-left: 30px;
+    padding-left: 1px;
   }
   
-  .progressBar::before {
+  .progressBar::before,
+  .progressBar::after {
     content: '';
     position: absolute;
-    top: 20px;
-    left: 14px;
+    top: 15px;
+    left: 15px;
     width: 2px;
-    height: calc(100% - 40px);
+    height: calc(100% - 30px);
     background-color: #e0e0e0;
   }
   
   .progressBar::after {
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 14px;
-    width: 2px;
-    height: 0;
     background-color: #000;
+    height: 0;
     transition: height 0.5s ease;
   }
   
   .stage {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     width: 100%;
     opacity: 0.5;
     transition: all 0.3s ease;
+  }
+  
+  .stage:last-child {
+    margin-bottom: 0;
   }
   
   .stage.active {
@@ -161,7 +161,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     position: relative;
     z-index: 2;
   }
@@ -181,49 +181,17 @@
   }
   
   .stageText {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #333;
     flex-grow: 1;
     text-align: left;
   }
   
-  /* Animated dots */
-  .stage.active .stageIndicator::before,
-  .stage.active .stageIndicator::after,
-  .stage.active .stageIndicator .middleDot {
-    content: '';
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: #000;
-    animation: dotAnimation 1.5s infinite ease-in-out;
-  }
-  
-  .stage.active .stageIndicator::before {
-    left: -20px;
-    animation-delay: 0s;
-  }
-  
-  .stage.active .stageIndicator .middleDot {
-    animation-delay: 0.5s;
-  }
-  
-  .stage.active .stageIndicator::after {
-    right: -20px;
-    animation-delay: 1s;
-  }
-  
-  @keyframes dotAnimation {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-  }
-  
   /* Update progress bar fill based on active stage */
   .progressBar.stage-0::after { height: 0%; }
   .progressBar.stage-1::after { height: 33%; }
-  .progressBar.stage-2::after { height: 66%; }
-  .progressBar.stage-3::after { height: 100%; }
+  .progressBar.stage-2::after { height: 80%; }
+  /* .progressBar.stage-3::after { height: 0%; } */
   
   .startButton {
     background-color: #000000;
@@ -237,6 +205,7 @@
     border-radius: 8px;
     width: 100%;
     text-align: center;
+    margin-top: 2rem;
   }
   
   .startButton:hover:not(.disabled) {

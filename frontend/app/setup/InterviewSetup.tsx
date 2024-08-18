@@ -67,20 +67,21 @@ const InterviewSetup = () => {
             />
           </div>
           <div className={styles.setupInfo}>
-            <h2 className={styles.setupTitle}>Ready to Join?</h2>
-            <div className={`${styles.progressBar} ${styles[`stage-${stage}`]}`}>
-              {stages.map((s, index) => (
-                <div 
-                  key={index} 
-                  className={`${styles.stage} ${index <= stage ? styles.active : ''}`}
-                >
-                  <div className={styles.stageIndicator}>
-                    <span className={styles.stageNumber}>{index + 1}</span>
-                    <span className={styles.middleDot}></span>
+            <div>
+              <h2 className={styles.setupTitle}>Ready to Join?</h2>
+              <div className={`${styles.progressBar} ${styles[`stage-${stage}`]}`}>
+                {stages.map((s, index) => (
+                  <div 
+                    key={index} 
+                    className={`${styles.stage} ${index <= stage ? styles.active : ''}`}
+                  >
+                    <div className={styles.stageIndicator}>
+                      <span className={styles.stageNumber}>{index + 1}</span>
+                    </div>
+                    <div className={styles.stageText}>{s}</div>
                   </div>
-                  <div className={styles.stageText}>{s}</div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
             <button 
               className={`${styles.startButton} ${!isReady ? styles.disabled : ''}`} 
