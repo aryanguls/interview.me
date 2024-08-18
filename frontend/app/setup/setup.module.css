@@ -1,0 +1,185 @@
+.container {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .backgroundBlemishes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    pointer-events: none;
+    background: linear-gradient(
+      135deg,
+      rgba(135, 206, 250, 0.4) 0%,
+      rgba(135, 206, 250, 0.1) 25%,
+      rgba(135, 206, 250, 0.05) 50%,
+      rgba(135, 206, 250, 0.1) 75%,
+      rgba(135, 206, 250, 0.4) 100%
+    );
+    z-index: 0;
+  }
+  
+  .contentWrapper {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    position: relative;
+  }
+  
+  .logoContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .accountContainer {
+    margin-left: auto;
+    position: relative;
+  }
+  
+  .accountButton {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+  }
+  
+  .userIcon {
+    border-radius: 50%;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 10;
+    min-width: 120px;
+  }
+  
+  .dropdownItem {
+    display: block;
+    padding: 0.6rem 0.8rem;
+    color: #374151;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    font-size: 0.875rem;
+    line-height: 1.25;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 80px);
+    padding: 2rem 0;
+  }
+  
+  .videoPreviewContainer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .videoPreview {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .setupInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+  }
+  
+  .progressBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+  
+  .stage {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+  
+  .stage.active {
+    opacity: 1;
+  }
+  
+  .stageIndicator {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  
+  .stage.active .stageIndicator {
+    background-color: #6366f1;
+    color: white;
+  }
+  
+  .stageText {
+    font-size: 1rem;
+  }
+  
+  .startButton {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .startButton:hover {
+    background-color: #333;
+  }

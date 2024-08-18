@@ -41,7 +41,7 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
   const handleCreateInterview = () => {
     // Here you would typically handle the form submission
     // For now, we'll just navigate to the interview page
-    router.push('/interview');
+    router.push('/setup');
   };
 
   return (
