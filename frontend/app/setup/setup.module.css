@@ -199,3 +199,28 @@
   background-color: #004b81;
   transform: translateY(-2px);
 }
+
+.audioIndicator {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  width: 25px; /* Increased to accommodate 4 bars with spacing */
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.audioBar {
+  width: 4px;
+  height: 6px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.audioBar.active {
+  height: 15px;
+  background-color: #ffffff;
+}

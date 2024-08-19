@@ -31,26 +31,23 @@ export default function InterviewPage() {
     }
   }, [stream]);
 
-  useEffect(() => {
-    // Request microphone access
-    navigator.mediaDevices.getUserMedia({ audio: true })
-      .then((stream) => {
-        console.log('Microphone access granted');
-      })
-      .catch((error) => {
-        console.error('Error accessing microphone:', error);
-      });
-  }, []);
-
   const toggleMic = () => {
     setIsMicOn(!isMicOn);
-    // Implement actual mic toggling logic here
+    if (stream) {
+      const audioTrack = stream.getAudioTracks()[0];
+      if (audioTrack) {
+        audioTrack.enabled = !isMicOn;
+      }
+    }
   };
 
   const toggleCamera = () => {
     setIsCameraOn(!isCameraOn);
-    if (webcamRef.current && webcamRef.current.video) {
-      webcamRef.current.video.srcObject = isCameraOn ? null : stream;
+    if (stream) {
+      const videoTrack = stream.getVideoTracks()[0];
+      if (videoTrack) {
+        videoTrack.enabled = !isCameraOn;
+      }
     }
   };
 
