@@ -112,6 +112,35 @@ export default function InterviewPage() {
     router.push('/dashboard');
   };
 
+  const renderOverlay = () => {
+    if (!isMicOn && !isCameraOn) {
+      return (
+        <div className={styles.deviceOffOverlay}>
+          <div className={styles.iconContainer}>
+            <MicOff size={48} />
+            <CameraOff size={48} />
+          </div>
+          <p>Mic and Camera are off</p>
+        </div>
+      );
+    } else if (!isMicOn) {
+      return (
+        <div className={styles.deviceOffOverlay}>
+          <MicOff size={48} />
+          <p>Mic is off</p>
+        </div>
+      );
+    } else if (!isCameraOn) {
+      return (
+        <div className={styles.deviceOffOverlay}>
+          <CameraOff size={48} />
+          <p>Camera is off</p>
+        </div>
+      );
+    }
+    return null;
+  };
+
   const toggleMessagePopup = () => {
     setShowMessagePopup(!showMessagePopup);
   };
@@ -143,29 +172,23 @@ export default function InterviewPage() {
         <main className={styles.main}>
           <div className={styles.interviewContainer}>
             <div className={styles.videoSection}>
-              {isStreamReady && (
-                <>
-                  {isCameraOn ? (
-                    <Webcam
-                      audio={false}
-                      ref={webcamRef}
-                      screenshotFormat="image/jpeg"
-                      videoConstraints={{
-                        width: 1280,
-                        height: 720,
-                        facingMode: "user"
-                      }}
-                      className={styles.camera}
-                      mirrored
-                    />
-                  ) : (
-                    <div className={styles.cameraOff}>
-                      <Camera size={48} />
-                      <p>Camera is off</p>
-                    </div>
-                  )}
-                </>
-              )}
+                {isCameraOn ? (
+                  <Webcam
+                    audio={false}
+                    ref={webcamRef}
+                    screenshotFormat="image/jpeg"
+                    videoConstraints={{
+                      width: 1280,
+                      height: 720,
+                      facingMode: "user"
+                    }}
+                    className={styles.camera}
+                    mirrored
+                  />
+                ) : (
+                  <div className={styles.cameraOff}></div>
+                )}
+                {renderOverlay()}
               <div className={styles.interviewerFace}>
                 <div className={styles.logoContainer}>
                   <Image
