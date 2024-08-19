@@ -19,24 +19,30 @@ export default function InterviewPage() {
   const [isStreamReady, setIsStreamReady] = useState(false);
   const [audioLevels, setAudioLevels] = useState([0, 0, 0, 0]);
   const router = useRouter();
+  const audioContextRef = useRef<AudioContext | null>(null);
+  const analyserRef = useRef<AnalyserNode | null>(null);
+  const animationFrameRef = useRef<number | null>(null);
 
   useEffect(() => {
-    let mediaStream: MediaStream | null = null;
-
     navigator.mediaDevices.getUserMedia({ video: true, audio: true })
-      .then(stream => {
-        mediaStream = stream;
-        setStream(stream);
+      .then(mediaStream => {
+        setStream(mediaStream);
         setIsStreamReady(true);
-        setupAudioAnalyser(stream);
+        setupAudioAnalyser(mediaStream);
       })
       .catch(error => {
         console.error("Error accessing media devices:", error);
       });
 
     return () => {
-      if (mediaStream) {
-        mediaStream.getTracks().forEach(track => track.stop());
+      if (stream) {
+        stream.getTracks().forEach(track => track.stop());
+      }
+      if (audioContextRef.current) {
+        audioContextRef.current.close();
+      }
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
       }
     };
   }, []);
@@ -48,28 +54,29 @@ export default function InterviewPage() {
   }, [stream]);
 
   const setupAudioAnalyser = (stream: MediaStream) => {
-    const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
-    const analyser = audioContext.createAnalyser();
-    const source = audioContext.createMediaStreamSource(stream);
-    source.connect(analyser);
-    analyser.fftSize = 32;
-
+    audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
+    analyserRef.current = audioContextRef.current.createAnalyser();
+    const source = audioContextRef.current.createMediaStreamSource(stream);
+    source.connect(analyserRef.current);
+    analyserRef.current.fftSize = 32;
+    
     const updateAudioLevel = () => {
-      const dataArray = new Uint8Array(analyser.frequencyBinCount);
-      analyser.getByteFrequencyData(dataArray);
-      const average = dataArray.reduce((sum, value) => sum + value, 0) / dataArray.length;
-      const normalizedLevel = Math.min(average / 128, 1);
-
-      setAudioLevels([
-        normalizedLevel > 0.25 ? 1 : 0,
-        normalizedLevel > 0.5 ? 1 : 0,
-        normalizedLevel > 0.75 ? 1 : 0,
-        normalizedLevel > 0.9 ? 1 : 0
-      ]);
-
-      requestAnimationFrame(updateAudioLevel);
+      if (analyserRef.current) {
+        const dataArray = new Uint8Array(analyserRef.current.frequencyBinCount);
+        analyserRef.current.getByteFrequencyData(dataArray);
+        const average = dataArray.reduce((sum, value) => sum + value, 0) / dataArray.length;
+        const normalizedLevel = Math.min(average / 128, 1);
+        
+        setAudioLevels([
+          normalizedLevel > 0.25 ? 1 : 0,
+          normalizedLevel > 0.5 ? 1 : 0,
+          normalizedLevel > 0.75 ? 1 : 0,
+          normalizedLevel > 0.9 ? 1 : 0
+        ]);
+      }
+      animationFrameRef.current = requestAnimationFrame(updateAudioLevel);
     };
-
+    
     updateAudioLevel();
   };
 
@@ -94,11 +101,6 @@ export default function InterviewPage() {
   };
 
   const endCall = () => {
-    if (stream) {
-      stream.getTracks().forEach(track => {
-        track.stop();
-      });
-    }
     router.push('/dashboard');
   };
 
