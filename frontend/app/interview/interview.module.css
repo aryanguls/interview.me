@@ -238,3 +238,28 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
   }
+
+  .audioIndicator {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 25px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .audioBar {
+    width: 4px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    transition: all 0.2s ease;
+  }
+  
+  .audioBar.active {
+    height: 15px;
+    background-color: #ffffff;
+  }

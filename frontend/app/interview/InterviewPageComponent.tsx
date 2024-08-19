@@ -21,19 +21,22 @@ export default function InterviewPage() {
   const router = useRouter();
 
   useEffect(() => {
+    let mediaStream: MediaStream | null = null;
+
     navigator.mediaDevices.getUserMedia({ video: true, audio: true })
-      .then(mediaStream => {
-        setStream(mediaStream);
+      .then(stream => {
+        mediaStream = stream;
+        setStream(stream);
         setIsStreamReady(true);
-        setupAudioAnalyser(mediaStream);
+        setupAudioAnalyser(stream);
       })
       .catch(error => {
         console.error("Error accessing media devices:", error);
       });
 
     return () => {
-      if (stream) {
-        stream.getTracks().forEach(track => track.stop());
+      if (mediaStream) {
+        mediaStream.getTracks().forEach(track => track.stop());
       }
     };
   }, []);
@@ -91,6 +94,11 @@ export default function InterviewPage() {
   };
 
   const endCall = () => {
+    if (stream) {
+      stream.getTracks().forEach(track => {
+        track.stop();
+      });
+    }
     router.push('/dashboard');
   };
 

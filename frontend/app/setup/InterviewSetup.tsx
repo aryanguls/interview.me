@@ -17,8 +17,11 @@ const InterviewSetup = () => {
   const animationFrameRef = useRef<number | null>(null);
 
   useEffect(() => {
+    let mediaStream: MediaStream | null = null;
+
     navigator.mediaDevices.getUserMedia({ video: true, audio: true })
       .then(stream => {
+        mediaStream = stream;
         setStream(stream);
         setIsCameraOn(true);
         setupAudioAnalyser(stream);
@@ -29,10 +32,9 @@ const InterviewSetup = () => {
       });
 
     return () => {
-      if (stream) {
-        stream.getTracks().forEach(track => track.stop());
+      if (mediaStream) {
+        mediaStream.getTracks().forEach(track => track.stop());
       }
-      setIsCameraOn(false);
       if (audioContextRef.current) {
         audioContextRef.current.close();
       }
