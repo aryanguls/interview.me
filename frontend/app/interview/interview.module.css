@@ -49,6 +49,22 @@
   object-fit: cover;
 }
 
+.cameraOff {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.cameraOff p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
 .interviewerFace {
   position: absolute;
   top: 1rem;

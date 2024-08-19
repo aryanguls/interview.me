@@ -99,11 +99,11 @@ export default function InterviewPage() {
   };
 
   const toggleCamera = () => {
-    setIsCameraOn(!isCameraOn);
     if (stream) {
       const videoTrack = stream.getVideoTracks()[0];
       if (videoTrack) {
         videoTrack.enabled = !isCameraOn;
+        setIsCameraOn(!isCameraOn);
       }
     }
   };
@@ -144,18 +144,27 @@ export default function InterviewPage() {
           <div className={styles.interviewContainer}>
             <div className={styles.videoSection}>
               {isStreamReady && (
-                <Webcam
-                  audio={false}
-                  ref={webcamRef}
-                  screenshotFormat="image/jpeg"
-                  videoConstraints={{
-                    width: 1280,
-                    height: 720,
-                    facingMode: "user"
-                  }}
-                  className={styles.camera}
-                  mirrored
-                />
+                <>
+                  {isCameraOn ? (
+                    <Webcam
+                      audio={false}
+                      ref={webcamRef}
+                      screenshotFormat="image/jpeg"
+                      videoConstraints={{
+                        width: 1280,
+                        height: 720,
+                        facingMode: "user"
+                      }}
+                      className={styles.camera}
+                      mirrored
+                    />
+                  ) : (
+                    <div className={styles.cameraOff}>
+                      <Camera size={48} />
+                      <p>Camera is off</p>
+                    </div>
+                  )}
+                </>
               )}
               <div className={styles.interviewerFace}>
                 <div className={styles.logoContainer}>
