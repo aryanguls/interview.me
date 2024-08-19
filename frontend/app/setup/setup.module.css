@@ -30,7 +30,7 @@
 
 .contentWrapper {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1700px;
   margin: 0 auto;
   padding: 0 2rem;
   position: relative;
@@ -250,3 +250,93 @@
   background-color: #a0aec0;
   cursor: not-allowed;
 }
+
+/* ... (previous styles remain unchanged) ... */
+
+.setupInfo {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 2rem;
+  background-color: transparent;
+  border-radius: 15px;
+  text-align: center; /* Center-align all text within setupInfo */
+}
+
+.setupTitle {
+  font-size: 2.2rem; /* Slightly increased font size */
+  font-weight: 500; /* Kept font weight moderate */
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  /* Removed text-shadow */
+  letter-spacing: 0.2px; /* Subtle letter spacing for better readability */
+}
+
+.stageText {
+  font-size: 1.1rem;
+  color: #333;
+  flex-grow: 1;
+  text-align: left;
+  font-weight: 400; /* Kept normal font weight for subtlety */
+}
+
+.stage.active .stageText {
+  color: #004b81; /* Kept active stage text color to match theme */
+}
+
+.startButton {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 500; /* Slightly reduced font weight */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 50px; /* Kept more rounded edges */
+  width: auto;
+  display: inline-block;
+  min-width: 200px;
+  max-width: 80%;
+  margin: 2rem auto 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow on button */
+  position: relative;
+  overflow: hidden;
+}
+
+.startButton:before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(45deg);
+  pointer-events: none;
+  transition: all 0.6s ease;
+}
+
+.startButton:hover:not(.disabled) {
+  background-color: #004b81;
+  transform: translateY(-1px); /* Reduced hover lift */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.startButton:hover:not(.disabled):before {
+  left: 100%;
+  top: 100%;
+}
+
+.startButton.disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+/* Removed the pulse animation for active stage indicator */
+
+/* ... (rest of the styles remain unchanged) ... */
