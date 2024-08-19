@@ -1,17 +1,38 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import Webcam from 'react-webcam';
 import styles from './setup.module.css';
-import { Camera, MicOff } from 'lucide-react'; // Import icons
 import { useCamera } from '../CameraContext';
 
 const InterviewSetup = () => {
-  const { isCameraOn, setIsCameraOn } = useCamera();
+  const { isCameraOn, setIsCameraOn, setStream } = useCamera();
   const router = useRouter();
+
+  useEffect(() => {
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then(stream => {
+        setStream(stream);
+        setIsCameraOn(true);
+      })
+      .catch(error => {
+        console.error("Error accessing camera:", error);
+        setIsCameraOn(false);
+      });
+
+    return () => {
+      setStream(prevStream => {
+        if (prevStream) {
+          prevStream.getTracks().forEach(track => track.stop());
+        }
+        return null;
+      });
+      setIsCameraOn(false);
+    };
+  }, [setStream, setIsCameraOn]);
 
   const handleStartInterview = () => {
     router.push('/interview');
@@ -44,7 +65,6 @@ const InterviewSetup = () => {
                 facingMode: "user"
               }}
               className={`${styles.videoPreview} ${isCameraOn ? styles.fadeIn : ''}`}
-              onUserMedia={() => setIsCameraOn(true)}
             />
             <div className={styles.nameOverlay}>Aryan Gulati</div>
           </div>

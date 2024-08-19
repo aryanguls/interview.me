@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Webcam from 'react-webcam';
 import { useEffect, useRef, useState } from 'react';
-import { Inter, DM_Sans } from 'next/font/google';
+import { DM_Sans } from 'next/font/google';
 import styles from './interview.module.css';
 import { Mic, MicOff, Camera, CameraOff, MessageSquare, PhoneOff } from 'lucide-react';
 import { useRouter } from 'next/navigation';
@@ -13,10 +13,23 @@ const dm_sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] });
 
 export default function InterviewPage() {
   const webcamRef = useRef<Webcam>(null);
-  const { isCameraOn, setIsCameraOn } = useCamera();
+  const { stream, isCameraOn, setIsCameraOn } = useCamera();
   const [isMicOn, setIsMicOn] = useState(true);
   const [showMessagePopup, setShowMessagePopup] = useState(false);
+  const [isStreamReady, setIsStreamReady] = useState(false);
   const router = useRouter();
+
+  useEffect(() => {
+    if (stream) {
+      setIsStreamReady(true);
+    }
+  }, [stream]);
+
+  useEffect(() => {
+    if (webcamRef.current && webcamRef.current.video && stream) {
+      webcamRef.current.video.srcObject = stream;
+    }
+  }, [stream]);
 
   useEffect(() => {
     // Request microphone access
@@ -36,6 +49,9 @@ export default function InterviewPage() {
 
   const toggleCamera = () => {
     setIsCameraOn(!isCameraOn);
+    if (webcamRef.current && webcamRef.current.video) {
+      webcamRef.current.video.srcObject = isCameraOn ? null : stream;
+    }
   };
 
   const endCall = () => {
@@ -45,13 +61,14 @@ export default function InterviewPage() {
   const toggleMessagePopup = () => {
     setShowMessagePopup(!showMessagePopup);
   };
+
   return (
     <div className={styles.container}>
       <div className={styles.contentWrapper}>
         <main className={styles.main}>
           <div className={styles.interviewContainer}>
             <div className={styles.videoSection}>
-              {isCameraOn && (
+              {isStreamReady && (
                 <Webcam
                   audio={false}
                   ref={webcamRef}
@@ -62,12 +79,13 @@ export default function InterviewPage() {
                     facingMode: "user"
                   }}
                   className={styles.camera}
+                  mirrored
                 />
               )}
               <div className={styles.interviewerFace}>
                 <div className={styles.logoContainer}>
                   <Image
-                    src="/computer.png" // Make sure to add this image to your public folder
+                    src="/computer.png"
                     alt="Lucence Logo"
                     width={60}
                     height={60}

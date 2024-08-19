@@ -3,6 +3,8 @@
 import React, { createContext, useState, useContext, ReactNode } from 'react';
 
 interface CameraContextType {
+  stream: MediaStream | null;
+  setStream: React.Dispatch<React.SetStateAction<MediaStream | null>>;
   isCameraOn: boolean;
   setIsCameraOn: React.Dispatch<React.SetStateAction<boolean>>;
 }
@@ -10,10 +12,11 @@ interface CameraContextType {
 const CameraContext = createContext<CameraContextType | undefined>(undefined);
 
 export const CameraProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+  const [stream, setStream] = useState<MediaStream | null>(null);
   const [isCameraOn, setIsCameraOn] = useState(false);
 
   return (
-    <CameraContext.Provider value={{ isCameraOn, setIsCameraOn }}>
+    <CameraContext.Provider value={{ stream, setStream, isCameraOn, setIsCameraOn }}>
       {children}
     </CameraContext.Provider>
   );
