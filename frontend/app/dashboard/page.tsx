@@ -48,14 +48,16 @@ export default function AppPage() {
       <div className={styles.backgroundBlemishes}></div>
       <div className={`${styles.contentWrapper} ${isModalOpen ? styles.blurred : ''}`}>
         <header className={styles.header}>
-          <div className={styles.logoContainer}>
-            <Image
-              src="/logo (1).png"
-              alt="Lucence Logo"
-              width={40}
-              height={40}
-            />
-          </div>
+          <Link href="/dashboard" className={styles.logoLink}>
+            <div className={styles.logoContainer}>
+              <Image
+                src="/logo (1).png"
+                alt="Lucence Logo"
+                width={40}
+                height={40}
+              />
+            </div>
+          </Link>
           <div className={styles.accountContainer} ref={dropdownRef}>
             <button 
               className={styles.accountButton}

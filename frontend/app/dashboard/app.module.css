@@ -46,10 +46,12 @@
   position: relative;
 }
 
-.logoContainer {
+.logoLink {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  display: block;
+  line-height: 0;
 }
 
 .accountContainer {
