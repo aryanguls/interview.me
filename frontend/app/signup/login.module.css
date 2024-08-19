@@ -1,0 +1,234 @@
+/* src/styles/login.module.css */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 92vh;
+  background-color: rgb(var(--background-rgb));
+  padding: 2rem;
+}
+
+.backButtonContainer {
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: rgb(var(--foreground-rgb));
+  font-weight: 500;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  color: #555;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 400px;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-bottom: 1.7px solid #555; /* Make the input underline thicker */
+}
+
+.input {
+  flex: 1;
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+}
+
+.continueButton {
+  padding: 0.75rem;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.continueButton:hover {
+  background-color: #333;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the "or" text */
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.or {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.socialButtons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  background-color: white;
+  color: black;
+  border: 1.5px solid #333; /* Make the button outlines thicker */
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  position: relative; /* For absolute positioning of the icon */
+  transition: background-color 0.3s ease;
+}
+
+.socialButton:hover {
+  background-color: #f0f0f0;
+}
+
+.icon {
+  position: absolute; /* Position icon absolutely within the button */
+  left: 1rem; /* Adjust left position as needed */
+  width: 20px;
+  height: 20px;
+}
+
+.loginText {
+  font-size: 1rem; /* Make the text smaller */
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.loginTextHighlight {
+  color: #000000; /* Make the text green */
+  font-weight: 600;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .input {
+    font-size: 0.9rem;
+  }
+
+  .continueButton {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .or {
+    font-size: 0.9rem;
+  }
+
+  .socialButton {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .loginText {
+    font-size: 0.9rem;
+  }
+
+  .backButton {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .input {
+    font-size: 0.8rem;
+  }
+
+  .continueButton {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .or {
+    font-size: 0.8rem;
+  }
+
+  .socialButton {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .loginText {
+    font-size: 0.8rem;
+  }
+
+  .backButton {
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+  }
+}
