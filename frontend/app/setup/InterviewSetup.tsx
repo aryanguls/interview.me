@@ -7,9 +7,10 @@ import Link from 'next/link';
 import Webcam from 'react-webcam';
 import styles from './setup.module.css';
 import { Camera, MicOff } from 'lucide-react'; // Import icons
+import { useCamera } from '../CameraContext';
 
 const InterviewSetup = () => {
-  const [isCameraReady, setIsCameraReady] = useState(false);
+  const { isCameraOn, setIsCameraOn } = useCamera();
   const router = useRouter();
 
   const handleStartInterview = () => {
@@ -29,19 +30,19 @@ const InterviewSetup = () => {
               height={40}
             />
           </div>
-          <Link href="/app" className={styles.backLink}>Back</Link>
+          <Link href="/dashboard" className={styles.backLink}>Back</Link>
         </header>
         
         <main className={styles.main}>
           <div className={styles.videoPreviewContainer}>
-            <div className={`${styles.blackScreen} ${isCameraReady ? styles.fadeOut : ''}`}></div>
+            <div className={`${styles.blackScreen} ${isCameraOn ? styles.fadeOut : ''}`}></div>
             <Webcam
               audio={false}
               videoConstraints={{
                 facingMode: "user"
               }}
-              className={`${styles.videoPreview} ${isCameraReady ? styles.fadeIn : ''}`}
-              onUserMedia={() => setIsCameraReady(true)}
+              className={`${styles.videoPreview} ${isCameraOn ? styles.fadeIn : ''}`}
+              onUserMedia={() => setIsCameraOn(true)}
             />
             <div className={styles.nameOverlay}>Aryan Gulati</div>
           </div>

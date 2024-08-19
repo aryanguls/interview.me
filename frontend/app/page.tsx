@@ -42,7 +42,7 @@ export default function Home() {
         <p className="text-xl font-medium text-gray-600 mb-12 max-w-2xl">
           Lucence uses AI to simulate real interviews for any job. Get personalized feedback, build confidence, accelerate your career.
         </p>
-        <Link href="/app" className="bg-black text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-700 transition-all duration-400 ease-in-out mt-7">
+        <Link href="/dashboard" className="bg-black text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-700 transition-all duration-400 ease-in-out mt-7">
           Take Your First Interview →
         </Link>
       </div>

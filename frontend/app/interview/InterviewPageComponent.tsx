@@ -7,23 +7,21 @@ import { Inter, DM_Sans } from 'next/font/google';
 import styles from './interview.module.css';
 import { Mic, MicOff, Camera, CameraOff, MessageSquare, PhoneOff } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { useCamera } from '../CameraContext';
 
 const dm_sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] });
 
 export default function InterviewPage() {
   const webcamRef = useRef<Webcam>(null);
-  const [isCameraReady, setIsCameraReady] = useState(false);
+  const { isCameraOn, setIsCameraOn } = useCamera();
   const [isMicOn, setIsMicOn] = useState(true);
-  const [isCameraOn, setIsCameraOn] = useState(true);
   const [showMessagePopup, setShowMessagePopup] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
-    setIsCameraReady(true);
     // Request microphone access
     navigator.mediaDevices.getUserMedia({ audio: true })
       .then((stream) => {
-        // Microphone access granted
         console.log('Microphone access granted');
       })
       .catch((error) => {
@@ -33,31 +31,27 @@ export default function InterviewPage() {
 
   const toggleMic = () => {
     setIsMicOn(!isMicOn);
-    // Here you would typically implement the actual mic toggling logic
+    // Implement actual mic toggling logic here
   };
 
   const toggleCamera = () => {
     setIsCameraOn(!isCameraOn);
-    if (webcamRef.current && webcamRef.current.video) {
-      webcamRef.current.video.srcObject = isCameraOn ? null : webcamRef.current.stream;
-    }
   };
 
   const endCall = () => {
-    router.push('/app');
+    router.push('/dashboard');
   };
 
   const toggleMessagePopup = () => {
     setShowMessagePopup(!showMessagePopup);
   };
-
   return (
     <div className={styles.container}>
       <div className={styles.contentWrapper}>
         <main className={styles.main}>
           <div className={styles.interviewContainer}>
             <div className={styles.videoSection}>
-              {isCameraReady && isCameraOn && (
+              {isCameraOn && (
                 <Webcam
                   audio={false}
                   ref={webcamRef}
