@@ -126,165 +126,43 @@
   width: 35%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center; /* Changed from space-between to center */
+  align-items: center; /* Added to center child elements horizontally */
   height: 100%;
   padding: 2rem;
   background-color: transparent;
   border-radius: 15px;
+  text-align: center; /* Ensure all text is centered */
 }
 
 .setupTitle {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 2.2rem;
+  font-weight: 300;
   color: #333;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.progressBar {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
   margin-bottom: 3rem;
-  position: relative;
-  padding-left: 1px;
-}
-
-.progressBar::before,
-.progressBar::after {
-  content: '';
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 2px;
-  height: calc(100% - 30px);
-  background-color: #e0e0e0;
-}
-
-.progressBar::after {
-  background-color: #000;
-  height: 0;
-  transition: height 0.5s ease;
-}
-
-.stage {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2.5rem;
-  width: 100%;
-  opacity: 0.5;
-  transition: all 0.3s ease;
-}
-
-.stage:last-child {
-  margin-bottom: 0;
-}
-
-.stage.active {
-  opacity: 1;
-}
-
-.stageIndicator {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #e0e0e0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 1.5rem;
-  position: relative;
-  z-index: 2;
-}
-
-.stage.active .stageIndicator {
-  background-color: #000;
-}
-
-.stageNumber {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #333;
-}
-
-.stage.active .stageNumber {
-  color: white;
-}
-
-.stageText {
-  font-size: 1.2rem;
-  color: #333;
-  flex-grow: 1;
-  text-align: left;
-}
-
-/* Update progress bar fill based on active stage */
-.progressBar.stage-0::after { height: 0%; }
-.progressBar.stage-1::after { height: 33%; }
-.progressBar.stage-2::after { height: 80%; }
-/* .progressBar.stage-3::after { height: 0%; } */
-
-.startButton {
-  background-color: #000000;
-  color: white;
-  border: none;
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius: 8px;
-  width: 100%;
   text-align: center;
-  margin-top: 2rem;
 }
 
-.startButton:hover:not(.disabled) {
-  background-color: #004b81;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.startButton.disabled {
-  background-color: #a0aec0;
-  cursor: not-allowed;
-}
-
-/* ... (previous styles remain unchanged) ... */
-
-.setupInfo {
-  width: 35%;
+.interviewer {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  padding: 2rem;
-  background-color: transparent;
-  border-radius: 15px;
-  text-align: center; /* Center-align all text within setupInfo */
-}
-
-.setupTitle {
-  font-size: 2.2rem; /* Slightly increased font size */
-  font-weight: 500; /* Kept font weight moderate */
-  color: #333;
+  align-items: center; /* Center the image and name */
   margin-bottom: 2rem;
+}
+
+.interviewerImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.interviewerName {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
   text-align: center;
-  /* Removed text-shadow */
-  letter-spacing: 0.2px; /* Subtle letter spacing for better readability */
-}
-
-.stageText {
-  font-size: 1.1rem;
-  color: #333;
-  flex-grow: 1;
-  text-align: left;
-  font-weight: 400; /* Kept normal font weight for subtlety */
-}
-
-.stage.active .stageText {
-  color: #004b81; /* Kept active stage text color to match theme */
 }
 
 .startButton {
@@ -292,18 +170,18 @@
   color: white;
   border: none;
   padding: 1rem 2rem;
-  font-size: 1.1rem;
-  font-weight: 500; /* Slightly reduced font weight */
+  font-size: 1rem;
+  font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius: 50px; /* Kept more rounded edges */
+  border-radius: 50px;
   width: auto;
   display: inline-block;
   min-width: 200px;
   max-width: 80%;
   margin: 2rem auto 0;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow on button */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
 }
@@ -321,22 +199,13 @@
   transition: all 0.6s ease;
 }
 
-.startButton:hover:not(.disabled) {
+.startButton:hover {
   background-color: #004b81;
-  transform: translateY(-1px); /* Reduced hover lift */
+  transform: translateY(-1px);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-.startButton:hover:not(.disabled):before {
+.startButton:hover:before {
   left: 100%;
   top: 100%;
 }
-
-.startButton.disabled {
-  background-color: #a0aec0;
-  cursor: not-allowed;
-}
-
-/* Removed the pulse animation for active stage indicator */
-
-/* ... (rest of the styles remain unchanged) ... */
