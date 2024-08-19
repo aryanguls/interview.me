@@ -7,11 +7,13 @@ import Link from 'next/link';
 import Webcam from 'react-webcam';
 import styles from './setup.module.css';
 
+const NUM_AUDIO_LEVELS = 4;
+
 const InterviewSetup = () => {
   const [isCameraOn, setIsCameraOn] = useState(false);
   const [stream, setStream] = useState<MediaStream | null>(null);
   const router = useRouter();
-  const [audioLevels, setAudioLevels] = useState([0, 0, 0]);
+  const [audioLevels, setAudioLevels] = useState(Array(NUM_AUDIO_LEVELS).fill(0));
   const audioContextRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
   const animationFrameRef = useRef<number | null>(null);

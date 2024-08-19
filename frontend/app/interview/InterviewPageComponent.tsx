@@ -5,10 +5,15 @@ import Webcam from 'react-webcam';
 import { useEffect, useRef, useState } from 'react';
 import { DM_Sans } from 'next/font/google';
 import styles from './interview.module.css';
-import { Mic, MicOff, Camera, CameraOff, MessageSquare, PhoneOff } from 'lucide-react';
+import { Mic, MicOff, Camera, CameraOff, MessageSquare, PhoneOff, Send } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 const dm_sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] });
+
+interface Message {
+  text: string;
+  timestamp: Date;
+}
 
 export default function InterviewPage() {
   const webcamRef = useRef<Webcam>(null);
@@ -22,6 +27,9 @@ export default function InterviewPage() {
   const audioContextRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
   const animationFrameRef = useRef<number | null>(null);
+  const [messages, setMessages] = useState<Message[]>([]);
+  const [inputMessage, setInputMessage] = useState('');
+  const messageEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     navigator.mediaDevices.getUserMedia({ video: true, audio: true })
@@ -108,6 +116,27 @@ export default function InterviewPage() {
     setShowMessagePopup(!showMessagePopup);
   };
 
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setInputMessage(e.target.value);
+  };
+
+  const sendMessage = () => {
+    if (inputMessage.trim() !== '') {
+      setMessages([...messages, { text: inputMessage, timestamp: new Date() }]);
+      setInputMessage('');
+    }
+  };
+
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      sendMessage();
+    }
+  };
+
+  useEffect(() => {
+    messageEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages]);
+
   return (
     <div className={styles.container}>
       <div className={styles.contentWrapper}>
@@ -188,7 +217,30 @@ export default function InterviewPage() {
           <>
             <div className={styles.overlay} onClick={toggleMessagePopup}></div>
             <div className={styles.messagePopup}>
-              <p>Message window placeholder</p>
+              <div className={styles.messageList}>
+                {messages.map((message, index) => (
+                  <div key={index} className={styles.messageBubble}>
+                    {message.text}
+                    <div className={styles.messageTime}>
+                      {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                    </div>
+                  </div>
+                ))}
+                <div ref={messageEndRef} />
+              </div>
+              <div className={styles.messageInputContainer}>
+                <input
+                  type="text"
+                  value={inputMessage}
+                  onChange={handleInputChange}
+                  onKeyPress={handleKeyPress}
+                  placeholder="Type a message..."
+                  className={styles.messageInput}
+                />
+                <button onClick={sendMessage} className={styles.sendButton}>
+                  <Send size={20} color="black" />
+                </button>
+              </div>
             </div>
           </>
         )}
