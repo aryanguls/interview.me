@@ -6,10 +6,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Webcam from 'react-webcam';
 import styles from './setup.module.css';
-import { useCamera } from '../CameraContext';
 
 const InterviewSetup = () => {
-  const { isCameraOn, setIsCameraOn, setStream } = useCamera();
+  const [isCameraOn, setIsCameraOn] = useState(false);
+  const [stream, setStream] = useState<MediaStream | null>(null);
   const router = useRouter();
   const [audioLevels, setAudioLevels] = useState([0, 0, 0]);
   const audioContextRef = useRef<AudioContext | null>(null);
@@ -29,12 +29,9 @@ const InterviewSetup = () => {
       });
 
     return () => {
-      setStream(prevStream => {
-        if (prevStream) {
-          prevStream.getTracks().forEach(track => track.stop());
-        }
-        return null;
-      });
+      if (stream) {
+        stream.getTracks().forEach(track => track.stop());
+      }
       setIsCameraOn(false);
       if (audioContextRef.current) {
         audioContextRef.current.close();
@@ -43,7 +40,7 @@ const InterviewSetup = () => {
         cancelAnimationFrame(animationFrameRef.current);
       }
     };
-  }, [setStream, setIsCameraOn]);
+  }, []);
 
   const setupAudioAnalyser = (stream: MediaStream) => {
     audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();

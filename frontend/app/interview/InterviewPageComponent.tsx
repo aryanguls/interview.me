@@ -7,29 +7,68 @@ import { DM_Sans } from 'next/font/google';
 import styles from './interview.module.css';
 import { Mic, MicOff, Camera, CameraOff, MessageSquare, PhoneOff } from 'lucide-react';
 import { useRouter } from 'next/navigation';
-import { useCamera } from '../CameraContext';
 
 const dm_sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] });
 
 export default function InterviewPage() {
   const webcamRef = useRef<Webcam>(null);
-  const { stream, isCameraOn, setIsCameraOn } = useCamera();
+  const [stream, setStream] = useState<MediaStream | null>(null);
+  const [isCameraOn, setIsCameraOn] = useState(true);
   const [isMicOn, setIsMicOn] = useState(true);
   const [showMessagePopup, setShowMessagePopup] = useState(false);
   const [isStreamReady, setIsStreamReady] = useState(false);
+  const [audioLevels, setAudioLevels] = useState([0, 0, 0, 0]);
   const router = useRouter();
 
   useEffect(() => {
-    if (stream) {
-      setIsStreamReady(true);
-    }
-  }, [stream]);
+    navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+      .then(mediaStream => {
+        setStream(mediaStream);
+        setIsStreamReady(true);
+        setupAudioAnalyser(mediaStream);
+      })
+      .catch(error => {
+        console.error("Error accessing media devices:", error);
+      });
+
+    return () => {
+      if (stream) {
+        stream.getTracks().forEach(track => track.stop());
+      }
+    };
+  }, []);
 
   useEffect(() => {
     if (webcamRef.current && webcamRef.current.video && stream) {
       webcamRef.current.video.srcObject = stream;
     }
   }, [stream]);
+
+  const setupAudioAnalyser = (stream: MediaStream) => {
+    const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+    const analyser = audioContext.createAnalyser();
+    const source = audioContext.createMediaStreamSource(stream);
+    source.connect(analyser);
+    analyser.fftSize = 32;
+
+    const updateAudioLevel = () => {
+      const dataArray = new Uint8Array(analyser.frequencyBinCount);
+      analyser.getByteFrequencyData(dataArray);
+      const average = dataArray.reduce((sum, value) => sum + value, 0) / dataArray.length;
+      const normalizedLevel = Math.min(average / 128, 1);
+
+      setAudioLevels([
+        normalizedLevel > 0.25 ? 1 : 0,
+        normalizedLevel > 0.5 ? 1 : 0,
+        normalizedLevel > 0.75 ? 1 : 0,
+        normalizedLevel > 0.9 ? 1 : 0
+      ]);
+
+      requestAnimationFrame(updateAudioLevel);
+    };
+
+    updateAudioLevel();
+  };
 
   const toggleMic = () => {
     setIsMicOn(!isMicOn);
@@ -93,6 +132,14 @@ export default function InterviewPage() {
               </div>
               <div className={styles.intervieweeName}>
                 <p>Aryan Gulati</p>
+              </div>
+              <div className={styles.audioIndicator}>
+                {audioLevels.map((level, index) => (
+                  <div 
+                    key={index} 
+                    className={`${styles.audioBar} ${level > 0 ? styles.active : ''}`}
+                  />
+                ))}
               </div>
             </div>
           </div>
