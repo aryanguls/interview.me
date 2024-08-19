@@ -238,7 +238,7 @@ export default function InterviewPage() {
                   className={styles.messageInput}
                 />
                 <button onClick={sendMessage} className={styles.sendButton}>
-                  <Send size={20} color="black" />
+                  <Send size={18} color="black" />
                 </button>
               </div>
             </div>
