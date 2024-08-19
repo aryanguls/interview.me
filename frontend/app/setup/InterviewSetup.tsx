@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Webcam from 'react-webcam';
 import styles from './setup.module.css';
+import { Camera, MicOff } from 'lucide-react'; // Import icons
 
 const InterviewSetup = () => {
   const [isCameraReady, setIsCameraReady] = useState(false);
@@ -42,6 +43,7 @@ const InterviewSetup = () => {
               className={`${styles.videoPreview} ${isCameraReady ? styles.fadeIn : ''}`}
               onUserMedia={() => setIsCameraReady(true)}
             />
+            <div className={styles.nameOverlay}>Aryan Gulati</div>
           </div>
           <div className={styles.setupInfo}>
             <h2 className={styles.setupTitle}>Ready to Join?</h2>

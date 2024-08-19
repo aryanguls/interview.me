@@ -85,11 +85,23 @@
   padding-top: 0;
   position: relative;
   aspect-ratio: 16 / 9;
-  max-height: 80vh; /* Increased from 70vh to 80vh */
-  min-height: 400px; /* Added minimum height */
+  max-height: 80vh;
+  min-height: 400px;
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nameOverlay {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  z-index: 3;
 }
 
 .blackScreen {
@@ -181,31 +193,9 @@
   max-width: 80%;
   margin: 2rem auto 0;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-}
-
-.startButton:before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: rgba(255, 255, 255, 0.1);
-  transform: rotate(45deg);
-  pointer-events: none;
-  transition: all 0.6s ease;
 }
 
 .startButton:hover {
   background-color: #004b81;
-  transform: translateY(-1px);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-}
-
-.startButton:hover:before {
-  left: 100%;
-  top: 100%;
+  transform: translateY(-2px);
 }
