@@ -1,8 +1,8 @@
 "use client";
 
 import Image from 'next/image';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import Webcam from 'react-webcam';
-import { useEffect, useRef, useState } from 'react';
 import { DM_Sans } from 'next/font/google';
 import styles from './interview.module.css';
 import { Mic, MicOff, Camera, CameraOff, MessageSquare, PhoneOff, Send } from 'lucide-react';
@@ -31,16 +31,19 @@ export default function InterviewPage() {
   const [inputMessage, setInputMessage] = useState('');
   const messageEndRef = useRef<HTMLDivElement>(null);
 
+  const setupMediaStream = useCallback(async () => {
+    try {
+      const mediaStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+      setStream(mediaStream);
+      setIsStreamReady(true);
+      setupAudioAnalyser(mediaStream);
+    } catch (error) {
+      console.error("Error accessing media devices:", error);
+    }
+  }, []);
+
   useEffect(() => {
-    navigator.mediaDevices.getUserMedia({ video: true, audio: true })
-      .then(mediaStream => {
-        setStream(mediaStream);
-        setIsStreamReady(true);
-        setupAudioAnalyser(mediaStream);
-      })
-      .catch(error => {
-        console.error("Error accessing media devices:", error);
-      });
+    setupMediaStream();
 
     return () => {
       if (stream) {
@@ -57,9 +60,10 @@ export default function InterviewPage() {
 
   useEffect(() => {
     if (webcamRef.current && webcamRef.current.video && stream) {
-      webcamRef.current.video.srcObject = stream;
+      webcamRef.current.video.srcObject = isCameraOn ? stream : null;
     }
-  }, [stream]);
+  }, [stream, isCameraOn]);
+
 
   const setupAudioAnalyser = (stream: MediaStream) => {
     audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
@@ -98,7 +102,7 @@ export default function InterviewPage() {
     }
   };
 
-  const toggleCamera = () => {
+  const toggleCamera = useCallback(() => {
     if (stream) {
       const videoTrack = stream.getVideoTracks()[0];
       if (videoTrack) {
@@ -106,7 +110,8 @@ export default function InterviewPage() {
         setIsCameraOn(!isCameraOn);
       }
     }
-  };
+  }, [stream, isCameraOn]);
+
 
   const endCall = () => {
     router.push('/dashboard');
@@ -172,23 +177,23 @@ export default function InterviewPage() {
         <main className={styles.main}>
           <div className={styles.interviewContainer}>
             <div className={styles.videoSection}>
-                {isCameraOn ? (
-                  <Webcam
-                    audio={false}
-                    ref={webcamRef}
-                    screenshotFormat="image/jpeg"
-                    videoConstraints={{
-                      width: 1280,
-                      height: 720,
-                      facingMode: "user"
-                    }}
-                    className={styles.camera}
-                    mirrored
-                  />
-                ) : (
-                  <div className={styles.cameraOff}></div>
-                )}
-                {renderOverlay()}
+            <Webcam
+          audio={false}
+          ref={webcamRef}
+          screenshotFormat="image/jpeg"
+          videoConstraints={{
+            width: 1280,
+            height: 720,
+            facingMode: "user"
+          }}
+          className={styles.camera}
+          mirrored
+          forceScreenshotSourceSize
+        />
+        {!isCameraOn && <div className={styles.cameraOff}></div>}
+        {renderOverlay()}
+              {!isCameraOn && <div className={styles.cameraOff}></div>}
+              {renderOverlay()}
               <div className={styles.interviewerFace}>
                 <div className={styles.logoContainer}>
                   <Image
