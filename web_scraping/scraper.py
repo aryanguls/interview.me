@@ -3,6 +3,7 @@
 # json output - problem, company(s), type(s): behavioral;technical;etc , 
 
 import json
+import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
@@ -10,13 +11,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, ElementClickInterceptedException
 
 def clean_companies(companies):
     return [company.strip().lower() for company in companies if company.strip()]
 
-def scrape_page(driver, url):
-    driver.get(url)
+def scrape_page(driver):
     questions = []
     
     try:
@@ -74,22 +74,35 @@ def scrape_page(driver, url):
         
         return questions
     except TimeoutException:
-        print(f"No questions found on {url}")
+        print("No questions found on this page")
         return []
 
-def scrape_all_pages(base_url):
+def go_to_next_page(driver):
+    try:
+        next_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, ".qa-page-links-item[data-page='next']"))
+        )
+        next_button.click()
+        time.sleep(2)  # Wait for the page to load
+        return True
+    except (NoSuchElementException, TimeoutException, ElementClickInterceptedException):
+        print("No more pages to navigate")
+        return False
+
+def scrape_all_pages(driver, url):
     all_questions = []
     page = 1
     
+    driver.get(url)
+    
     while True:
-        url = f"{base_url}/page/{page}"
         print(f"Scraping page {page}...")
-        questions = scrape_page(driver, url)
+        questions = scrape_page(driver)
+        all_questions.extend(questions)
         
-        if not questions:
+        if not go_to_next_page(driver):
             break
         
-        all_questions.extend(questions)
         page += 1
     
     return all_questions
@@ -98,8 +111,8 @@ def scrape_all_pages(base_url):
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
 
-base_url = "https://www.productmanagementexercises.com/interview-questions/behavioral"
-interview_questions = scrape_all_pages(base_url)
+url = "https://www.productmanagementexercises.com/interview-questions/behavioral"
+interview_questions = scrape_all_pages(driver, url)
 
 # Close the browser
 driver.quit()

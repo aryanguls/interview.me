@@ -227,37 +227,43 @@
     ]
   },
   {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
+    "title": "How do you prioritize Sales needs vs Engineering needs?",
     "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
-      "airbnb",
       "salesforce",
-      "shopify",
-      "square"
+      "tiktok"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "What are you looking for in your next role?",
+    "title": "What is the most challenging project you have been on?",
+    "companies": [
+      "amazon",
+      "adobe",
+      "instacart"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Was there a time when you disagreed with the manager's decision? How did it play out, and what happened in the end?",
+    "companies": [
+      "amazon",
+      "meta (facebook)",
+      "apple"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "As a PM, who is your most favorite team to work with and why?",
     "companies": [
       "google",
+      "paypal",
+      "shopify",
       "twitter",
       "capital one"
     ],
@@ -266,215 +272,13 @@
     ]
   },
   {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
+    "title": "Your Engineering Manager wants to work on a new feature and you absolutely have no bandwidth. How will you handle it?",
     "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
-    "companies": [
-      "amazon"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
-    "companies": [
-      "amazon",
-      "stripe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
       "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
-    "companies": [
-      "tesla"
-    ],
-    "tags": [
-      "execution",
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you make something significantly simpler for a customer?",
-    "companies": [
-      "amazon",
-      "stripe",
-      "airbnb"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
+      "paypal",
       "airbnb",
       "salesforce",
-      "shopify",
+      "adobe",
       "square"
     ],
     "tags": [
@@ -482,66 +286,7 @@
     ]
   },
   {
-    "title": "What are you looking for in your next role?",
-    "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "Tell me about a time when you made a product or process simpler for your customers that had a significant impact.",
     "companies": [
       "amazon"
     ],
@@ -550,108 +295,7 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
-    "companies": [
-      "amazon",
-      "stripe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
+    "title": "How did you handle communicating with various types of stakeholders on a project you recently ran and what did you find most effective?",
     "companies": [
       "google"
     ],
@@ -660,9 +304,72 @@
     ]
   },
   {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
+    "title": "Tell us about yourself and your career.",
     "companies": [
-      "tesla"
+      "amazon",
+      "shopify",
+      "spotify",
+      "instacart",
+      "adobe",
+      "capital one",
+      "square",
+      "walt disney"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Have you ever disagreed with your Engineering counterparts? What did you do when a build decision was made that did not align with the original vision you had?",
+    "companies": [
+      "adobe",
+      "american express"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What kind of project would you like to work with?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe the most significant, continuous improvement project that you\u2019ve led. What was the catalyst for this change and how did you go about it?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a situation where things did not go as planned. What did you learn from it?",
+    "companies": [
+      "microsoft",
+      "ibm"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you changed your decision in a meeting based on inputs from your stakeholders. What was the situation? Why did you make the original decision? What convinced you to change your decision?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "YouTube traffic went down 5% \u2014 how would you report this issue to your manager?",
+    "companies": [
+      "google"
     ],
     "tags": [
       "execution",
@@ -670,10 +377,166 @@
     ]
   },
   {
-    "title": "How would you make something significantly simpler for a customer?",
+    "title": "Tell me about a time you've had to change the way you work.",
+    "companies": [
+      "amazon",
+      "microsoft",
+      "stripe",
+      "netflix",
+      "salesforce",
+      "capital one"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell us about a time you had an idea that your team was skeptical about. How did you convince your team that you were right?",
     "companies": [
       "amazon",
       "stripe",
+      "salesforce"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How would you motivate the team to stack hands around your idea?",
+    "companies": [
+      "amazon",
+      "microsoft",
+      "other",
+      "salesforce"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you motivate a team?",
+    "companies": [
+      "amazon",
+      "airbnb",
+      "shopify",
+      "salesforce",
+      "capital one",
+      "ibm"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Provide an example of when you had to analyze a large amount of data and what insights you were able to come up with.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me a time that you were half way meeting your goal but you had to pivot because you found the goal might not be right.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Can you tell me about a time where where you you had to deal with customer complaints?",
+    "companies": [
+      "rakuten"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What do you enjoy about being a PM? What do you not enjoy about it?",
+    "companies": [
+      "fandom"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Some companies don't think they need PMs. Even Google didn't have one for a while. They think they don't need them. What's your opinion?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time you built something from 0 to 1.",
+    "companies": [
+      "spotify",
+      "twitter",
+      "adobe",
+      "roblox"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you had to manage upwards (that is, you had to manage and align stakeholders with higher titles than you to get things done).",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you deal with engineering challenges at your current job?",
+    "companies": [
+      "salesforce"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How will you communicate to your team that you had made a mistake? What would be your steps to do so?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How did you resolve conflict among different groups?",
+    "companies": [
+      "meta (facebook)",
+      "adobe",
+      "ibm"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you faced a problem that had multiple possible solutions.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you prioritize among competing features?",
+    "companies": [
+      "amazon",
+      "microsoft",
+      "spotify",
       "airbnb"
     ],
     "tags": [
@@ -681,27 +544,503 @@
     ]
   },
   {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
+    "title": "What is your superpower as a product manager?",
     "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
+      "paypal",
+      "stripe",
+      "capital one"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
+    "title": "Tell me about a time when you received harsh feedback. How did you react?",
     "companies": [
-      "google",
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "You are a senior PM for a data product. How would you prioritize requirements between top customer requests, technical debt of previously delivered features, and partner team requirements for critical integration?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "You are working across multiple teams, and everyone needs your time. How will you manage your time and ensure the success of the product?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "You are responsible for a product that involves multiple teams, and you need to get them on board with your strategy. How will you ensure everyone is on board?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why should I hire you for this role?",
+    "companies": [
+      "t-mobile"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you determine what customers want and need?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What's a successful brainstorming session you conducted, and why do you consider it successful?",
+    "companies": [
+      "new york times"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you proactively identified an issue that would impact your team. How did you solve it?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell us about a situation where you had to earn the trust of the group to forge a path forward.",
+    "companies": [
+      "intuit"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why do you want to work at Google?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "You're a Facebook product manager and want to build a restaurant review and booking platform like Yelp!. How would you pitch this idea to your leader? What data would you need? If you build it, come up with a goal for your team.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How would you put together a team?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Can you please create requirements and acceptance criteria for this page https://www.apple.com/shop/buy-watch/apple-watch to be implemented by engineering team?",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How would you handle a situation between a few workers relating to a power they believe they hold over minorities in the work place?",
+    "companies": [
+      "salesforce",
+      "postclick"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me a time when you had to challenge a teammate's unpopular opinion.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Give an example of a mission or goal you didn't think was achievable. What was it and how did you help your team try to achieve it? Were you successful in the end?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Can you give us a few examples where you have planned and conducted A/B tests?",
+    "companies": [
+      "instacart",
+      "adobe",
+      "rakuten",
+      "capital one"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Can you give me an example where you made changes to your app based on user feedback?",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you didn't have enough data to make the right decision. What did you do? What path did you take? Did the decision turn out to be the correct one?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you used data to reach a conclusion.",
+    "companies": [
+      "walmart",
+      "paypal",
+      "spotify"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How is your background and experience relevant to Fandom?",
+    "companies": [
+      "fandom"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me a time when you had to mend your relationship with a colleague.",
+    "companies": [
+      "amazon",
+      "netflix",
+      "twitter"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is an example of asking 5 whys to a customer?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Who was your most difficult customer? How did you handle them?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What would you do to make sure Facebook employees do not feel lonely?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you had to deal with ambiguity.",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you know if your users are satisfied with your product?",
+    "companies": [
+      "amazon",
+      "airbnb"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe a difficult technical concept to me.",
+    "companies": [
+      "coinbase"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you deal with a person who believes in Orthodoxy and does not believe in metrics or feature validation?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How would you handle HIPPO situation and how would your resolve feature conflicts between two HIPPOS?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Can you provide an example where you took a product from inception to launch? Can you also talk about some of the challenges that you faced while implementing this product?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What makes you want to leave your current job, and why can Shopify keep you interested?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What was High School like for you?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you were given a project without all necessary tools.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How did you turn an adversary into a confidant?",
+    "companies": [
+      "meta (facebook)",
+      "salesforce"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Instagram executives had a strategy meeting. They decided to pursue something in the area of education. You've been chosen as the PM to lead the effort. What do you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me a piece of difficult feedback you received and how you handled it.",
+    "companies": [
+      "meta (facebook)",
+      "netflix"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why are you the right pick for the role?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What do engineers need/expect from a product manager?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is your proudest moment as a product manager?",
+    "companies": [
+      "scribd"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you couldn't meet your deadline.",
+    "companies": [
+      "inmobi"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you work with Marketing?",
+    "companies": [
+      "airbnb",
+      "spotify"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you work with Designers?",
+    "companies": [
+      "spotify",
+      "airbnb"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What do you do when you get a vague feature request?",
+    "companies": [
+      "american express"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time you had to change a KPI.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you had limited resources , however were faced with 2 urgent time bound deliverables. Which one did you build and why?(Walk me through the steps of the problem solving, prioritization and stakeholder mgmt)",
+    "companies": [
+      "gojek"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time you received a constructive feedback from your Manager",
+    "companies": [
+      "amazon",
+      "salesforce",
+      "paypal"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why do you want to work at Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe a time when you faced an obstacle during a build. How did you ensure you were still able to hit your milestones? Did you have to break down feature requests?",
+    "companies": [
+      "american express"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe a product/feature that you worked on from ideation to delivery.",
+    "companies": [
+      "linkedin",
+      "airbnb"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is your major weakness or area to improve?",
+    "companies": [
       "meta (facebook)",
       "walmart",
-      "airbnb",
-      "salesforce",
-      "shopify",
+      "twitter",
+      "square",
+      "ibm"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What are your strengths?",
+    "companies": [
+      "paypal",
+      "twitter",
+      "ibm",
       "square"
     ],
     "tags": [
@@ -709,22 +1048,8 @@
     ]
   },
   {
-    "title": "What are you looking for in your next role?",
+    "title": "How would you minimize risk when building a product?",
     "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
       "salesforce"
     ],
     "tags": [
@@ -732,16 +1057,7 @@
     ]
   },
   {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
+    "title": "What delighted you to pick the Tesla car as a favorite product?",
     "companies": [
       "google"
     ],
@@ -750,25 +1066,40 @@
     ]
   },
   {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
+    "title": "What if before product launch, the director of engineering tells you that due to technical complexities, the development of the feature would significantly delay the launch of the product. As a PM, what will you do?",
     "companies": [
-      "microsoft"
+      "startup"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Where do you see yourself in 5 years?",
+    "title": "Tell me about a time you faced an ambiguous problem.",
     "companies": [
-      "ibm"
+      "meta (facebook)"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Why should Amazon not hire you?",
+    "title": "Tell me about a product you've built that you're proud of.",
+    "companies": [
+      "amazon",
+      "stripe",
+      "spotify",
+      "twitter",
+      "salesforce",
+      "adobe",
+      "capital one"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time you needed to make a product tradeoff.",
     "companies": [
       "amazon"
     ],
@@ -777,108 +1108,25 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
+    "title": "Tell me about about a time you built a product roadmap.",
     "companies": [
-      "amazon",
-      "stripe"
+      "amazon"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
+    "title": "The product manager is the most influential entity in an organization. What do you think about that statement?",
     "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
+      "twitch"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
+    "title": "What are your 3 greatest accomplishments?",
     "companies": [
       "google"
     ],
@@ -887,48 +1135,158 @@
     ]
   },
   {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
+    "title": "How many launches have you supported? Which has been your most difficult one?",
     "companies": [
-      "tesla"
+      "adobe",
+      "sling tv"
     ],
     "tags": [
-      "execution",
       "behavioral"
     ]
   },
   {
-    "title": "How would you make something significantly simpler for a customer?",
+    "title": "If you were to give a ted talk, what would your topic be?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What do you think is the most important part of being a Product Manager?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What's your greatest strength you can bring to the table?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Your Engineering lead and UX lead disagree on the approach for your P0 quarterly item. How would you approach the situation?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "List two traits of a successful PM. How do you rank against those?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time you had to manage stakeholders and manage risks.",
+    "companies": [
+      "meta (facebook)",
+      "ibm",
+      "walt disney"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a project where you didn't have enough resources, and how you delivered.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a product you love, but you can't get any of your friends to adopt.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you know as a PM that you have enough data to make decisions?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is the hardest decision you ever had to make as a PM?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What advice would you give to someone new to PM about what is important for a PM",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "If you meet the CEO of <your current company> in the elevator, what would you say to them?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Can you describe your most difficult customer and how you were able to handle their needs?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me of a specific time when you had to make prioritization decisions.",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Which of the Twilio magic values appeals most to you? Which ones would you find challenging to adjust to?",
+    "companies": [
+      "twilio"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is the toughest problem that you have solved as a Product Manager?",
     "companies": [
       "amazon",
-      "stripe",
-      "airbnb"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
-      "airbnb",
+      "paypal",
       "salesforce",
-      "shopify",
       "square"
     ],
     "tags": [
@@ -936,66 +1294,7 @@
     ]
   },
   {
-    "title": "What are you looking for in your next role?",
-    "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "Describe for me a time where you had to do research to create a product or service.",
     "companies": [
       "amazon"
     ],
@@ -1004,108 +1303,46 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
+    "title": "If you have only one engineering resource, where will you invest it (prioritization)? Fixing a critical bug or shipping a critical feature?",
     "companies": [
-      "amazon",
-      "stripe"
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when the team was operating slowly. What did you do to fix it?",
+    "companies": [
+      "dropbox"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
+    "title": "Choose a product you have at home and tell us what feature you like about it.",
     "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
+      "microsoft"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
+    "title": "Tell me about a time when you didn't get along with a coworker. How did you deal with it?",
     "companies": [
       "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
       "salesforce",
-      "twitter",
-      "adobe"
+      "ibm"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
+    "title": "Give me an example where you negotiated for resources that are not in your control.",
     "companies": [
       "google"
     ],
@@ -1114,20 +1351,128 @@
     ]
   },
   {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
+    "title": "What excites you about product management?",
     "companies": [
-      "tesla"
+      "google",
+      "salesforce",
+      "paypal"
     ],
     "tags": [
-      "execution",
       "behavioral"
     ]
   },
   {
-    "title": "How would you make something significantly simpler for a customer?",
+    "title": "You need to pitch a new feature to executives and stakeholders. How would you do it?",
+    "companies": [
+      "uber",
+      "walmart"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Suppose a stakeholder wants you to add a new feature to your roadmap and you think that it should not be implemented. How would you convince them to drop it?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time you failed as a product manager.",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "walmart",
+      "paypal",
+      "capital one"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What product would you build if I were to write a blank check for an idea you have?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you interact with the engineering team?",
+    "companies": [
+      "amazon",
+      "walmart",
+      "salesforce",
+      "ibm"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you made a difficult decision with input from many different sources (customers, stakeholders, partner teams, etc.). What was the situation and how did you arrive at your decision? Did the decision turn out to be the correct one? Why or why not?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time you had a disagreement with a team member.",
     "companies": [
       "amazon",
       "stripe",
+      "paypal",
+      "ibm"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is the most creative thing that you have done as a Product Manager?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "amazon",
+      "uber",
+      "netflix"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time you failed.",
+    "companies": [
+      "amazon",
+      "microsoft"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What would you say as your achievements in your current role?",
+    "companies": [
+      "uber",
+      "airbnb",
+      "ibm"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What would you say as your achievements in your current role?",
+    "companies": [
       "airbnb"
     ],
     "tags": [
@@ -1135,27 +1480,370 @@
     ]
   },
   {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
+    "title": "Tell me about your most significant accomplishment. Why was it significant?",
     "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
+      "amazon"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
+    "title": "Tell me a time when you designed a product feature that didn't go well. And how did you overcome that situation?",
     "companies": [
-      "google",
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you mitigate risks associated with Product decisions?",
+    "companies": [
       "meta (facebook)",
-      "walmart",
-      "airbnb",
-      "salesforce",
-      "shopify",
+      "amazon",
+      "ibm"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell us the most challenging product you have worked on regarding prioritization and why.",
+    "companies": [
+      "postclick",
+      "instapage"
+    ],
+    "tags": [
+      "execution",
+      "behavioral",
+      "leadership-and-development"
+    ]
+  },
+  {
+    "title": "What steps would you take to deliver a product feature on time, everytime?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a project you managed end-to-end.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Suppose you have 3 engineers. How would you allocate the 3 engineers between addressing hacked accounts and spam messages?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "behavioral",
+      "leadership-and-development"
+    ]
+  },
+  {
+    "title": "Why Amazon and why AWS?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why do you want to work for Amazon?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "NULL",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is the most innovative thing you've done?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me of a time when a technical decision you took fell apart.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you had to deep dive and dig data to solve a problem.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you lead engineers, designers, etc.?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you manage scope when unexpected hurdles pop up (close to a deadline)?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you had to make a trade-off between a deadline and standards. And would you do it again the same way? Why or why not?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What will the payment industry look like in 3 to 5 years?",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "You are a product manger at Facebook. You want to build a Yelp-like restaurant search product. How will you convince your engineering team and product manager team to build it? (use existing metrics on the platform).",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What product is successful but bad?",
+    "companies": [
+      "oscar health"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What methods would you use to gather feedback about your product?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What project management tools did you work with?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why do you want to join Shopify?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe a time when a co-worker or direct report acted inappropriately and how you responded.",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe a situation when you were faced with an ethical decision.",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is your product management approach? How do you set goals?",
+    "companies": [
+      "american express"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "If the legal team reached to you with a difficult request, what is your method for tackling it?",
+    "companies": [
+      "american express"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What was the biggest challenge you experienced from working with banks? How did you go about convincing them?",
+    "companies": [
+      "american express"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you communicate with engineers?",
+    "companies": [
+      "american express"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What would be a deal-breaker (in a role) for you?",
+    "companies": [
+      "paypal"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What makes you a good product manager candidate?",
+    "companies": [
+      "paypal"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How would you influence the partner teams to make the right decision when you don't have supporting data?",
+    "companies": [
+      "wish"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you make tradeoffs between intuition and empirical data?",
+    "companies": [
+      "tradeledger"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you check progress against your goals?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What improvements have you made at your current company?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you keep up with the best practices?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What do you like most about the culture memo?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe your ability to deal with a very opinionated co-worker.",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why do you want to work at Netflix?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe a situation in which a product you were managing wasn\u2019t performing well. How did you deal with it?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why do you want to join Square?",
+    "companies": [
       "square"
     ],
     "tags": [
@@ -1163,66 +1851,35 @@
     ]
   },
   {
-    "title": "What are you looking for in your next role?",
+    "title": "How have you had to deal with customer expectations in the past?",
     "companies": [
-      "google",
-      "twitter",
-      "capital one"
+      "intuit"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
+    "title": "What makes a great product?",
     "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
+      "the trade desk"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
+    "title": "What excited you about this role?",
     "companies": [
-      "6sense"
+      "cash app",
+      "block"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "How will you provide the estimate to customers/users when you do not have much details about the requirements?",
     "companies": [
       "amazon"
     ],
@@ -1231,225 +1888,7 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
-    "companies": [
-      "amazon",
-      "stripe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
-    "companies": [
-      "tesla"
-    ],
-    "tags": [
-      "execution",
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you make something significantly simpler for a customer?",
-    "companies": [
-      "amazon",
-      "stripe",
-      "airbnb"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
-      "airbnb",
-      "salesforce",
-      "shopify",
-      "square"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "What are you looking for in your next role?",
-    "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "Tell me about a time when you worked on a critical project under tight deadline. What did you sacrifice to achieve it? How did you overcome challenges? What were the short term and long term impacts of this project?",
     "companies": [
       "amazon"
     ],
@@ -1458,225 +1897,7 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
-    "companies": [
-      "amazon",
-      "stripe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
-    "companies": [
-      "tesla"
-    ],
-    "tags": [
-      "execution",
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you make something significantly simpler for a customer?",
-    "companies": [
-      "amazon",
-      "stripe",
-      "airbnb"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
-      "airbnb",
-      "salesforce",
-      "shopify",
-      "square"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "What are you looking for in your next role?",
-    "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "Tell me about a time when you challenged the status quo. How did you manage to change? What challenges did you face while changing? What were the outcomes? What would have you done better?",
     "companies": [
       "amazon"
     ],
@@ -1685,225 +1906,16 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
+    "title": "Is consensus among the stakeholders always a good thing?",
     "companies": [
-      "amazon",
-      "stripe"
+      "ola"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
-    "companies": [
-      "tesla"
-    ],
-    "tags": [
-      "execution",
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you make something significantly simpler for a customer?",
-    "companies": [
-      "amazon",
-      "stripe",
-      "airbnb"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
-      "airbnb",
-      "salesforce",
-      "shopify",
-      "square"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "What are you looking for in your next role?",
-    "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "Tell me about a time when you worked on a project and realized that there is more potential in it that you thought initially.",
     "companies": [
       "amazon"
     ],
@@ -1912,225 +1924,16 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
+    "title": "How would you prioritize tasks for the Spotify recommendation engine team?",
     "companies": [
-      "amazon",
-      "stripe"
+      "swiggy"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
-    "companies": [
-      "tesla"
-    ],
-    "tags": [
-      "execution",
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you make something significantly simpler for a customer?",
-    "companies": [
-      "amazon",
-      "stripe",
-      "airbnb"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
-      "airbnb",
-      "salesforce",
-      "shopify",
-      "square"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "What are you looking for in your next role?",
-    "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "The organization is going through a major transformation that will span multiple years and you have been asked to lead a product/project that has already missed multiple deadlines and has misalignments with its cross functional teams. How would you approach this and what product management tools/method will you use to deliver the product and its milestones?",
     "companies": [
       "amazon"
     ],
@@ -2139,108 +1942,7 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
-    "companies": [
-      "amazon",
-      "stripe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
+    "title": "Tell me about a time when you had an idea you proposed was not agreed on.",
     "companies": [
       "google"
     ],
@@ -2249,115 +1951,16 @@
     ]
   },
   {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
+    "title": "Tell me about a time you had to kill a feature.",
     "companies": [
-      "tesla"
-    ],
-    "tags": [
-      "execution",
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you make something significantly simpler for a customer?",
-    "companies": [
-      "amazon",
-      "stripe",
-      "airbnb"
+      "klarna"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
-      "airbnb",
-      "salesforce",
-      "shopify",
-      "square"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "What are you looking for in your next role?",
-    "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "You are the PM and need to develop a product feature that the engineering team says they need 4 weeks to develop. However, the stakeholders have only two weeks to implement this feature. What would you do to solve the timing issue?",
     "companies": [
       "amazon"
     ],
@@ -2366,225 +1969,7 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
-    "companies": [
-      "amazon",
-      "stripe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
-    "companies": [
-      "tesla"
-    ],
-    "tags": [
-      "execution",
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you make something significantly simpler for a customer?",
-    "companies": [
-      "amazon",
-      "stripe",
-      "airbnb"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
-      "airbnb",
-      "salesforce",
-      "shopify",
-      "square"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "What are you looking for in your next role?",
-    "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "Tell me about a time when you changed the direction of a team.",
     "companies": [
       "amazon"
     ],
@@ -2593,108 +1978,25 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
+    "title": "You are asked to do customer research to launch a new feature that helps streamline the process for Uber drivers picking up people from large events (concerts, games, etc.). Walk us through how you would prepare a report.",
     "companies": [
-      "amazon",
-      "stripe"
+      "intuit"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
+    "title": "How would you prioritize tasks when you have no data?",
     "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
+      "binance"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
-    "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
-    "companies": [
-      "coinbase"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you motivate a Product team?",
-    "companies": [
-      "amazon",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you prioritize requirements?",
-    "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How do you know when to cut corners to get a product out the door?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
+    "title": "Talk about a time when someone didn't complete the task that you wanted them to do.",
     "companies": [
       "google"
     ],
@@ -2703,115 +2005,7 @@
     ]
   },
   {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
-    "companies": [
-      "tesla"
-    ],
-    "tags": [
-      "execution",
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you make something significantly simpler for a customer?",
-    "companies": [
-      "amazon",
-      "stripe",
-      "airbnb"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "In layman terms, describe your day to day activities as a Product Manager.",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "airbnb",
-      "shopify",
-      "adobe"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "How would you keep developers working on a product motivated and turning out quality work?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "walmart",
-      "airbnb",
-      "salesforce",
-      "shopify",
-      "square"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "What are you looking for in your next role?",
-    "companies": [
-      "google",
-      "twitter",
-      "capital one"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "You are a PM and you are about to enter the product launch meeting with all stakeholders. How would you prepare for that meeting?",
-    "companies": [
-      "google",
-      "meta (facebook)",
-      "paypal",
-      "salesforce"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "If there are 3 different items on top priority for a release and the client is insisting on getting all 3 delivered in the same release. As a PM you know there is not enough engineering capacity. What will you do?",
-    "companies": [
-      "6sense"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Senior client calls you early morning to complain that the B2B product is not working (without providing any details). How would you approach this? (include technical details if applicable)",
-    "companies": [
-      "google"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "One of our customers reported an issue with the .Net software in our open forum and threatened to switch to another platform. How would you handle this issue?",
-    "companies": [
-      "microsoft"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Where do you see yourself in 5 years?",
-    "companies": [
-      "ibm"
-    ],
-    "tags": [
-      "behavioral"
-    ]
-  },
-  {
-    "title": "Why should Amazon not hire you?",
+    "title": "What's the most interesting/impactful project you have done?",
     "companies": [
       "amazon"
     ],
@@ -2820,63 +2014,124 @@
     ]
   },
   {
-    "title": "Tell me about a time you were trying to understand a problem on your team and you had to go down several layers to figure it out. Who did you talk with and what information proved most valuable? How did you use that information to help solve the problem?",
+    "title": "Tell me what thing you are good at and don't want to do any more.",
     "companies": [
-      "amazon",
-      "stripe"
+      "workboard"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me about a time you had conflict with a team member or a manager.",
+    "title": "Tell me about a trade-off you made.",
     "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "twitter",
-      "adobe"
+      "amazon"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me a time when you influenced engineering to build a particular feature.",
+    "title": "Tell me about a creative solution you came up with.",
     "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "stripe",
-      "salesforce",
-      "twitter",
-      "adobe"
+      "amazon"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Tell me about a time when you used data to influence/persuade people.",
+    "title": "What leadership principles do you relate to the most?",
     "companies": [
-      "amazon",
-      "microsoft",
-      "paypal",
-      "stripe",
-      "netflix",
-      "spotify",
-      "capital one",
-      "atlassian"
+      "amazon"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "Describe a complex topic like I'm a high school student. Assume I don't know anything about it.",
+    "title": "How do you work with your teams?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you got involved in a project that was not yours to start with.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you didn\u2019t win during a negotiation with your stakeholders.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How did you prepare for this interview?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why Amazon? What does Amazon provide that your previous companies didn\u2019t?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you got creative. Why did you go for that solution? What was the motivation? How did your stakeholders react?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is a good product manager role?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you prioritize given a limited bandwidth of resources?",
+    "companies": [
+      "infinitus"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How did you align a stakeholder towards a common goal?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How would you manage a sudden shift in priorities?",
     "companies": [
       "coinbase"
     ],
@@ -2885,43 +2140,54 @@
     ]
   },
   {
-    "title": "How do you motivate a Product team?",
+    "title": "How do you prioritize tech debt against other features?",
     "companies": [
-      "amazon",
-      "salesforce"
+      "coinbase"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "How do you prioritize requirements?",
+    "title": "Tell me about a time you had to deal with tech debt. What approach did you take?",
     "companies": [
-      "amazon",
-      "walmart",
-      "paypal",
-      "airbnb",
-      "shopify"
+      "coinbase"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "How do you know when to cut corners to get a product out the door?",
+    "title": "Why are you leaving your current company?",
     "companies": [
-      "google",
-      "meta (facebook)",
-      "uber",
-      "airbnb",
-      "shopify"
+      "goldman sachs"
     ],
     "tags": [
       "behavioral"
     ]
   },
   {
-    "title": "You are the product manager of a video conferencing app (before COVID). You ran a customer satisfaction survey with 400,000 respondents and received the following results: 40% responded with a score of 2, while 40% responded with a score of 4 on a 1-5 scale. How would you use these results?",
+    "title": "You've got your top customer who accounts for 8% of your ARR threatening to shift to a competitor if you don't build some very specific features that only this customer is likely to use. How are you going to manage this scenario?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Briefly describe one of the biggest tradeoff product decisions you\u2019ve had to make as a PM. How did you make the decision?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral",
+      "leadership-and-development"
+    ]
+  },
+  {
+    "title": "Tell me about a time you had a conflict understanding client requirements and how you managed it.",
     "companies": [
       "google"
     ],
@@ -2930,21 +2196,170 @@
     ]
   },
   {
-    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
+    "title": "Tell me about a situation where you had to communicate a difficult situation to a customer due to a technical constraint.",
     "companies": [
-      "tesla"
+      "amazon"
     ],
     "tags": [
-      "execution",
       "behavioral"
     ]
   },
   {
-    "title": "How would you make something significantly simpler for a customer?",
+    "title": "What has been the biggest learning you carried as a product manager?",
     "companies": [
-      "amazon",
-      "stripe",
-      "airbnb"
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is your biggest challenge at work and how did you improve?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe a time when you and your team had a common goal but approached it from different viewpoints or with different methods? How did you reach a consensus, and how did you feel about the process?",
+    "companies": [],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you had to sacrifice short-term gains for the long-term success of your product. What were all the things you considered while making the decision? How did you make the decision?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you had to let go off a feature that you have been working on.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How would you approach presenting \"accurate\" cancellation data to senior management?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Imagine you're working in a team, and either the team or the management has decided to ship an incomplete product to meet the deadline. You believe they should postpone the launch. What would you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How would you explain the internet to someone with limited technological knowledge?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you had to take a calculated risk in a critical situation with a short deadline. How did it turn out, and what did you learn from the experience?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a time in which you had to balance the needs of the customer with the needs of the business. How did you navigate this situation, and what were the outcomes?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Explain Twitter to someone who is completely technologically inept, focusing on simplicity and basic concepts.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What prompts your desire for a change or what motivates your decision to seek a new job?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What's your experience with Agile/Scrum?",
+    "companies": [
+      "salesforce"
+    ],
+    "tags": [
+      "behavioral",
+      "leadership-and-development"
+    ]
+  },
+  {
+    "title": "You are tasked with launching a new mobile app for a specific target audience (e.g. busy professionals, fitness enthusiasts). Describe your approach to identify the key needs and pain points of this audience. How would you ensure the app offers a solution that has strong market fit?",
+    "companies": [
+      "startups"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe machine learning to a 5-year-old.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How do you go about building an AI Product Team?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Give me an example of how you would evaluate trade-offs.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Describe a situation where a client made an unreasonable request and how you managed it. What were the outcomes?",
+    "companies": [
+      "microsoft"
     ],
     "tags": [
       "behavioral"
