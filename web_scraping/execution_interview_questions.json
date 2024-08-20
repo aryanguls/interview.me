@@ -1,0 +1,1448 @@
+[
+  {
+    "title": "Weekly active users (WAU) for iPhone app dropped. What happened?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "How would you decide between showing more ads on the Facebook Newsfeed vs showing a \"People you may know\" recommendation widget?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM of Instagram stories. What goal would you set and how would you measure success?",
+    "companies": [
+      "meta (facebook)",
+      "instagram"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "What would you do if Facebook Stories engagement increased but Newsfeed engagement decreased?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "Imagine you were in charge of Facebook Watch. What metric would you want to measure?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "You are the PM of Facebook Lite. What goals would you set?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "You are the PM of notifications. How would you determine the trade offs between showing your friend\u2019s fundraiser or the event they are going to / created?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you decide whether to build a feature or fix a bug (assuming both take the same engineering effort)?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "We've outsourced a critical mobile app to a 3rd party developer. How do we decide when to take that development in house?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "The creation of Facebook user groups has gone down by 20%. What will you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "How would you set the goal for FB's Crisis Response feature?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How will you convince the Engineering team that they should build a very different product than they want to develop?",
+    "companies": [
+      "tesla"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "How would you define success for Facebook Shops?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "An engineer suggests showing suggested Buy/Sell Groups on users' newsfeed instead of the People You May Know section. How do you determine if that is a good idea or not?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Lyft wants to add Shared Saving rides. What factors will you consider to determine riders' willingness to pay? What experiments will you run to test your assumptions?",
+    "companies": [
+      "lyft",
+      "uber"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Define the metrics for YouTube search.",
+    "companies": [
+      "google",
+      "youtube",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "Suppose 10 Google Cloud customers come to you and say they want you to customize your product for them. Your engineering team has the bandwidth to handle only one of the requests. Walk me through how you'd evaluate the customers and decide which ones to build for.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "How do you measure the success of the Hot Home feature in Redfin?",
+    "companies": [
+      "redfin"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "For a food delivery app, what goals would you set for the next 6 months?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "There is an 8% drop in Google Search. What would you do?",
+    "companies": [
+      "google",
+      "paypal"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "You are the PM for privacy and security at Facebook. What goal would you set and how would you measure success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How would you decide to display ads on the Facebook Newsfeed? After every 100 posts or 25 posts? Evaluate tradeoffs.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Friend requests are down by 10%. Evaluate why.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "You are the PM of Messenger, you noticed that its DAU has gone down significantly. How would you go about looking for the root cause?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "Should Facebook require users to upload profile photos during onboarding? How would you go about deciding this?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Page Creation in Facebook went down by 10%. What would you do? Let us say you have solved it. Pages are up and back to normal. However, WAUs went down by 5%. What would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine you are the Product Manager at Coinbase responsible for managing the bitcoin trading brokerage area. You observe a 20% decline in monthly brokerage revenue compared to the previous month. As the PM overseeing this area, what steps would you take?",
+    "companies": [
+      "coinbase"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "Define success metrics for Facebook Messenger Kids.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "metrics",
+      "execution"
+    ]
+  },
+  {
+    "title": "You are a product manager at Facebook when Facebook Reactions was only a thumbs up, Facebook has decided to launch multiple reactions. How would you go about doing that?",
+    "companies": [
+      "bolt"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "YouTube traffic went down 5% \u2014 how would you report this issue to your manager?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Suppose you're trying to convince Google execs to keep growing the YouTube Shorts product. You can put 3 graphs in your slide deck. What graphs would you want to create?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "You are a PM at YouTube. YouTube raised the price of YouTube Premium by 10%. After the change, 10% of its users unsubscribed. What would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "What milestone or markers would you look at to determine if a product isn\u2019t performing well and what considerations do you make before you sunset the product? What is the process you would lay out? How do you handle the stakeholders?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "Compare two search algorithms by defining the North Star KPI. Measuring that KPI through 3 metrics and identify success flags.",
+    "companies": [
+      "agoda"
+    ],
+    "tags": [
+      "execution",
+      "technical",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Suppose you're a PM for Instagram and someone suggests that all Instagram content formats (posts, Reels, stories, live, etc.) be shown in a single feed, instead of in separate tabs as they are now. How would you decide whether or not to implement this idea?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Which success metrics would you want to track for Instagram Shopping?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How would you price the Google Translator API?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you know there are enough drivers for the number of deliveries at any given time and area?",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "execution",
+      "technical"
+    ]
+  },
+  {
+    "title": "How would you measure the success of Facebook Jobs?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "Imagine you are PM at Facebook. You walk into your office one day and see Messenger DAU are down by 10%. Why?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "How would you solve the inventory issues with Uber Grocery?",
+    "companies": [
+      "uber",
+      "instacart"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How you would prove the value of the Reactions feature? How would you decide whether to launch it or not?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you set goals and measure success of Instagram stories? What will happen if too many stories are getting created instead of posts?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "What are the different problems that Instacart would see in their delivery experience? How would you prioritize the problems?",
+    "companies": [
+      "instacart"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you set goals for Instagram Reels? Pick your success metrics and walk me through your trade-offs.",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "Describe your top 3 favorite products and why. Products can be hardware or software, for example, a chair, hairdryer, etc.",
+    "companies": [
+      "google",
+      "stripe",
+      "dropbox"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement",
+      "product-sense"
+    ]
+  },
+  {
+    "title": "How will you go about designing search for an e-commerce app?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "execution",
+      "technical"
+    ]
+  },
+  {
+    "title": "What is your favorite mobile game and how do you go about improving it?",
+    "companies": [
+      "zynga",
+      "uber"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Mark Z wants to up-convert all the media uploaded into high resolution media. What would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What are the goals for Facebook's Newsfeed?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "You are a product manager at Microsoft Teams, and you need to acquire a billing system rather than build one. What process will you follow?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "How would you set the goals/metrics for Uber Eats (pre-launch)?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How would you approach launching Zomato in a new country?",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-launch",
+      "execution"
+    ]
+  },
+  {
+    "title": "Pretend you're a Product Manager at Google Maps. Your objective is to increase customer engagement with small and medium-sized businesses (SMBs). What do you do? Next, how would you get SMBs to implement your solution?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement",
+      "execution"
+    ]
+  },
+  {
+    "title": "You're the product manager at Spotify. Build metrics.",
+    "companies": [
+      "spotify",
+      "coinbase"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "You noticed that Brex Credit Card activation rate went down by a lot. How would you find out why?",
+    "companies": [],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "If you are the product manager for new user registration at Facebook, and user research comes to you with a suggestion to remove picture requirement, how would you decide what to do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're the PM for Instagram Shopping. What 3-5 metrics would you want to track?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "Clickthrough rate for notifications are down by 10%. Why?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "You are working as PM of a social media app. You noticed that DAU of the app fell by 50%. How would you figure out what might have happned?",
+    "companies": [],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "You are the Product Manager for Video calls on Messenger. How would you set goals?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "If you are designing an app for setting meetings, how will you set and prioritize metrics for it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "You released a new feature on Facebook Stories that led to 5% decrease in number of active creators but a 10% increase in the number of daily active users. Would you roll this feature back?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "Imagine you have been hired as the product manager for Zoom. What goals would you set for your team, and what metrics would you define?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "You are the Product Manager for the Meta food delivery app. What two goals would you discuss with higher executives regarding success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How do you know if the user story you created is ready for execution?",
+    "companies": [
+      "salesforce"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "How would you implement Facebook Reactions?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "technical"
+    ]
+  },
+  {
+    "title": "You are the product manager for Facebook Events. Set the success criteria. How would you assess what's better between 10 events that have 100 attendees each, or 1 event that has 1,000 attendees?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "Imagine I'm a VC, offering you $20M to build any technology-enabled product/service you'd like. Please walk me through how you would get started? (Problem, Solution, User, Monetize, TAM)",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "You are the product manager of Instagram Story. Before we launch, how would you set metrics for progress?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you handle the tradeoffs between growth and advertising?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "Pick a product of your choice. What are the goals of the product? What\u2019s in your monthly business review deck for the leadership team?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "Someone left a prototype of your new smart speaker at a cafe, and the tech press is writing all about it. What are some risks that your team and produce now face? How would you mitigate them?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "Why do Facebook Marketplace exist? What are its goals?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "On Instagram Shops, should users be allowed to check out without logging in first?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What would you define as the goals for Facebook's new user experience?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "Should Google offer an Airbnb compeititor?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How could you use logs to determine if a new product is successful?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "You ran an A/B test and saw that it drops engagement. What would you do about it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "It's 2016, how would you have decided whether to launch Facebook stories?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you define success metrics for Facebook Pages?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "A product manager decides to add threading to comments on group posts. We see comments per user increase by 10% but posts go down 2%. Why would that be?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "Suppose you're the PM for Facebook Stories and your teammate says we should increase the height of the stories bar in the app. How would you think through this decision?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Define goals for a handheld gaming device for facebook. Follow up question: after 6 months, you see WAU increasing by 10% but session length decreasing by 12%, then would you still ship it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "Engagement on Facebook stories is going up but Ads revenue is going down. What will you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "Discuss the tradeoffs between showing the \"people you may know\" widget versus ads in the newsfeed. How would you decide which one to show to a given user?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're a Facebook product manager and want to build a restaurant review and booking platform like Yelp!. How would you pitch this idea to your leader? What data would you need? If you build it, come up with a goal for your team.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Imagine you are VP of Product for Google Chrome OS and Android. What is your goal for the next 3 to 5 years?",
+    "companies": [
+      "google",
+      "stripe"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What metric would you track for Lyft's debit card program?",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How would you measure success for a Facebook travel recommendation product?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "Can you please create requirements and acceptance criteria for this page https://www.apple.com/shop/buy-watch/apple-watch to be implemented by engineering team?",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "If you want to double the traffic from SEO for a website, what are the steps you will follow?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why did Facebook build Facebook Stories?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Product Manager comes to me (Data Scientist) and tells me that the \"share\" button feature is not improving engagement. Let's take it out. How would you, as a Data Scientist, evaluate that feature?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you have only one engineering resource, where will you invest it (prioritization)? Fixing a critical bug or shipping a critical feature?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "What is the goal for Facebook Lite?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "Ad publishing rate dropped for Facebook Ad Manager by 10% since last night at 10PM. What would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "How would you improve TripAdvisor?",
+    "companies": [
+      "expedia"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement",
+      "product-sense"
+    ]
+  },
+  {
+    "title": "You are a PM at Hyperloop, which is launching its first passenger route between SF and LA in 6 weeks. You are responsible for building out a mobile app in time for launch. What is your plan of action?",
+    "companies": [
+      "hyperloop"
+    ],
+    "tags": [
+      "execution",
+      "product-design"
+    ]
+  },
+  {
+    "title": "You\u2019re the PM for a social media company. You are owning a new feature that allows video sharing (like YouTube ). What would you pick as your success metric?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "Your team has implemented a change in the \"Share\" feature and released it for A/B testing. You realized that there is 20% of usage of the feature. Would you still decide to release it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you get another billion monthly active users on YouTube?",
+    "companies": [
+      "youtube",
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM of Facebook Buy/Sell Groups. Engagement on listings in these groups is trending up, but the total number of listings has plateaued. Why?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "You are the PM for Facebook newsfeed. How would you decide between showing events or videos?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a PM at Facebook. An engineer comes with an idea to place a feature on the Facebook homepage that would show items that you may be interested in. Would you build it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're a PM at Cloudera and launching in a new market. How would you know that your product launch is successful?",
+    "companies": [
+      "cloudera"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "NULL",
+    "companies": [
+      "casaone"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "It's Instagram in 2013. How would you define success for the team whose charter is to build the first API?",
+    "companies": [
+      "meta (facebook)",
+      "instagram"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How do you mitigate risks associated with Product decisions?",
+    "companies": [
+      "meta (facebook)",
+      "amazon",
+      "ibm"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell us the most challenging product you have worked on regarding prioritization and why.",
+    "companies": [
+      "postclick",
+      "instapage"
+    ],
+    "tags": [
+      "execution",
+      "behavioral",
+      "leadership-and-development"
+    ]
+  },
+  {
+    "title": "What steps would you take to deliver a product feature on time, everytime?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Tell me about a project you managed end-to-end.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Google cloud wants to provide Google Translation as an API. What do you think about it? Give your pros and cons analysis.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Profile pictures are mandatory today. What if it were made optional going forward? Evaluate.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Suppose you have 3 engineers. How would you allocate the 3 engineers between addressing hacked accounts and spam messages?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "behavioral",
+      "leadership-and-development"
+    ]
+  },
+  {
+    "title": "Facebook events RSVPs went up by 20%. what would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "If you were the Product Manager for Facebook Watch, how would you decide between releasing an entire 10 episode series every week, or releasing 1 episode a week for 10 weeks?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM at an online shopping website. One of your engineers wants to launch a \"Related products\" feature. What do you do?",
+    "companies": [
+      "asana"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Uber Eats' goals be next for the next 12 months?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the product manager for Facebook News. What success metric would you track and why?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How will you evaluate the option of making a profile picture optional during user signup?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "You are a product manger at Facebook. You want to build a Yelp-like restaurant search product. How will you convince your engineering team and product manager team to build it? (use existing metrics on the platform).",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Why did Facebook build a marketplace?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Set goals for Facebook Pages.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How would you set the goals/metrics for a home services product like Angie's List?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How would you navigate the tradeoffs between increasing ad revenue and decreasing retention on WhatsApp?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "On Instagram Shopping, should we allow users to check out without logging in first?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "You are the PM for FB Story. What metrics would you pick for success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics"
+    ]
+  },
+  {
+    "title": "You are about to launch a new app that is of strategic importance for the company. 1 month out from launch internal dogfood suggests that the app isn't ready (you are below target on several key metrics including CSAT). What do you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "Imagine you have outsourced a software development project to a third party vendor. A situation arises wherein the vendor has to be changed. What things will you consider while planning for smooth transition to new vendor for software development?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "You are the product manager of a pick food delivery app of your choice in March 2020. How would you respond to the COVID situation?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "How would you decide whether or not to ship Reactions?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "How much more or less should Lyft pay drivers per trip (by changing Lyft\u2019s take) to maximize net revenue for the next 12 months on this route in Toledo, Ohio? The goal is to find the optimal balance between Lyft's take and driver pay to improve the match rate and reduce failed rides while maximizing net revenue.",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "problem-solving",
+      "execution",
+      "estimation"
+    ]
+  },
+  {
+    "title": "Merchants have reported that requiring billing details in Stripe Checkout is causing friction and negatively impacting conversion rates. How would you respond to this feedback?",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "How do you optimize an email marketing campaign for 40 million subscribers and 10 million unique searches when you have access to a pool of 100,000 discounts shared across other OTAs?",
+    "companies": [
+      "agoda"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "If engagement is up for Facebook Events but the news feed is down, what recommendation would you give to fix it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "The Facebook Jobs product has been launched and achieved initial product-market fit. How would you set the direction, establish goals, and measure success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "You are the Product Manager of Instagram Reels, and you have just released it to 150 countries. Set goals and success metrics for Instagram Reels.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "metrics",
+      "execution"
+    ]
+  },
+  {
+    "title": "Let's say there are a few countries where Instagram Reels aren't doing so well. Identify why.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "You are the Product Manager for Facebook reactions. How will you decide whether to add a new reaction, and how will you measure success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "As the PM for video calling, what does success look like?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "How can Zomato create a monetizable data product for restaurants? Create the entire go-to-market plan for it.",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-design",
+      "product-strategy",
+      "execution"
+    ]
+  },
+  {
+    "title": "You are the PM at DoorDash, and you are about to release a new feature. A/B testing of that feature shows that the number of orders from users goes up, but the number of restaurants that were ordered from goes down (say from 100 to 90). Will you launch this feature or not?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution"
+    ]
+  },
+  {
+    "title": "Facebook Marketplace sales are up and Local Ads revenue is down. Why?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving"
+    ]
+  },
+  {
+    "title": "If you are a PM for a product that will be phased out due to disruption, what will you do?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-strategy",
+      "execution"
+    ]
+  }
+]

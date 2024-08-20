@@ -1,0 +1,7735 @@
+[
+  {
+    "title": "Build a product to buy and sell antiques.",
+    "companies": [
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a bicycle renting app for tourists?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "uber",
+      "lyft",
+      "airbnb"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a web search engine for children below 14 years old?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve Outlook for the use case when people get overwhelmed by number of emails received after returning from a vacation?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a product to solve the dog poop problem.",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you prevent hate, misinformation or deep-fakes on YouTube?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a library for the future.",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "amazon",
+      "uber",
+      "flipkart",
+      "salesforce",
+      "dropbox",
+      "spotify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Supermarket for older people.",
+    "companies": [
+      "google",
+      "microsoft",
+      "amway",
+      "nestaway",
+      "walmart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Groups? How would you measure whether you were successful?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a consumer application for a scooter sharing business?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for Facebook to fight COVID-19.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a car sharing platform like Uber for disabled people?",
+    "companies": [
+      "uber",
+      "lyft",
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you go about designing a new location sharing app for Google?",
+    "companies": [
+      "google",
+      "flipkart",
+      "adobe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Netflix for Senior Citizens (Goal: Increase engagement time).",
+    "companies": [
+      "microsoft",
+      "netflix",
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a social travel product.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Pay?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for event gathering for Google.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an app to help people choose which cheese to buy at a grocery store?",
+    "companies": [
+      "meta (facebook)",
+      "flipkart",
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for job seekers to create resumes and find the best matching jobs easily and quickly.",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "microsoft",
+      "linkedin"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Uber for kids.",
+    "companies": [
+      "uber",
+      "oyo"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a \"Google Refrigerator\"?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "For a retail store, users are frequently complaining about long queues during check out. What strategy would you use to improve the experience in the short term and long term?",
+    "companies": [
+      "google",
+      "amazon",
+      "shopify",
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Explain some new Alexa Skillsets you would roll out and why.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build a product on Facebook for blood donation?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an experience for getting book recommendations on Facebook. How would you measure success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a new PM at Google Pay. Design a feature for paying credit card bills.",
+    "companies": [
+      "google",
+      "amazon",
+      "stripe",
+      "shopify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What innovative new product can make park gatherings be more social, with strangers?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an application launching in the US marketplace that enables patients to find doctors.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a Product Manager on Facebook Newsfeed, how would you decide whether to show an advertisement or the \"People You May Know\" widget?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a gardening app?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "flipkart",
+      "dropbox",
+      "adobe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a vending machine for blind people.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you go about designing a skip feature for a video streaming service?",
+    "companies": [
+      "netflix",
+      "hotstar",
+      "youtube"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Lyft for kids.",
+    "companies": [
+      "uber",
+      "lyft",
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Google recently developed a technology that can detect human emotions in a 2 X 2 dimension (energy level and body movement). What are some of the products you can build using that technology? List a few ideas, then choose one and design the product for that idea.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a driverless car pick up service for kids.",
+    "companies": [
+      "google",
+      "airbnb"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a digital payments system for rural India.",
+    "companies": [
+      "paytm"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a fridge for kids.",
+    "companies": [
+      "asana"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a washing machine for Google.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook tool for the Olympics.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design at ETA system for Lyft drivers?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Dynamic Pricing for Lyft.",
+    "companies": [
+      "uber",
+      "lyft",
+      "stripe",
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you go about designing a dashboard of call quality for WhatsApp?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a smartphone for a 6-year-old.",
+    "companies": [
+      "adobe",
+      "ni2"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Google wants to venture in the large appliances industry starting with a refrigerator. As a PM in Google, how would you go about designing a Smart Refrigerator for the USA?",
+    "companies": [
+      "vedantu"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a referral system for a grocery app.",
+    "companies": [
+      "google",
+      "uber",
+      "lyft",
+      "linkedin",
+      "capital one"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you re-design the carwash?",
+    "companies": [
+      "google",
+      "flipkart",
+      "stripe",
+      "dropbox",
+      "spotify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a cab-sharing service inside a chat application.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a better way to find a roommate in a new city.",
+    "companies": [
+      "microsoft",
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a new music experience for Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a photo app for the blind.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for teenagers to have more empathy.",
+    "companies": [
+      "google",
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a phone for kids aged less than 5 years?",
+    "companies": [
+      "microsoft",
+      "spotify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a refrigerator for the blind.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a bookshelf for kids.",
+    "companies": [
+      "google",
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a Google product that enables people to learn new skills.",
+    "companies": [
+      "google",
+      "salesforce",
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to improve the lunch experience in XYZ company.",
+    "companies": [
+      "microsoft",
+      "google",
+      "amazon",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an alarm clock for the blind.",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a loyalty program for a search engine that's competing with Google & Bing.",
+    "companies": [
+      "google",
+      "microsoft",
+      "amazon",
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an alarm clock for elderly people.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an ATM for airports.",
+    "companies": [
+      "google",
+      "stripe",
+      "salesforce"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a new product on Facebook to find apartments.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Google is working on a tech that allows people to travel from SF to Seattle in just 15 minutes for only $1000 per person, one way. What would you do with this tech?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a new PM at Facebook. Design an app to help people save money.",
+    "companies": [
+      "meta (facebook)",
+      "atlassian"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for the DMV (California\u2019s Department of Motor Vehicles).",
+    "companies": [
+      "google",
+      "capital one"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a product manager, how would you design a communication solution for use by astronauts on a mission to Mars landing?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Multi factor authentication app for the visually challenged.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you create a playlist for a user after they listen to a single song? (in an app like Spotify)",
+    "companies": [
+      "google",
+      "spotify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a cafeteria app for employess?",
+    "companies": [
+      "microsoft",
+      "capital one"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design Google Maps for kids?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a fridge for a person in a wheelchair.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to fight climate change.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You're a PM at a vending machine company. Your CEO asks you to design a new line of vending machines to be placed in hotels and motels. What would you do?",
+    "companies": [
+      "google",
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a touchscreen table for restaurants",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve grammarly? Should Google acquire grammarly?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for making someone a better cook.",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What feature would you add to a self-driving car to make it a more attractive purchase?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for an amusement park.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a healthcare application that would be useful for handling COVID-19.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a volunteer product for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a mobile app that allows users to easily buy and sell used books.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a smart shoe.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a way to sell movie tickets on Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build an education product for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a cell phone for a two year old.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a feature for lending (goods) on Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a TV for a car.",
+    "companies": [
+      "google",
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How do you design an app for on-demand beauty services?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Let's redesign Facebook pages for small businesses.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app like WhatsApp for the blind.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Mark Zuckerberg wants you to redesign the television experience. How would you go about it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app/feature for people to find jobs on Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How do you design a camera for the elderly?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can Lyft break into the private ambulance market?",
+    "companies": [
+      "lyft",
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If Google has invented a way to make air travel 4x cheaper and 4x faster, what would you do with this technology?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to speed up the cooking process?",
+    "companies": [
+      "google",
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Whatsapp for children.",
+    "companies": [
+      "meta (facebook)",
+      "swiggy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a meditation app for kids.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to find a handyman.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a task assignment form for an app.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve the experience of a customer visiting your physical retail store?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a datacenter on the moon for Google.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "The CEO of a your company asks you to design a new ATM for their Airport segment. What do you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Redesign a patrol station.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a product manager at a start-up whose technology can detect emotions. Evaluate potential applications.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a product for improving teenage health?",
+    "companies": [
+      "google",
+      "swiggy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook product for organ donation.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Lyft for delivery.",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an Instagram feature to help people find a restaurant.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Mark has asked you to build a new app for wine shopping in a grocery store. What do you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a blender for the visually impaired.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for child care.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an online store to sell Bicycles to 12 year old girls.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a PM at Apple, how would you reduce accidents with smartphones?",
+    "companies": [
+      "meta (facebook)",
+      "adobe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to buy flight tickets.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for museums.",
+    "companies": [
+      "meta (facebook)",
+      "dropbox",
+      "adobe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Camera for the Elderly",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you design a travel feature for Pinterest?",
+    "companies": [
+      "pinterest"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a feature to reduce Amazon's order return rate.",
+    "companies": [
+      "amazon",
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for cooking.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Facebook wants to enter the house hunting business. If you were assigned to develop a product for the new business, what would you build?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a restaurant product for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Clarifying question : 1. USer is completely blind. 2. No constraints on the solution in terms of budget, use your creativity to fullest. 3.Is it a improvement or existing product : Take it as product from scratch",
+    "companies": [
+      "walmart",
+      "shopify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a \"Pay Later\" feature for Amazon app?",
+    "companies": [
+      "google",
+      "amazon",
+      "flipkart",
+      "shopify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a financial services Facebook product.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Facebook decides to enter the travel market. As a PM how would you design a product?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the CEO of a company that wants to offer valet parking as a service for hotels. What would you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Google recently built a piece of equipment that detects information from human body. What kind of application would you build based on it? What type of information would you gather?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build a virtual classroom and learning management system?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for pet lovers.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook product for helping people with isolation and boredom during the current lockdown.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a high tech gym.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a free mobile application to assist users with at least one issue caused by COVID-19. The application does not need to be health related.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a fire alarm system for the deaf.",
+    "companies": [
+      "meta (facebook)",
+      "google",
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You have been assigned as the manager to design an incentive structure to the drivers of a cab aggregator. How would design it?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a washing machine for the millennials?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design Google Images?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What feature do you like about Facebook? How would you improve it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can Google Docs be improved?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build Facebook for the blind?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What features should a mobile app have for hospital, focusing on patient engagement?",
+    "companies": [
+      "healthcare",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a grocery app for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a relocation feature for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a washer and dryer.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a restaurant app like Yelp for restaurant owners.",
+    "companies": [
+      "yelp",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How do you design a home automation system?",
+    "companies": [
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a way for people with similar interests/hobbies to connect.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How do you design the Lyft app for the blind?",
+    "companies": [
+      "lyft",
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "We have hired you as a consultant to create a proposition that will make us the best bank for kids. We want you to develop a strategy, design a product that can be built in 6 months, and walk us through how you would go to market.",
+    "companies": [
+      "american express"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to be used in airports.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a product for group travel.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a software application that helps people make intelligent financial decisions.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a product that helps solve problems for hiring of entry level candidates in the Sales & Operations team.",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a kiosk for people in rural areas to find manual jobs easily.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an application that helps students with their mental well-being.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a globe.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As the Product Manager of a rideshare company (similar to Uber or Lyft), design a product specifically tailored for senior citizens.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you are the Product Manager at Vistaprint in charge of Recommendations for the My Account section, how would you approach it?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a carpooling app for women developed by Uber.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a product like Zoom, but for students?",
+    "companies": [
+      "zoom"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an accessible and user-friendly spice rack for individuals who are blind.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Make a product to help people buy and sell homes.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can Whatsapp create a feature that enables users to conveniently organize simple single-task events like dinner or a movie night directly within the Whatsapp platform?",
+    "companies": [
+      "whatsapp"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a sport-related product for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a credit card fraud-detection system.",
+    "companies": [
+      "square"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What factors will you consider while designing an online returns experience for a home improvement e-tailer?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a way to help people find a dog walker.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Estimate waiting time at the airport. Come up with a moonshot idea to reduce the waiting time.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation",
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Fitbit app for kids.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app to improve the wine-buying experience at a grocery store.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an Education product for Instagram?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine that you are a product manager at Uber. And you want children to use Uber as an independent user. How would you tackle this problem? Feel free to either build a new app or modify existing app.",
+    "companies": [
+      "microsoft",
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an engaging incentives management tool for the sales staff.",
+    "companies": [
+      "google",
+      "linkedin"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a toothbrush.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design Facebook Dating?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to improve Facebook employees\u2019 health.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a phone for deaf people.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a wedding registry?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an education product for Instagram.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a product manager at Zomato. How will you go about designing the Events feature for Zomato?",
+    "companies": [
+      "razorpay"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a product manager of Zoom. How would you go about designing a zoom like application for education?",
+    "companies": [
+      "razorpay"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "The functionality offered by our Security application can get quite complex for our customers to follow. As a result, we have to make certain trade-offs around security to simplify the experience for the users. Can you give an example from your experience where you made similar trade-off decisions - compromising on functionality vs. enhancing experience?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you build a travel recommendation product for an online travel giant?",
+    "companies": [
+      "expedia"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you were a PM at Facebook, how would you build an audio product (like Clubhouse)? Walk me through your process.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a music product for deaf people.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a note taking app for the elderly.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a digital library for kids below 5 years.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a search engine for enterprises.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a product manager at LinkedIn. Design a product for people with disabilities to find a good job.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for solo women travelers.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for Podcast recommendations.",
+    "companies": [
+      "meta (facebook)",
+      "spotify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you were to join LinkedIn today, what feature would you build that can enhance the worldwide workforce?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "In the growing age of working from home, what should Microsoft invest in to make this Work from Home more productive than it is today? This could be a new product line or enhancements to an existing product line for Microsoft to win in this new age of remote working.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a live audio streaming product for Facebook (pre-live-Audio-Rooms launch).",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "One of Linkedin's main revenue drivers is the Recruiter solution where recruiters can send InMail and reach out to Linkedin users. Linkedin is thinking about launching a downgraded version of this product for India where recruiters can only find/touch base with Linkedin users who are based in India. How would you build this new product?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design product to improve mental health.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an emergency system for leveraging Amazon Alexa.",
+    "companies": [
+      "swiggy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a travel product for Instagram.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for FB or Google to help people relocate.",
+    "companies": [
+      "meta (facebook)",
+      "google",
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a simple video conferencing application like Zoom.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What would you build to spread positivity on Facebook groups?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM of a well funded start up. What would you build to solve for parking?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for the hearing impaired to help them improve their quality of life.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you were to design a phone for Microsoft, what would that look like?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "At the end of any event (Sports event, Concerts, New Year Event etc.), there is a rush of people leaving the venue all at once and there is a mismatch in demand & supply for Uber. Surge pricing is not so effective in managing it and it also gets us bad press. You are a PM at Uber and have been asked to solve this problem. What product interventions can you introduce here?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You work at Yelp. How would you create a system that would provide good advice to users of new restaurants to try?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a vacation experience.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to choose cheese.",
+    "companies": [
+      "meta (facebook)",
+      "capital one"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Google bicycle.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a fridge for children.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you help couples to spend time meaningfully with each other?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to replace smartphones in 5-7 years.",
+    "companies": [
+      "google",
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app that helps a museum make money.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a food delivery app for kids?",
+    "companies": [
+      "flipkart",
+      "swiggy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design Alexa for the blind people?",
+    "companies": [
+      "amazon",
+      "swiggy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a calculator for the blind.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a product for podcasts.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a captain seat for a yacht in SF bay",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Recruitment at Google costs a billion dollars a year. In our search for false positives, we have had a lot of false negatives. How would you build a product to solve this problem?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new car dashboard.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the PM for iPhone iOS. Design the next generation iOS with two goals in mind: increasing the number of upgrades to this iOS on existing iPhones & converting Android users to iPhone.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If Google were to enter the gas station business, what would be the product/service that you think Google should build? What would be the MVP for this product/service?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you were a PM for Google Nest and your development team has means to get real time weather data, how would you productize this technology?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to improve reading habits.",
+    "companies": [
+      "google",
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a product manager at Walmart, how would you design a loyalty program?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "At your startup, you want to build a product to help people discover wine. What do you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a test to measure the success of using a gift card promotion to get Prime members to download the Prime mobile app?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an app that helps consumers find Happy Hours?",
+    "companies": [
+      "yelp",
+      "tripadvisor",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to solve the long process of making an appointment with doctors.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a photo sharing app for a visually impaired person.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You have been asked to design a software product for \"NASA's Dragonfly Mission to Titan (2026)\". How would you design the product?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What should you build to improve productivity when working from home?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an online news service that provides curated news content that can be trusted by the masses.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Which apps do you use on your cellphone on a daily basis and why?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine there is new tech that can sense your mood automatically. What do you build with it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a gaming product for Meta customers.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a better house hunting experience.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You have been made the PM of Payments at Google and have been tasked with building a product for very busy people. How would you design it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you combat misinformation in the newsfeed on COVID-19?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a shower for the blind.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook news product.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a heater for kids?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a toothbrush for young children.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a cell phone for children.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you validate your product design?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for people who want to re-marry.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a learning solution for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a computer to mimic the input of brain signals from the five senses of a human being (taste, touch, smell, hear and see)?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you create a feature on Facebook to combat depression, suicidality and self harm?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook product to help people follow a healthy living lifestyle.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an app for pet owners/lovers? The app is to be a social platform where the users can connect and share their experiences, etc.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product that informs people about the Coronavirus.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a post-Coronavirus supermarket.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook feature to find roommates.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Lyft for deaf drivers.",
+    "companies": [
+      "lyft",
+      "uber",
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a healthcare product for immigrants.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a volunteering app for Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What kind of applications would you design if you have technology (a small device attached) that can pinpoint the exact location of a person?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to educate masses about their own constitution.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a recommendation engine for Spotify.",
+    "companies": [
+      "google",
+      "spotify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you redesign a ceiling fan?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a career counseling app for students in India.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for touring a city in an offline mode.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a feature for Youtube to increase engagement (specifically repeat visits) for sports/fitness enthusiasts.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a wedding planning experience within Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How should Facebook help people with relocation?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a self driving car.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product/feature to double the customer base for Dunzo.",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Suggest a new feature for a card game.",
+    "companies": [
+      "microsoft",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What product would you create for teens on Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you monetize Google Hangouts?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an alert system for doctors.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a platform like YouTube for artists.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a travel planning Mobile app.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you redesign a TV remote?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a pinning feature in a chat app such as WhatsApp.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a phone for the elderly.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a smart product that uses AI for kids.",
+    "companies": [
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a mapping app for a school.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a smart fridge. Take me through the steps to come up with the product.",
+    "companies": [
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build an app to help share/get updates with only your close friends.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a parking garage operated by Google?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a Facebook product for Christmas?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What inclusiveness features would you include in the browser?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an innovative chat feature.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve Duolingo for the Indian market with the objective of increasing monetization (revenue)?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a product manager at Instagram, design an audio product.",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a finance app for millennials.",
+    "companies": [
+      "sofi"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product that will disrupt the food delivery industry (e.g. Uber Eats).",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new car stereo.",
+    "companies": [
+      "google",
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can GenAI be used in medical transcriptions?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you create a P2P used appliances lending platform?",
+    "companies": [
+      "jumbotail"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a chat bot for the banking Industry.",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a parking solution for Google Maps.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you redesign Zomato's app to target business lunches?",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design social features for Coinbase.",
+    "companies": [
+      "coinbase"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a learning experience product for YouTube.",
+    "companies": [
+      "youtube"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for kids to improve their museum experience.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Auto drivers in India experience regular cash flow problems and resort to taking informal credit to resolve this issue. Consequently, they find themselves trapped in a vicious cycle of debt. How can technology be used to solve this?",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "An e-commerce platform wants to enable its users to buy and send gift cards to their loved ones. How would you go about building that feature?",
+    "companies": [
+      "swiggy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As the Product Manager at a new startup aiming to assist people in finding gifts for their friends and family, what features or functionalities would you prioritize in building the platform?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build a UPI payments app for senior citizens? What features would you include in the initial release and why? How would you measure its success? If the first release is well-received, what would you prioritize for future updates?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM at Meta, and Mark wants you to create a product to help people learn musical instruments remotely. What would you build?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a bicycle renting app.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a new borrowing & lending marketplace (non-financial) for household goods.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Redesign Amazon home page for the great Indian festival season sale. What are the key metrics you will track?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a Google Ads product tailored for digital billboards?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are responsible for building an education platform that connects people looking to learn new skills with experienced individuals who can teach them (such as pottery, welding, piano, math, etc.). Essentially, it's a shared economy for skills. How would you approach this task?",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are given a team of 10 engineers at Google. What would you build?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a recommendation system for Disney+ for new customers (with less data)?",
+    "companies": [
+      "walt disney"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Using AI/ML, how can Amazon detect and prevent fraud done by retailers listed on Amazon e-commerce website",
+    "companies": [
+      "amazon",
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a news aggregation service specifically tailored for the elderly market.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for reducing waiting time in restaurants or food chains.",
+    "companies": [
+      "swiggy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a wearable device for health workers.",
+    "companies": [
+      "razorpay"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As the PM of Domino's Pizza, generate ten concepts aimed at enhancing the end-to-end speed spanning from order placement to final delivery.",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an online psychology support platform.",
+    "companies": [
+      "one medical"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a solution that improves the communication between PMs and their customers.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new feature for Zomato that could help users choose healthier dining options. Walk us through your design process.",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for a walking tour of a city that provides users with an interactive and informative experience.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you go about building a library for the next 1000 years, considering technological advancements, preservation methods, and evolving needs of future generations?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a health app specifically tailored for teenagers, considering their unique needs, preferences, and well-being.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to learn musical instruments.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you increase the usage of YouTube?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for people to learn how to play musical instruments.",
+    "companies": [
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design YouTube for kids?",
+    "companies": [
+      "flipkart",
+      "walmart",
+      "shopify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a PM for Alexa, you want to increase engagement for kitchen use. What would you do?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Facebook is thinking of entering the childcare space. You've been asked to think about what we should build. What would you propose?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "NULL",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a PM for Apple and Google engineers, how would you design the contact tracing app to help the world transcend the COVID-19 pandemic?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a kid-friendly umbrella suitable for an 8-year-old.",
+    "companies": [
+      "oracle"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app to help people reduce anxiety when trying to decide what cheese to buy at a grocery store.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you design a product to teach Finance to kids?",
+    "companies": [
+      "razorpay"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can we enhance clinical and operational excellence, while providing a differentiated quality of life for our healthcare patients?",
+    "companies": [
+      "oscar health"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Suggest a new product feature that would help Glassdoor acquire its next 10 million customers.",
+    "companies": [
+      "glassdoor"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for people to find a mentor.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a music service for kids.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Which app have you used for finding an apartment? How would you improve it?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build an app that can allow parents to find activities for their kids",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you redesign the umbrella?",
+    "companies": [
+      "dropbox",
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a Product Manager at Uber. Design a smartwatch app.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine a world where everyone has a smartwatch. If you run an amusement park (e.g., Six Flags), what would you do to provide a better user experience?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a feature for Facebook Portal to use in case of emergency.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for road trips.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a product to teach cooking remotely.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Pick a cause you are passionate about - example climate change, education, hunger, health, etc. - and design an app for it.",
+    "companies": [
+      "amazon",
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a grocery store for a dense, urban area.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Amazon has decided to enter the African market. Design its Home Page.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a product for hybrid work.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Help would you help first-time Airbnb hosts set their listing prices?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for parents to track their child's performance in school.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to make using Apple devices safer for its users.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a portal that can instantly transport people from any part of the world to another.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Google translate API.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you alter Instagram to make it a better fit for the SMB segment?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Redesign a washer and dryer to increase sales and profit.",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for health within the Facebook Blue app.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a grocery store for elderly people.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Improve an established ride-sharing product for senior citizens.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you're the CEO of a start-up. How would you build a product to help people find a place to live?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You're focusing on eCommerce advertisers at Tiktok. What do you build next?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to develop and build a hobby.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build a product for a tablet launched in restaurants?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a smart home for the blind",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an alarm clock for a deaf person?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a TV from Amazon.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a toll system for highways.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to solve pain points for working parents.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for people moving to a new city.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can you design TikTok, but for older people?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Define roadmap, build, roll out and measure success of a product to manage Covid vaccination across India such that 80% of population is vaccinated in a price optimised manner.",
+    "companies": [
+      "salesforce"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Facebook for the travel industry.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a solution for online learning.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a community lending library?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a social shopping feature at an eCommerce platform. How will you launch the MVP?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a note taking app?",
+    "companies": [
+      "powerplay"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the PM of Facebook Marketplace. You have been presented a proposal for sellers to provide a government-issued ID before they can post their products. How would you decide whether to implement this feature?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Google product for the Olympics.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a VR product for hospitals?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you go about launching a 'no rush' delivery for Instamart at Swiggy?",
+    "companies": [
+      "swiggy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Given that there are fewer employees in the offices, how would you manage the \"Corner Cafes\" where coffee and snacks are kept?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a Product Manager for the health ministry of India. Design a product for the efficient availability check and distribution of covid resources.",
+    "companies": [
+      "intuit"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook product for fitness.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the product manager (UX Team) at Ola and the CEO asks you to design a dashboard to monitor the business health. What KPIs will you include?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an elevator.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a car for blind people.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a computer keyboard.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a Product Manager at Ola. The CEO and co-founder wants to make Ola users more \u2018loyal\u2019 and increase the stickiness of users to the brand/product. He thinks it is time for Ola to become a larger part of the customer\u2019s life. Your mission is to see his vision to completion.",
+    "companies": [
+      "ola"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for carrot farmers.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a Product Manager for Expedia. Your customer segment is international travellers. How would you go about building a product for them?",
+    "companies": [
+      "expedia"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a baby sitting product.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a pen for an astronaut.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an ebike service for Google.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a mobile application to assist hobby gardeners.",
+    "companies": [
+      "atlassian"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Tell me about a product that can be sold at vending machines beyond classic snacks and drinks.",
+    "companies": [
+      "atlassian"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What will you design to enhance the customer experience for long train journeys?",
+    "companies": [
+      "postman"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Facebook wants to enter the fashion space. What would you build?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build Facebook Dating from 0-1?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Youtube for dating.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for a theme park.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for groups of people to plan trips.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM at Lyft, You are asked to build a product for grocery delivery. How would you build it?",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a crisis management app.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a calendar product for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How do you automate the return experience for an e-commerce company?",
+    "companies": [
+      "etsy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Lyft for large parties.",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you were a product manager at Google, how would you design a home delivery system and grow it in Europe?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are PM at Walmart in the customer care team. Your team's objective is good customer's experience with their queries and grievance management. At the same time, Walmart has undergone a strategic partnership with Facebook. Design a product that fulfils your team's objective and leverage the partnership with facebook.",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you redesign the Google Home speaker?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a smart watch for blind.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Improve the grocery store in-store shopping customer experience (i.e. a physical grocery store).",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you are a product manager at Facebook, how would you improve volunteerism?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a washer/dryer for urban living.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a phone for the blind.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for a gym.",
+    "companies": [
+      "meta (facebook)",
+      "adobe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a cab service for the elderly?",
+    "companies": [
+      "microsoft",
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "It is post COVID and employees need to come back to the office. How would you design a system for employees to book desks?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a social networking app for students of class 1 to class 12?",
+    "companies": [
+      "cred"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an inflight Entertainment system.",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to help users learn the Japanese language.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook Healthcare application at the beginning of COVID.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a product to monetize Facebook Marketplace.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a radio alarm clock for the next generation.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would improve the Zillow Offers product?",
+    "companies": [
+      "zillow"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an Uber riding pass?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for kids field trip.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you're the Product Owner for Google Inbox, what would your roadmap look like?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Google Glass for the blind people.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Facebook for the education industry.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you approach the design and go-to-market for a completely new bike concept?",
+    "companies": [
+      "google",
+      "airbnb"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for online shopping experience.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a security badge system for Google buildings?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the Product Manager of a ride-share app. What features would you create to prepare the company for autonomous vehicles?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design instagram for small businesses.",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Tell us about a technological trend that is currently happening. What Google could do to follow this trend and how can it provide a product related to this trend?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a gaming app for elderly people?",
+    "companies": [
+      "instacart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build a healthcare product?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a travel app for Google.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a voice assistant product for kids.",
+    "companies": [
+      "meta (facebook)",
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the PM of a Media Company. Your CEO ask you to create an app for the company's newspaper. What would you do?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you're a PM at Instagram. How would you design a product for finding recipes?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Redesign the city parking experience.",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You're a PM at Facebook. Design a product to increase engagement in a local community.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You work in an ice cream shop and step into the back for a few minutes. You return and see a large group of people waiting. How would you serve them?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a door for the visually impaired.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a mobile app that takes a picture of a resume and recommends jobs based on that.",
+    "companies": [
+      "linkedin",
+      "glassdoor"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design Lyft for commuters?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design \"Airbnb Experience\" inside the app?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product (digital or physical) to introduce a reward mechanism for cyclists (could be extrinsic or intrinsic).",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to help people buy cars.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a product to help people relocate during pandemics like the COVID-19?",
+    "companies": [
+      "attentive"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a better water bottle.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a supermarket for the elderly?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you redesign a Microwave?",
+    "companies": [
+      "google",
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What would you build to help with with Home Repairs ?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a product to help with Home Maintenance cost?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a question and answer website like Quora.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a dating feature for Instagram.",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a real esate product for FB.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You were a PM on Microsoft Surface and Delta asked you to design the perfect airline entertainment system. You decide the features, scenarios, and users. What would you do?",
+    "companies": [
+      "microsoft",
+      "salesforce"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new product from Facebook to improve vacation experiences.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM at Hyperloop, which is launching its first passenger route between SF and LA in 6 weeks. You are responsible for building out a mobile app in time for launch. What is your plan of action?",
+    "companies": [
+      "hyperloop"
+    ],
+    "tags": [
+      "execution",
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an application for beginners to learn dancing?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a wifi network for your city?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a Browser for children aged 7-14 years?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for kids.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an application for salons in the nearby areas. The solution should be like a marketplace for salon owners and consumers.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a volunteering product for the Social Goods team at Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM for a grocery store. How would you organise the aisles?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a residential apartment complex for Google.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product that helps people become healthier.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a new PM at Google. Design a wearable for children.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you select one particular zoom level for the MVP launch of the Google Maps mobile app?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a trash can?",
+    "companies": [
+      "google",
+      "capital one"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build a product to help people travel?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an educational tool for K-12 students.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a washroom for an office floor.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design furniture for Airbnb?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a new Siri?",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What parameters will you take into consideration while designing a recommendation engine for Netflix?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the CEO of a company that wants to revolutionize the restaurant industry. What would you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an application that allows Google employees to stay fit and track their health.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would design an Uber for laundry?",
+    "companies": [
+      "google",
+      "uber",
+      "asana"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a product that increases the consumption of fruit in the US?",
+    "companies": [
+      "google",
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a contactless checkout experience for a store selling groceries and garments?",
+    "companies": [],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Calculate and design a framework for students to choose their dream college.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "There is a small new grocery store in the city. They are doing well, and all the aisles are getting crowded. How would you solve it?",
+    "companies": [
+      "postclick",
+      "instapage"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a friend recommendation system for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "We have observed an organic increase in posts from small businesses regarding help wanted. Facebook has decided to invest in Jobs. How would you design a product for this need?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you use Facebook to create a doctor referral program?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an EV bike renting application for college students (residing in the campus)?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for teaching kids good behaviors.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design FB Sports?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a data model to accommodate an Account Hierarchy?",
+    "companies": [
+      "veeva"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for a preliminary screening interview for a recruitment firm.",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM at Google. Design a feature for a product meant for a completely blind person.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Redesign an intercity bus stand for a Tier-2 city in your country.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How do you design a Roomba vacuum for the stairs?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a refrigerator for offices.",
+    "companies": [
+      "meta (facebook)",
+      "google",
+      "asana"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook feature that measures user happiness.",
+    "companies": [
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can you improve Google Calendar?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you were the PM of Google Glass, which had been out of the market. How would you have designed and launched it, such that it became a success?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a chat-based product recommendation engine for an online flower/gift store.",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an AI-based application in a store that would help customers check out clothes and try them on.",
+    "companies": [
+      "salesforce"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a car music system for high-end luxury cars.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a product for Facebook to take on LinkedIn?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a ride sharing app within Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a way for people to find apartments.",
+    "companies": [
+      "airbnb",
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design the next version of the scheduled rides product to allow drivers to accept scheduled ride requests in advance.",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a way to make airport layovers suck less.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an experience for collectibles (stamps, coins, etc.) on Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Improve the experience of a customer in a shoe store?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a dashboard for Lyft Drivers. What metrics would you use to measure success of this dashboard?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a subscription model for Facebook Groups to increase revenue and engagement?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an ideal Chicken Coop?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for a community of Celiac disease patients.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product that prevents flat tires in cars.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a website for monthly rental units.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a camera that automatically uploads.",
+    "companies": [
+      "instagram",
+      "google",
+      "snapchat"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app that helps people find a doctor.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a news feature for Facebook?",
+    "companies": [],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a news feature for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a feature for finding apartments on Facebook.",
+    "companies": [],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Explain some new Alexa Skillsets you would roll out and why.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an app for truck dispatchers?",
+    "companies": [
+      "uber",
+      "lyft",
+      "amazon",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Let's say we wanted to implement a feature in Gmail similar to Amazon Mayday. How would that work?",
+    "companies": [
+      "amazon",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can you help Facebook design an urban public space?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are PM at Amazon in charge of launching Amazon's Bikeshare program. How would you go about it?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve BBM Messenger?",
+    "companies": [
+      "blackberry"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve HDFC Bank's website and app (separate answers for each)?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve the Facebook newsfeed?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you could build any product, what would you build?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "amazon",
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new type of mortgage that is both affordable and profitable.",
+    "companies": [
+      "lending club"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you have to change a garage door what would you change?  ",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a feature in a chat app such as WhatsApp for the data collection of company managers.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What would you build to replace service dogs?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a self drive car rental Mobile app.",
+    "companies": [
+      "google",
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design the Android App Development Environment?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a business operations dashboard for Direct Selling Agents (selling personal care or nutrition products)?",
+    "companies": [
+      "amway"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you redesign Facebook Pages?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a smart building.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an airport for the new generation.",
+    "companies": [
+      "zolo"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Membership Program for a non-profit.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Suggest a new feature for a PUBG mobile game.",
+    "companies": [
+      "microsoft",
+      "amazon",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you are the PM for Starlink (SpaceX has introduced satellites to provide accessible internet through satellite). How would you design the product to get maximum acquisition?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product that helps lonely people. It should have a physical aspect to it.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a search engine for the future.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you design a devotional social network App for devotees?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you incorporate stories into Instagram Explore?  ",
+    "companies": [
+      "instagram",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build an attendance tracking system for NGO volunteers.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design Google Photos for West Africa?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a feature for LinkedIn to hire remote workers for software/IT companies",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a system for structuring daily schedules in a high school.",
+    "companies": [
+      "yahoo"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product that would be used in the 2020 presidential election.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new social media product.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you integrate video into Chatter?",
+    "companies": [
+      "salesforce"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a platform PM for Netflix, design a method that improves the API performance and platform availability with the growing customer base. It must also help the company build many more services on the streaming platform to make it a one-stop solution for any content.",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a food allergies app.",
+    "companies": [
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you add a food item to a menu in a restaurant?",
+    "companies": [
+      "yelp"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve Pinterest?",
+    "companies": [
+      "pinterest"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a recommendation engine page for Myntra (fashion e-commerce) for its Product Detail Page for a newly onboarded customer?",
+    "companies": [
+      "cars24"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an onboarding experience for a product that helps remote workers take virtual breaks and grab coffee with each other.",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Give an example of a poorly-designed product.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Live?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to compete with Slack.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new feature for Instagram targeting under-served users.",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "List 5 enterprise software that are well done and has market potential. Explain why you chose them. Then pick one and define the KPI for its success. Define a North Star metric for this product. Given the North Star, define the roadmap. What features do you have to pay attention to for the specific case you picked?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Improve the lock screen experience of mobile phones and how you can justify the design with metrics.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a theme park in the US where the goal is to increase the user satisfaction of those who visit theme parks. How do you justify your design with metrics?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design WhatsApp's status feature.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a contactless ride experience for Uber.",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a contactless movie experience for PVR.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a tele-consultation feature for doctors.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a video chat app for families to stay in touch.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Facebook is a multinational company with many offices around the world. Its employees are constantly traveling. Build a solution for FB employees travel.",
+    "companies": [
+      "meta (facebook)",
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a bridge connecting Africa with South America?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you go about designing a music app for the blind?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Searching for certain topics is often frustrating, e.g., parenting advice. Brainstorm some solutions for that.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you design a brokerage/investing app for Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What would be your product strategy if Jeff Bezos would ask you to develop a contactless grocery store?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Add a voice command feature to Quora.",
+    "companies": [
+      "quora"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Facebook for monks.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Uber for pets.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a product for borrowers and lenders.",
+    "companies": [
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new feature for Instagram to ring fence revenue generated outside the Instagram platform.",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a new product relevant to Google's existing product line targeted at people using public transit.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a tool for a community.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the PM of Facebook Shop. What would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How do you solve the traffic problem in Seattle?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you use Facebook to find a dentist?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create an MVP for flying cars. Optimize the workflow for Cruise engineers.",
+    "companies": [
+      "cruise"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a digital signature solution for government and other sensitive businesses?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a microwave oven that could be used by everyone in the house. \u00c2",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a family wide photo sharing app? What about if someone in the family was vision impaired?  ",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a wireless speaker system for XBox.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You have to design a robot with no screen. What is it, and how will it be designed?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you go about implementing notifications for a logistics company?",
+    "companies": [
+      "affirm"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "In a home delivery type of business, design specific technology/software features that would improve the overall accuracy of the delivery time estimates.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a SAAS product using available augmented reality concepts.",
+    "companies": [
+      "oculus",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an automated car?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What are some reasons why WeWork failed?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What new product should Google invest in and why?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a community page for an Ed-Tech website?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you go about personalizing MS Office?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "1. What are the top product initiatives would you consider? 2. How would you measure the performance of your initiative?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a spreadsheet for mobiles.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are responsible for launching Google Tablet to restaurants. Describe how you would go about it.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How do you design a product solution to improve traffic signal obedience by road users (adherence to red/green light) and reduce transgressions in India?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Add food ordering capability to Amazon Echo. How would you go about designing the product?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Tell me about a problem with a product that bothers you. How would you use technology to solve the problem? Compare the best solutions. Explain how you would measure that your solution is working.",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a food delivery app?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve Google news?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you design to reduce the storage space of a mobile phone?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a travel insurance product for credit card customers.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a solution for a family to have safe digital experience.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a messaging platform for Notion?",
+    "companies": [
+      "notion"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Bay area is going to be hosting the soccer world cup in 2026. Design a futuristic vending machine which will be used inside these stadiums. During the design, also touch upon how many of them would you need per stadium?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for new college graduates for investing in the stock market . They don\u2019t know how to and where to invest and how the app can be helpful.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you design a tissue donor app for Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would design a platform like grammerly?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Will you launch a separate app for YouTube Music? If so, design the experience.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a PM for a major home appliance company, how would you design a refrigerator for the visually impaired?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How should Uber design a shuttle service for commuters between SF and South Bay?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you design a OLA/Uber kind of car booking platform where a user is able to book a vehicle and able to avail the service with near real time updates?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a best time management and tracking application for IT employees to track, monitor, gather progress.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a product to help with Home Repair cost?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the product lead for a project that wants to launch reusable restaurant takeout boxes. How would you take the product from ideation to launch?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a friendly referral system for a loan company.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a feature to automatically validate the identity of someone that is applying for a loan. How much does this feature cost?",
+    "companies": [
+      "clearbanc"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to connect badminton players.",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Walk me through how you would think about whether to build a travel product on Instagram.",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You created a new technology that allows you to collect every signal off the human body. How would you use it? Come up with 5 use cases.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "I travel often for work and I face challenges with luggage check-in. How would you create a product for this?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new pizza.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a colony on mars.",
+    "companies": [
+      "paypal"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Facebook is considering building something for conferences during covid. How would you design it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a PM for Facebook, what product would you build to make people safer?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you are a PM for UBER for a default pickup location feature. How would you improve this feature?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a personalized radio station for YouTube Music.",
+    "companies": [
+      "google",
+      "spotify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for job seekers.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Walk me through the design system of one of the products you\u2019ve PMed.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a feature for self-driving cars that addresses people\u2019s inherent fear to purchase.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What would you build as an educational product for Oculus?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM of the Amazon Prime Video team and you need to increase market share. Which strategy will you follow? Build a solution/product considering the COVID-19 situation.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "A huge number of Americans might become homeless in the next 5 years. You have 100 days to come with a plan/solution to eradicate or alleviate the homeless situation in the US. Where do you start?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to help children who lost access to education in developing countries due to covid.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM at Facebook. Design a new app for capturing and sharing photos and memories for families.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a grocery store checkout.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design the 'Try and Buy' feature for fruits & vegetables category for an online grocery delivery app?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "CTO comes to you and says that we should invest in the space of music. What will you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a phone for someone who is visually impaired.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for tissue donation.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What product will you design for companies that are moving towards a permanent work-from-home model?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Pick any industry and tell me the pain points of customers in that industry. Design a system for the pain points. How would you measure success?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the Product Manager at Spotify. To increase new users and to improve retention, one of the frontrunner ideas is building a live concert feature within the app. Talk about this feature in detail and describe how you would go about validating and building it.",
+    "companies": [
+      "spotify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve Apple Podcast?",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design Dynamic pricing for Upstart?",
+    "companies": [
+      "upstart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Pinterest for male users.",
+    "companies": [
+      "pinterest"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Facebook for kids.",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You're the CEO of a startup and you want to do something innovative in travel. What should you build? (Only constraint is that it's a software product)",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a product for disaster management? You can use all Google resources.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Assume Google Books didn't exist. How would you design Google Books?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you make Google faster?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Technical case: If you were to create Google Local Offers (which interviewer described as an app that sends push notifications for discounts for stores when you are close to them), what technical components do you need? What is the workflow, what would you need to store on the phone local storage? What interfaces would you need and what do they look like? What risks do you run into?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you were to create an image search engine, how would you do it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design Facebook Events 2.0?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What do you dislike about a Facebook feature of your choice?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an application that allows singers and musicians to get music gigs and meet up?",
+    "companies": [
+      "spotify",
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you wanted to create a 1-month MBA program, how would you think about structuring it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for kids to report bullying. What should be the key features?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you develop a product to take a Garage Sale online? What should be the key features?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you design a streaming service product that can cater to customers in the US and Canada assuming they have different needs?",
+    "companies": [
+      "viacom cbs"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine that you're the PM of a tutoring platform that has basic features such as video/audio calling. You received feedback from customers that you need to improve content sharing on the platform. What would you build?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product that's part of the current Facebook app and helps hospitals with their medical donation needs.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve remote learning?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a small startup. Suggest a product in the health and wellness space.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a product manager on the WhatsApp team at Facebook. Recommend a new integration with WhatsApp. The only requirement is it must be innovative and needs to intersect with Google Maps.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a PM at Google, how would you design a connected car experience?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build web application / mobile app for doctor consultation.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you are a product manager designing an online learning system for elementary school students. How would you design this product?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you are product manager for Android OS. How would you think about battery optimization?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an expense management system.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Netflix is asked to adjust their streaming quality to help with bandwidth. What do you do?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Let's imagine that the Ads product manager asks you to introduce ads inside the Facebook dating product. What would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a product manager at T-mobile. Design a fridge for children. How will you estimate the market? How will you price the fridge? Should T-mobile invest in this business?",
+    "companies": [
+      "t-mobile"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What approach will you take to create buying guides for cosmetics products on a Loreal mobile app?",
+    "companies": [
+      "loreal"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you are the Product Manager at Uber Freight. The CEO asks you to build an in-app chat feature. What would you do?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Walmart is noticing that a lot of kids ( aged 10-15) are visiting the stores and shop. How will you design a shopping cart for these kids?",
+    "companies": [
+      "microsoft",
+      "walmart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As an entrepreneur, design a product for helping buy furniture.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a fridge for an office.",
+    "companies": [
+      "asana"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you moved to a different city, how will you design an app to search doctors in your locality?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Youtube for concert lovers.",
+    "companies": [
+      "youtube"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Evaluate an app design using these five design principles: Innovative, Understandable, Aesthetic, Honest, Useful.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a scalable system that creates unique IDs.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a home repair product?",
+    "companies": [
+      "meta (facebook)",
+      "adobe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Facebook wants to get into the food delivery business. How would you do it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a tech entrepreneur, design a product for gifting.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you decide whether you should remove the room keys for check-in at hotels? Talk about the design (product and system).",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for food for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for scheduling non-work related appointments.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for scheduling appointments for SMB.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you solve the problem of having more than 6 people ride requests for Lyft?",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You're the product manager at eBay. Design a new homepage.",
+    "companies": [
+      "ebay"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Find an ideal product for the wearable technology.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "The State of Hawaii wants to ensure that travelers coming in follow the COVID guidelines like social distancing, etc. and to enforce the guidelines. Design a product to address this.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will be deisgn food delivery system for google?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How is the payment distributed between the app provider and Google? Design the system architecture.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a new product as part of the Facebook crisis management team.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Expedia.",
+    "companies": [
+      "wayfair"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a bike rental shop.",
+    "companies": [
+      "wayfair"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build a system that detects adult content on the twitter platform?",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a platform or dashboard for sellers on Amazon. Also talk about the success metrics for such a platform/dashboard.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design Tinder for the visually impaired?",
+    "companies": [
+      "meta (facebook)",
+      "tinder"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you were Netflix, and you were trying to target a specific movie for someone, how would you do it?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an App for travellers going to the airport (experience should cover things until they get on their flight).",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Uber is built primarily for a core use case of pickups and drop-offs in urban and suburban environments (E.g. home/work/vacations). It doesn\u2019t always work well at events such as concerts, sporting events, and festivals. How will you make Uber to/from large events (10K+ attendees) a magical experience for riders and drivers.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an education product for blind children.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine an ideal kitchen. How would you design it?",
+    "companies": [
+      "atlassian"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Come up with a proposal for a new kind of smart fridge. Go through all the steps you'd take to market and sell it.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an AWS service to help customers digitize their paper receipts.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine that you had to build a start-up. What would you build & how would you measure its success?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Walk us through the product design of either the Apple app store or Google Play.",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an app for family tree with a fun social factor?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you redesign the Uber drivers experience post Covid?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you create a digital license replacing the traditional license activation code associated with hardware devices?",
+    "companies": [
+      "cisco"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a grocery store for the blind.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a coffee maker for the international space station?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a virtual tourism experience.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Microsoft\u2019s Enterprise Metaverse.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new product that is visual to organize guests to sit by others with a common interest",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you deternine the risks associated with online ticketing systems?",
+    "companies": [
+      "eventbrite"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Walmart supply chain depends on the in store quantity of items in order for it to receive more orders. We want to apply ML algorithms to optimize this process. How would you proceed?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an investment strategy app.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM in a startup. Design a product that helps people build local communities.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM of a B2B product. Design a pricing tool that is going to be used by sales managers.",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a product for climate responsibility.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for borrowing and lending money on Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you decide to build a \"Products You May Wanna Buy\" on the Facebook newsfeed?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to help find new doctors.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a car rental experience for self-driving cars?",
+    "companies": [
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you were a PM at Google and were asked to design a software product for small to mid-sized businesses. How would you go about doing that?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a kids communication app.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a product for sports fans on Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a new mobile banking app?",
+    "companies": [
+      "fintech"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a Facebook product for charitable giving.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What user pain points does TikTok solve?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You're a product manager on a health team. Create a new feature for blood donation and define the product strategy from the beginning to the end.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design Uber Eats' APIs so restaurants can send over their data.",
+    "companies": [
+      "carta"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a service for children as a product manager for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a car-sharing product for kids (within an existing car-sharing app).",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build something for physical wellness.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As a product manager for TaskRabbit, design solutions for the worst booking experiences.",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a system for tutors and students to find each other.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new feature for Uber Eats.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a last-mile delivery solution using autonomous vehicle technology?",
+    "companies": [
+      "aurora"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build an app that can allow parents find activities for their kids.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new feature for the Capital One mobile app.",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for animal shelters to help increase the adoption of pets.",
+    "companies": [
+      "fintech"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a movie product for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine your company created a teleporter. Describe what it looks like. How do you roll it out?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the CEO of a startup in the health space. What will you build?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product for the worst post-confirmation experience on OpenTable.",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product that enables people to offer/take help in their local community.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a system that transfers large quantities of data from Earth to a different planet.",
+    "companies": [
+      "paypal"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a new Facebook feed where you can find nearby businesses like bars and coffee shops.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you improve Tiktok shopping?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Why is AI important to Google?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a podcast product for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a credit card system.",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a subway system.",
+    "companies": [
+      "coinbase"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Implement podcasts on Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If you are a Youtube Product Manager, how will you decide if you should do a filter feature for kids under a certain age?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you make Youtube faster?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What is the biggest problem Uber faces and how would you solve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Given a mirror, a camera, and connectivity, make a product.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design an app for wine drinkers.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a product for investing in real estate.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a tool to collect customer feedback on an app (any app).",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product in the fashion space for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "If Facebook built a product to help users find rental housing, what would it look like?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you're building a product to help people learn a new language. What would you build and why?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to help users find a handyman. Assume this is for a start-up and that Facebook does not exist. It needs to be launched in 6 months - what's the MVP?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a parking garage app.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Name two products that are bad but successful anyway.",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to find a doctor during the pandemic.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build a new podcasting feature for Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the GM of Disneyland. You want to lower the length of the waiting lines. What do you do?",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a parking lot.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a product to find a contractor.",
+    "companies": [
+      "qualcomm"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you work at Tesla and you are the product manager designing a feature that alerts the driver when they are going to run out of power before they reach the next charging station. What data do you need to make this feature possible?",
+    "companies": [
+      "theoremone"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What would you build if you were a start-up in the food delivery space?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What is your favorite investing (stocks, crypto, MFs) app? How would you design a social angle for this app?",
+    "companies": [
+      "indmoney"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the product manager at Facebook. Build a product to raise money for causes, considering there is no existing Facebook product for this.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As the product manager of a new consumer-facing music subscription service, what is the key differentiator that you will build as part of this service?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Tell me about a time when you had to come up with an innovative solution.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What are the next top three big technologies that Google should be aware of? Implement one of them.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine that there is a supply chain problem across the globe. DoorDash has just launched its grocery service, but it has been receiving a lot of complaints about missing items. Currently, there are no substitutions available in the app. How would you solve this problem in the product? Chat is available between the shopper and the buyer.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a valet service for hotels.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a bike program for Google's Mountain View campus.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are the product manager for Metaverse. What would you build?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What would be your approach to validating an idea for a borrowing and lending product, and how would you go about building it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design",
+      "metrics"
+    ]
+  },
+  {
+    "title": "How would you improve the health of the internet?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can I create a product that allows users to search for and book flights?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can we increase user engagement for content creators/influencers on LinkedIn?",
+    "companies": [
+      "ola"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you build a new product for an artist?",
+    "companies": [
+      "fashion industry"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a kid-friendly Swiggy experience for 10-16 year olds.",
+    "companies": [
+      "veeva"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Define and Design a Video on Demand application for Smart TV. Define the product vision, goals and target market.",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a LinkedIn for blue-collar workers.",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Create a user-friendly online pet marketplace tailored for farmers, focusing on easy transactions and providing credit options.",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a washing machine for blind people?",
+    "companies": [
+      "pharmeasy"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As the Product Manager for Horizon Worlds on Oculus, what would you design?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a travel product for Facebook that enhances user experience and addresses the unique needs of travelers within the social media platform.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How will you ensure the safety of Apple products for users?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design volunteering on Facebook Blue?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a fridge for blind.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a feature for cryptocurrency tax reporting on TurboTax?",
+    "companies": [
+      "intuit"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As the Project Manager for the driver app at a rideshare company (similar to Uber or Lyft), brainstorm the implementation of a bathroom feature to assist our drivers in finding restrooms during their routes.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design an Apple Watch app for Tesla?",
+    "companies": [
+      "tesla"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Should Meta design a product for pet owners? If yes, please describe the product and outline how you would approach the design.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product to recommend items to customers for purchasing via Amazon Prime Now, with the objective of optimizing the number of stock keeping units (SKUs) and warehouse space.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "As the PM of Instacart, what solution would you design for businesses, and how would it enhance their experience on the platform?",
+    "companies": [
+      "instacart"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Hair salons experience peak customer traffic during specific time periods but remain empty for the rest of the day. Design an MVP to maximize capacity utilization.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a Meta product for education. Which Meta platform will you choose to build it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a wearable for health workers. Assume you are the PM for a company that builds smart watches for elite athletes. The company now wants to build for health workers.",
+    "companies": [
+      "razorpay"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "For Flipkart, propose a product feature that would enhance the customer experience?",
+    "companies": [
+      "flipkart",
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Design a product (web or mobile) to help people sell products on Instagram.",
+    "companies": [
+      "social pilot"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "What feature would you add to a Tesla car to make sure that the driver can take turns with ease and without missing blind spots?",
+    "companies": [
+      "tesla"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Build a calendar scheduling tool for Dropbox.",
+    "companies": [
+      "dropbox"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How can Zomato create a monetizable data product for restaurants? Create the entire go-to-market plan for it.",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-design",
+      "product-strategy",
+      "execution"
+    ]
+  },
+  {
+    "title": "How would you enhance restaurant ratings for both dining and delivery services?",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you design a voice-driven calling app similar to Alexa or Google Home\u2019s call functionality? What are your considerations regarding user privacy, data security, and user experience?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you leverage the TikTok app to acquire customers for their shopping platform?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "When designing maps for last-mile delivery, what factors would you prioritize to ensure efficient and accurate routing?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You\u2019re a PM at Meta Reality Labs. Design a learning experience (e.g. pottery or welding in terms of fields).",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a PM at Shopify. Design a world-class loyalty program.",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM at Subway. Design a product to help store managers run stores efficiently.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "You are a PM at Meta. How would you build a fitness product for the visually impaired?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you add a health option for DoorDash?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "How would you prevent 'bad' content from being uploaded to a social media platform?",
+    "companies": [
+      "medium"
+    ],
+    "tags": [
+      "product-design"
+    ]
+  },
+  {
+    "title": "Imagine you\u2019re a PM at Meta. How would you make users feel less guilty about using Instagram while also increasing revenue?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design",
+      "product-strategy"
+    ]
+  }
+]

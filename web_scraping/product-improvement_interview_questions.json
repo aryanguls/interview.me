@@ -1,0 +1,4391 @@
+[
+  {
+    "title": "How would you improve Google Maps?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is your favorite product? Why?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "paypal",
+      "salesforce",
+      "stripe",
+      "spotify",
+      "dropbox",
+      "adobe",
+      "walt disney"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve YouTube?",
+    "companies": [
+      "google",
+      "flipkart",
+      "spotify",
+      "dropbox",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can you improve Facebook Stories?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Birthdays?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Amazon?",
+    "companies": [
+      "amazon",
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve user engagement on WhatsApp?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "twitter",
+      "pinterest"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instagram?",
+    "companies": [
+      "meta (facebook)",
+      "instagram",
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve engagement on LinkedIn?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Marketplace?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Netflix?",
+    "companies": [
+      "google",
+      "netflix",
+      "spotify",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook tagging?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Spotify has a 1-month trial membership. We noticed that users were not converting to paid membership after the free trial. From a product standpoint, what can you do to improve user engagement and subsequent customer retention?",
+    "companies": [
+      "spotify"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Photos?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "dropbox"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook for commuters?",
+    "companies": [
+      "meta (facebook)",
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Reactions?",
+    "companies": [
+      "meta (facebook)",
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you solve the problem of misinformation on FB?",
+    "companies": [
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are a new PM at Google Pay. Design a feature for budgeting.",
+    "companies": [
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Linkedin jobs?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Spotify?",
+    "companies": [
+      "dropbox",
+      "spotify",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Twitter?",
+    "companies": [
+      "paypal",
+      "twitter",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Netflix rating page is annoying for the users. What will you do to fix this?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are a PM at Flipkart. The company has decided to increase the userbase of age >60 years on the platform. What will you do?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Uber for a football event?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "uber",
+      "lyft",
+      "stripe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Give an example of a badly designed product.",
+    "companies": [
+      "meta (facebook)",
+      "amazon",
+      "uber",
+      "lyft",
+      "airbnb",
+      "instacart",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Uber?",
+    "companies": [
+      "uber",
+      "lyft",
+      "walmart",
+      "paypal",
+      "dropbox",
+      "instacart",
+      "coinbase",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you solve OpenTable's worst customer experience?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Microsoft OneNote?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can Google help improve the grocery shopping experience of users?",
+    "companies": [
+      "google",
+      "walmart",
+      "paypal",
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve TikTok?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Drive?",
+    "companies": [
+      "google",
+      "flipkart",
+      "dropbox",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you make WhatsApp more user-friendly for the elderly to use?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you double active users on Facebook Shop weekly when only 6% of FB users remain active in the first week and 0.4% remain active after 3 weeks?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Pay?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you prioritize a customer facing feature with X impact on engagement vs a tech driven task like upgrading the libraries to eliminate legacy bugs which have no immediately visible impact?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Facebook Timeline?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Gmail?",
+    "companies": [
+      "google",
+      "dropbox",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve usage of Facebook Groups?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the restaurant search?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Twitch to make creators run more ads on the platform?",
+    "companies": [
+      "twitch"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Discord?",
+    "companies": [
+      "twitter",
+      "discord"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Microsoft Teams?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instagram stories?",
+    "companies": [
+      "instagram",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase retention for Oyo Rooms?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve LinkedIn messenger?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you reduce Gmail storage size?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook birthdays?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Design a new feature for Twitter that improves the new user\u2019s experience.",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the sign up process for LinkedIn?",
+    "companies": [
+      "linkedin",
+      "twitter",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Imagine you are the Product Manager of YouTube Shorts. What improvements would you make?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the MS Teams search functionality as a Search PM at Microsoft Teams?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you improve Slack?",
+    "companies": [
+      "stripe",
+      "dropbox",
+      "slack"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Duolingo?",
+    "companies": [
+      "dropbox",
+      "duolingo"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Venmo?",
+    "companies": [
+      "paypal",
+      "dropbox",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Amazon.com or Amazon.in?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you redesign the Apple App Store?",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Yelp?",
+    "companies": [
+      "walmart",
+      "yelp"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Quora website? What will be your strategy to engage more users?",
+    "companies": [
+      "quora"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve LinkedIn?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Design a jobs product for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You have decided to build the feature 'Sharing recommendations' for Netflix. What happens next?",
+    "companies": [
+      "linkedin",
+      "netflix"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can the service of Facebook Messenger be improved?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Redesign Twitter for eCommerce.",
+    "companies": [
+      "google",
+      "amazon",
+      "walmart",
+      "shopify",
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve engagement in Trello?",
+    "companies": [
+      "trello",
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the video experience on Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Home?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Uber app?",
+    "companies": [
+      "uber",
+      "lyft",
+      "stripe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can the retention rate be increased on a web/mobile job portal app?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Let\u2019s say that you are the PM for Uber Eats and assume that helping users eat healthier will improve engagement. What new feature will you build to test this assumption?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Walmart?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase the number of users who save products to a list on Amazon's product details page? Suppose that user testing has shown many users are unaware the list feature exists.",
+    "companies": [
+      "redfin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Docs?",
+    "companies": [
+      "google",
+      "dropbox",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What would be a *new* feature or a product that you would like to launch on Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You're the new product manager for YouTube and you notice a drop in video engagement by 15% over the past two weeks. What do you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you solve the fake messages problem in WhatsApp/other messaging platforms?",
+    "companies": [
+      "whatsapp",
+      "telegram",
+      "message"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As a PM for Google Maps, how would you improve the restaurant search?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instacart?",
+    "companies": [
+      "dropbox",
+      "instacart",
+      "adobe",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Trello?",
+    "companies": [],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Chromecast?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Starbucks app?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "paypal",
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What improvements would you suggest for the Zomato app?",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Imagine you\u2019re a Product Manager at Airbnb. You have been assigned the task of adding a new feature that could be useful to the Airbnb user base. It must include an integration with an external third-party/non-Airbnb API.",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve iOS Reminders?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the funnel for new users at Revolut?",
+    "companies": [
+      "revolut"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can you improve Google Meet for the elderly?",
+    "companies": [
+      "intuit"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you you improve gmail's draft email functionality?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you reduce waiting time at popular rides in an amusement park?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is your favourite Google product? How would you improve it for the elderly people?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As a PM at WhatsApp, you found that there is a gradual decrease in the engagement of WhatsApp groups. How will you make enhancements in such a way that this engagement is improved?",
+    "companies": [
+      "6sense"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Drafts feature of your mail client?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What privacy feature would you add to WhatsApp?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you further improve YouTube's share feature?",
+    "companies": [
+      "twitter",
+      "youtube"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you solve the inventory issues with Uber Grocery?",
+    "companies": [
+      "uber",
+      "instacart"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Amazon Prime?",
+    "companies": [
+      "amazon",
+      "walmart",
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "how would you improve Facebook's safety check feature?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Pick an airport you are familiar with. How would you improve it?",
+    "companies": [
+      "google",
+      "dropbox"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Portal?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are a Product Manager of CANON (camera manufacturing company), You see your market share decreasing year on year due to higher Mobile phone penetration. How would you increase the revenue and market share of the company?",
+    "companies": [
+      "walmart",
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve the in-store grocery shopping experience.",
+    "companies": [
+      "google",
+      "walmart",
+      "stripe",
+      "shopify",
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Home?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve image search?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is a product you currently use every day, why and how would you improve it?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What data points or metrics might have made the Product team at Instagram to hide the number of likes from posts for viewers and show it only for creators?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Waze as a PM?",
+    "companies": [
+      "google",
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What are the different problems that Instacart would see in their delivery experience? How would you prioritize the problems?",
+    "companies": [
+      "instacart"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Rooms?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are the PM for Facebook newsfeed. How would you improve it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you improve book/pdf/article reading experience on Chrome in mobile or tablet?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you improve Instagram's share feature?",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Messenger?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instagram Shopping?",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Describe your top 3 favorite products and why. Products can be hardware or software, for example, a chair, hairdryer, etc.",
+    "companies": [
+      "google",
+      "stripe",
+      "dropbox"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement",
+      "product-sense"
+    ]
+  },
+  {
+    "title": "What is your favorite mobile game and how do you go about improving it?",
+    "companies": [
+      "zynga",
+      "uber"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve patient retention by improving the counseling side of a tele-counseling platform?",
+    "companies": [
+      "one medical"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve Instagram?",
+    "companies": [
+      "instagram",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Hangouts?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Give me 10 ways that you will improve a trash can.",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is your favorite Google product? Pick one, and describe how to improve it.  ",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Dropbox?",
+    "companies": [
+      "google",
+      "stripe",
+      "dropbox",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Airbnb app?",
+    "companies": [
+      "google",
+      "flipkart",
+      "dropbox",
+      "airbnb",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the WhatsApp Search feature?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve order conversions by optimising the product descriptions page for a fashion Ecommerce platform?",
+    "companies": [
+      "google",
+      "amazon",
+      "meta (facebook)",
+      "shopify"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Pages and how would you determine success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve a coffee machine used in offices?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "amazon",
+      "dropbox",
+      "spotify"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Describe one feature that you would like to improve in the Amazon app.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What 2 new features will you add in Whatsapp for users like you and me?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Airbnb in 6 months?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-improvement",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the product manager for Slack. How would you unlock more pathways for product-led growth?",
+    "companies": [
+      "slack"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are the PM for Pixel phones. How will you improve Pixel to make it the best-selling phone?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase the frequency of YouTube (visits/week/user)?",
+    "companies": [
+      "youtube"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is the app on your mobile device that you hate the most and how would you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Pretend you're a Product Manager at Google Maps. Your objective is to increase customer engagement with small and medium-sized businesses (SMBs). What do you do? Next, how would you get SMBs to implement your solution?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement",
+      "execution"
+    ]
+  },
+  {
+    "title": "As the owner of a small grocery store, if you notice long queues at the checkout, how would you go about reducing them?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Meet?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you evaluate the impact of teenagers' use of Facebook when their parents joined Facebook? How would you improve accordingly?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How should Yelp identify closed restaurants?",
+    "companies": [
+      "yelp"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Cancellation rate on Uber is currently at 25%. What would you do to bring this down to 5%?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Enhance the YouTube experience for creators.",
+    "companies": [
+      "google",
+      "youtube"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve the current iteration of Snapchat to compete with the likes of Instagram and TikTok.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Talk about a product you think is not well designed and why. How would you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Maps?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is your favorite product? Why?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "paypal",
+      "salesforce",
+      "stripe",
+      "spotify",
+      "dropbox",
+      "adobe",
+      "walt disney"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve YouTube?",
+    "companies": [
+      "google",
+      "flipkart",
+      "spotify",
+      "dropbox",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can you improve Facebook Stories?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Birthdays?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Amazon?",
+    "companies": [
+      "amazon",
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve user engagement on WhatsApp?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "twitter",
+      "pinterest"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instagram?",
+    "companies": [
+      "meta (facebook)",
+      "instagram",
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve engagement on LinkedIn?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Marketplace?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Netflix?",
+    "companies": [
+      "google",
+      "netflix",
+      "spotify",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook tagging?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Spotify has a 1-month trial membership. We noticed that users were not converting to paid membership after the free trial. From a product standpoint, what can you do to improve user engagement and subsequent customer retention?",
+    "companies": [
+      "spotify"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Photos?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "dropbox"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook for commuters?",
+    "companies": [
+      "meta (facebook)",
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Reactions?",
+    "companies": [
+      "meta (facebook)",
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you solve the problem of misinformation on FB?",
+    "companies": [
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are a new PM at Google Pay. Design a feature for budgeting.",
+    "companies": [
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Linkedin jobs?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Spotify?",
+    "companies": [
+      "dropbox",
+      "spotify",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Twitter?",
+    "companies": [
+      "paypal",
+      "twitter",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Netflix rating page is annoying for the users. What will you do to fix this?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are a PM at Flipkart. The company has decided to increase the userbase of age >60 years on the platform. What will you do?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Uber for a football event?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "uber",
+      "lyft",
+      "stripe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Give an example of a badly designed product.",
+    "companies": [
+      "meta (facebook)",
+      "amazon",
+      "uber",
+      "lyft",
+      "airbnb",
+      "instacart",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Uber?",
+    "companies": [
+      "uber",
+      "lyft",
+      "walmart",
+      "paypal",
+      "dropbox",
+      "instacart",
+      "coinbase",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you solve OpenTable's worst customer experience?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Microsoft OneNote?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can Google help improve the grocery shopping experience of users?",
+    "companies": [
+      "google",
+      "walmart",
+      "paypal",
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve TikTok?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Drive?",
+    "companies": [
+      "google",
+      "flipkart",
+      "dropbox",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you make WhatsApp more user-friendly for the elderly to use?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you double active users on Facebook Shop weekly when only 6% of FB users remain active in the first week and 0.4% remain active after 3 weeks?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Pay?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you prioritize a customer facing feature with X impact on engagement vs a tech driven task like upgrading the libraries to eliminate legacy bugs which have no immediately visible impact?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Facebook Timeline?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Gmail?",
+    "companies": [
+      "google",
+      "dropbox",
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve usage of Facebook Groups?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the restaurant search?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Twitch to make creators run more ads on the platform?",
+    "companies": [
+      "twitch"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Discord?",
+    "companies": [
+      "twitter",
+      "discord"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Microsoft Teams?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instagram stories?",
+    "companies": [
+      "instagram",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase retention for Oyo Rooms?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve LinkedIn messenger?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you reduce Gmail storage size?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook birthdays?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Design a new feature for Twitter that improves the new user\u2019s experience.",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the sign up process for LinkedIn?",
+    "companies": [
+      "linkedin",
+      "twitter",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Imagine you are the Product Manager of YouTube Shorts. What improvements would you make?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the MS Teams search functionality as a Search PM at Microsoft Teams?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you improve Slack?",
+    "companies": [
+      "stripe",
+      "dropbox",
+      "slack"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Duolingo?",
+    "companies": [
+      "dropbox",
+      "duolingo"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Venmo?",
+    "companies": [
+      "paypal",
+      "dropbox",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Amazon.com or Amazon.in?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you redesign the Apple App Store?",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Yelp?",
+    "companies": [
+      "walmart",
+      "yelp"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Quora website? What will be your strategy to engage more users?",
+    "companies": [
+      "quora"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve LinkedIn?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Design a jobs product for Facebook.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You have decided to build the feature 'Sharing recommendations' for Netflix. What happens next?",
+    "companies": [
+      "linkedin",
+      "netflix"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can the service of Facebook Messenger be improved?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Redesign Twitter for eCommerce.",
+    "companies": [
+      "google",
+      "amazon",
+      "walmart",
+      "shopify",
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve engagement in Trello?",
+    "companies": [
+      "trello",
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the video experience on Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Home?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Uber app?",
+    "companies": [
+      "uber",
+      "lyft",
+      "stripe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can the retention rate be increased on a web/mobile job portal app?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Let\u2019s say that you are the PM for Uber Eats and assume that helping users eat healthier will improve engagement. What new feature will you build to test this assumption?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Walmart?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase the number of users who save products to a list on Amazon's product details page? Suppose that user testing has shown many users are unaware the list feature exists.",
+    "companies": [
+      "redfin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Docs?",
+    "companies": [
+      "google",
+      "dropbox",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What would be a *new* feature or a product that you would like to launch on Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You're the new product manager for YouTube and you notice a drop in video engagement by 15% over the past two weeks. What do you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you solve the fake messages problem in WhatsApp/other messaging platforms?",
+    "companies": [
+      "whatsapp",
+      "telegram",
+      "message"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As a PM for Google Maps, how would you improve the restaurant search?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instacart?",
+    "companies": [
+      "dropbox",
+      "instacart",
+      "adobe",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Trello?",
+    "companies": [],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Chromecast?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Starbucks app?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "paypal",
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What improvements would you suggest for the Zomato app?",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Imagine you\u2019re a Product Manager at Airbnb. You have been assigned the task of adding a new feature that could be useful to the Airbnb user base. It must include an integration with an external third-party/non-Airbnb API.",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve iOS Reminders?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the funnel for new users at Revolut?",
+    "companies": [
+      "revolut"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can you improve Google Meet for the elderly?",
+    "companies": [
+      "intuit"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you you improve gmail's draft email functionality?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you reduce waiting time at popular rides in an amusement park?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is your favourite Google product? How would you improve it for the elderly people?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As a PM at WhatsApp, you found that there is a gradual decrease in the engagement of WhatsApp groups. How will you make enhancements in such a way that this engagement is improved?",
+    "companies": [
+      "6sense"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Drafts feature of your mail client?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What privacy feature would you add to WhatsApp?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you further improve YouTube's share feature?",
+    "companies": [
+      "twitter",
+      "youtube"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you solve the inventory issues with Uber Grocery?",
+    "companies": [
+      "uber",
+      "instacart"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Amazon Prime?",
+    "companies": [
+      "amazon",
+      "walmart",
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "how would you improve Facebook's safety check feature?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Pick an airport you are familiar with. How would you improve it?",
+    "companies": [
+      "google",
+      "dropbox"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Portal?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are a Product Manager of CANON (camera manufacturing company), You see your market share decreasing year on year due to higher Mobile phone penetration. How would you increase the revenue and market share of the company?",
+    "companies": [
+      "walmart",
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve the in-store grocery shopping experience.",
+    "companies": [
+      "google",
+      "walmart",
+      "stripe",
+      "shopify",
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Home?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve image search?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is a product you currently use every day, why and how would you improve it?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What data points or metrics might have made the Product team at Instagram to hide the number of likes from posts for viewers and show it only for creators?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Waze as a PM?",
+    "companies": [
+      "google",
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What are the different problems that Instacart would see in their delivery experience? How would you prioritize the problems?",
+    "companies": [
+      "instacart"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Rooms?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are the PM for Facebook newsfeed. How would you improve it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you improve book/pdf/article reading experience on Chrome in mobile or tablet?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you improve Instagram's share feature?",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Messenger?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instagram Shopping?",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Describe your top 3 favorite products and why. Products can be hardware or software, for example, a chair, hairdryer, etc.",
+    "companies": [
+      "google",
+      "stripe",
+      "dropbox"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement",
+      "product-sense"
+    ]
+  },
+  {
+    "title": "What is your favorite mobile game and how do you go about improving it?",
+    "companies": [
+      "zynga",
+      "uber"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve patient retention by improving the counseling side of a tele-counseling platform?",
+    "companies": [
+      "one medical"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve Instagram?",
+    "companies": [
+      "instagram",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Hangouts?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Give me 10 ways that you will improve a trash can.",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is your favorite Google product? Pick one, and describe how to improve it.  ",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Dropbox?",
+    "companies": [
+      "google",
+      "stripe",
+      "dropbox",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Airbnb app?",
+    "companies": [
+      "google",
+      "flipkart",
+      "dropbox",
+      "airbnb",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the WhatsApp Search feature?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve order conversions by optimising the product descriptions page for a fashion Ecommerce platform?",
+    "companies": [
+      "google",
+      "amazon",
+      "meta (facebook)",
+      "shopify"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Pages and how would you determine success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve a coffee machine used in offices?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "amazon",
+      "dropbox",
+      "spotify"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Describe one feature that you would like to improve in the Amazon app.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What 2 new features will you add in Whatsapp for users like you and me?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Airbnb in 6 months?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-improvement",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the product manager for Slack. How would you unlock more pathways for product-led growth?",
+    "companies": [
+      "slack"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are the PM for Pixel phones. How will you improve Pixel to make it the best-selling phone?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase the frequency of YouTube (visits/week/user)?",
+    "companies": [
+      "youtube"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is the app on your mobile device that you hate the most and how would you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Pretend you're a Product Manager at Google Maps. Your objective is to increase customer engagement with small and medium-sized businesses (SMBs). What do you do? Next, how would you get SMBs to implement your solution?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement",
+      "execution"
+    ]
+  },
+  {
+    "title": "As the owner of a small grocery store, if you notice long queues at the checkout, how would you go about reducing them?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Meet?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you evaluate the impact of teenagers' use of Facebook when their parents joined Facebook? How would you improve accordingly?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How should Yelp identify closed restaurants?",
+    "companies": [
+      "yelp"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Cancellation rate on Uber is currently at 25%. What would you do to bring this down to 5%?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Enhance the YouTube experience for creators.",
+    "companies": [
+      "google",
+      "youtube"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve the current iteration of Snapchat to compete with the likes of Instagram and TikTok.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Talk about a product you think is not well designed and why. How would you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Pick an app for listening to music & podcasts. What is this app's goal? What does it do well? What can be improved to drive engagement?",
+    "companies": [
+      "google",
+      "spotify"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Consider Amazon Prime's search engine. How would you enhance user experience while searching for videos?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you increase AOV (average order value) by 15% for Swiggy?",
+    "companies": [
+      "cars24"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can you optimize drivers' waiting time at Uber?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You work for Uber and you need to increase your revenue. How would you proceed?",
+    "companies": [
+      "agoda"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve OYO?",
+    "companies": [
+      "oyo"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As a Product Manager for a food delivery app, you have received feedback that the platform seems to lack sufficient healthy food options. What would be your strategy or the next steps you would take to address this concern?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can we improve the Real World Data feature in healthcare. Focus on patient engagement.",
+    "companies": [
+      "oscar health"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve Deliveroo.",
+    "companies": [
+      "deliveroo"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What Facebook products can be improved by showing location information? How?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve the airport security experience.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve WhatsApp Business to drive more engagement?",
+    "companies": [
+      "whatsapp"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What\u2019s a product you dislike but have to use everyday? How would you improve it? How would you get it to the market?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve YouTube music?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase Whatsapp status engagement?",
+    "companies": [
+      "snapp"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Assistant?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve one of the Product Managers\u2019 day-to-day tools.",
+    "companies": [
+      "houzz"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What would be the next app that you delete from your phone? Explain why.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "how would you improve google map for the elderly?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What's your favorite Microsoft product and how would you improve it?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you improve Facebook Watch?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Outlook app?",
+    "companies": [
+      "microsoft",
+      "paytm"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Zoom?",
+    "companies": [
+      "linkedin",
+      "dropbox",
+      "zoom"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are the Product Manager for Zoom Chat. How would you improve it?",
+    "companies": [
+      "zoom"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Ads Manager?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "On a scale of 1 to 5, how would you rate the Facebook Messenger app and why?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What are the key Metrics to measure the performance of a company in food delivery business and how can we improve the ones related to churn rate?",
+    "companies": [
+      "google",
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve medium?",
+    "companies": [
+      "google",
+      "capital one"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve LinkedIn for job seekers?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Think of a time you interacted with a government agency (passport, DMV, etc.) and how you would make it better.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you identify the decline in usage of Azure?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the airport experience?",
+    "companies": [
+      "google",
+      "dropbox"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Flights?",
+    "companies": [
+      "google",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve news sharing on Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Amazon Photos?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you increase the paid subscription base on LinkedIn?",
+    "companies": [
+      "walmart",
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you make Google search better?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve TripAdvisor?",
+    "companies": [
+      "expedia"
+    ],
+    "tags": [
+      "execution",
+      "product-improvement",
+      "product-sense"
+    ]
+  },
+  {
+    "title": "How would you increase user engagement on Microsoft OneDrive?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve Facebook comments.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are the PM of an OTT service provider (over the top service provider just like Netflix and Hotstar). How would you go about identifying the product improvements required? Explain the thought process to prioritise the features to make it rank better on user experiences.",
+    "companies": [
+      "zee5 premium (india)",
+      "netflix",
+      "hotstar",
+      "prime"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve DoorDash's post booking experience once the user has ordered their meal?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Angel Broking?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the search for charities on Bing?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "If you have to build a new FB experience for your phone, what would you build?",
+    "companies": [
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Design a shared carpool experience for Lyft.",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve Google Play Store.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve the \"Sharing Post\" feature of Instagram.",
+    "companies": [
+      "instagram",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you improve the check out experience for Airbnb?",
+    "companies": [
+      "stripe",
+      "airbnb",
+      "instacart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve Reddit's home page?",
+    "companies": [
+      "reddit"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve monetization of Facebook stories?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you use ML to improve Facebook the newsfeed?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Which Google product don't you like and why? What would you do to improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Take a grocery app - what would be the features you would suggest?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you roll out an algorithm improvement for driver matching?",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Redesign the fire hydrant.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the LinkedIn user profile page?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the rush hour experience?",
+    "companies": [
+      "google",
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you increase open table restaurant users base?",
+    "companies": [
+      "opentable"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve FB profiles and how would you determine its success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve throughput of an airport by 100%?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Yelp\u2019s restaurant search?",
+    "companies": [
+      "yelp"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Reddit?",
+    "companies": [
+      "reddit",
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you add an edit option in the application for HR_admin user only for leave details of a particular staff member?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Which is your favourite email client and why?",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve LinkedIn Groups?",
+    "companies": [
+      "linkedin",
+      "group"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you increase the number of users on TikTok?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve a trip organiser app like TripCase or TripIt?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Earth?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase the conversion rate of the Airbnb Reservation experience for first timers?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are a platform PM. How would you improve the current platform and tools for Facebook's AR/VR developers so that they can build solutions with better performance and reliability?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the conversion rate of a VPN product?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is that one product feature that would change the landscape of Devops/GitOps?",
+    "companies": [
+      "microsoft",
+      "google",
+      "medium",
+      "amazon",
+      "atlassian"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Design a content recommendation engine for New York Times to improve content/news recommendation to users.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Name 3 of your favorite nontech products and why? Improve one of them.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve Robinhood (trading platform).",
+    "companies": [
+      "robinhood"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you improve Slack?",
+    "companies": [
+      "dropbox"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve Craigslist.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How to make brands onboarding smoother on Instagram for Influencer marketing.",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You're a PM in charge of Robinhood's Option trading feature, how would you improve it?",
+    "companies": [
+      "robinhood"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the new user experience on Twitter?",
+    "companies": [
+      "meta (facebook)",
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Big Basket's customer experience?",
+    "companies": [
+      "big basket"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You're a PM for Twilio. How would you improve the product (what product would you launch next)?",
+    "companies": [
+      "twilio"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the web browsing experience?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is the worst designed Google product? Why? How would you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook Jobs?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve the battery life of all Windows computers.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the App store?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What other features would you add to the Twitter app?",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Affirm?",
+    "companies": [
+      "affirm"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Twitter news?",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase the growth rate of Uber?",
+    "companies": [
+      "walmart",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Twitter? What success metrics would you use to track your improvement?",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Tell me a product that you don't like but still use. How will you improve this product?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are a Product Manager for Telegram. What new features will you build?",
+    "companies": [
+      "slack"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "how would you improve google translate?",
+    "companies": [
+      "google",
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Coinbase?",
+    "companies": [
+      "adobe",
+      "coinbase"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase the ARPU of LinkedIn learning users?",
+    "companies": [
+      "linkedin",
+      "hotstar"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Facebook has experienced a lot of negative news coverage and it's causing an erosion of trust in the product. What would you do to increase trust of Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Uber for a concert/festival?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve customer experience with the Walmart mobile app?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What feature would you include in LinkedIn to increase its revenue?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Consider you are assigned to find the best Sort option for product list pages. How would you solve this problem?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are the PM for Google Voice. How you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you help a B2B travel platform to expand their business?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You inherited a team/product riddled with issues. What are you going to do as a PM?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the user retention of Google calendar by 10x? What what you do to achieve this?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Version Control feature in Google Docs?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve trust in the Bing search results for healthcare?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve adoption of the Bing search engine in India?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instagram feed and measure its success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Yelp for businesses? What metrics would you collect?",
+    "companies": [
+      "yelp"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What is a non-technical product that you use everyday and you like? Why do you like it? How would you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Notion?",
+    "companies": [
+      "dropbox",
+      "notion"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Netflix Recommendation?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Airbnb Homes product?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve the recommendation engine of a streaming services product?",
+    "companies": [
+      "viacom cbs"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Pick a real estate app that you're familiar with. What problem is this solving? How would you improve it?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase the user engagement for Doordash?",
+    "companies": [
+      "instacart",
+      "attentive"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve Google Maps in the remote area for non-tech oriented people?",
+    "companies": [
+      "google",
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you drive the adoption of Google Docs version control feature?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As a PM in the Microsoft OneDrive team, ideate and prioritize features and capabilities that would enable OneDrive to become the most preferred storage solution for all personal needs such as sharing photos and videos, etc.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As the PM for the Microsoft Word app on the Android team, design voice interaction features that would deliver simplified productivity experiences for saving time and improving efficiency.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the worst post-booking experience on Opentable?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the take rate for Paypal. Take rate is the percentage of revenue that paypal charges its merchants for all transactions via Paypal.",
+    "companies": [
+      "paypal",
+      "venmo"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You're a product manager at DoorDash. What feature will you improve?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Pick a non-technical product you use. Why do you like it and why don't you like it? How will you improve it?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are the product manager for the Apple iOS. How would you improve the product?",
+    "companies": [
+      "adobe"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Amazon Kindle Direct Publishing?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Instacart\u2019s homescreen in the app?",
+    "companies": [
+      "instacart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Should Twitter build Stories?",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Clubhouse?",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What privacy feature would you add to Twitter?",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are product manager of Amazon.co.in home page. How will you improve the product?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the onboarding flow (sign up -> outbound transaction) of Revolut by 15% in the next 3-4 months?",
+    "companies": [
+      "revolut"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Facebook\u2019s search monetization?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve a water bottle?",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Fiverr app?",
+    "companies": [
+      "fiverr"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As a Netflix Product Manager, how would you improve the Netflix subscription model?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Calendly?",
+    "companies": [
+      "calendly"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve user engagement for Youtube TV?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you prevent fraud in an online lending platform?",
+    "companies": [],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What are three products you use daily?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the air travelers' experience?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Improve the DMV.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the company off site experience?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you monetize Housing.com for the home buyers?",
+    "companies": [
+      "housing"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What are the use cases and top opportunities for reducing the number of overcharged rides?",
+    "companies": [
+      "bolt"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve your iPhone?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve OpenTable's post-booking experience?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are the product manager at Target. How will you improve the shopping cart experience at Target stores?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Pick a music/podcast app. Why do you like it? On the flip side, what do you not like about it? What improvements would you suggest?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What improvements will you add to the paytm consumer app?",
+    "companies": [
+      "paytm"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the worst post-booking experience for an airline?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "You are a manager at WhatsApp with a $2B budget for improvements. What do you do?",
+    "companies": [
+      "cisco"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How will you improve Youtube for emerging markets?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the Capital One shopping app?",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As a product manager for a podcast app, what strategies would you employ to enhance user engagement?",
+    "companies": [
+      "spotify"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Spotify to drive more adoption of the 40-60 year old demographic?",
+    "companies": [
+      "spotify"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How do you increase the volume of breakfast orders for Uber Eats?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase trust in a new fintech app that allows users to transfer money across countries, for example, from a person in the US (in dollars) to a person in India (in rupees)?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-growth",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Flipkart?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "As an ethical programming consultant for autonomous vehicles, how do you handle challenging situations where the vehicle must make decisions with potential negative consequences, like swerving to avoid a pedestrian at the risk of passenger safety?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve battery life on YouTube mobile without making changes to the UI/UX?",
+    "companies": [
+      "youtube"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Suggest a feature for Amazon that would improve user experience?",
+    "companies": [
+      "amazon",
+      "other"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you make Headspace the go-to app for someone experiencing anxiety, instead of turning to YouTube to listen to podcasts by medical experts?",
+    "companies": [
+      "headspace"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Design a post-checkout experience at Ticketmaster.",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "What are the biggest challenges of Google Workspace?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve Google Pay for busy people?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you increase the basket size on Walmart's eCommerce site?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the recommendations module 'For You' on TikTok?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can you increase 7-day retention for new users on Messenger?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How can you increase the monthly active advertisers for boosted posts on Facebook and Instagram?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "How would you improve the post-booking experience on Lyft?",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Air travel CSAT is very low. How would you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement",
+      "product-strategy"
+    ]
+  }
+]

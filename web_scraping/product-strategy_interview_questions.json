@@ -1,0 +1,4474 @@
+[
+  {
+    "title": "What should Airbnb's strategy be during the COVID-19 pandemic?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "walmart",
+      "airbnb",
+      "stripe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you design surge pricing for Uber or Lyft?",
+    "companies": [
+      "google",
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you acquire more users for Uber?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM for a B2C product that has an advertisement-based monetization model with significant and steady daily revenues. One day, there are no ads served and the revenues plummet to zero. What would be your strategy, as a Product Manager, to deal with this crisis?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "stripe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM for Facebook Live. What are your priorities?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Evaluate the upsides and downsides of building a super app \u2014 an app having all major B2C features including entertainment, e-commerce, food ordering, hotel booking, cab booking, chat, holiday planning, gaming, med ordering, service booking, etc.",
+    "companies": [
+      "google",
+      "amazon",
+      "microsoft",
+      "airbnb",
+      "netflix"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you determine if a specific block in your neighborhood is suitable for a new grocery store?",
+    "companies": [
+      "google",
+      "amazon",
+      "shopify",
+      "instacart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Do you think Google should buy the iRobot company? Why or why not?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you monetize Facebook messenger?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a PM at Uber. Devise strategies to improve revenue.",
+    "companies": [
+      "uber",
+      "lyft",
+      "stripe",
+      "swiggy",
+      "adobe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you decide between showing more ads on the Facebook Newsfeed vs showing a \"People you may know\" recommendation widget?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you sell live plants on Amazon?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "The earphone category at Flipkart is seeing a lot of returns and making this category non-profitable. What will you do as a category manager?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Facebook's next acquisition be?",
+    "companies": [
+      "meta (facebook)",
+      "instagram",
+      "whatsapp"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google get into the ticketing market? If so, what would you build?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "linkedin",
+      "instacart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Google Keep is a free product to save, share notes etc. How would you make it a subscription product & monetize it?",
+    "companies": [
+      "google",
+      "adobe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As a PM of YouTube, how do you position YouTube against Instagram and Snapchat?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Microsoft Teams' product strategy be for the next 3 years?",
+    "companies": [
+      "microsoft",
+      "salesforce"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What would your roadmap be for Google Pay? 1 year vs 3 years.",
+    "companies": [
+      "google",
+      "stripe",
+      "swiggy"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're the PM for newsfeed and you have to decide whether to show more videos or more events. What do you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "With an unlimited network bandwidth what would you build?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM of notifications. How would you determine the trade offs between showing your friend\u2019s fundraiser or the event they are going to / created?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As PM of LinkedIn feed, what would you show on the top right of the page-\"Sponsored ads\" or \"People you may know\"?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Uber Eats added a surcharge of $4 for all food delivery orders under $20. Why did uber eats add this surcharge? How is it going to change user behavior?",
+    "companies": [
+      "cargurus"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine that you\u2019re the CEO of Netflix. What is your strategy for the next 10 years?  ",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What are the trade offs with Facebook Stories usage going up and Facebook posts going down?",
+    "companies": [
+      "meta (facebook)",
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What strategies are Apple, Amazon, and Google taking in healthcare? What is better, breadth or depth in healthcare use cases? Pros/cons?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you decide whether to build a feature or fix a bug (assuming both take the same engineering effort)?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "<p>This is an interview question, with a few sub-questions I was able to get after asking them:</p><ul><li>How would you determine the roadmap for a product? (Assume any product and any feature)</li><li>What are the key criteria's/aspects you will consider to create this road map?</li><li>How much weight will your roadmap have for user-driven features?</li></ul><p>&nbsp;</p>",
+    "companies": [
+      "meta (facebook)",
+      "amazon",
+      "linkedin",
+      "airbnb",
+      "youtube",
+      "codacy"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Uber Eats be a different app from Uber Rides?",
+    "companies": [
+      "uber",
+      "lyft",
+      "instacart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "We've outsourced a critical mobile app to a 3rd party developer. How do we decide when to take that development in house?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine you're a PM at Amazon and you're working on a partnership with Facebook that has the goal of leveraging FB's friend network to drive Amazon sales. Walk through the lifecycle for building this integration/partnership.",
+    "companies": [
+      "meta (facebook)",
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why should Facebook enter the dating market and how would you execute it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Amazon is planning to expand its operations to Tier 1 and Tier 2 cities. They have observed that users don't trust the brand. What should they do to build trust with the user base?",
+    "companies": [
+      "amazon",
+      "flipkart",
+      "snapdeal"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Meta strategy be for the next 2 years?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Strategize and implement omni-channel initiatives to improve customer LTV for Walmart.",
+    "companies": [
+      "google",
+      "walmart",
+      "shopify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Define and describe a strategy for Disney+ Hotstar Subscriptions growth in India.",
+    "companies": [
+      "hotstar"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you increase YouTube's daily active users?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What are the tradeoffs between having advertisements vs. no advertisements on Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you monetize Wikipedia?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were CEO of Nest, what would be the next product you would build?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Amazon offer \u201cAmazon Prime Lite,\u201d which offers just a few perks of Amazon Prime at a fraction of the cost? If the answer is yes, what would you include in Prime Lite, and how much should it cost?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Launch grocery on Flipkart.",
+    "companies": [
+      "flipkart",
+      "swiggy"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should be short and near term goals for Netflix.",
+    "companies": [
+      "meta (facebook)",
+      "netflix",
+      "spotify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Evolve a GTM strategy to acquire 1 million new users for Bing on Android.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Your company has been able to digitize smell, how will you launch this new service?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Compare Amazon Prime, Netflix and Hotstar. Which is your favorite and why?",
+    "companies": [
+      "netflix",
+      "amazon",
+      "hotstar"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "An engineer suggests showing suggested Buy/Sell Groups on users' newsfeed instead of the People You May Know section. How do you determine if that is a good idea or not?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google get into the ride-sharing market?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you decide whether or not to accept payments for Facebook messenger?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a Product Manager of a B2C organisation in the gaming space and have partnered with a SAAS solution provider. The provider has a pay-as-you-go SaaS pricing model. Due to the COVID-19 lockdown, you see an unprecedented surge in users which could lead to massive average charges as per the contract. What will be your strategy as a Product Manager to tackle this?",
+    "companies": [
+      "tencent",
+      "pubg corp"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google launch a TV service?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Lyft wants to add Shared Saving rides. What factors will you consider to determine riders' willingness to pay? What experiments will you run to test your assumptions?",
+    "companies": [
+      "lyft",
+      "uber"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you decide on the price of Amazon Prime?",
+    "companies": [
+      "amazon",
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How can you increase the basket value for Uber Eats orders?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How will you reduce Paypal's operating costs by 50%?",
+    "companies": [
+      "meta (facebook)",
+      "fintech",
+      "amazon",
+      "paypal",
+      "stripe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Walk me through how you prioritize your product backlog.",
+    "companies": [
+      "airbnb",
+      "spotify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You own 6 pizza shops in the city and want to improve revenue. Do you develop a mobile app or use Uber Eats?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you assess the impact of weather on consumer spend last winter?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Assume you are a product manager for Airbnb. There are two problems to solve: customers being unable to check-in, and customers having a dirty place. How would you prioritize these issues?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What hot new tech product do you think will be completely forgotten about a year from now?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you increase growth and market share for Google Cloud?",
+    "companies": [
+      "google",
+      "adobe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "For a food delivery app, what goals would you set for the next 6 months?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do we determine what content to recommend on Quora?",
+    "companies": [
+      "quora"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What will be your release strategy for Facebook Reactions? How will you monitor the release?",
+    "companies": [
+      "meta (facebook)",
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the product manager of Youtube, evaluate whether you should add a new feature to show the videos flashing 5 frames instead of being static in the search thumbnail view.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you decide to display ads on the Facebook Newsfeed? After every 100 posts or 25 posts? Evaluate tradeoffs.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What apps should benefit from an API that detects moods?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Facebook allow political ads?",
+    "companies": [
+      "meta (facebook)",
+      "twitter"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the next billion dollar opportunity that Meta has not pursued yet?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google continue to invest in the Chrome OS and Android OS separately or merge them at some point?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is an area where Google is under invested?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you are a Chief Product Officer for YouTube, how would you explain the product to someone? What are the top three metrics you would keep track of?",
+    "companies": [
+      "amazon",
+      "flipkart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're the PM for WhatsApp and you have $1B to invest. What would you do?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Facebook require users to upload profile photos during onboarding? How would you go about deciding this?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Page Creation in Facebook went down by 10%. What would you do? Let us say you have solved it. Pages are up and back to normal. However, WAUs went down by 5%. What would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "problem-solving",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Define a strategy of loyalty program for Google Pay.",
+    "companies": [
+      "google",
+      "amazon",
+      "uber",
+      "stripe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should be Slack's product strategy for the next 3 years?",
+    "companies": [
+      "adobe",
+      "slack"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you develop the strategy for YouTube for the next 5 years?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You want to launch a subscription based product like Netflix. How would you price this product?",
+    "companies": [
+      "hotstar"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As PM of LG, decide if you should launch a Smart Fridge.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you use Facebook groups to promote an event?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the CEO of Xeros, how would you address growth and shareholder value?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM for Apple TV streaming service. What would your roadmap for the next three years look like?",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you price Dropbox?",
+    "companies": [
+      "dropbox"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you run a promotion to increase top-line, in-store revenue for Target? How would you decide what to promote? How would you run the experiment?",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine you are the head of product for Chrome. What would your strategy be?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you grow Spotify by 20%?",
+    "companies": [
+      "twitter",
+      "spotify",
+      "coinbase"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Compare two search algorithms by defining the North Star KPI. Measuring that KPI through 3 metrics and identify success flags.",
+    "companies": [
+      "agoda"
+    ],
+    "tags": [
+      "execution",
+      "technical",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you turn Facebook Events around?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Suppose you're a PM for Instagram and someone suggests that all Instagram content formats (posts, Reels, stories, live, etc.) be shown in a single feed, instead of in separate tabs as they are now. How would you decide whether or not to implement this idea?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you are the CEO of Google, what will be your roadmap for the next 5 years?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you price the Google Translator API?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What would you do if you were a head of product at Meta?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Google invest in the next 5-10 years?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If a VC gave you $100M to build a payments app for India and maximize market share in 12 months, what would be your strategy?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you increase the number of comments on Facebook Posts?",
+    "companies": [
+      "meta (facebook)",
+      "walmart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine Google engineers came up with an API service that converts freeform text to SQL statements. How would you go about making this into a service, taking it to market?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Design a contactless dining experience for pubs like social.",
+    "companies": [
+      "yelp"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Lyft enter the food delivery business?",
+    "companies": [
+      "google",
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Zuckerberg emails you and says the music experience space is picking up attention. What do you do as a product manager? You can't email him back.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the opportunity of adding a push notification feature to Youtube TV for Kids from 10 - 14 years old?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you build people you may know recommendation for LinkedIn?",
+    "companies": [
+      "linkedin",
+      "upstart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google build a video streaming service to compete with Netflix, Disney+, PrimeVideo, and Hulu? If yes, outline the strategy.",
+    "companies": [
+      "google",
+      "netflix"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If Google decided to charge users for Gmail, what would be the impact? Should it proceed to charge users for using Gmail?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you solve the inventory issues with Uber Grocery?",
+    "companies": [
+      "uber",
+      "instacart"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy",
+      "product-improvement"
+    ]
+  },
+  {
+    "title": "Let's assume we are successfully able to teleport inanimate objects. How would you go about monetizing or launching this project?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM of Google Hangout . The avg playstore rating is 3 star with 100k reviews but the problem is that 40% of the users gave 5 star rating and 40% gave 1 star. What would you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Assume that in a major urban city, there is a section of interstate highway that is only available for self-driving cars. What are some potential business opportunities?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why is Google investing in self-driving cars?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Given the existing G-suite products, if you were a PM at Google, would you go ahead and launch a product for improving the task completion rate of users? If yes, could you take me through the flow of how you would design the solution along with the tradeoffs and metrics to measure the success of the launch?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Where do you think Reels fits in Facebook's long term strategies? Why choose Instagram to launch Reels and not Facebook?",
+    "companies": [
+      "meta (facebook)",
+      "instagram"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Swap 'People you may know' with 'Products you may buy'. As a PM, how will you make a decision to swap an existing feature with a new feature without developing the new feature?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How you would prove the value of the Reactions feature? How would you decide whether to launch it or not?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are PM at Amazon and you are asked to change the pricing for the Prime membership. How would you go about it?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Which vertical should be the focus for Facebook Watch? Why?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If Elon found you and made you the next GM, would you use spacex to launch air travel around the world?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're a founder, and have decided to start something in the travel space. What do you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Lyft build ride scheduling functionality?",
+    "companies": [
+      "uber",
+      "lyft",
+      "instacart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How might you think about implementing down payments for customers who cannot be approved for the full amount of a desired purchase?",
+    "companies": [
+      "affirm"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why does Starbucks sometimes have coffee shops on both sides of the road?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Suppose you are the PM at Uber Eats and a recent survey results in a data that majority of users want a functionality through which they can order \"X\" from Restaurant A and \"Y\" from Restaurant B in a single order. As a PM will you implement such a functionality? If yes how will you go about it?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google Maps enter into all aspects of restaurant business/domain (beyond just search)",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why did Google acquire Fitbit for over $2 billion?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google make one more attempt at social media?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "twitter"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Apple launch its own search engine?",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Google gets the opportunity to place ads in in-flight entertainment (seat-back and personal device). Should it proceed, or not?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a Product Manager for a Premium OTT Service and are gearing up for the launch of a much awaited series. A week before the release of the series, the show gets leaked. How do you respond and mitigate this scenario?",
+    "companies": [
+      "netflix",
+      "hotstar"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Identify a new monetization strategy for Instagram.",
+    "companies": [
+      "instagram"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Due to COVID-19, the sales of greeting cards in retail stores have dropped. What are some of the strategies to increase sales?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Amazon cut its affiliate rates?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If we made a tool that will design clothing automatically through artificial intelligence, how can you identify the target market and pricing structure?",
+    "companies": [
+      "e-commerce",
+      "fashion industry"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Mark Z wants to up-convert all the media uploaded into high resolution media. What would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What are you favorite mobile apps and why?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If Google wants to start charging for a single product it owns, which would it be and why?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google offer a Stubhub competitor? That is, sell sports, concert, and theater tickets?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you increase adoption of Google's Fiber to the Home product?",
+    "companies": [],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How can you increase Amazon's revenue (focus on the e-commerce space)?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Give me an example of the biggest mistake in product strategy of a successful product that led to its downfall.",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Only 1 in 5 drivers gets tipped. How would you help drivers get more tips on Uber?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a PM at the streaming service Apple TV. Tell me what your roadmap would look like for the coming year.",
+    "companies": [
+      "apple"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you improve Airbnb in 6 months?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-improvement",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google Cloud build or buy a visualization tool like Looker?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the CPO of Atlassian, what would be your strategy for company growth?",
+    "companies": [
+      "atlassian"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What are all the factors to be considered when launching Uber in a new city?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Which existing feature on Zomato would you sunset or redesign? why?",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you are the product manager for new user registration at Facebook, and user research comes to you with a suggestion to remove picture requirement, how would you decide what to do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you increase sales at Amazon?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Amazon enter the smartphone business?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you determine the optimal number of ads to display on a Yelp page?",
+    "companies": [
+      "yelp"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Design a strategy for Microsoft Office.",
+    "companies": [
+      "adobe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a PM in a security team, the management has tasked you to reduce the security issues in the software development activities. How would you do it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Uber reintroduce Uber Pool in India?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you build a ride scheduling feature?",
+    "companies": [
+      "bolt"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "I am setting up a restaurant. How should I decide whether to list my restaurant on Zomato or Swiggy?",
+    "companies": [
+      "swaggy"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Which area should Affirm expand its loan product to next? Home improvement, elective health products, or automotives? Please stack rank your priorities.",
+    "companies": [
+      "affirm"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a platform PM for AWS. There is a new third party platform that is becoming really popular in integrating with existing cloud platforms to improve the load balancing of app traffic. What metrics and goals would you consider in the build/buy decision?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you determine if the customer care team at a Shopify app is effectively contributing to business growth, and what steps would you take if it's not?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Share how you would kick-start the creation of a customer care team for a Shopify app and outline your roadmap.",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Define the customer journey map for creating a customer care team for a Shopify app.",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you monetize the data collected from Tesla cars as more users adopt and drive electric vehicles?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "The Indian Government has recently announced a nationwide lockdown. As the product manager at Ola, you have seen a huge hit to sales. What would you do to increase revenue at Ola? Is there a new business that you would venture into? Why or why not?",
+    "companies": [
+      "indmoney"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You work for a company that deploys solar technologies, including solar panels. The company installs them and provides maintenance services. While the business is currently performing well, you've been tasked with achieving a 10x growth within the next two years. What would you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As a Meta PM, evaluate and recommend if it makes sense for Meta to converge all their chat products (Instagram Chat, Messenger, WhatsApp) into a single product.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine you get user feedback to build a video scrubber on TikTok. What would you do?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the product manager of a video streaming content site, how would you determine what content to put on the landing page?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the Chief Minister of Andhra Pradesh. The proposal is to have 3 capital cities for the State. What are the pros and cons and what is your recommendation?",
+    "companies": [
+      "mckinsey"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What product feature prioritization framework should be used for a product developed for both internal teams and external customers? How should features be prioritized?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "how much more or less do you pay drivers per trip (by changing Lyft\u2019s take)? Your goal is to maximize net revenue for the next 12 months on this route.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "problem-solving",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Twitter add an \"Edit Tweet\" feature?",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google build a food delivery app?",
+    "companies": [
+      "atlassian"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the next big opportunity for Youtube? How would you go about designing it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "NULL",
+    "companies": [
+      "doordash"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the product manager of Instagram Story. Before we launch, how would you set metrics for progress?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Tell us about a time you had a conflict between short-term and long-term priorities and how you resolved it.",
+    "companies": [
+      "hellofresh"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine that you are the product manager responsible for Bolt\u2019s ride-hailing product. One of the ideas that were added to your backlog is the ride-scheduling functionality. Analyze this scheduling feature from the product perspective and make a recommendation on whether to proceed with implementation.",
+    "companies": [],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "LinkedIn CEO wants to allow anonymous posting and asks you for recommendation on whether or not they should build it. What do you say to the CEO?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Where would you geographically expand the Facebook Marketplace if it was only available in the US and Canada?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Uber Eats is stealing market share of DoorDash. What would you do?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Brainstorm ideas to increase Youtube's revenue.",
+    "companies": [],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why is profile completion so important to LinkedIn?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you take Whatsapp UPI payments usage in India from 10% of MAUs to 25% of MAUs?",
+    "companies": [
+      "whatsapp"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you improve the user activation rate of Airbnb? Feel free to assume What you consider to be activation.",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Pick a Google Cloud product you would sunset. Why?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Define a strategy for Netflix to compete with Amazon Prime and Disney+ Hotstar to adopt to users in the Indian OTT market.",
+    "companies": [
+      "amazon",
+      "netflix",
+      "hotstar"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why do Facebook Marketplace exist? What are its goals?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "metrics",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the founder of a credit card startup. What are the different growth metrics you would track in the early days?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "On Instagram Shops, should users be allowed to check out without logging in first?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What pricing enhancements can we make to reduce driver rejections?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the PM for the Windows phone, how would you make it successful?",
+    "companies": [
+      "google",
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Did it make sense for Zomato to do 10 minute instant delivery?",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google offer an Airbnb compeititor?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Suppose a customer is considering switching from Azure to Google Cloud. What are 5-7 key pieces of information (metrics, policies, etc.) about Google Cloud you would want to show them?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Google do on Healthcare? Why?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you see the creator economy evolving over the next few years? If you want to make a major product investment within this space, what would you recommend we should build?",
+    "companies": [
+      "intuit"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You ran an A/B test and saw that it drops engagement. What would you do about it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "It's 2016, how would you have decided whether to launch Facebook stories?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you improve Grammarly and what will be your key metrics to measure its improvement?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Suppose you're the PM for Facebook Stories and your teammate says we should increase the height of the stories bar in the app. How would you think through this decision?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the future of the streaming music industry in your opinion?",
+    "companies": [
+      "google",
+      "spotify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you determine when to run a price promotion?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "There is a long line every weekend for dinner at a local Burmese restaurant. You are the owner. Would you consider it as a good thing or bad thing? What would you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Discuss the tradeoffs between showing the \"people you may know\" widget versus ads in the newsfeed. How would you decide which one to show to a given user?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you internationalize a US based product?",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "The CEO of your company has asked you to launch a digital wallet. Should you?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "One of the ideas that was added to your backlog is the ride scheduling functionality. Analyze this scheduling feature from the product perspective and make a recommendation whether to proceed to the implementation step.",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are in charge of pricing for an immersive AR/VR experience type offering. How would you price it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine you are VP of Product for Google Chrome OS and Android. What is your goal for the next 3 to 5 years?",
+    "companies": [
+      "google",
+      "stripe"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the next big thing for Google?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you monetize WhatsApp?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you get more usage for Google Search?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you are a product manager at Google's food delivery service, how will you increase the market share?",
+    "companies": [
+      "google",
+      "swiggy"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Come up with a new product or market that Google could enter.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "For a marketplace, how would you decide whether to have two different apps for buyers & sellers or only a single app?",
+    "companies": [
+      "airbnb",
+      "startup",
+      "swiggy"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Your restaurant is experiencing long lines for pickup orders. How would you decrease the wait time?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How is Netflix different from YouTube from the product philosophy perspective?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Do you recall a process change you suggested that became a norm within your team or company later on?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Capital One is thinking of launching a new credit card for active people. Should we?",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you want to double the traffic from SEO for a website, what are the steps you will follow?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you do customer segmentation?",
+    "companies": [
+      "rakuten"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why did Facebook build Facebook Stories?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you decide if you should build a \"Products you might want to buy\" feature on the Facebook Marketplace newsfeed?",
+    "companies": [
+      "meta (facebook)",
+      "instacart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were a product manager at Google, would you reinstate Orkut? Why?",
+    "companies": [
+      "twilio"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the market size for commercial space travel?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine we have come up with a mood API which enables real time access to anybody's mood. What should we do with it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the Product Manager of Ads Business at eBay. There are 3 projects for 2021, two are integration with external partners, and one is platform vision (internal). How would you plan the roadmap for 2021?",
+    "companies": [
+      "ebay"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Explain the ad tech market - the key players, what drives customer stickiness, the revenue model, and where the profit pools are.",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why did Amazon get into the hardware space?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is your strategic analysis of mobile messaging applications?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Name a technology you like. Design a product using the technology.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the Product Manager for the Google Hardware. Can you explore opportunities in the shower/bathroom area?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you design an online map that would help navigation inside a building?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you project a gardener-robot for Google HQ?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Think of a time you interacted with a government agency (passport, DMV, etc.). How would you make it better?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you're the product owner for Google Inbox, what would your roadmap look like?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Pick an object near you. What attributes do you consider as important for this product? How would you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the product leader responsible for Facebook search globally, how would you create a 5-year vision and strategy?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Product Manager comes to me (Data Scientist) and tells me that the \"share\" button feature is not improving engagement. Let's take it out. How would you, as a Data Scientist, evaluate that feature?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As Google, how would you go about improving inflight experience?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are on the board of Google Maps. There are number of competitors coming up in the market. i.e Waze etc. What is your strategy to maintain your dominance?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you think about monetization for Facebook Marketplace?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Evaluate the competitive landscape (direct & indirect) for Dropbox.",
+    "companies": [
+      "google",
+      "dropbox"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you Improve customer revenue for Amazon?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Uber work on a shuttle service that runs between SF and South Bay?",
+    "companies": [
+      "meta (facebook)",
+      "instacart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "G-suite is considering to implement a malware and virus detection. How would you evaluate the decision?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Your team has implemented a change in the \"Share\" feature and released it for A/B testing. You realized that there is 20% of usage of the feature. Would you still decide to release it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you get another billion monthly active users on YouTube?",
+    "companies": [
+      "youtube",
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google acquire Quora?",
+    "companies": [
+      "google",
+      "twitter"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Waymo is being asked to monetize beyond the ride-sharing use case. What should they do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Design a product to improve diners' experiences at restaurants after they finish the meal.",
+    "companies": [
+      "google",
+      "amazon",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why did Instagram remove the like count on posts?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM for Facebook newsfeed. How would you decide between showing events or videos?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM at Facebook Post. What reactions should we add next?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the growth Product Manager for a social carpooling app. Due to COVID-19 and the enforcement of lockdowns, you see your key KPIs like DAU, rides and revenue drop to almost zero. What would be your strategy to revive the momentum and bring back users as lockdown measures are lifted?",
+    "companies": [
+      "blablacar",
+      "quickride",
+      "sride"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a Product Manager for a B2B enterprise product. You need to do a competitor analysis but the products of your competitors are not openly accessible without a long drawn sales negotiation. How do you go about it?",
+    "companies": [
+      "zendesk",
+      "slack"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM for TikTok's Android app. The app's Play Store rating has dropped drastically from 4.2+ to 2 in India in less than a week's time. It is mostly due to a surge of trolls downrating the app. What is your plan of action?",
+    "companies": [
+      "bytedance",
+      "tiktok"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Airbnb enter the furniture retail market?",
+    "companies": [
+      "airbnb",
+      "instacart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should LinkedIn add a Video Feed feature?",
+    "companies": [
+      "linkedin",
+      "google",
+      "netflix",
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What process would you follow if you have to send a kite in space?",
+    "companies": [
+      "zestmoney"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you decide whether Instagram should add shopping on its website/app?",
+    "companies": [
+      "linkedin",
+      "instagram"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you go about ranking posts and everything else on Newsfeed?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google build a shopping recommendation?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Netflix provide a freemium model? Why?",
+    "companies": [
+      "spotify",
+      "netflix",
+      "instacart",
+      "pinterest"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Would you build a travel product on Instagram?",
+    "companies": [
+      "meta (facebook)",
+      "instagram"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "\"You're the PM for Google AdWords. One of the core initiatives you own is to increase spend, account engagement, and number of accounts in the SMB (small-to-medium) business space. What does your 1-year roadmap look like?\"",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you enter into blue collar hiring?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you plan to increase the revenue of a yoga aggregator portal that provides booking for healing centers and provides yoga trainer at home services?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Describe the strategy behind Google entering the cell phone market.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Amazon is thinking of building a social network feature into its product. Choose either pros or cons and state your case.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should we integrate a voice assistant to our Smartwatch? Why or Why not?",
+    "companies": [
+      "fitbit"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Tell me one time you were successful in identifying a customer need. Walk me through the process, and also the rationale behind why you think you were successful.",
+    "companies": [
+      "pinterest"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're the PM for Facebook Newsfeed. What's your roadmap for the next year?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How will you reduce Chime's operating cost by 50%?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "fintech",
+      "chime"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you Improve customer acquisition for Amazon?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you Improve customer activation for Amazon?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you Improve customer retention for Amazon?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you Improve customer referral for Amazon?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would business look like in a world with unlimited connectivity?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine a product that helps farmers to get a better value for the crops they sell at the local markets. How would you go to market with this? Focus on generating incentives for both supply and demand side. Design the product.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Start a new coffee shop in Toronto, Canada.",
+    "companies": [
+      "google",
+      "sap"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What do you think is Amazon's challenge right now?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you monetize Quora?",
+    "companies": [
+      "quora"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What are the lean startup methodologies you have followed as a Product Manager in your organization?",
+    "companies": [
+      "startups"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Facebook launch a feature suggesting to \"Unfriend this friend\"? If yes, how should it decide which friends to suggest to unfriend?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As an entreprenuer, will you enter India's ecommerce market?",
+    "companies": [
+      "flipkart",
+      "e-commerce"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are eating in your company cafeteria and someone taps you on your shoulder. It's your CEO asking you what the company should do next. What would you do?",
+    "companies": [
+      "meta (facebook)",
+      "microsoft",
+      "amazon",
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a PM at Facebook. An engineer comes with an idea to place a feature on the Facebook homepage that would show items that you may be interested in. Would you build it?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What would be the strategy to increase Uber's revenue in the taxi in the ride hailing business?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you price a brand new Kindle book?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the difference between horizontal and vertical integration?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine you own a wildly successful food truck, and you want to scale it up. How would you do it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Non-profit organisations need more volunteers. You are asked to asked to build an app or feature on Facebook. Why and how would you execute that?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "NULL",
+    "companies": [
+      "casaone"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What are the top 3 tech trends you are following? Pick 1. Imagine I'm (interviewer) a VC. What startup idea would you pitch to me leveraging the tech trend you chose? What would be your 3-year strategy?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would Google enter FinTech?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is your favorite non-software (hardware) product? Why? How can you improve this product further?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Which is better \u2014 touchscreen or traditional dials and knobs for a car dash screen?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Pretend Google Next wants to acquire iRobot. What do you look for/how do you position your decision?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the PM of Jira for mobile, what will be your roadmap?",
+    "companies": [
+      "atlassian"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You work at a refrigeration company. How would you expand into the business market?",
+    "companies": [
+      "asana"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you price subscription for Twitter?",
+    "companies": [
+      "twitter"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You have been appointed as CEO of Meta (Mark Z stepped down). What will you do for the products?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "One of the largest e-commerce stores in India \u2014 Blipkart \u2014 wants to launch an e-pharmacy section. What should be their strategy to enter the market?",
+    "companies": [
+      "flipkart",
+      "netmeds",
+      "pharmeasy"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google continue offering Google Earth?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Which feature would you like to build and how would you go about it?",
+    "companies": [
+      "knowlarity"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you onboard doctors for an online video consultation start-up?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google Maps enter the restaurant business?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you had unlimited resources, how would you disrupt the movie/film industry?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As an entrepreneur, would you suggest launching an Uber-like service with 2-wheelers in India? If yes, suggest the MVP and GTM plan.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you build a website from 0 to 1?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you reduce operational costs for Uber Eats?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you change the product direction?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is your take on recent talks about Microsoft acquiring TikTok US?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should LinkedIn launch LinkedIn Stories similar to Facebook?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Was Google Glass a good product? Why?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How should Yelp get the business owners to claim their businesses?",
+    "companies": [
+      "yelp"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you manage the traffic on train stations?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google enter into gaming domain? e.g. Ms has xbox",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google acquire Evernote?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Several FB users have experienced shopping integrity issues, where the product they received is different and/or much lower quality than expected (i.e., misalignment between product advertised via FB ad and product received). How would you determine if this is a problem worth solving and what product enhancements would you make to address this issue?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Would you consider Amazon and Intuit to be competitors?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What do you think the future of e-commerce is? What does it look like 5 years?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you think about onboarding new users to your product? Looking more towards increasing the acquisition part of any product.",
+    "companies": [
+      "thales"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Can you talk through how you worked with a design team in a previous company to ship a product / feature?",
+    "companies": [
+      "airbnb",
+      "startup"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "A few years ago, Facebook used to restrict user signups with .edu emails only. Why did they remove that restriction and what were the pros & cons of doing so?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should be the strategy for news on Facebook Video?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Write about a judgment call you've made recently that couldn't be analyzed.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you determine if features go into OS level or application level?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Google do in 5 years with all the tech innovations happening already?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "A bike-sharing company is considering a freemium model. Should they do it or not?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Google cloud wants to provide Google Translation as an API. What do you think about it? Give your pros and cons analysis.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What product (or service) will be obsolete in 5-10 years? Then, how would you advise the producer/creator/company in this shifting landscape?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you are CEO of Uber, what should you do next?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Airbnb offer free experiences/tours?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How will you improve the monetization strategy for Uber drivers?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the product manager for Amazon Quality and Logistics team and want to reduce customer returns. What would be your process and what would you build?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you price a new tier for Amazon S3?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why did IntuIt acquire credit Karma?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As a PM at Turbo tax, what would you do about Credit Karma's free tax filing feature?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're a PM at Instacart delivery experience. The CEO of the company wants you to fix the worst delivery experience. How will you do that?",
+    "companies": [
+      "instacart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Build a grocery solution.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you make Telegram the most used messaging app in India?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As a product manager for an existing product, how do you choose between launching a new feature and fixing an existing bug?",
+    "companies": [
+      "american express"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google enter the cryptocurrency market?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the impact of the search technology on the world?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why does Starbucks sometimes have coffee shops on both sides of the road?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "GMeet got boosted during lockdowns. But as world opens up, how will you cater the \"people using G-Meet for work\" segment in order to keep the number of users from falling. What is your product strategy and roadmap for this segment?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are new PM on Alexa team. You are asked to come up with a Product Strategy for next few years. What would you do?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How will you improve retention of a remittances product? How would you validate your ideas and assumptions?",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM for an electric vehicle which has a number of sensors on it. How do you plan a roadmap/strategy to utilize the data for company's future program?",
+    "companies": [
+      "lucid motors"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "A new product video review feature, which increases sales, can be rolled out now with 2 hour video processing turnaround or 6 months later with instant processing using Machine Learning. Would you roll it out now or later?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Make the product roadmap for a note-making app. The product is currently in MVP.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM of Facebook Shops. You see the items sold per week is up but the number of messages on Marketplace is down. How would you evaluate this tradeoff?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What data analysis will you perform to launch a new physical product?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Tell me about an Amazon product marketing strategy.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you help the creators on TikTok monetize their activities?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Profile pictures are mandatory today. What if it were made optional going forward? Evaluate.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Amazon Prime is considering launching a variant of its video streaming service to senior citizens (60+yrs). What parameters will you study to understand whether it will be successful to launch their product for this segment? How will you conclude whether it will be a success?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're the PM of Facebook Events. What do you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Improve Chrome usage by 5X in 2 years.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Due to COVID-19, Google Cloud Services demand has increased. Extrapolating current trends, we will reach the limit in 18 months. How will you handle it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Design a dashboard for the CEO of Google on the Android business. Which metrics would you show and why?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What if Meta removes Facebook Groups? How will it impact the community?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How will you deal with the problem of people leaving your subscription willingly?",
+    "companies": [
+      "fastspring"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Build an executive dashboard for the Amazon checkout page.",
+    "companies": [
+      "squarespace"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Everyone is working from home since Covid. Schools are also online. The students have been provided devices (phones, tablets etc), but not all students have Wifi. Google wants to give free Wifi to these kids. In the area of your choice (give reason why), how many towers and boxes are needed?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are PM for Google Maps. Google is considering providing mapping for indoors. Should we do it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you determine how to sell hotels on Airbnb?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Your company gives you 100PB of storage. How would you build a monetizable product?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Tell me about a new use case for a smart product.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "The Covid pandemic has changed people's behaviors and payments preferences. Use all publicly available data to get insights on these shifts and pitch short and medium term investments the PayPal payments platform team should make.",
+    "companies": [
+      "paypal"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Mark Zuckerberg walks into your office and tells you to re-envision Facebook Newsfeed. What would you do?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you prevent fraud for fintech products like Sofi?",
+    "companies": [
+      "paypal",
+      "stripe",
+      "sofi"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "TurboTax Pro has been out for a while. You are the Product Manager. How would you improve it?",
+    "companies": [
+      "etsy"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Design a self-driving car for kids. How would you build an investor pitch for this product? How would you price the car, and what would be the 1st year revenue?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine that you have a technology that can enable infinite bandwidth and near zero latency. What will you do with it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you measure selection gaps on Flipkart and how would you address them?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the product manager at Google Hangouts. After launch, you have an avg. review rating of 3 - detail (40% rated 1, 40% rated 5, 20% rated 3). What will you do?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "We are in the premium ice cream business and have decided to enter the premium chocolate business. What should we think about?",
+    "companies": [
+      "sunrun"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How will you design a product roadmap without any current documentation or help from the business team?",
+    "companies": [
+      "viacom cbs"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What would be your strategy for our programmable voice services?",
+    "companies": [
+      "twilio"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the Product Manager for Facebook Watch, how would you decide between releasing an entire 10 episode series every week, or releasing 1 episode a week for 10 weeks?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "YouTube has 1 million users and you're supposed to build a video recommendation engine. How would you approach this task?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you go about expanding our solutions to be also a software for public elections?",
+    "companies": [
+      "qualtrics"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you decide if you can introduce an \"Ad Reel\" after every 5th Instagram Reel video?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Design a dashboard for the CEO of Google.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why do you think Meta launched Facebook portal?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What could have Google done in March 2020 to help with the PPEs issue when Covid was intense?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How can you monetize the Cred app?",
+    "companies": [
+      "cred"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM at an online shopping website. One of your engineers wants to launch a \"Related products\" feature. What do you do?",
+    "companies": [
+      "asana"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a product manage of Oculus. Only the physical product exists. How will you go about designing the strategy?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you launch Google Photos in Turkey?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Facebook has launched Rooms as a feature which is similar to Zoom & MS Teams. Rooms lets user create rooms to host events. Should Instagram also launch this program?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were a product manager at Uber, how would you decide whether to switch from the driver model to the self-driving cars model?",
+    "companies": [
+      "instacart"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Uber Eats' goals be next for the next 12 months?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Facebook invest in a separate experience for news?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Facebook get into the education space?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If Netflix decides they're going to build API products, how do you decide what the product strategy should be?",
+    "companies": [
+      "plaid"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You have been hired as a CPO of a small bricks-and-mortar Supermarket chain that has no online presence and has seen declining revenue over the last 5-10 years. What would you do?",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You have been hired by an Airline consortium and been giving a budget of $1m to change the perception that Air Travel is not enjoyable - what would you do?",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should be stripe's credit card strategy?",
+    "companies": [
+      "stripe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the product manager at Google. How would you go about launching Youtube in Brazil?",
+    "companies": [
+      "billingstall"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why did Facebook build a marketplace?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the CMO of Make my Trip . I have asked you to increase booking by 10 % via coupons. Is it doable? and how does it impact the bottomline?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the VP of LinkedIn Messenger, how would you decide if this needs to be a stand-alone app or integrated with the app as it is today?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you approach building a new line of business for Facebook Echo?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Define a 3-5 year roadmap to improve the merchant platform capabilities at American Express.",
+    "companies": [
+      "american express"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you drive social engagement for Spotify?",
+    "companies": [
+      "spotify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you design a Covid-19 vaccine rollout for the United States?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What technological trend do you see Intuit taking on in the future and how will it apply it to its growth?",
+    "companies": [
+      "intuit"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you navigate the tradeoffs between increasing ad revenue and decreasing retention on WhatsApp?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "execution",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "It is your responsibility as the Product Manager at Atlassian to develop a plan for expanding into new markets. Investigate your opportunities.",
+    "companies": [
+      "atlassian"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a PM at Uber and you have to evaluate whether to add \"Cash\" as a method of payment. How would you decide?",
+    "companies": [
+      "uber",
+      "lyft",
+      "razorpay"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Google enter the vending machine business?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What are the big strategic challenges Google will be facing in the next few years?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are an online travel portal. What will be your strategy during the Covid-19 pandemic?",
+    "companies": [
+      "agoda"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the future of email?",
+    "companies": [
+      "adobe"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you ensure that the product you are planning to launch is going to be sustainable i.e. survive long term?",
+    "companies": [
+      "relevel"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Tesla get into the business of auto insurance?",
+    "companies": [
+      "tesla"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the CTO for Nest doorbell. What will be your strategy?",
+    "companies": [
+      "robinhood"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Netflix enter pay per view (PPV) / video on demand (VOD) business?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a product manager at a start-up which makes a teleportation device. How will you go about it?",
+    "companies": [
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Amazon sell live animals?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You're a product manager for iPhone and you received customer feedback about wanting to spend less time on their devices. What would you do?",
+    "companies": [
+      "pinterest"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you optimize email notifications?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you capture customer satisfaction when there is a lack of survey responses?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You and your team have a year to make Shopify the best platform for new sellers by helping them sell products. What can you do in 6 months to solve this problem?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Which industry would AI have the most potential in?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Decide whether to monetize a freemium model or not.",
+    "companies": [
+      "ripple"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You've got your top customer who accounts for 8% of your ARR threatening to shift to a competitor if you don't build some very specific features that only this customer is likely to use. How are you going to manage this scenario?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy",
+      "behavioral"
+    ]
+  },
+  {
+    "title": "Should Twitter charge to verify accounts of personalities with a blue tick? If yes, what should be the monetization model?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine that after 5 years, driverless cars are the norm. What business will you start building today to make use of driverless cars in 5 years?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Youtube do for India? How will you launch it? What will be the North Star Metric? What will you do if adoption is not there?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What's the biggest risk for TikTok?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What's the difference between Facebook, Instagram, TikTok, and Youtube?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What do you believe to be the top challenges associated with DeFi today?",
+    "companies": [
+      "coinbase"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You join an e-commerce company as a product manager, and the team has created a list of \u201csuggested products\u201d. How would you review and roll out these products?",
+    "companies": [
+      "asana"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What are the top 3 headwinds and tailwinds for e-commerce?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the difference between a product and a solution? In what scenarios would one of these make sense for your business as a product manager?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Mark wants to know if Facebook should invest in building products related to sports and activity tracking. Why and what should Facebook build?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should paytm introduce a Search option on its app?",
+    "companies": [
+      "paytm"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What is the strategy of Amazon to launch Amazon mini tv (Free video content platform in the amazon shopping app) in India, despite having amazon prime video?",
+    "companies": [
+      "startups"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Where is Google underinvested today?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are a PM on the Business Integrity Team at TikTok, and an advertiser is having trouble posting their ads on the platform. What would your product strategy be?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you define a product strategy for designing a smart shoe?",
+    "companies": [
+      "paypal"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Coinbase be in the NFT space, and if so, in what capacity?",
+    "companies": [
+      "coinbase"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Maximize Lyft's net revenue given the following condition described.",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you grow the revenue of Netflix?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How do you balance quantitative and qualitative data?",
+    "companies": [
+      "new york times"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What value does a customer using the mobile app create for Capital One?",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you monetize a park?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As a product manager at Shopify, suppose there has been a social media escalation by a seller who has discovered another competitive payment solutions provider offering faster instant payouts than Shopify. How would you react?",
+    "companies": [
+      "shopify"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Design an evaluation framework for ads ranking on Meta.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Tell me about a product that had great potential to succeed but failed, and explain why it didn't succeed.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Uber could use two strategies to notify drivers when a ride is requested: broadcast to all drivers in the vicinity or sequentially notify drivers. As an Uber PM, explain which one you would choose and why.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As a Project Manager for Google Cloud, how would you strategize to increase Google Cloud's market share?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As the Head of Product at Facebook/Meta, what strategies would you implement to drive innovation and enhance user experience across the platform?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Why did Facebook create Facebook Lite?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you were the head of Azure Data Warehouse, what would you do to improve their offering?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "As the product manager for the Facebook Portal device, how would you enter the enterprise market, and what strategies would you employ to ensure success in this segment?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "What should Microsoft's strategy be if they were to attempt to re-release a mobile device, taking into consideration current market trends and consumer preferences?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Sundar comes to you in Mountain View and says he needs to be in Japan in 5 minutes for a meeting. Obviously, that's not possible, but can you build a 5-10 year roadmap for solving this problem?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should Amazon Fresh enter the 10-minute grocery delivery service market in India?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You\u2019re a PM at Meta. How does Instagram fit into Meta's mission?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How can Zomato create a monetizable data product for restaurants? Create the entire go-to-market plan for it.",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-design",
+      "product-strategy",
+      "execution"
+    ]
+  },
+  {
+    "title": "Should Zomato allow users to order from multiple restaurants in a single order? If so, how would you implement it? If not, why?",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You are the PM for Pixel phones. How will you make Pixel the go-to phone for Gen Z?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "You\u2019re a PM at Meta Reality Labs. Design a learning experience (e.g. pottery or welding in terms of fields).",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Tell me about your approach to scoping, estimation and timelining for an AI Product you have worked on.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "How would you triple the revenue of YouTube?",
+    "companies": [
+      "youtube"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Create a subscription plan for Google Maps.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Should YouTube Shorts be separated from the YouTube app? If yes, why? If no, why?",
+    "companies": [
+      "google",
+      "youtube"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "If you are a PM for a product that will be phased out due to disruption, what will you do?",
+    "companies": [
+      "startup"
+    ],
+    "tags": [
+      "product-strategy",
+      "execution"
+    ]
+  },
+  {
+    "title": "What should YouTube do with GenAI?",
+    "companies": [
+      "youtube"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Air travel CSAT is very low. How would you improve it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-improvement",
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "MasterCard is losing market share in India. As a PM, suggest a strategy to present to leadership for regaining and growing the market in India.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-strategy"
+    ]
+  },
+  {
+    "title": "Imagine you\u2019re a PM at Meta. How would you make users feel less guilty about using Instagram while also increasing revenue?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-design",
+      "product-strategy"
+    ]
+  }
+]

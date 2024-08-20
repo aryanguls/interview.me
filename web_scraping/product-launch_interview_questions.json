@@ -1,0 +1,532 @@
+[
+  {
+    "title": "How would you launch (roll out) Amazon Go?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Would you want to launch a fitness app for Facebook? If yes, why? Please elaborate all requirements and prioritizations.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Suppose Uber is about to launch Uber Grocery. Walk me through it from 0-1.",
+    "companies": [
+      "uber",
+      "swiggy"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Launch Google Maps for a new region.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Lyft wants to enter the Indian market. What should be the strategy?",
+    "companies": [
+      "lyft",
+      "uber"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "What will be the strategy to launch a product that already captured around 70-80% of the students market? The catch is \"As the students are graduating, new students are also coming in.\" Take an online furniture rental company for reference.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Launch Uber in a new city.",
+    "companies": [
+      "uber",
+      "lyft",
+      "swiggy"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "We launched in South Africa in 2018, but let's say we didn't. How would you lead a launch into that region?",
+    "companies": [
+      "spotify"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you launch a social fitness device?",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "You are a product manager of an app which consumers use for requesting barber service. The business wants to address another problem through the same app (which is ordering water bottle-20L). Will you develop another feature within the same app? Will you develop another app to address this? How would you arrive to this decision?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "You're the PM at a pharmaceutical company. How would you go about launching a new sleeping pill?",
+    "companies": [
+      "amazon",
+      "shopify"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "If a smart scientist found a way to make teleportation work, how would you market it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Facebook wants to change privacy settings from Friends, to Friends and Friends that are tagged. How would you convince Mark Zuckerberg this is not a good idea?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "If the customer refuses to accept the new product, how will you handle it?",
+    "companies": [
+      "amazon",
+      "shopify"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you launch Google Home in Canada?",
+    "companies": [
+      "google",
+      "swiggy"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "What factors need to be considered if you want to launch your product in a new market?",
+    "companies": [
+      "uber",
+      "lyft",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Design an MVP experience for a real-estate investment app.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How do you launch a college student checking account at Capitol One?",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Dunzo wants to enter T3/T4 cities in India. If you are the product manager driving this expansion, how would you go about it?",
+    "companies": [
+      "doubtnut"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Imagine you're helping the marketing team to identify opportunities to launch EVE (the first electrical Vertical Take-Off and Landing vehicle) in the country. How would you choose the city to start the operation? What kind of studies would you do to choose the city?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you launch Google\u2019s driverless car service?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How do you prepare for a beta launch?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Suppose Uber decides to launch UberEats in a few new cities. How do you choose which cities to launch?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Amazon wants to enter the e-learning market. What should be the strategy?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Is there a market for an App for Senior Citizens so participants can meet and read daily news from specific newspapers?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you approach launching Zomato in a new country?",
+    "companies": [
+      "zomato"
+    ],
+    "tags": [
+      "product-launch",
+      "execution"
+    ]
+  },
+  {
+    "title": "Imagine you have developed a toothbrush that will last a lifetime for a user. How will you price it?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "estimation",
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you go about launching a \"video message\" functionality in a communication app that gets used by over 100 million users?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Suppose Nike wants to start a subscription shoe service. How would you size the market opportunity and validate it?",
+    "companies": [],
+    "tags": [
+      "estimation",
+      "product-launch"
+    ]
+  },
+  {
+    "title": "What would you do if you were the PM of a cryptocurrency exchange that wants to start offering lending services?",
+    "companies": [
+      "binance"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Should Amazon launch a smartphone?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you relaunch Google Glasses?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you launch a product to teach programming languages for older people in India? What would be the potential market size for the product?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "You are a PM at Google and you need to launch Google Analytics. What's next?",
+    "companies": [
+      "google",
+      "swiggy"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Build and launch Uber for Events. Focus on rides to/from large events (10,000+ attendees) and create a magical experience for riders and drivers.",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "You are the PM for express delivery for an online pharmacy. What will you do before launching it in a new city?",
+    "companies": [
+      "amazon",
+      "shopify"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Microsoft is thinking of launching a premium color version of the Surface Pro tablet. How would you quantify the benefits of this service?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How will you plan the launch of a travel product after the end of coronavirus?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you launch electric bikes directly to consumers?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Come up with a strategy to launch Swiggy Go in Kamla Nagar, Delhi.",
+    "companies": [
+      "swiggy"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "What should be the Go to Market strategy for driverless cars?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Launch a strategy for Uber for one city.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "You are the PM in charge of product launch of Enterprise SAAS Solution. How would you go about it?",
+    "companies": [
+      "salesforce"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How do you improve the Capital One online application flow?",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Describe a product you think had a successful launch and why?",
+    "companies": [
+      "vitruvi"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How can you determine the effect a feature will have on product adoption before launching it?",
+    "companies": [
+      "google",
+      "amazon",
+      "spotify"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "What are the factors to be considered for a pay to play social gaming app to enter into new markets?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Amazon is interested in entering the Home Improvement services market, What MVP would you launch?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "If you had a product that could teleport people, how would you do the product launch?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "What steps would you take to open a pet food store in Evanston?",
+    "companies": [
+      "intuit"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "What makes a successful product launch?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you go about introducing Whole Foods into the Amazon catalog?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you approach the task of launching an OTT (Over-the-Top) product if the CEO of Ola Cabs requested it?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "If the CEO of Zomato asked you, as a product manager, to launch a grocery product, how would you approach it?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "You are the owner of a new battery tech company. What is your go-to-market plan?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Design and prepare a go-to-market strategy for a cab scheduling feature for Lyft.",
+    "companies": [
+      "lyft",
+      "onehouse"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How would you launch an MLOps product?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "product-launch"
+    ]
+  }
+]

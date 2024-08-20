@@ -1,0 +1,2199 @@
+[
+  {
+    "title": "Calculate the number of queries answered by Google per second.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many dentists are there in New York?",
+    "companies": [
+      "google",
+      "walmart",
+      "stripe"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How do you decide how many cash registers you need for a new Walmart store?",
+    "companies": [
+      "google",
+      "walmart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of Uber rides.",
+    "companies": [
+      "google",
+      "walmart",
+      "linkedin"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of bicycles required to start a bike sharing operation in a big city.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of Tesla Model3s in California.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much storage space is required to host all the images of Google Street View?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many elevators should an average office building have?",
+    "companies": [
+      "google",
+      "linkedin",
+      "stripe"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many passengers are in planes in the air at any given time in the U.S.A.?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "stripe"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much revenue did Gmail make from ads in the USA last year?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of planes that are in the air in an hour.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate the total number of cars right now in Highway 101 between San Francisco and Mountain View?",
+    "companies": [
+      "google",
+      "walmart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the total number of videos on YouTube.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate Google AdSense revenue?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much storage is required to store all of the images on Google Maps?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the market size of toilet paper in the US?",
+    "companies": [
+      "google",
+      "amazon",
+      "walmart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of WhatsApp chats occuring in India.",
+    "companies": [
+      "meta (facebook)",
+      "flipkart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "A company has launched a new drug that eliminates the need for sleep. How would you price this drug?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "You have a grocery delivery service that delivers food within 24 hours. How many trucks would you need to operate it?",
+    "companies": [
+      "uber",
+      "lyft",
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of passengers arriving in SF airport every day.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the market size for Google Fi.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the Number of Orders delivered by Swiggy per hour in India",
+    "companies": [
+      "flipkart",
+      "swiggy"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of Facebook users in India.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many balls does it take to fill a 16x16 ft room?",
+    "companies": [
+      "google",
+      "microsoft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the market for driverless cars in 2020?",
+    "companies": [
+      "google",
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "NULL",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate total storage capacity for all videos on Youtube.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the memory needed for Nest cameras for the fiscal year 2020.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many pixel phones were sold by Google worldwide in the last 12 months?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many airports are in the US and in the World?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you increase the revenue of MS Powerpoint?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much storage space do you need for Google Maps?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many queries per second does Gmail get?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many Pianists are there in New York city?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate AWS's total annual revenue.",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate how many people are watching Youtube in India right now?",
+    "companies": [
+      "amazon",
+      "flipkart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate the number of new users Amazon gets in a day?",
+    "companies": [
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the daily bandwidth consumed by YouTube globally.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much money is spent in the USA per year on gas?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate the bandwidth of Gmail for a community in Mars?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many apps are in the Apple App Store or Android Playstore?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the market size of Prime video.",
+    "companies": [
+      "walmart",
+      "paypal"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much time is spent by people while waiting in their vehicles at traffic signals in the US?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate how many trains operate in the NYC subway.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the cost of storing Google Photos on the photos app.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate the number of mobile phones sold by Xiaomi in a day?",
+    "companies": [
+      "xiaomi"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of tube lights used in a big city (10 Million Population).",
+    "companies": [
+      "ola"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Imagine you created a new type of product that would replace the mobile phone. How would you determine how many units to manufacture?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many mobile phones are there in the world?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the total number of millennials who own homes in the US.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many kindergarten teachers are there in USA?",
+    "companies": [
+      "google",
+      "linkedin"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much would it cost to set up WiFi in New York?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "YouTube Red is a premium service without ads. Assume that 1.5% of initial YouTube user base signs up for the service. What is the lifetime revenue Google generates from those users?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much revenue does Airbnb generate annually in India?",
+    "companies": [
+      "google",
+      "airbnb"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of drones necessary to complete all deliveries for Amazon in NYC.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many iPhone and Android Phones are there in the world? (Assume everyone has only 1 phone each)",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many pizzas would you need to circle the earth at the equator?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many drones would be needed to deliver all of Fedex's packages in the US?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much revenue does your favorite restaurant makes each year?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of cars sold through cars24 since the first lockdown of COVID19 (March 2020).",
+    "companies": [
+      "cars24"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of YouTube users.",
+    "companies": [
+      "google",
+      "flipkart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many calories are in a typical grocery store item?",
+    "companies": [
+      "google",
+      "walmart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of groups on Facebook",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of hotels in NYC.",
+    "companies": [
+      "google",
+      "capital one"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate the space required for Google Photos?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the bandwidth (bits / s) of a 747 crossing the Atlantic filled with CDs.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many reviews are left on Amazon on a given Monday?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "If you are planning to kick off YouTube TV in SFO, how much bandwidth would be required?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "You are a product delivery manager at Amazon. Estimate how many face masks Amazon needs to stock in UK stores during the COVID-19 lockdown period.",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many drivers does Uber have in a medium sized US city?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of actual COVID-19 positive people in India as of today.",
+    "companies": [],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the weight of of a 747 airplane.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Tesla claims it will make Auto Garage Shops obsolete due to zero maintenance. Estimate how many jobs will be impacted in the US in 5 years and 10 years.",
+    "companies": [
+      "tesla",
+      "google",
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many videos can you watch with 2 GB of data?",
+    "companies": [
+      "google",
+      "linkedin"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much time is spent waiting per day for a real human in the Automated Systems in the US?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the market size of an online flight insurance business in the US.",
+    "companies": [
+      "sofi"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much money does India lose due to traffic congestion?",
+    "companies": [
+      "suprdaily"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "A biotech company has launched a cell-based blood that reduces dependence on donation. How much would you price this blood?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the market size of toilet paper in Canada?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many GSuite users are there given GSuite revenue is US $7B?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate how much budget is required for Facebook to maintain Facebook Photos.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate the total toll collected in one day across all the toll plazas in the country?",
+    "companies": [
+      "cars24"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Google is looking to enter the language learning market. What is the Total Addressable Market (TAM) for people who want to learn any new languages?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate the number of monthly users for Dropbox?",
+    "companies": [
+      "dropbox"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "You have a grocery delivery service (similar to Blinkit or Instamart) that ships pan India within 24 hours. Without searching online for specific details, estimate how many 1-ton trucks you need to operate this service using the power of logic based on assumptions (e.g., assuming that India has 1.4 billion people of which you have a 25% market share).",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate waiting time at the airport. Come up with a moonshot idea to reduce the waiting time.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation",
+      "product-design"
+    ]
+  },
+  {
+    "title": "Estimate the number of Whatsapp chats happening in India on any given day?",
+    "companies": [
+      "whatsapp"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many restaurants are there in New York?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many windows are there in New York City?",
+    "companies": [
+      "google",
+      "flipkart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of electric vehicle charging stations in the US.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of people passing through security scans daily in an airport of your choice.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many articles does the average American read in a month?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many webcams were sold in the US during 2020?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of videos uploaded to Youtube per day.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate Airbnb's annual revenue in the US.",
+    "companies": [
+      "walmart",
+      "startup"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much revenue can Google get from driverless cars?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Should Amazon increase the price of Prime Membership? If so, estimate the revenue generated or lost.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of electric vehicles in Bangalore.",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the ad revenue of a photo sharing social media app.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the market size of the Art market in the UK?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many people are playing golf in the world right now?",
+    "companies": [
+      "walmart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "There is a colony of 1000 people on the moon. Estimate the bandwidth needed. How would you provide internet to them?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of gas stations in SF city.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you identify all the potholes in the United States?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the market for income tax software in the US?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you go about finding out the number of red cars in China?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the total number of hours required for Americans to do their laundry every year.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the total dollar amount of online sales for fruits and vegetables per year in US.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the weight of an aeroplane. How would you go about calculating it?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many potential TV buyers are there in NY? Walk us through your thought process.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of piano tuners in San Francisco.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you prepare a one month projection of a newly opened Ikea store for the company CEO?",
+    "companies": [
+      "salesforce"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of travelers in India per day.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate how many product managers work at Google?",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many X-Rays are done in the World in a Year?",
+    "companies": [
+      "google",
+      "meta (facebook)",
+      "amazon",
+      "ibm"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What are the estimated number of \u201cincidents\u201d that could be reported by users of Waymo in the SF Bay Area?  ",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many airplanes fly everyday in the world?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the total number of cows in Canada.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the revenue of Bing?",
+    "companies": [
+      "microsoft",
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many computers does Google own?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many cars are on 101 between San Francisco and Mountain View?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the total addressable market (TAM) for a new battery technology in the US market?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many drones do you need to serve the Bay area?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many creators are there in India?",
+    "companies": [
+      "tiktok"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "An airport closed down for a day due to inclement weather. How long does it take to get caught up?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many elevators are needed in a mall?",
+    "companies": [
+      "google",
+      "walmart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the aggregate number of miles joggers run in Central Park NY City in a year.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Imagine you have developed a toothbrush that will last a lifetime for a user. How will you price it?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "estimation",
+      "product-launch"
+    ]
+  },
+  {
+    "title": "How many elevators are there in a building?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "If you were launching a bike sharing app in NYC, how many people would be interested in it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the Lifetime Value of an uber user?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of televisions in Delhi.",
+    "companies": [
+      "park+"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many iPads are sold in the USA every year?",
+    "companies": [
+      "netflix"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many passenger car tires will be sold in financial year 2022-2023 in India?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the amount of gasoline consumed in 24 hours a day.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Count the number of soccer balls that can be accommodated on a soccer field.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Google wants to enter the space of construction technology, specifically focusing on shortening the time it takes to construct a building. How would you estimate the market size for this in the US?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Pick your favorite city. How long would it take to get Google Street Views images for the entire city?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many iPhones were sold in India in 2022?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much does US spend on dog food every year?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much time does it take to send an email to Mars?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many new cars were manufactured last year?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of students and interns in and around New York.",
+    "companies": [
+      "google",
+      "linkedin"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you determine how many trips are taken on the London Underground each year?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of attorneys in the US.",
+    "companies": [
+      "google",
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Suppose Nike wants to start a subscription shoe service. How would you size the market opportunity and validate it?",
+    "companies": [],
+    "tags": [
+      "estimation",
+      "product-launch"
+    ]
+  },
+  {
+    "title": "Estimate the fuel consumption of cars in USA.",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many daily active users does Slack have?",
+    "companies": [
+      "salesforce"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of police officers in the US.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much will it cost for Facebook to add one additional user?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many police stations are there in the US?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of passwords hacked around the world annually.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much space would you need for a photo storage device?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many orders does swiggy receive in a week?",
+    "companies": [
+      "ola"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many unique people write reviews on Amazon every month?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of rideshare rides that happen for airport commutes.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many dog pets are in your city?",
+    "companies": [
+      "relevel"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much paint is consumed in India?",
+    "companies": [
+      "upstox"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many commercial flights fly in a day?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the expected loss in productivity for a mid-sized app development company due to the company's switch to remote working?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many people use Excel now?",
+    "companies": [
+      "microsoft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate how many Zoom meetings take place over the course of the average week.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much does a school bus weigh?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of vacuum sold in the US.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many video game consoles are sold each year?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How long does an average person wait at an intersection?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How long will you keep the traffic light green in order to allow 100 cars to pass through? (Assume a single lane road)",
+    "companies": [
+      "revolut"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much storage data will YouTube need for the next year?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many umbrellas are sold in a city when it rains?",
+    "companies": [
+      "google",
+      "flipkart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the potential market share of Capital One Credit Wise.",
+    "companies": [
+      "capital one"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much does the US spend in dog food each year?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Assume the US Govt wants to provide free internet storage to all its citizens. Create a program to manage it and estimate the 3 year cost for the program.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the sale of colored TVs in Flipkart during diwali.",
+    "companies": [
+      "flipkart",
+      "mckinsey"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the size of the micromobility market in the United States?",
+    "companies": [
+      "lime"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of hours wasted in traffic each year.",
+    "companies": [
+      "google",
+      "linkedin",
+      "capital one"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of emails that the city of San Francisco receives.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the amount of storage needed to store all the photos and videos taken on Pixel phones.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you price a Tier 1 and Tier 2 Uber subscription?",
+    "companies": [
+      "uber",
+      "lyft"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Google Streetview data for San Francisco is lost. What's the cost to replace it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many bricks are there in New York?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the revenue of Netflix.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate how much data YouTube delivers every day.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the size of the European Shoe market?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the sanitizer market in the USA.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the amount of money spent each year at movie theatres in the US.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you analyze the performance of Facebook in country X vs. country Y?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the decrease in percentage of cab rides in post covid times compared to pre covid times?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Determine the right number of photos to show in Facebook's newsfeed.",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many dollar bills are in circulation in the US?",
+    "companies": [
+      "google",
+      "capital one"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of servers required for YouTube.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many coffee shops are there in San Francisco?",
+    "companies": [
+      "salesforce",
+      "capital one"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the daily watch time of cooking videos on YouTube.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "If you want to build the world's most popular mobile messaging product, how would you estimate how much network bandwidth would be used in a year?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of restaurants in Mumbai.",
+    "companies": [],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of millennial home owners in India.",
+    "companies": [],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of videos watched on YouTube per day.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of iPads sold in Europe in 2019.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of coconuts sold in India.",
+    "companies": [],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many trains come in and out of Mumbai?",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "NULL",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much does a driverless truck cost?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "We want to improve Toronto Streetview. Google cars will drive in Toronto and take pictures. How long it will take?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How long would it take to empty a hot tub using only a drinking straw?",
+    "companies": [
+      "zoomcar",
+      "miq"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Assume you are the placement coordinator of a Tier-1 engineering college and it's the first day of placements. Inside the campus, there is a cafe. Estimate how many people have purchased coffee on that particular day.",
+    "companies": [
+      "startbucks",
+      "ccd"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the uptake of a new improved tool.",
+    "companies": [
+      "wells fargo"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many ride-share trips occur in the US daily?",
+    "companies": [
+      "uber",
+      "lyft",
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the cost of running YouTube.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many house contractors are there in the U.S.A.?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much storage and bandwidth do we need for Google Drive service next year?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What are the network implications of a handheld device meant for elementary schools kids?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the weight of the Empire State Building?",
+    "companies": [
+      "meta (facebook)",
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many computers does LinkedIn have?",
+    "companies": [
+      "linkedin"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many hours do people spend on stoplight in the USA in a year?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much bandwidth does the StarWars hologram use?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the delta in the sale of hair trimmers/clippers during the COVID-19 lockdown.",
+    "companies": [
+      "philips"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of passengers per year in post-COVID world in August travelling from the US to the EU.",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Quantify the number of linear road miles in Google Maps.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of incidents that could be reported by users of Waymo in the SF Bay area.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How would you estimate purchase order abuse in Amazon? How would you solve it?",
+    "companies": [
+      "amazon"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "What is the market size for chess clocks in India?",
+    "companies": [],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How do you go about calculating the TAM, SAM and Target Market for the food tech industry?",
+    "companies": [
+      "uber"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the market share of Google Translator as an API.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much app related data does the Google iOS app store transmit each month?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How many wheelchairs should an average hospital have?",
+    "companies": [
+      "linkedin",
+      "startup"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of hospital beds in the UK.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "One day, all of New York's Google Maps Street View is lost. What is the cost of rebuilding it?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Imagine there are 10,000 people on Mars. The only way of communication to Earth is through Gmail. How much bandwith is needed?",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "If the Philadelphia airport was to shutdown for 24 hours, how long would it take to get back to running like normal? Come up with number estimates and assumptions.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How will you price Disney+ if it was launched today?",
+    "companies": [
+      "walt disney"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate hardware costs per Google Photos user.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Define the size of a computer-backed system for a local Spotify-like app.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Estimate the number of flights currently in operation.",
+    "companies": [
+      "google"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much does the US spend on dog food every year?",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How much more or less should Lyft pay drivers per trip (by changing Lyft\u2019s take) to maximize net revenue for the next 12 months on this route in Toledo, Ohio? The goal is to find the optimal balance between Lyft's take and driver pay to improve the match rate and reduce failed rides while maximizing net revenue.",
+    "companies": [
+      "lyft"
+    ],
+    "tags": [
+      "problem-solving",
+      "execution",
+      "estimation"
+    ]
+  },
+  {
+    "title": "How will you measure the impact of cancellation fees?",
+    "companies": [
+      "agoda"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "How do you measure the market size for Revolut?",
+    "companies": [
+      "amazon pay"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Calculate the total length of railway line in India.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "estimation"
+    ]
+  },
+  {
+    "title": "Calculate the number of elevators required in a 100-floor building with an occupancy of 100 per floor.",
+    "companies": [
+      "flipkart"
+    ],
+    "tags": [
+      "estimation",
+      "problem-solving"
+    ]
+  }
+]

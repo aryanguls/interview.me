@@ -1,0 +1,66 @@
+[
+  {
+    "title": "What A/B tests would you run to increase the number of messages sent and received on WhatsApp?",
+    "companies": [
+      "meta (facebook)",
+      "instagram"
+    ],
+    "tags": [
+      "ab-testing"
+    ]
+  },
+  {
+    "title": "What A/B tests do you suggest to make it easier to find friends on Facebook?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "ab-testing"
+    ]
+  },
+  {
+    "title": "What A/B tests will you run to increase the booking rate among Airbnb guests?",
+    "companies": [
+      "airbnb"
+    ],
+    "tags": [
+      "ab-testing"
+    ]
+  },
+  {
+    "title": "How do you explain the P-value to a non-data person?",
+    "companies": [
+      "unity"
+    ],
+    "tags": [
+      "ab-testing"
+    ]
+  },
+  {
+    "title": "There is a large non-profit church frequented by many visitors. Donations are currently done by visitors who donate money to collection box. You need to launch an existing paypal like collection product for church donation instead of the current mode of donation box. Design an A/B experiment to test results and complete the launch within three months.",
+    "companies": [
+      "other"
+    ],
+    "tags": [
+      "ab-testing"
+    ]
+  },
+  {
+    "title": "Rooms on Facebook was launched 3 months ago. Would you also launch it on Instagram? How would you run a A/B test to see the success of this feature on instagram?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "ab-testing"
+    ]
+  },
+  {
+    "title": "Instagram team is planning to start a display campaign on subways in NYC. How would you design the test and measure the campaign success?",
+    "companies": [
+      "meta (facebook)"
+    ],
+    "tags": [
+      "ab-testing"
+    ]
+  }
+]
