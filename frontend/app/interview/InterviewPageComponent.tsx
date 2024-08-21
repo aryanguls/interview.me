@@ -30,6 +30,29 @@ export default function InterviewPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputMessage, setInputMessage] = useState('');
   const messageEndRef = useRef<HTMLDivElement>(null);
+  const [currentTime, setCurrentTime] = useState('');
+  const [companyName, setCompanyName] = useState('');
+  const [roleName, setRoleName] = useState('');
+
+  useEffect(() => {
+    const updateTime = () => {
+      const now = new Date();
+      setCurrentTime(now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true }));
+    };
+
+    updateTime();
+    const timer = setInterval(updateTime, 60000); // Update every minute
+
+    return () => clearInterval(timer);
+  }, []);
+
+  useEffect(() => {
+    // Fetch company and role from localStorage or state management solution
+    const storedCompany = localStorage.getItem('selectedCompany') || '';
+    const storedRole = localStorage.getItem('selectedRole') || '';
+    setCompanyName(storedCompany);
+    setRoleName(storedRole);
+  }, []);
 
   const setupMediaStream = useCallback(async () => {
     try {
@@ -231,7 +254,7 @@ export default function InterviewPage() {
         
         <div className={styles.controlsBar}>
           <div className={`${styles.interviewType} ${dm_sans.className}`}>
-            <p>11:59 PM | Software Engineer Interview</p>
+            <p>{currentTime} | {companyName} {roleName} Interview</p>
           </div>
           <div className={styles.controlButtons}>
             <button className={styles.controlButton} onClick={toggleMic}>

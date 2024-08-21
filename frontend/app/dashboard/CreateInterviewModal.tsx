@@ -7,10 +7,15 @@ interface CreateInterviewModalProps {
   onClose: () => void;
 }
 
+const companies = ['Google', 'Meta (Facebook)', 'Tesla', 'Airbnb', 'Shopify', 'Amazon', 'Apple', 'Microsoft'];
+const roles = ['Product Management', 'Software Engineer', 'Data Scientist', 'UX Designer', 'Marketing Manager'];
+
 export default function CreateInterviewModal({ isOpen, onClose }: CreateInterviewModalProps) {
   const [resumeFile, setResumeFile] = useState<File | null>(null);
   const [jobLink, setJobLink] = useState('');
   const [interviewLength, setInterviewLength] = useState('');
+  const [selectedCompany, setSelectedCompany] = useState('');
+  const [selectedRole, setSelectedRole] = useState('');
   const modalRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
 
@@ -39,10 +44,14 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
   };
 
   const handleCreateInterview = () => {
-    // Here you would typically handle the form submission
-    // For now, we'll just navigate to the interview page
+    // Store selected company and role in localStorage
+    localStorage.setItem('selectedCompany', selectedCompany);
+    localStorage.setItem('selectedRole', selectedRole);
+    
+    // Navigate to the interview page
     router.push('/setup');
   };
+
 
   return (
     <div className={styles.modalOverlay}>
@@ -68,13 +77,25 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
         <section className={styles.modalSection}>
           <h3 className={styles.sectionTitle}>Job Specifics</h3>
           <div className={styles.dropdowns}>
-            <select className={styles.dropdown}>
+            <select 
+              className={styles.dropdown}
+              value={selectedCompany}
+              onChange={(e) => setSelectedCompany(e.target.value)}
+            >
               <option value="">Select Company</option>
-              {/* Add company options here */}
+              {companies.map((company, index) => (
+                <option key={index} value={company}>{company}</option>
+              ))}
             </select>
-            <select className={styles.dropdown}>
+            <select 
+              className={styles.dropdown}
+              value={selectedRole}
+              onChange={(e) => setSelectedRole(e.target.value)}
+            >
               <option value="">Select Role</option>
-              {/* Add role options here */}
+              {roles.map((role, index) => (
+                <option key={index} value={role}>{role}</option>
+              ))}
             </select>
           </div>
           
