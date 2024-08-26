@@ -16,6 +16,7 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
   const [interviewLength, setInterviewLength] = useState('');
   const [selectedCompany, setSelectedCompany] = useState('');
   const [selectedRole, setSelectedRole] = useState('');
+  const [interviewType, setInterviewType] = useState('behavioral');
   const modalRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
 
@@ -43,12 +44,11 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
     }
   };
 
+
   const handleCreateInterview = () => {
-    // Store selected company and role in localStorage
     localStorage.setItem('selectedCompany', selectedCompany);
     localStorage.setItem('selectedRole', selectedRole);
-    
-    // Navigate to the interview page
+    localStorage.setItem('interviewType', interviewType);
     router.push('/setup');
   };
 
@@ -110,6 +110,25 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
             value={jobLink}
             onChange={(e) => setJobLink(e.target.value)}
           />
+        </section>
+
+        <section className={styles.modalSection}>
+          <h3 className={styles.sectionTitle}>Preparation Type</h3>
+          <div className={styles.interviewTypeToggle}>
+            <button
+              className={`${styles.toggleButton} ${interviewType === 'behavioral' ? styles.active : ''}`}
+              onClick={() => setInterviewType('behavioral')}
+            >
+              Behavioral
+            </button>
+            <button
+              className={`${styles.toggleButton} ${styles.disabled}`}
+              onClick={() => {}} // No action for now
+              disabled
+            >
+              Technical
+            </button>
+          </div>
         </section>
 
         <section className={styles.modalSection}>

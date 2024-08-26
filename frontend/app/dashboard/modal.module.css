@@ -131,3 +131,31 @@
   .createButton:hover {
     background-color: #004b81;
   }
+
+  .interviewTypeToggle {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .toggleButton {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .toggleButton.active {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  
+  .toggleButton.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
