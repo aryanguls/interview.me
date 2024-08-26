@@ -16,9 +16,9 @@ def test():
     print("Test route accessed")
     return jsonify({"message": "Flask server is running!"})
 
-@app.route('/process_audio', methods=['POST'])
-def process_audio():
-    print("Process audio route accessed")
+@app.route('/detect_audio', methods=['POST'])
+def detect_audio():
+    print("Detect audio route accessed")
     print("Request headers:", request.headers)
     print("Request data:", request.get_data())
     
@@ -28,16 +28,14 @@ def process_audio():
         # Convert audio data to numpy array
         audio_array = np.array(audio_data)
         
-        # Simple silence detection
+        # Simple audio detection
         threshold = 0.01
-        is_silent = np.max(np.abs(audio_array)) < threshold
+        is_audio_detected = np.max(np.abs(audio_array)) >= threshold
         
-        if is_silent:
-            # If silent, return empty text
-            return jsonify({'text': ''})
+        if is_audio_detected:
+            return jsonify({'detected': True, 'timestamp': time.time()})
         else:
-            # If not silent, return a placeholder text
-            return jsonify({'text': f"Transcribed text at {time.time()}"})
+            return jsonify({'detected': False})
     except Exception as e:
         print("Error processing request:", str(e))
         return jsonify({'error': str(e)}), 400
