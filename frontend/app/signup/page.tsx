@@ -16,6 +16,9 @@ export default function Signup() {
           <h1 className={styles.heading}>Sign up</h1>
           <form className={styles.form}>
             <div className={styles.formGroup}>
+              <input type="text" id="name" name="name" placeholder="Name" className={styles.input} />
+            </div>
+            <div className={styles.formGroup}>
               <input type="email" id="email" name="email" placeholder="Email" className={styles.input} />
             </div>
             <div className={styles.formGroup}>
