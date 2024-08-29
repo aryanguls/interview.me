@@ -15,6 +15,12 @@ interface Message {
   timestamp: Date;
 }
 
+interface TranscriptMessage {
+  text: string;
+  speaker: 'interviewer' | 'interviewee';
+  timestamp: Date;
+}
+
 export default function InterviewPage() {
   const webcamRef = useRef<Webcam>(null);
   const [stream, setStream] = useState<MediaStream | null>(null);
@@ -33,6 +39,22 @@ export default function InterviewPage() {
   const [currentTime, setCurrentTime] = useState('');
   const [companyName, setCompanyName] = useState('');
   const [roleName, setRoleName] = useState('');
+  const [transcriptMessages, setTranscriptMessages] = useState<TranscriptMessage[]>([]);
+  const transcriptEndRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Add placeholder transcript messages (reduced to 4)
+    setTranscriptMessages([
+      { text: "Hello! Welcome to the interview. How are you today?", speaker: 'interviewer', timestamp: new Date() },
+      { text: "Hi! I'm doing well, thank you. I'm excited about this opportunity.", speaker: 'interviewee', timestamp: new Date() },
+      { text: "Great to hear! Let's start with you telling me a bit about yourself.", speaker: 'interviewer', timestamp: new Date() },
+      { text: "Certainly! I'm a software engineer with 5 years of experience in developing web applications...", speaker: 'interviewee', timestamp: new Date() },
+    ]);
+  }, []);
+
+  useEffect(() => {
+    transcriptEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [transcriptMessages]);
 
   useEffect(() => {
     const updateTime = () => {
@@ -247,7 +269,20 @@ export default function InterviewPage() {
               <h3 className={styles.transcriptTitle}>Live Transcript</h3>
             </div>
             <div className={styles.transcriptBox}>
-              {/* Transcript content will be added here */}
+              {transcriptMessages.map((message, index) => (
+                <div 
+                  key={index} 
+                  className={`${styles.transcriptBubble} ${
+                    message.speaker === 'interviewer' ? styles.interviewerBubble : styles.intervieweeBubble
+                  }`}
+                >
+                  <p>{message.text}</p>
+                  <span className={styles.transcriptTime}>
+                    {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                  </span>
+                </div>
+              ))}
+              <div ref={transcriptEndRef} />
             </div>
           </div>
         </main>

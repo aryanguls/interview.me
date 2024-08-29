@@ -230,6 +230,37 @@
     overflow-y: auto;
     padding: 15px;
     color: #333;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transcriptBubble {
+    max-width: 80%;
+    padding: 10px 15px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 14px;
+  }
+  
+  .interviewerBubble {
+    align-self: flex-start;
+    background-color: #E3F2FD;
+    color: #333;
+  }
+  
+  .intervieweeBubble {
+    align-self: flex-end;
+    background-color: #E8F5E9;
+    color: #333;
+  }
+  
+  .transcriptTime {
+    font-size: 0.7rem;
+    color: #757575;
+    display: block;
+    text-align: right;
+    margin-top: 5px;
   }
   
   .controlsBar {
