@@ -45,18 +45,18 @@ export default function InterviewPage() {
   const [interviewStarted, setInterviewStarted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [isInterviewerTyping, setIsInterviewerTyping] = useState(false);
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
   useEffect(() => {
     if (!interviewStarted) {
+      setIsInterviewerTyping(true);
       startInterview();
     }
   }, [interviewStarted]);
 
   const startInterview = async () => {
-    setIsLoading(true);
-    setError(null);
     try {
       const response = await fetch(`${backendUrl}/start_interview`, {
         method: 'POST',
@@ -75,12 +75,11 @@ export default function InterviewPage() {
         timestamp: new Date()
       }]);
 
+      setIsInterviewerTyping(false);
       setInterviewStarted(true);
     } catch (error) {
       console.error("Error in interview process:", error);
       setError("Failed to start interview. Please try again.");
-    } finally {
-      setIsLoading(false);
     }
   };
 
@@ -239,13 +238,7 @@ export default function InterviewPage() {
       setTranscriptMessages(prev => [...prev, intervieweeMessage]);
       setInputMessage('');
 
-      const loadingMessage: TranscriptMessage = {
-        text: 'Loading...',
-        speaker: 'interviewer',
-        timestamp: new Date(),
-        isLoading: true
-      };
-      setTranscriptMessages(prev => [...prev, loadingMessage]);
+      setIsInterviewerTyping(true);
 
       try {
         const response = await fetch(`${backendUrl}/process_response`, {
@@ -267,17 +260,19 @@ export default function InterviewPage() {
           speaker: 'interviewer',
           timestamp: new Date()
         };
-        setTranscriptMessages(prev => [...prev.slice(0, -1), interviewerMessage]);
+        setTranscriptMessages(prev => [...prev, interviewerMessage]);
+        setIsInterviewerTyping(false);
       } catch (error) {
         console.error("Error processing response:", error);
         setTranscriptMessages(prev => [
-          ...prev.slice(0, -1),
+          ...prev,
           {
             text: "I'm sorry, there was an error processing your response. Please try again.",
             speaker: 'interviewer',
             timestamp: new Date()
           }
         ]);
+        setIsInterviewerTyping(false);
       }
     }
   };
@@ -343,36 +338,28 @@ export default function InterviewPage() {
               <h3 className={styles.transcriptTitle}>Live Transcript</h3>
             </div>
             <div className={styles.transcriptBox}>
-              {isLoading && transcriptMessages.length === 0 && (
-                <div className={styles.loadingMessage}>
-                  <Loader className={styles.spinner} />
-                  Starting interview...
-                </div>
-              )}
-              {error && (
-                <div className={styles.errorMessage}>
-                  {error}
-                </div>
-              )}
               {transcriptMessages.map((message, index) => (
                 <div 
                   key={index} 
                   className={`${styles.transcriptBubble} ${
                     message.speaker === 'interviewer' ? styles.interviewerBubble : styles.intervieweeBubble
-                  } ${message.isLoading ? styles.loadingBubble : ''}`}
+                  }`}
                 >
-                  {message.isLoading ? (
-                    <Loader className={styles.spinner} />
-                  ) : (
-                    <>
-                      <p>{message.text}</p>
-                      <span className={styles.transcriptTime}>
-                        {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                      </span>
-                    </>
-                  )}
+                  <p>{message.text}</p>
+                  <span className={styles.transcriptTime}>
+                    {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                  </span>
                 </div>
               ))}
+              {isInterviewerTyping && (
+                <div className={`${styles.transcriptBubble} ${styles.interviewerBubble} ${styles.typingBubble}`}>
+                  <div className={styles.typingIndicator}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              )}
               <div ref={transcriptEndRef} />
             </div>
             <div className={styles.messageInputContainer}>
