@@ -135,7 +135,7 @@
   .interviewTypeToggle {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-bottom: 1rem;
   }
   
@@ -147,15 +147,22 @@
     font-size: 0.875rem;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: white;
+    color: black;
   }
   
-  .toggleButton.active {
+.toggleButton.active {
     background-color: black;
     color: white;
     border-color: black;
-  }
-  
-  .toggleButton.disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
+}
+
+.toggleButton.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Add this new style for disabled dropdown options */
+.dropdown option:disabled {
+  color: #a0aec0;
+}

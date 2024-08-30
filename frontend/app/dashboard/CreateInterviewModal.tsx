@@ -116,14 +116,21 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
           <h3 className={styles.sectionTitle}>Preparation Type</h3>
           <div className={styles.interviewTypeToggle}>
             <button
-              className={`${styles.toggleButton} ${interviewType === 'behavioral' ? styles.active : ''}`}
-              onClick={() => setInterviewType('behavioral')}
+              className={`${styles.toggleButton} ${styles.active}`}
+              onClick={() => setInterviewType('resume')}
+            >
+              Resume
+            </button>
+            <button
+              className={`${styles.toggleButton} ${styles.disabled}`}
+              onClick={() => {}}
+              disabled
             >
               Behavioral
             </button>
             <button
               className={`${styles.toggleButton} ${styles.disabled}`}
-              onClick={() => {}} // No action for now
+              onClick={() => {}}
               disabled
             >
               Technical
@@ -139,10 +146,10 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
             onChange={(e) => setInterviewLength(e.target.value)}
           >
             <option value="">Select Interview Length</option>
-            <option value="60">60 mins</option>
-            <option value="45">45 mins</option>
-            <option value="30">30 mins</option>
             <option value="20">20 mins</option>
+            <option value="30">30 mins</option>
+            <option value="45" disabled>45 mins</option>
+            <option value="60" disabled>60 mins</option>
           </select>
         </section>
 
