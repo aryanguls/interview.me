@@ -206,6 +206,16 @@
     overflow: hidden;
     margin-left: 5px; /* Add some space between video and transcript */
   }
+
+  .transcriptContainer {
+    flex: 0 0 17%; /* Adjust this value as needed */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    max-height: calc(100vh - 140px); /* Adjust 100px as needed based on your layout */
+  }
   
   .transcriptHeader {
     display: flex;
@@ -225,6 +235,15 @@
     border-radius: 5px;
   }
   
+  /* .transcriptBox {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+  } */
+
   .transcriptBox {
     flex: 1;
     overflow-y: auto;
@@ -232,8 +251,9 @@
     color: #333;
     display: flex;
     flex-direction: column;
+    min-height: 0; /* This is crucial for enabling scrolling */
   }
-  
+
   .transcriptBubble {
     max-width: 80%;
     padding: 10px 15px;
@@ -412,12 +432,21 @@
     text-align: right;
   }
   
-  .messageInputContainer {
+  /* .messageInputContainer {
     display: flex;
     align-items: center;
     background-color: #ffffff;
     padding: 10px;
     border-top: 1px solid #ffffff;
+  } */
+
+  .messageInputContainer {
+    flex-shrink: 0; /* Prevent the input from shrinking */
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
   }
   
   .messageInput {
