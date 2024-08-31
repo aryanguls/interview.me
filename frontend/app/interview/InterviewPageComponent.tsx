@@ -5,7 +5,7 @@ import Webcam from 'react-webcam';
 import Image from 'next/image';
 import { DM_Sans } from 'next/font/google';
 import styles from './interview.module.css';
-import { Mic, MicOff, Camera, CameraOff, MessageSquare, PhoneOff, Send, Loader } from 'lucide-react';
+import { Mic, MicOff, Camera, CameraOff, MessageSquare, PhoneOff, Send, ChevronDown } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 const dm_sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] });
@@ -43,9 +43,10 @@ export default function InterviewPage() {
   const transcriptEndRef = useRef<HTMLDivElement>(null);
   const [transcriptMessages, setTranscriptMessages] = useState<TranscriptMessage[]>([]);
   const [interviewStarted, setInterviewStarted] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [isInterviewerTyping, setIsInterviewerTyping] = useState(false);
+  const [chatMessages, setChatMessages] = useState<Message[]>([]);
+  const [chatInputMessage, setChatInputMessage] = useState('');
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
@@ -287,6 +288,28 @@ export default function InterviewPage() {
     messageEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
+  const sendChatMessage = () => {
+    if (chatInputMessage.trim() !== '') {
+      const newMessage: Message = {
+        text: chatInputMessage,
+        timestamp: new Date()
+      };
+      setChatMessages(prev => [...prev, newMessage]);
+      setChatInputMessage('');
+    }
+  };
+
+  const handleChatInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setChatInputMessage(e.target.value);
+  };
+
+  const handleChatKeyPress = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendChatMessage();
+    }
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.contentWrapper}>
@@ -403,8 +426,14 @@ export default function InterviewPage() {
           <>
             <div className={styles.overlay} onClick={toggleMessagePopup}></div>
             <div className={styles.messagePopup}>
+              <div className={styles.messagePopupHeader}>
+                <button onClick={toggleMessagePopup} className={styles.minimizeButton}>
+                  <ChevronDown size={18} />
+                </button>
+                <h3 className={styles.chatHeading}>Chat</h3>
+              </div>
               <div className={styles.messageList}>
-                {messages.map((message, index) => (
+                {chatMessages.map((message, index) => (
                   <div key={index} className={styles.messageBubble}>
                     {message.text}
                     <div className={styles.messageTime}>
@@ -414,18 +443,20 @@ export default function InterviewPage() {
                 ))}
                 <div ref={messageEndRef} />
               </div>
-              <div className={styles.messageInputContainer}>
-                <input
-                  type="text"
-                  value={inputMessage}
-                  onChange={handleInputChange}
-                  onKeyPress={handleKeyPress}
-                  placeholder="Type a message..."
-                  className={styles.messageInput}
-                />
-                <button onClick={sendMessage} className={styles.sendButton}>
-                  <Send size={18} color="black" />
-                </button>
+              <div className={styles.messageInputWrapper}>
+                <div className={styles.messageInputContainer}>
+                  <textarea
+                    value={chatInputMessage}
+                    onChange={handleChatInputChange}
+                    onKeyPress={handleChatKeyPress}
+                    placeholder="Type a message..."
+                    className={styles.messageInput}
+                    rows={2}
+                  />
+                  <button onClick={sendChatMessage} className={styles.sendButton}>
+                    <Send size={18} color="black" />
+                  </button>
+                </div>
               </div>
             </div>
           </>

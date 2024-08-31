@@ -441,23 +441,49 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 80%;
-    max-width: 400px;
-    height: 60%;
-    max-height: 400px;
+    width: 95%;
+    max-width: 440px;
+    height: 95%;
+    max-height: 440px;
     z-index: 999;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    padding: 20px 10px; /* Reduced horizontal padding */
+  }
+  
+  .messagePopupHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    position: relative;
+  }
+  
+  .minimizeButton {
+    position: absolute;
+    left: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .chatHeading {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 4px 8px;
+    border-radius: 4px;
   }
   
   .messageList {
     flex-grow: 1;
     overflow-y: auto;
-    padding: 20px;
+    padding: 8px;
     display: flex;
     flex-direction: column;
   }
@@ -465,10 +491,10 @@
   .messageBubble {
     background-color: #E3F2FD;
     color: black;
-    border-radius: 18px;
-    padding: 10px 15px;
-    margin-bottom: 10px;
-    max-width: 80%;
+    border-radius: 16px;
+    padding: 6px 10px;
+    margin-bottom: 6px;
+    max-width: 90%;
     align-self: flex-end;
     word-wrap: break-word;
     position: relative;
@@ -478,49 +504,49 @@
   .messageTime {
     font-size: 0.7rem;
     color: #757575;
-    margin-top: 5px;
+    margin-top: 2px;
     text-align: right;
   }
   
-  /* .messageInputContainer {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 10px;
-    border-top: 1px solid #ffffff;
-  } */
-
-  .messageInputContainer {
-    flex-shrink: 0; /* Prevent the input from shrinking */
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 10px;
+  .messageInputWrapper {
+    padding: 6px 8px;
+    margin: 0 4px;
     border-top: 1px solid #e0e0e0;
+  }
+  
+  .messageInputContainer {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    margin-top: 4px;
   }
   
   .messageInput {
     flex-grow: 1;
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    margin-right: 5px; /* Reduced space between input and button */
+    padding: 5px 8px;
+    border: none;
     outline: none;
     font-size: 14px;
+    resize: none;
+    min-height: 30px;
+    max-height: 100px;
+    overflow-y: auto;
   }
   
   .sendButton {
     background-color: transparent;
     color: black;
     border: none;
-    width: 36px; /* Slightly smaller */
-    height: 36px; /* Slightly smaller */
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     padding: 0;
-    margin-left: -5px; /* Negative margin to bring it closer to input */
+    margin-left: 4px;
+    align-self: flex-start;
+    margin-top: 1px;
   }
   
   .sendButton:hover {
