@@ -55,6 +55,11 @@ export default function InterviewPage() {
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
+  const playAudio = (audioData: string) => {
+    const audio = new Audio(`data:audio/mpeg;base64,${audioData}`);
+    audio.play();
+  };
+
   useEffect(() => {
     if (!interviewStarted) {
       setIsInterviewerTyping(true);
@@ -96,37 +101,36 @@ export default function InterviewPage() {
   };
 
   const startInterview = async () => {
-    try {
-      setIsInterviewerTyping(true);
-      const response = await fetch(`${backendUrl}/start_interview`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
-      if (!response.ok) {
-        throw new Error('Failed to start interview');
-      }
-      const data = await response.json();
-
-      // Immediately display the message
-      setTranscriptMessages([{
-        text: data.response,
-        speaker: 'interviewer',
-        timestamp: new Date()
-      }]);
-      setIsInterviewerTyping(false);
-
-      // Start playing audio
-      playAudioStream(data.audio_url);
-
-      setInterviewStarted(true);
-    } catch (error) {
-      console.error("Error in interview process:", error);
-      setError("Failed to start interview. Please try again.");
-      setIsInterviewerTyping(false);
+  try {
+    setIsInterviewerTyping(true);
+    const response = await fetch(`${backendUrl}/start_interview`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    if (!response.ok) {
+      throw new Error('Failed to start interview');
     }
-  };
+    const data = await response.json();
+
+    setTranscriptMessages([{
+      text: data.response,
+      speaker: 'interviewer',
+      timestamp: new Date()
+    }]);
+    setIsInterviewerTyping(false);
+
+    // Play audio
+    playAudio(data.audio_data);
+
+    setInterviewStarted(true);
+  } catch (error) {
+    console.error("Error in interview process:", error);
+    setError("Failed to start interview. Please try again.");
+    setIsInterviewerTyping(false);
+  }
+};
 
   useEffect(() => {
     transcriptEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -282,8 +286,8 @@ export default function InterviewPage() {
       };
       setTranscriptMessages(prev => [...prev, intervieweeMessage]);
       setInputMessage('');
-      setCurrentTypingMessage(''); // Start with an empty typing message
-
+      setCurrentTypingMessage('');
+  
       try {
         const response = await fetch(`${backendUrl}/process_response`, {
           method: 'POST',
@@ -292,54 +296,26 @@ export default function InterviewPage() {
           },
           body: JSON.stringify({ input: inputMessage }),
         });
-
+  
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-
-        const reader = response.body!.getReader();
-        const decoder = new TextDecoder();
-        let interviewerMessage = '';
-        let audioChunks: Uint8Array[] = [];
-
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-
-          const chunk = decoder.decode(value);
-          const lines = chunk.split('\n\n');
-          for (const line of lines) {
-            if (line.startsWith('data: ')) {
-              const data = JSON.parse(line.slice(6));
-              if (data.type === 'text') {
-                interviewerMessage += data.content;
-                setCurrentTypingMessage(interviewerMessage);
-              } else if (data.type === 'audio') {
-                const audioChunk = base64ToUint8Array(data.content);
-                audioChunks.push(audioChunk);
-              } else if (data.type === 'end') {
-                setTranscriptMessages(prev => [
-                  ...prev,
-                  {
-                    text: interviewerMessage,
-                    speaker: 'interviewer',
-                    timestamp: new Date()
-                  }
-                ]);
-                setCurrentTypingMessage(null); // Clear the typing message
-                
-                setTimeout(() => {
-                  const audioBlob = new Blob(audioChunks, { type: 'audio/mpeg' });
-                  const audioUrl = URL.createObjectURL(audioBlob);
-                  playAudioStream(audioUrl);
-                }, 100);
-                
-                break;
-              }
-            }
+  
+        const data = await response.json();
+        
+        setTranscriptMessages(prev => [
+          ...prev,
+          {
+            text: data.response,
+            speaker: 'interviewer',
+            timestamp: new Date()
           }
-        }
-
+        ]);
+        setCurrentTypingMessage(null);
+  
+        // Play audio
+        playAudio(data.audio_data);
+  
       } catch (error) {
         console.error("Error processing response:", error);
         setTranscriptMessages(prev => [
