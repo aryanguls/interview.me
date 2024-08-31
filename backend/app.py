@@ -3,9 +3,14 @@ from flask_cors import CORS
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
-from eleven_labs_tts import text_to_speech_stream
+from io import BytesIO
+from typing import IO
+from elevenlabs import VoiceSettings
+from elevenlabs.client import ElevenLabs
 import json
 import base64
+
+load_dotenv()
 
 load_dotenv()
 
@@ -13,6 +18,32 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins for now, adjust in production
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+
+ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
+if not ELEVENLABS_API_KEY:
+    raise ValueError("ELEVENLABS_API_KEY environment variable not set")
+elevenlabs_client = ElevenLabs(api_key=ELEVENLABS_API_KEY)
+
+def text_to_speech_stream(text: str) -> IO[bytes]:
+    response = elevenlabs_client.text_to_speech.convert(
+        voice_id="pNInz6obpgDQGcFmaJgB",  # Adam pre-made voice
+        optimize_streaming_latency="0",
+        output_format="mp3_22050_32",
+        text=text,
+        model_id="eleven_multilingual_v2",
+        voice_settings=VoiceSettings(
+            stability=0.0,
+            similarity_boost=1.0,
+            style=0.0,
+            use_speaker_boost=True,
+        ),
+    )
+    audio_stream = BytesIO()
+    for chunk in response:
+        if chunk:
+            audio_stream.write(chunk)
+    audio_stream.seek(0)
+    return audio_stream
 
 # Initialize conversation history
 conversation_history = []
