@@ -48,6 +48,10 @@ export default function InterviewPage() {
   const [chatMessages, setChatMessages] = useState<Message[]>([]);
   const [chatInputMessage, setChatInputMessage] = useState('');
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
+  const [currentTypingMessage, setCurrentTypingMessage] = useState<string | null>(null);
+  const [isTextComplete, setIsTextComplete] = useState(false);
+  const [isTyping, setIsTyping] = useState(false);
+  const [currentMessage, setCurrentMessage] = useState('');
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
@@ -278,8 +282,8 @@ export default function InterviewPage() {
       };
       setTranscriptMessages(prev => [...prev, intervieweeMessage]);
       setInputMessage('');
-      setIsInterviewerTyping(true);
-  
+      setCurrentTypingMessage(''); // Start with an empty typing message
+
       try {
         const response = await fetch(`${backendUrl}/process_response`, {
           method: 'POST',
@@ -288,20 +292,20 @@ export default function InterviewPage() {
           },
           body: JSON.stringify({ input: inputMessage }),
         });
-  
+
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-  
+
         const reader = response.body!.getReader();
         const decoder = new TextDecoder();
         let interviewerMessage = '';
         let audioChunks: Uint8Array[] = [];
-  
+
         while (true) {
           const { done, value } = await reader.read();
           if (done) break;
-  
+
           const chunk = decoder.decode(value);
           const lines = chunk.split('\n\n');
           for (const line of lines) {
@@ -309,35 +313,33 @@ export default function InterviewPage() {
               const data = JSON.parse(line.slice(6));
               if (data.type === 'text') {
                 interviewerMessage += data.content;
-                setTranscriptMessages(prev => {
-                  const updated = [...prev];
-                  const lastMessage = updated[updated.length - 1];
-                  if (lastMessage.speaker === 'interviewer') {
-                    lastMessage.text = interviewerMessage;
-                  } else {
-                    updated.push({
-                      text: interviewerMessage,
-                      speaker: 'interviewer',
-                      timestamp: new Date()
-                    });
-                  }
-                  return updated;
-                });
+                setCurrentTypingMessage(interviewerMessage);
               } else if (data.type === 'audio') {
                 const audioChunk = base64ToUint8Array(data.content);
                 audioChunks.push(audioChunk);
               } else if (data.type === 'end') {
-                // All data has been received, play the audio
-                const audioBlob = new Blob(audioChunks, { type: 'audio/mpeg' });
-                const audioUrl = URL.createObjectURL(audioBlob);
-                playAudioStream(audioUrl);
-                setIsInterviewerTyping(false);
+                setTranscriptMessages(prev => [
+                  ...prev,
+                  {
+                    text: interviewerMessage,
+                    speaker: 'interviewer',
+                    timestamp: new Date()
+                  }
+                ]);
+                setCurrentTypingMessage(null); // Clear the typing message
+                
+                setTimeout(() => {
+                  const audioBlob = new Blob(audioChunks, { type: 'audio/mpeg' });
+                  const audioUrl = URL.createObjectURL(audioBlob);
+                  playAudioStream(audioUrl);
+                }, 100);
+                
                 break;
               }
             }
           }
         }
-  
+
       } catch (error) {
         console.error("Error processing response:", error);
         setTranscriptMessages(prev => [
@@ -348,7 +350,7 @@ export default function InterviewPage() {
             timestamp: new Date()
           }
         ]);
-        setIsInterviewerTyping(false);
+        setCurrentTypingMessage(null);
       }
     }
   };
@@ -455,18 +457,18 @@ export default function InterviewPage() {
                   }`}
                 >
                   <p>{message.text}</p>
-                  <span className={styles.transcriptTime}>
-                    {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                  </span>
                 </div>
               ))}
-              {isInterviewerTyping && (
-                <div className={`${styles.transcriptBubble} ${styles.interviewerBubble} ${styles.typingBubble}`}>
-                  <div className={styles.typingIndicator}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
+              {currentTypingMessage !== null && (
+                <div className={`${styles.transcriptBubble} ${styles.interviewerBubble}`}>
+                  <p>{currentTypingMessage}</p>
+                  {currentTypingMessage === '' && (
+                    <div className={styles.typingIndicator}>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  )}
                 </div>
               )}
               <div ref={transcriptEndRef} />

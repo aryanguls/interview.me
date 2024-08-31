@@ -292,6 +292,10 @@
     padding: 12px 16px;
   }
   
+  .typingBubble p {
+    transition: all 0.1s ease-out;
+  }
+  
   .typingIndicator {
     display: flex;
     align-items: center;
