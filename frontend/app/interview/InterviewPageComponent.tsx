@@ -47,6 +47,7 @@ export default function InterviewPage() {
   const [isInterviewerTyping, setIsInterviewerTyping] = useState(false);
   const [chatMessages, setChatMessages] = useState<Message[]>([]);
   const [chatInputMessage, setChatInputMessage] = useState('');
+  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
@@ -57,8 +58,42 @@ export default function InterviewPage() {
     }
   }, [interviewStarted]);
 
+  useEffect(() => {
+    audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
+    return () => {
+      if (audioContextRef.current) {
+        audioContextRef.current.close();
+      }
+    };
+  }, []);
+
+  const playAudioStream = async (url: string) => {
+    if (!audioContextRef.current) return;
+
+    try {
+      const response = await fetch(url);
+      const arrayBuffer = await response.arrayBuffer();
+      const audioBuffer = await audioContextRef.current.decodeAudioData(arrayBuffer);
+
+      const source = audioContextRef.current.createBufferSource();
+      source.buffer = audioBuffer;
+      source.connect(audioContextRef.current.destination);
+      
+      setIsAudioPlaying(true);
+      source.start(0);
+
+      source.onended = () => {
+        setIsAudioPlaying(false);
+      };
+    } catch (error) {
+      console.error("Error playing audio:", error);
+      setIsAudioPlaying(false);
+    }
+  };
+
   const startInterview = async () => {
     try {
+      setIsInterviewerTyping(true);
       const response = await fetch(`${backendUrl}/start_interview`, {
         method: 'POST',
         headers: {
@@ -70,17 +105,22 @@ export default function InterviewPage() {
       }
       const data = await response.json();
 
+      // Immediately display the message
       setTranscriptMessages([{
         text: data.response,
         speaker: 'interviewer',
         timestamp: new Date()
       }]);
-
       setIsInterviewerTyping(false);
+
+      // Start playing audio
+      playAudioStream(data.audio_url);
+
       setInterviewStarted(true);
     } catch (error) {
       console.error("Error in interview process:", error);
       setError("Failed to start interview. Please try again.");
+      setIsInterviewerTyping(false);
     }
   };
 
@@ -256,6 +296,8 @@ export default function InterviewPage() {
         if (data.error) {
           throw new Error(data.error);
         }
+
+        // Immediately display the message
         const interviewerMessage: TranscriptMessage = {
           text: data.response,
           speaker: 'interviewer',
@@ -263,6 +305,9 @@ export default function InterviewPage() {
         };
         setTranscriptMessages(prev => [...prev, interviewerMessage]);
         setIsInterviewerTyping(false);
+
+        // Start playing audio
+        playAudioStream(data.audio_url);
       } catch (error) {
         console.error("Error processing response:", error);
         setTranscriptMessages(prev => [
