@@ -412,9 +412,9 @@ export default function InterviewPage() {
             <button className={styles.controlButton} onClick={toggleCamera}>
               {isCameraOn ? <Camera /> : <CameraOff />}
             </button>
-            <button className={styles.controlButton} onClick={toggleMessagePopup}>
+            {/* <button className={styles.controlButton} onClick={toggleMessagePopup}>
               <MessageSquare />
-            </button>
+            </button> */}
             <button className={`${styles.controlButton} ${styles.endCallButton}`} onClick={endCall}>
               <PhoneOff />
             </button>
