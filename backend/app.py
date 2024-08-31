@@ -82,6 +82,7 @@ def start_interview():
         app.logger.error(f"Error in start_interview: {str(e)}")
         return jsonify({"error": "Failed to start interview. Please try again."}), 500
 
+
 @app.route('/process_response', methods=['POST', 'OPTIONS'])
 def process_response():
     if request.method == 'OPTIONS':

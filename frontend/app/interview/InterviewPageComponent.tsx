@@ -55,17 +55,33 @@ export default function InterviewPage() {
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
-  const playAudio = (audioData: string) => {
-    const audio = new Audio(`data:audio/mpeg;base64,${audioData}`);
-    audio.play();
+  let isPlaying = false;
+
+  const playAudio = (audioData: string): Promise<void> => {
+    return new Promise((resolve) => {
+      if (isPlaying) {
+        console.log("Audio already playing, skipping.");
+        resolve();
+        return;
+      }
+      isPlaying = true;
+      const audio = new Audio(`data:audio/mpeg;base64,${audioData}`);
+      audio.onended = () => {
+        isPlaying = false;
+        resolve();
+      };
+      audio.play();
+    });
   };
 
+  const interviewStartedRef = useRef(false);
+
   useEffect(() => {
-    if (!interviewStarted) {
-      setIsInterviewerTyping(true);
+    if (!interviewStartedRef.current) {
+      interviewStartedRef.current = true;
       startInterview();
     }
-  }, [interviewStarted]);
+  }, []);
 
   useEffect(() => {
     audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
@@ -101,36 +117,37 @@ export default function InterviewPage() {
   };
 
   const startInterview = async () => {
-  try {
-    setIsInterviewerTyping(true);
-    const response = await fetch(`${backendUrl}/start_interview`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-    if (!response.ok) {
-      throw new Error('Failed to start interview');
+    try {
+      setIsInterviewerTyping(true);
+      const response = await fetch(`${backendUrl}/start_interview`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      if (!response.ok) {
+        throw new Error('Failed to start interview');
+      }
+      const data = await response.json();
+  
+      // Set the message first
+      setTranscriptMessages([{
+        text: data.response,
+        speaker: 'interviewer',
+        timestamp: new Date()
+      }]);
+      setIsInterviewerTyping(false);
+  
+      // Then play the audio
+      await playAudio(data.audio_data);
+  
+      setInterviewStarted(true);
+    } catch (error) {
+      console.error("Error in interview process:", error);
+      setError("Failed to start interview. Please try again.");
+      setIsInterviewerTyping(false);
     }
-    const data = await response.json();
-
-    setTranscriptMessages([{
-      text: data.response,
-      speaker: 'interviewer',
-      timestamp: new Date()
-    }]);
-    setIsInterviewerTyping(false);
-
-    // Play audio
-    playAudio(data.audio_data);
-
-    setInterviewStarted(true);
-  } catch (error) {
-    console.error("Error in interview process:", error);
-    setError("Failed to start interview. Please try again.");
-    setIsInterviewerTyping(false);
-  }
-};
+  };
 
   useEffect(() => {
     transcriptEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -287,7 +304,7 @@ export default function InterviewPage() {
       setTranscriptMessages(prev => [...prev, intervieweeMessage]);
       setInputMessage('');
       setCurrentTypingMessage('');
-  
+
       try {
         const response = await fetch(`${backendUrl}/process_response`, {
           method: 'POST',
@@ -296,11 +313,11 @@ export default function InterviewPage() {
           },
           body: JSON.stringify({ input: inputMessage }),
         });
-  
+
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-  
+
         const data = await response.json();
         
         setTranscriptMessages(prev => [
@@ -312,10 +329,10 @@ export default function InterviewPage() {
           }
         ]);
         setCurrentTypingMessage(null);
-  
-        // Play audio
-        playAudio(data.audio_data);
-  
+
+        // Play audio and wait for it to finish
+        await playAudio(data.audio_data);
+
       } catch (error) {
         console.error("Error processing response:", error);
         setTranscriptMessages(prev => [
