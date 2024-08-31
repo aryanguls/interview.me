@@ -278,9 +278,8 @@ export default function InterviewPage() {
       };
       setTranscriptMessages(prev => [...prev, intervieweeMessage]);
       setInputMessage('');
-
       setIsInterviewerTyping(true);
-
+  
       try {
         const response = await fetch(`${backendUrl}/process_response`, {
           method: 'POST',
@@ -289,25 +288,56 @@ export default function InterviewPage() {
           },
           body: JSON.stringify({ input: inputMessage }),
         });
+  
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        const data = await response.json();
-        if (data.error) {
-          throw new Error(data.error);
+  
+        const reader = response.body!.getReader();
+        const decoder = new TextDecoder();
+        let interviewerMessage = '';
+        let audioChunks: Uint8Array[] = [];
+  
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+  
+          const chunk = decoder.decode(value);
+          const lines = chunk.split('\n\n');
+          for (const line of lines) {
+            if (line.startsWith('data: ')) {
+              const data = JSON.parse(line.slice(6));
+              if (data.type === 'text') {
+                interviewerMessage += data.content;
+                setTranscriptMessages(prev => {
+                  const updated = [...prev];
+                  const lastMessage = updated[updated.length - 1];
+                  if (lastMessage.speaker === 'interviewer') {
+                    lastMessage.text = interviewerMessage;
+                  } else {
+                    updated.push({
+                      text: interviewerMessage,
+                      speaker: 'interviewer',
+                      timestamp: new Date()
+                    });
+                  }
+                  return updated;
+                });
+              } else if (data.type === 'audio') {
+                const audioChunk = base64ToUint8Array(data.content);
+                audioChunks.push(audioChunk);
+              } else if (data.type === 'end') {
+                // All data has been received, play the audio
+                const audioBlob = new Blob(audioChunks, { type: 'audio/mpeg' });
+                const audioUrl = URL.createObjectURL(audioBlob);
+                playAudioStream(audioUrl);
+                setIsInterviewerTyping(false);
+                break;
+              }
+            }
+          }
         }
-
-        // Immediately display the message
-        const interviewerMessage: TranscriptMessage = {
-          text: data.response,
-          speaker: 'interviewer',
-          timestamp: new Date()
-        };
-        setTranscriptMessages(prev => [...prev, interviewerMessage]);
-        setIsInterviewerTyping(false);
-
-        // Start playing audio
-        playAudioStream(data.audio_url);
+  
       } catch (error) {
         console.error("Error processing response:", error);
         setTranscriptMessages(prev => [
@@ -321,6 +351,17 @@ export default function InterviewPage() {
         setIsInterviewerTyping(false);
       }
     }
+  };
+  
+  // Helper function to convert base64 to Uint8Array
+  const base64ToUint8Array = (base64: string) => {
+    const binaryString = window.atob(base64);
+    const len = binaryString.length;
+    const bytes = new Uint8Array(len);
+    for (let i = 0; i < len; i++) {
+      bytes[i] = binaryString.charCodeAt(i);
+    }
+    return bytes;
   };
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
