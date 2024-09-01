@@ -23,7 +23,7 @@ interface Message {
 }
 
 const AudioIndicator = ({ isPlaying }: { isPlaying: boolean }) => (
-  <div className={`${styles.audioIndicator} ${isPlaying ? styles.playing : ''}`}>
+  <div className={`${styles.interviewerAudioIndicator} ${isPlaying ? styles.playing : ''}`}>
     <div className={styles.bar}></div>
     <div className={styles.bar}></div>
     <div className={styles.bar}></div>

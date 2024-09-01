@@ -15,7 +15,7 @@ load_dotenv()
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins for now, adjust in production
+CORS(app, resources={r"/*": {"origins": "*", "methods": ["GET", "POST", "OPTIONS"], "allow_headers": "*"}})
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
@@ -55,7 +55,13 @@ def home():
 @app.route('/start_interview', methods=['POST', 'OPTIONS'])
 def start_interview():
     if request.method == 'OPTIONS':
-        return '', 200
+        # Explicitly allow the origin
+        headers = {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'POST, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type',
+        }
+        return ('', 204, headers)
 
     try:
         completion = client.chat.completions.create(
@@ -86,7 +92,13 @@ def start_interview():
 @app.route('/process_response', methods=['POST', 'OPTIONS'])
 def process_response():
     if request.method == 'OPTIONS':
-        return '', 200
+        # Explicitly allow the origin
+        headers = {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'POST, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type',
+        }
+        return ('', 204, headers)
 
     try:
         interviewee_response = request.json.get('input')

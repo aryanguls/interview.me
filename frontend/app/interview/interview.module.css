@@ -561,7 +561,7 @@
 
   /* ... existing styles ... */
 
-.audioIndicator {
+.interviewerAudioIndicator {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -570,7 +570,7 @@
   margin-top: 10px;
 }
 
-.audioIndicator .bar {
+.interviewerAudioIndicator .bar {
   width: 4px;
   height: 5px;
   background-color: #ffffff;
@@ -579,19 +579,19 @@
   transition: height 0.2s ease;
 }
 
-.audioIndicator.playing .bar {
+.interviewerAudioIndicator.playing .bar {
   animation: sound 0.5s linear infinite alternate;
 }
 
-.audioIndicator.playing .bar:nth-child(1) {
+.interviewerAudioIndicator.playing .bar:nth-child(1) {
   animation-delay: 0.2s;
 }
 
-.audioIndicator.playing .bar:nth-child(2) {
+.interviewerAudioIndicator.playing .bar:nth-child(2) {
   animation-delay: 0.4s;
 }
 
-.audioIndicator.playing .bar:nth-child(3) {
+.interviewerAudioIndicator.playing .bar:nth-child(3) {
   animation-delay: 0.6s;
 }
 
@@ -604,4 +604,49 @@
   }
 }
 
-/* ... rest of the existing styles ... */
+.interviewerFace {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 10;
+  width: 180px;
+  height: 180px;
+  background-color: #222;
+  border-radius: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px; /* Add padding to give space around the edges */
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Reduced top margin to move it down slightly */
+}
+
+.logo {
+  border-radius: 50%;
+  width: 60px; /* Ensure the logo size is consistent */
+  height: 60px;
+}
+
+.logoText {
+  color: white;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.interviewerAudioIndicator {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 20px;
+  width: 30px;
+  margin-bottom: 5px; /* Reduced bottom margin */
+  align-self: flex-end; /* Keep it aligned to the right */
+  margin-right: 10px; /* Increased right margin to move it more to the left */
+}
