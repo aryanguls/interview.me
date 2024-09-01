@@ -22,6 +22,14 @@ interface Message {
   timestamp: Date;
 }
 
+const AudioIndicator = ({ isPlaying }: { isPlaying: boolean }) => (
+  <div className={`${styles.audioIndicator} ${isPlaying ? styles.playing : ''}`}>
+    <div className={styles.bar}></div>
+    <div className={styles.bar}></div>
+    <div className={styles.bar}></div>
+  </div>
+);
+
 export default function InterviewPage() {
   const webcamRef = useRef<Webcam>(null);
   const [stream, setStream] = useState<MediaStream | null>(null);
@@ -66,14 +74,17 @@ export default function InterviewPage() {
         return;
       }
       isPlaying = true;
+      setIsAudioPlaying(true);
       const audio = new Audio(`data:audio/mpeg;base64,${audioData}`);
       audio.onended = () => {
         isPlaying = false;
+        setIsAudioPlaying(false);
         resolve();
       };
       audio.play();
     });
   };
+
 
   const interviewStartedRef = useRef(false);
 
@@ -434,6 +445,7 @@ export default function InterviewPage() {
                   />
                   <p className={styles.logoText}>Lucence</p>
                 </div>
+                <AudioIndicator isPlaying={isAudioPlaying} />
               </div>
               <div className={styles.intervieweeName}>
                 <p>Aryan Gulati</p>

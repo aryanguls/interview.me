@@ -558,3 +558,50 @@
     background-color: #e0e0e0;
     border-radius: 50%;
   }
+
+  /* ... existing styles ... */
+
+.audioIndicator {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 20px;
+  width: 30px;
+  margin-top: 10px;
+}
+
+.audioIndicator .bar {
+  width: 4px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 0 2px;
+  border-radius: 2px;
+  transition: height 0.2s ease;
+}
+
+.audioIndicator.playing .bar {
+  animation: sound 0.5s linear infinite alternate;
+}
+
+.audioIndicator.playing .bar:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.audioIndicator.playing .bar:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.audioIndicator.playing .bar:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes sound {
+  0% {
+    height: 2px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+
+/* ... rest of the existing styles ... */
