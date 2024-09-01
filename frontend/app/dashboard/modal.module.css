@@ -21,10 +21,12 @@
     border-radius: 8px;
     width: 90%;
     max-width: 500px;
+    max-height: 80vh; /* Increased height */
+    overflow-y: auto; /* Add scroll if content exceeds height */
   }
   
   .modalTitle {
-    margin-bottom: 0.3rem; /* Reduced from 1.5rem to accommodate subtitle */
+    margin-bottom: 0.3rem;
     font-size: 1.5rem;
     font-weight: 600;
   }
@@ -32,7 +34,7 @@
   .modalSubtitle {
     margin-bottom: 1.5rem;
     font-size: 0.875rem;
-    color: #6b7280; /* A medium gray color */
+    color: #6b7280;
   }
   
   .modalSection {
@@ -57,8 +59,8 @@
     text-align: center;
     transition: background-color 0.3s ease;
   }
-
-  .uploadButton:hover{
+  
+  .uploadButton:hover {
     background-color: #333;
   }
   
@@ -107,32 +109,43 @@
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
+    margin-top: 1rem;
   }
   
-  .cancelButton, .createButton {
+  .cancelButton, .backButton {
     padding: 0.7rem 1rem;
     border-radius: 6px;
     font-size: 0.875rem;
     cursor: pointer;
-  }
-  
-  .cancelButton {
     background-color: #f7fafc;
     border: 1px solid #e2e8f0;
+    transition: background-color 0.3s ease;
   }
   
-  .createButton {
+  .cancelButton:hover, .backButton:hover {
+    background-color: #edf2f7;
+  }
+  
+  .nextButton, .createButton {
+    padding: 0.7rem 1rem;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    cursor: pointer;
     background-color: black;
     color: white;
     border: none;
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.3s ease;
   }
   
+  .nextButton:hover {
+    background-color: #333;
+  }
+
   .createButton:hover {
     background-color: #004b81;
   }
 
-  .interviewTypeToggle {
+  .interviewTypeToggle, .scheduleTypeToggle {
     display: flex;
     justify-content: space-between;
     gap: 0.5rem;
@@ -151,18 +164,104 @@
     color: black;
   }
   
-.toggleButton.active {
+  .toggleButton.active {
     background-color: black;
     color: white;
     border-color: black;
+  }
+  
+  .stepsContainer {
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+  }
+  
+  .stepContent {
+    position: absolute;
+    width: 100%;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .stepContent.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
 
-.toggleButton.disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+.modalContent {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh; /* Increased from 80vh to 90vh */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Add this new style for disabled dropdown options */
-.dropdown option:disabled {
-  color: #a0aec0;
+.stepsContainer {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 10px; /* Add some padding to account for scrollbar */
 }
+
+.stepContent {
+  position: relative; /* Changed from absolute to relative */
+  width: 100%;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  display: none; /* Hide inactive step */
+}
+
+.stepContent.active {
+  opacity: 1;
+  display: block; /* Show active step */
+}
+
+/* ... (previous styles remain the same) */
+
+.scheduleLaterInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.dateTimeContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dateInput,
+.timeInput {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.timeZoneInput {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+/* ... (rest of the styles remain the same) */
