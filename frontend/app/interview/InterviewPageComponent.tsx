@@ -52,6 +52,7 @@ export default function InterviewPage() {
   const [isTextComplete, setIsTextComplete] = useState(false);
   const [isTyping, setIsTyping] = useState(false);
   const [currentMessage, setCurrentMessage] = useState('');
+  const [greetingDisplayed, setGreetingDisplayed] = useState(false);
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
@@ -118,6 +119,13 @@ export default function InterviewPage() {
 
   const startInterview = async () => {
     try {
+      // Display initial greeting
+      setTranscriptMessages([{
+        text: "👋",
+        speaker: 'interviewer',
+        timestamp: new Date()
+      }]);
+
       setIsInterviewerTyping(true);
       const response = await fetch(`${backendUrl}/start_interview`, {
         method: 'POST',
@@ -130,16 +138,19 @@ export default function InterviewPage() {
       }
       const data = await response.json();
   
-      // Set the message first
-      setTranscriptMessages([{
+      // Set the actual greeting message
+      setTranscriptMessages(prev => [...prev, {
         text: data.response,
         speaker: 'interviewer',
         timestamp: new Date()
       }]);
       setIsInterviewerTyping(false);
+      setGreetingDisplayed(true);
   
-      // Then play the audio
-      await playAudio(data.audio_data);
+      // Delay audio playback slightly
+      setTimeout(() => {
+        playAudio(data.audio_data);
+      }, 1000); // 1 second delay
   
       setInterviewStarted(true);
     } catch (error) {
@@ -303,7 +314,7 @@ export default function InterviewPage() {
       };
       setTranscriptMessages(prev => [...prev, intervieweeMessage]);
       setInputMessage('');
-      setCurrentTypingMessage('');
+      setIsInterviewerTyping(true);  // Start showing typing indicator
 
       try {
         const response = await fetch(`${backendUrl}/process_response`, {
@@ -320,6 +331,7 @@ export default function InterviewPage() {
 
         const data = await response.json();
         
+        setIsInterviewerTyping(false);  // Stop showing typing indicator
         setTranscriptMessages(prev => [
           ...prev,
           {
@@ -328,13 +340,13 @@ export default function InterviewPage() {
             timestamp: new Date()
           }
         ]);
-        setCurrentTypingMessage(null);
 
         // Play audio and wait for it to finish
         await playAudio(data.audio_data);
 
       } catch (error) {
         console.error("Error processing response:", error);
+        setIsInterviewerTyping(false);  // Stop showing typing indicator
         setTranscriptMessages(prev => [
           ...prev,
           {
@@ -343,7 +355,6 @@ export default function InterviewPage() {
             timestamp: new Date()
           }
         ]);
-        setCurrentTypingMessage(null);
       }
     }
   };
@@ -452,16 +463,13 @@ export default function InterviewPage() {
                   <p>{message.text}</p>
                 </div>
               ))}
-              {currentTypingMessage !== null && (
+              {isInterviewerTyping && (
                 <div className={`${styles.transcriptBubble} ${styles.interviewerBubble}`}>
-                  <p>{currentTypingMessage}</p>
-                  {currentTypingMessage === '' && (
-                    <div className={styles.typingIndicator}>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                  )}
+                  <div className={styles.typingIndicator}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
                 </div>
               )}
               <div ref={transcriptEndRef} />
