@@ -24,6 +24,20 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
   const [timeZone, setTimeZone] = useState('');
   const modalRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
+
+  const resetState = () => {
+    setStep(1);
+    setResumeFile(null);
+    setJobLink('');
+    setInterviewLength('');
+    setSelectedCompany('');
+    setSelectedRole('');
+    setInterviewType('resume');
+    setScheduleType('now');
+    setDate('');
+    setTime('');
+    setTimeZone('');
+  };
   
 
   useEffect(() => {
@@ -44,7 +58,7 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
 
   useEffect(() => {
     if (!isOpen) {
-      setStep(1);
+      resetState();
     }
   }, [isOpen]);
 
@@ -65,7 +79,7 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
   };
 
   const handleClose = () => {
-    setStep(1);
+    resetState();
     onClose();
   };
 
