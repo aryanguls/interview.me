@@ -25,6 +25,8 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
   const modalRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
 
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
+
   const resetState = () => {
     setStep(1);
     setResumeFile(null);
@@ -70,12 +72,36 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
     }
   };
 
-  const handleCreateInterview = () => {
-    localStorage.setItem('selectedCompany', selectedCompany);
-    localStorage.setItem('selectedRole', selectedRole);
-    localStorage.setItem('interviewType', interviewType);
-    localStorage.setItem('scheduleType', scheduleType);
-    router.push('/setup');
+  const handleCreateInterview = async () => {
+    if (!resumeFile || !selectedCompany || !selectedRole) {
+      alert('Please upload a resume and select a company and role.');
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append('resume', resumeFile);
+    formData.append('company', selectedCompany);
+    formData.append('role', selectedRole);
+
+    try {
+      const response = await fetch(`${backendUrl}/upload_resume`, {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        localStorage.setItem('selectedCompany', selectedCompany);
+        localStorage.setItem('selectedRole', selectedRole);
+        localStorage.setItem('interviewType', interviewType);
+        localStorage.setItem('scheduleType', scheduleType);
+        router.push('/setup');
+      } else {
+        alert('Failed to upload resume. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error uploading resume:', error);
+      alert('An error occurred. Please try again.');
+    }
   };
 
   const handleClose = () => {

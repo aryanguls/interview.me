@@ -9,8 +9,8 @@ from elevenlabs import VoiceSettings
 from elevenlabs.client import ElevenLabs
 import json
 import base64
-
-load_dotenv()
+import PyPDF2
+import docx
 
 load_dotenv()
 
@@ -48,6 +48,61 @@ def text_to_speech_stream(text: str) -> IO[bytes]:
 # Initialize conversation history
 conversation_history = []
 
+# Initialize interview context
+interview_context = {
+    "resume_text": "",
+    "company": "",
+    "role": ""
+}
+
+def extract_text_from_pdf(file):
+    pdf_reader = PyPDF2.PdfReader(file)
+    text = ""
+    for page in pdf_reader.pages:
+        text += page.extract_text()
+    return text
+
+def extract_text_from_docx(file):
+    doc = docx.Document(file)
+    text = ""
+    for para in doc.paragraphs:
+        text += para.text + "\n"
+    return text
+
+@app.route('/upload_resume', methods=['POST', 'OPTIONS'])
+def upload_resume():
+    if request.method == 'OPTIONS':
+        headers = {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'POST, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type',
+        }
+        return ('', 204, headers)
+
+    if 'resume' not in request.files:
+        return jsonify({"error": "No file part"}), 400
+    file = request.files['resume']
+    if file.filename == '':
+        return jsonify({"error": "No selected file"}), 400
+    
+    if file:
+        try:
+            if file.filename.lower().endswith('.pdf'):
+                resume_text = extract_text_from_pdf(file)
+            elif file.filename.lower().endswith('.docx'):
+                resume_text = extract_text_from_docx(file)
+            else:
+                return jsonify({"error": "Unsupported file format"}), 400
+            
+            interview_context["resume_text"] = resume_text
+            interview_context["company"] = request.form.get('company', '')
+            interview_context["role"] = request.form.get('role', '')
+            
+            return jsonify({"message": "Resume uploaded successfully"}), 200
+        except Exception as e:
+            app.logger.error(f"Error processing resume: {str(e)}")
+            return jsonify({"error": "Failed to process resume"}), 500
+            
 @app.route('/')
 def home():
     return "Hello from Flask!"
@@ -64,10 +119,16 @@ def start_interview():
         return ('', 204, headers)
 
     try:
+        context = f"""You are an AI interviewer conducting a job interview for {interview_context['company']} for the role of {interview_context['role']}.
+        The candidate's resume contains the following information:
+        {interview_context['resume_text']}
+        
+        Please start the interview with a greeting and a relevant question based on the candidate's resume and the job role."""
+
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "You are an AI interviewer conducting a job interview."},
+                {"role": "system", "content": context},
                 {"role": "user", "content": "Start the interview with a greeting and a question."}
             ]
         )
@@ -88,7 +149,6 @@ def start_interview():
         app.logger.error(f"Error in start_interview: {str(e)}")
         return jsonify({"error": "Failed to start interview. Please try again."}), 500
 
-
 @app.route('/process_response', methods=['POST', 'OPTIONS'])
 def process_response():
     if request.method == 'OPTIONS':
@@ -107,10 +167,16 @@ def process_response():
 
         conversation_history.append({"role": "user", "content": interviewee_response})
 
+        context = f"""You are an AI interviewer conducting a job interview for {interview_context['company']} for the role of {interview_context['role']}.
+        The candidate's resume contains the following information:
+        {interview_context['resume_text']}
+        
+        Please continue the interview based on the candidate's responses and the job role."""
+
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "You are an AI interviewer conducting a job interview."},
+                {"role": "system", "content": context},
                 *conversation_history
             ]
         )
