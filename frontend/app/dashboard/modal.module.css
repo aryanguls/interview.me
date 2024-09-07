@@ -40,6 +40,11 @@
   .modalSection {
     margin-bottom: 1.5rem;
   }
+
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
   
   .sectionTitle {
     font-size: 1rem;

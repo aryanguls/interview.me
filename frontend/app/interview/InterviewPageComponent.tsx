@@ -61,6 +61,8 @@ export default function InterviewPage() {
   const [isTyping, setIsTyping] = useState(false);
   const [currentMessage, setCurrentMessage] = useState('');
   const [greetingDisplayed, setGreetingDisplayed] = useState(false);
+  const currentAudioRef = useRef<HTMLAudioElement | null>(null);
+  const audioSourceRef = useRef<AudioBufferSourceNode | null>(null);
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
@@ -68,20 +70,29 @@ export default function InterviewPage() {
 
   const playAudio = (audioData: string): Promise<void> => {
     return new Promise((resolve) => {
-      if (isPlaying) {
+      if (isAudioPlaying) {
         console.log("Audio already playing, skipping.");
         resolve();
         return;
       }
-      isPlaying = true;
       setIsAudioPlaying(true);
-      const audio = new Audio(`data:audio/mpeg;base64,${audioData}`);
-      audio.onended = () => {
-        isPlaying = false;
-        setIsAudioPlaying(false);
-        resolve();
-      };
-      audio.play();
+
+      const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+      audioContextRef.current = audioContext;
+
+      const arrayBuffer = base64ToArrayBuffer(audioData);
+      audioContext.decodeAudioData(arrayBuffer, (buffer) => {
+        const source = audioContext.createBufferSource();
+        audioSourceRef.current = source;
+        source.buffer = buffer;
+        source.connect(audioContext.destination);
+        source.onended = () => {
+          setIsAudioPlaying(false);
+          audioSourceRef.current = null;
+          resolve();
+        };
+        source.start(0);
+      });
     });
   };
 
@@ -104,29 +115,29 @@ export default function InterviewPage() {
     };
   }, []);
 
-  const playAudioStream = async (url: string) => {
-    if (!audioContextRef.current) return;
+  // const playAudioStream = async (url: string) => {
+  //   if (!audioContextRef.current) return;
 
-    try {
-      const response = await fetch(url);
-      const arrayBuffer = await response.arrayBuffer();
-      const audioBuffer = await audioContextRef.current.decodeAudioData(arrayBuffer);
+  //   try {
+  //     const response = await fetch(url);
+  //     const arrayBuffer = await response.arrayBuffer();
+  //     const audioBuffer = await audioContextRef.current.decodeAudioData(arrayBuffer);
 
-      const source = audioContextRef.current.createBufferSource();
-      source.buffer = audioBuffer;
-      source.connect(audioContextRef.current.destination);
+  //     const source = audioContextRef.current.createBufferSource();
+  //     source.buffer = audioBuffer;
+  //     source.connect(audioContextRef.current.destination);
       
-      setIsAudioPlaying(true);
-      source.start(0);
+  //     setIsAudioPlaying(true);
+  //     source.start(0);
 
-      source.onended = () => {
-        setIsAudioPlaying(false);
-      };
-    } catch (error) {
-      console.error("Error playing audio:", error);
-      setIsAudioPlaying(false);
-    }
-  };
+  //     source.onended = () => {
+  //       setIsAudioPlaying(false);
+  //     };
+  //   } catch (error) {
+  //     console.error("Error playing audio:", error);
+  //     setIsAudioPlaying(false);
+  //   }
+  // };
 
   const startInterview = async () => {
     try {
@@ -276,6 +287,16 @@ export default function InterviewPage() {
   }, [stream, isCameraOn]);
 
   const endCall = () => {
+    if (audioSourceRef.current) {
+      audioSourceRef.current.stop();
+      audioSourceRef.current.disconnect();
+      audioSourceRef.current = null;
+    }
+    if (audioContextRef.current) {
+      audioContextRef.current.close();
+      audioContextRef.current = null;
+    }
+    setIsAudioPlaying(false);
     router.push('/dashboard');
   };
 
@@ -371,14 +392,24 @@ export default function InterviewPage() {
   };
   
   // Helper function to convert base64 to Uint8Array
-  const base64ToUint8Array = (base64: string) => {
+  // const base64ToUint8Array = (base64: string) => {
+  //   const binaryString = window.atob(base64);
+  //   const len = binaryString.length;
+  //   const bytes = new Uint8Array(len);
+  //   for (let i = 0; i < len; i++) {
+  //     bytes[i] = binaryString.charCodeAt(i);
+  //   }
+  //   return bytes;
+  // };
+
+  const base64ToArrayBuffer = (base64: string): ArrayBuffer => {
     const binaryString = window.atob(base64);
     const len = binaryString.length;
     const bytes = new Uint8Array(len);
     for (let i = 0; i < len; i++) {
       bytes[i] = binaryString.charCodeAt(i);
     }
-    return bytes;
+    return bytes.buffer;
   };
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {

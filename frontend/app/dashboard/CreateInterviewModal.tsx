@@ -171,21 +171,21 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
       <section className={styles.modalSection}>
         <h3 className={styles.sectionTitle}>Preparation Type</h3>
         <div className={styles.interviewTypeToggle}>
-          <button
+        <button
             className={`${styles.toggleButton} ${interviewType === 'resume' ? styles.active : ''}`}
             onClick={() => setInterviewType('resume')}
           >
             Resume
           </button>
           <button
-            className={`${styles.toggleButton} ${interviewType === 'behavioral' ? styles.active : ''}`}
-            onClick={() => setInterviewType('behavioral')}
+            className={`${styles.toggleButton} ${styles.disabled}`}
+            disabled
           >
             Behavioral
           </button>
           <button
-            className={`${styles.toggleButton} ${interviewType === 'technical' ? styles.active : ''}`}
-            onClick={() => setInterviewType('technical')}
+            className={`${styles.toggleButton} ${styles.disabled}`}
+            disabled
           >
             Technical
           </button>
