@@ -35,3 +35,7 @@ frontend/.vercel
 # typescript
 **/*.tsbuildinfo
 frontend/next-env.d.ts
+
+# resume
+scripts/Aryan_Gulati_Resume.pdf
+scripts/Aryan_Gulati_Resume.docx
