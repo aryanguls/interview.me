@@ -650,3 +650,76 @@
   align-self: flex-end; /* Keep it aligned to the right */
   margin-right: 10px; /* Increased right margin to move it more to the left */
 }
+
+/* ... (keep existing styles) */
+
+.responseButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.responseButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.startResponse {
+  background-color: #444;
+  color: white;
+}
+
+.startResponse:hover {
+  background-color: #555;
+}
+
+.stopResponse {
+  background-color: #f44336;
+  color: white;
+}
+
+.stopResponse:hover {
+  background-color: #c8302d;
+}
+
+.responseButton:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+/* ... (keep other existing styles) */
+
+.controlsBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.controlButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.interviewType {
+  flex: 1;
+}
+
+.responseButtonContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}

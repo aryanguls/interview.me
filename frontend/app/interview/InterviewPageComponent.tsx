@@ -63,6 +63,8 @@ export default function InterviewPage() {
   const [greetingDisplayed, setGreetingDisplayed] = useState(false);
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const audioSourceRef = useRef<AudioBufferSourceNode | null>(null);
+  const [isResponseActive, setIsResponseActive] = useState(false);
+  const [isButtonDisabled, setIsButtonDisabled] = useState(true);
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
@@ -141,7 +143,6 @@ export default function InterviewPage() {
 
   const startInterview = async () => {
     try {
-      // Display initial greeting
       setTranscriptMessages([{
         text: "👋",
         speaker: 'interviewer',
@@ -160,7 +161,6 @@ export default function InterviewPage() {
       }
       const data = await response.json();
   
-      // Set the actual greeting message
       setTranscriptMessages(prev => [...prev, {
         text: data.response,
         speaker: 'interviewer',
@@ -169,10 +169,14 @@ export default function InterviewPage() {
       setIsInterviewerTyping(false);
       setGreetingDisplayed(true);
   
-      // Delay audio playback slightly
+      // Keep the button disabled until audio finishes playing
+      setIsButtonDisabled(true);
+      
       setTimeout(() => {
-        playAudio(data.audio_data);
-      }, 1000); // 1 second delay
+        playAudio(data.audio_data).then(() => {
+          setIsButtonDisabled(false);
+        });
+      }, 1000);
   
       setInterviewStarted(true);
     } catch (error) {
@@ -181,6 +185,42 @@ export default function InterviewPage() {
       setIsInterviewerTyping(false);
     }
   };
+
+  const handleResponseButton = () => {
+    if (!isResponseActive) {
+      startResponse();
+    } else {
+      stopResponse();
+    }
+  };
+
+  const startResponse = () => {
+    setIsResponseActive(true);
+    setTranscriptMessages(prev => [...prev, {
+      text: '',
+      speaker: 'interviewee',
+      timestamp: new Date(),
+      isLoading: true
+    }]);
+  };
+
+  const stopResponse = async () => {
+    setIsResponseActive(false);
+    const placeholderResponse = "Hello";
+    setTranscriptMessages(prev => {
+      const updatedMessages = [...prev];
+      const lastMessage = updatedMessages[updatedMessages.length - 1];
+      if (lastMessage.speaker === 'interviewee' && lastMessage.isLoading) {
+        lastMessage.text = placeholderResponse;
+        lastMessage.isLoading = false;
+      }
+      return updatedMessages;
+    });
+
+    setIsButtonDisabled(true);
+    await sendMessage(placeholderResponse);
+  };
+
 
   useEffect(() => {
     transcriptEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -337,57 +377,49 @@ export default function InterviewPage() {
     setInputMessage(e.target.value);
   };
 
-  const sendMessage = async () => {
-    if (inputMessage.trim() !== '') {
-      const intervieweeMessage: TranscriptMessage = {
-        text: inputMessage,
-        speaker: 'interviewee',
-        timestamp: new Date()
-      };
-      setTranscriptMessages(prev => [...prev, intervieweeMessage]);
-      setInputMessage('');
-      setIsInterviewerTyping(true);  // Start showing typing indicator
+  const sendMessage = async (message: string) => {
+    setIsInterviewerTyping(true);
 
-      try {
-        const response = await fetch(`${backendUrl}/process_response`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ input: inputMessage }),
-        });
+    try {
+      const response = await fetch(`${backendUrl}/process_response`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ input: message }),
+      });
 
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-
-        const data = await response.json();
-        
-        setIsInterviewerTyping(false);  // Stop showing typing indicator
-        setTranscriptMessages(prev => [
-          ...prev,
-          {
-            text: data.response,
-            speaker: 'interviewer',
-            timestamp: new Date()
-          }
-        ]);
-
-        // Play audio and wait for it to finish
-        await playAudio(data.audio_data);
-
-      } catch (error) {
-        console.error("Error processing response:", error);
-        setIsInterviewerTyping(false);  // Stop showing typing indicator
-        setTranscriptMessages(prev => [
-          ...prev,
-          {
-            text: "I'm sorry, there was an error processing your response. Please try again.",
-            speaker: 'interviewer',
-            timestamp: new Date()
-          }
-        ]);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
       }
+
+      const data = await response.json();
+      
+      setIsInterviewerTyping(false);
+      setTranscriptMessages(prev => [
+        ...prev,
+        {
+          text: data.response,
+          speaker: 'interviewer',
+          timestamp: new Date()
+        }
+      ]);
+
+      await playAudio(data.audio_data);
+      setIsButtonDisabled(false);
+
+    } catch (error) {
+      console.error("Error processing response:", error);
+      setIsInterviewerTyping(false);
+      setTranscriptMessages(prev => [
+        ...prev,
+        {
+          text: "I'm sorry, there was an error processing your response. Please try again.",
+          speaker: 'interviewer',
+          timestamp: new Date()
+        }
+      ]);
+      setIsButtonDisabled(false);
     }
   };
   
@@ -412,11 +444,11 @@ export default function InterviewPage() {
     return bytes.buffer;
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') {
-      sendMessage();
-    }
-  };
+  // const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+  //   if (e.key === 'Enter') {
+  //     sendMessage();
+  //   }
+  // };
 
   useEffect(() => {
     messageEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -503,7 +535,15 @@ export default function InterviewPage() {
                     message.speaker === 'interviewer' ? styles.interviewerBubble : styles.intervieweeBubble
                   }`}
                 >
-                  <p>{message.text}</p>
+                  {message.isLoading ? (
+                    <div className={styles.typingIndicator}>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  ) : (
+                    <p>{message.text}</p>
+                  )}
                 </div>
               ))}
               {isInterviewerTyping && (
@@ -516,19 +556,6 @@ export default function InterviewPage() {
                 </div>
               )}
               <div ref={transcriptEndRef} />
-            </div>
-            <div className={styles.messageInputContainer}>
-              <input
-                type="text"
-                value={inputMessage}
-                onChange={handleInputChange}
-                onKeyPress={handleKeyPress}
-                placeholder="Type your response..."
-                className={styles.messageInput}
-              />
-              <button onClick={sendMessage} className={styles.sendButton}>
-                <Send size={18} color="black" />
-              </button>
             </div>
           </div>
         </main>
@@ -544,55 +571,20 @@ export default function InterviewPage() {
             <button className={styles.controlButton} onClick={toggleCamera}>
               {isCameraOn ? <Camera /> : <CameraOff />}
             </button>
-            {/* <button className={styles.controlButton} onClick={toggleMessagePopup}>
-              <MessageSquare />
-            </button> */}
             <button className={`${styles.controlButton} ${styles.endCallButton}`} onClick={endCall}>
               <PhoneOff />
             </button>
           </div>
-          <div className={styles.spacer}></div>
+          <div className={styles.responseButtonContainer}>
+            <button
+              className={`${styles.responseButton} ${isResponseActive ? styles.stopResponse : styles.startResponse}`}
+              onClick={handleResponseButton}
+              disabled={isButtonDisabled}
+            >
+              {isResponseActive ? 'Stop Response' : 'Start Response'}
+            </button>
+          </div>
         </div>
-  
-        {showMessagePopup && (
-          <>
-            <div className={styles.overlay} onClick={toggleMessagePopup}></div>
-            <div className={styles.messagePopup}>
-              <div className={styles.messagePopupHeader}>
-                <button onClick={toggleMessagePopup} className={styles.minimizeButton}>
-                  <ChevronDown size={18} />
-                </button>
-                <h3 className={styles.chatHeading}>Chat</h3>
-              </div>
-              <div className={styles.messageList}>
-                {chatMessages.map((message, index) => (
-                  <div key={index} className={styles.messageBubble}>
-                    {message.text}
-                    <div className={styles.messageTime}>
-                      {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                    </div>
-                  </div>
-                ))}
-                <div ref={messageEndRef} />
-              </div>
-              <div className={styles.messageInputWrapper}>
-                <div className={styles.messageInputContainer}>
-                  <textarea
-                    value={chatInputMessage}
-                    onChange={handleChatInputChange}
-                    onKeyPress={handleChatKeyPress}
-                    placeholder="Type a message..."
-                    className={styles.messageInput}
-                    rows={2}
-                  />
-                  <button onClick={sendChatMessage} className={styles.sendButton}>
-                    <Send size={18} color="black" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </>
-        )}
       </div>
     </div>
   );
