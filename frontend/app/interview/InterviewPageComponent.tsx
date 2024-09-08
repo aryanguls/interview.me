@@ -65,6 +65,9 @@ export default function InterviewPage() {
   const audioSourceRef = useRef<AudioBufferSourceNode | null>(null);
   const [isResponseActive, setIsResponseActive] = useState(false);
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);
+  const [isRecording, setIsRecording] = useState(false);
+  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
+  const audioChunksRef = useRef<Blob[]>([]);
 
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://127.0.0.1:5000';
 
@@ -185,42 +188,6 @@ export default function InterviewPage() {
       setIsInterviewerTyping(false);
     }
   };
-
-  const handleResponseButton = () => {
-    if (!isResponseActive) {
-      startResponse();
-    } else {
-      stopResponse();
-    }
-  };
-
-  const startResponse = () => {
-    setIsResponseActive(true);
-    setTranscriptMessages(prev => [...prev, {
-      text: '',
-      speaker: 'interviewee',
-      timestamp: new Date(),
-      isLoading: true
-    }]);
-  };
-
-  const stopResponse = async () => {
-    setIsResponseActive(false);
-    const placeholderResponse = "Hello";
-    setTranscriptMessages(prev => {
-      const updatedMessages = [...prev];
-      const lastMessage = updatedMessages[updatedMessages.length - 1];
-      if (lastMessage.speaker === 'interviewee' && lastMessage.isLoading) {
-        lastMessage.text = placeholderResponse;
-        lastMessage.isLoading = false;
-      }
-      return updatedMessages;
-    });
-
-    setIsButtonDisabled(true);
-    await sendMessage(placeholderResponse);
-  };
-
 
   useEffect(() => {
     transcriptEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -474,6 +441,88 @@ export default function InterviewPage() {
       e.preventDefault();
       sendChatMessage();
     }
+  };
+
+  const startRecording = useCallback(() => {
+    if (stream) {
+      const mediaRecorder = new MediaRecorder(stream);
+      mediaRecorderRef.current = mediaRecorder;
+      audioChunksRef.current = [];
+
+      mediaRecorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          audioChunksRef.current.push(event.data);
+        }
+      };
+
+      mediaRecorder.start();
+      setIsRecording(true);
+    }
+  }, [stream]);
+
+  const stopRecording = useCallback(() => {
+    if (mediaRecorderRef.current && isRecording) {
+      mediaRecorderRef.current.stop();
+      setIsRecording(false);
+      
+      mediaRecorderRef.current.onstop = async () => {
+        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+        const formData = new FormData();
+        formData.append('audio', audioBlob, 'recording.webm');
+
+        try {
+          const response = await fetch(`${backendUrl}/transcribe_and_process`, {
+            method: 'POST',
+            body: formData,
+          });
+
+          if (!response.ok) {
+            throw new Error('Failed to transcribe and process audio');
+          }
+
+          const data = await response.json();
+          
+          setTranscriptMessages(prev => {
+            const updatedMessages = [...prev];
+            const lastMessage = updatedMessages[updatedMessages.length - 1];
+            if (lastMessage.speaker === 'interviewee' && lastMessage.isLoading) {
+              lastMessage.text = data.transcription;
+              lastMessage.isLoading = false;
+            }
+            return updatedMessages;
+          });
+
+          await sendMessage(data.transcription);
+        } catch (error) {
+          console.error("Error processing audio:", error);
+          setError("Failed to process audio. Please try again.");
+        }
+      };
+    }
+  }, [isRecording, sendMessage]);
+
+  const handleResponseButton = () => {
+    if (!isResponseActive) {
+      startResponse();
+    } else {
+      stopResponse();
+    }
+  };
+
+  const startResponse = () => {
+    setIsResponseActive(true);
+    setTranscriptMessages(prev => [...prev, {
+      text: '',
+      speaker: 'interviewee',
+      timestamp: new Date(),
+      isLoading: true
+    }]);
+    startRecording();
+  };
+
+  const stopResponse = () => {
+    setIsResponseActive(false);
+    stopRecording();
   };
 
   return (

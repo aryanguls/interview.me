@@ -11,6 +11,7 @@ import json
 import base64
 import PyPDF2
 import docx
+import assemblyai as aai
 
 load_dotenv()
 
@@ -18,6 +19,8 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*", "methods": ["GET", "POST", "OPTIONS"], "allow_headers": "*"}})
 
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+
+aai.settings.api_key = os.getenv('ASSEMBLYAI_API_KEY')
 
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
 if not ELEVENLABS_API_KEY:
@@ -198,5 +201,45 @@ def process_response():
         app.logger.error(f"Error in process_response: {str(e)}")
         return jsonify({"error": "Failed to process response. Please try again."}), 500
 
+@app.route('/transcribe_and_process', methods=['POST', 'OPTIONS'])
+def transcribe_and_process():
+    if request.method == 'OPTIONS':
+        headers = {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'POST, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type',
+        }
+        return ('', 204, headers)
+
+    try:
+        if 'audio' not in request.files:
+            return jsonify({"error": "No audio file provided"}), 400
+
+        audio_file = request.files['audio']
+        
+        # Save the audio file temporarily
+        temp_audio_path = "temp_audio.webm"
+        audio_file.save(temp_audio_path)
+
+        # Transcribe using AssemblyAI
+        transcriber = aai.Transcriber()
+        transcript = transcriber.transcribe(temp_audio_path)
+
+        # Remove the temporary file
+        os.remove(temp_audio_path)
+
+        if transcript.error:
+            return jsonify({"error": f"Transcription failed: {transcript.error}"}), 500
+
+        transcription_text = transcript.text
+
+        return jsonify({
+            "transcription": transcription_text
+        })
+
+    except Exception as e:
+        app.logger.error(f"Error in transcribe_and_process: {str(e)}")
+        return jsonify({"error": "Failed to transcribe and process audio. Please try again."}), 500
+        
 if __name__ == '__main__':
     app.run(debug=True)
