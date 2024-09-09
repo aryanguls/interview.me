@@ -63,6 +63,7 @@
     font-size: 0.875rem;
     text-align: center;
     transition: background-color 0.3s ease;
+    border: 2px solid transparent;
   }
   
   .uploadButton:hover {
@@ -270,3 +271,17 @@
 }
 
 /* ... (rest of the styles remain the same) */
+
+.error {
+  border-color: #f56565 !important;
+}
+
+.errorText {
+  color: #f56565;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.uploadButton.error {
+  border-color: #f56565; /* Red border for error state */
+}
