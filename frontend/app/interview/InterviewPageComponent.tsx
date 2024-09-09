@@ -17,11 +17,6 @@ interface TranscriptMessage {
   isLoading?: boolean;
 }
 
-interface Message {
-  text: string;
-  timestamp: Date;
-}
-
 const AudioIndicator = ({ isPlaying }: { isPlaying: boolean }) => (
   <div className={`${styles.interviewerAudioIndicator} ${isPlaying ? styles.playing : ''}`}>
     <div className={styles.bar}></div>
@@ -35,16 +30,12 @@ export default function InterviewPage() {
   const [stream, setStream] = useState<MediaStream | null>(null);
   const [isCameraOn, setIsCameraOn] = useState(true);
   const [isMicOn, setIsMicOn] = useState(true);
-  const [showMessagePopup, setShowMessagePopup] = useState(false);
   const [isStreamReady, setIsStreamReady] = useState(false);
   const [audioLevels, setAudioLevels] = useState([0, 0, 0, 0]);
   const router = useRouter();
   const audioContextRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
   const animationFrameRef = useRef<number | null>(null);
-  const [messages, setMessages] = useState<Message[]>([]);
-  const [inputMessage, setInputMessage] = useState('');
-  const messageEndRef = useRef<HTMLDivElement>(null);
   const [currentTime, setCurrentTime] = useState('');
   const [companyName, setCompanyName] = useState('');
   const [roleName, setRoleName] = useState('');
@@ -53,15 +44,8 @@ export default function InterviewPage() {
   const [interviewStarted, setInterviewStarted] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [isInterviewerTyping, setIsInterviewerTyping] = useState(false);
-  const [chatMessages, setChatMessages] = useState<Message[]>([]);
-  const [chatInputMessage, setChatInputMessage] = useState('');
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
-  const [currentTypingMessage, setCurrentTypingMessage] = useState<string | null>(null);
-  const [isTextComplete, setIsTextComplete] = useState(false);
-  const [isTyping, setIsTyping] = useState(false);
-  const [currentMessage, setCurrentMessage] = useState('');
   const [greetingDisplayed, setGreetingDisplayed] = useState(false);
-  const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const audioSourceRef = useRef<AudioBufferSourceNode | null>(null);
   const [isResponseActive, setIsResponseActive] = useState(false);
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);
@@ -119,30 +103,6 @@ export default function InterviewPage() {
       }
     };
   }, []);
-
-  // const playAudioStream = async (url: string) => {
-  //   if (!audioContextRef.current) return;
-
-  //   try {
-  //     const response = await fetch(url);
-  //     const arrayBuffer = await response.arrayBuffer();
-  //     const audioBuffer = await audioContextRef.current.decodeAudioData(arrayBuffer);
-
-  //     const source = audioContextRef.current.createBufferSource();
-  //     source.buffer = audioBuffer;
-  //     source.connect(audioContextRef.current.destination);
-      
-  //     setIsAudioPlaying(true);
-  //     source.start(0);
-
-  //     source.onended = () => {
-  //       setIsAudioPlaying(false);
-  //     };
-  //   } catch (error) {
-  //     console.error("Error playing audio:", error);
-  //     setIsAudioPlaying(false);
-  //   }
-  // };
 
   const startInterview = async () => {
     try {
@@ -336,14 +296,6 @@ export default function InterviewPage() {
     return null;
   };
 
-  const toggleMessagePopup = () => {
-    setShowMessagePopup(!showMessagePopup);
-  };
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setInputMessage(e.target.value);
-  };
-
   const sendMessage = async (message: string) => {
     setIsInterviewerTyping(true);
 
@@ -389,17 +341,6 @@ export default function InterviewPage() {
       setIsButtonDisabled(false);
     }
   };
-  
-  // Helper function to convert base64 to Uint8Array
-  // const base64ToUint8Array = (base64: string) => {
-  //   const binaryString = window.atob(base64);
-  //   const len = binaryString.length;
-  //   const bytes = new Uint8Array(len);
-  //   for (let i = 0; i < len; i++) {
-  //     bytes[i] = binaryString.charCodeAt(i);
-  //   }
-  //   return bytes;
-  // };
 
   const base64ToArrayBuffer = (base64: string): ArrayBuffer => {
     const binaryString = window.atob(base64);
@@ -409,38 +350,6 @@ export default function InterviewPage() {
       bytes[i] = binaryString.charCodeAt(i);
     }
     return bytes.buffer;
-  };
-
-  // const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
-  //   if (e.key === 'Enter') {
-  //     sendMessage();
-  //   }
-  // };
-
-  useEffect(() => {
-    messageEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages]);
-
-  const sendChatMessage = () => {
-    if (chatInputMessage.trim() !== '') {
-      const newMessage: Message = {
-        text: chatInputMessage,
-        timestamp: new Date()
-      };
-      setChatMessages(prev => [...prev, newMessage]);
-      setChatInputMessage('');
-    }
-  };
-
-  const handleChatInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    setChatInputMessage(e.target.value);
-  };
-
-  const handleChatKeyPress = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault();
-      sendChatMessage();
-    }
   };
 
   const startRecording = useCallback(() => {
