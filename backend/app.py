@@ -33,7 +33,7 @@ def text_to_speech_stream(text: str) -> IO[bytes]:
         optimize_streaming_latency="0",
         output_format="mp3_22050_32",
         text=text,
-        model_id="eleven_multilingual_v2",
+        model_id="eleven_turbo_v2",
         voice_settings=VoiceSettings(
             stability=0.0,
             similarity_boost=1.0,
@@ -122,17 +122,17 @@ def start_interview():
         return ('', 204, headers)
 
     try:
-        context = f"""You are an AI interviewer conducting a job interview for {interview_context['company']} for the role of {interview_context['role']}.
+        context = f"""You are an AI interviewer conducting a concise job interview for {interview_context['company']} for the role of {interview_context['role']}.
         The candidate's resume contains the following information:
         {interview_context['resume_text']}
         
-        Please start the interview with a greeting and a relevant question based on the candidate's resume and the job role."""
+        Please start the interview with a brief greeting and a relevant, focused question based on the candidate's resume and the job role. Keep your responses short and to the point."""
 
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": context},
-                {"role": "user", "content": "Start the interview with a greeting and a question."}
+                {"role": "user", "content": "Start the interview with a brief greeting and a concise question."}
             ]
         )
 
@@ -170,11 +170,11 @@ def process_response():
 
         conversation_history.append({"role": "user", "content": interviewee_response})
 
-        context = f"""You are an AI interviewer conducting a job interview for {interview_context['company']} for the role of {interview_context['role']}.
+        context = f"""You are an AI interviewer conducting a concise job interview for {interview_context['company']} for the role of {interview_context['role']}.
         The candidate's resume contains the following information:
         {interview_context['resume_text']}
         
-        Please continue the interview based on the candidate's responses and the job role."""
+        Please continue the interview based on the candidate's responses and the job role. Keep your questions and responses brief and focused. Aim for no more than 2-3 sentences per response."""
 
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
