@@ -1,7 +1,7 @@
+import os
 from flask import Flask, request, jsonify, Response
 from flask_cors import CORS
 from openai import OpenAI
-import os
 from dotenv import load_dotenv
 from io import BytesIO
 from typing import IO
@@ -242,4 +242,5 @@ def transcribe_and_process():
         return jsonify({"error": "Failed to transcribe and process audio. Please try again."}), 500
         
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
