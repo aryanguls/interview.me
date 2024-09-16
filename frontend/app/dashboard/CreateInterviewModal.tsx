@@ -8,7 +8,7 @@ interface CreateInterviewModalProps {
 }
 
 const companies = ['Google', 'Meta (Facebook)', 'Tesla', 'Airbnb', 'Shopify', 'Amazon', 'Apple', 'Microsoft'];
-const roles = ['Product Management', 'Software Engineer', 'Data Scientist', 'UX Designer', 'Marketing Manager'];
+const roles = ['Software Engineer', 'Product Manager', 'Data Scientist', 'UX Designer', 'Research Scientist', 'Machine Learning Engineer', 'AI Engineer'];
 
 export default function CreateInterviewModal({ isOpen, onClose }: CreateInterviewModalProps) {
   const [step, setStep] = useState(1);
@@ -276,8 +276,8 @@ export default function CreateInterviewModal({ isOpen, onClose }: CreateIntervie
             Now
           </button>
           <button
-            className={`${styles.toggleButton} ${scheduleType === 'later' ? styles.active : ''}`}
-            onClick={() => setScheduleType('later')}
+            className={`${styles.toggleButton} ${styles.disabled}`}
+            disabled
           >
             Later
           </button>
