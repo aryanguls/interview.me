@@ -469,3 +469,14 @@
     margin-top: 2rem;
   }
 }
+
+/* Add this new style for the gradient text */
+.gradientText {
+  background: linear-gradient(to right, #333333, #0075c8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+}
+

@@ -117,9 +117,11 @@ export default function Home() {
       <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start">
           <div className="md:w-1/2 md:pr-8">
-            <h2 className="text-4xl font-medium mb-4">Smarter hiring starts here.</h2>
+          <h2 className={`text-4xl font-medium mb-4 ${styles.gradientText}`}>
+              Smarter hiring starts here.
+            </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Create an account instantly to apply for work or explore teams search to start hiring for your business.
+              Screen more candidates, faster and hire better. Only pay by number of candidates screened.
             </p>
             <div className="flex space-x-4">
               <Link href="/demo" className={`${styles.actionButton} ${styles.primaryButton}`}>
