@@ -10,12 +10,8 @@ const dm_sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] });
 export default function Home() {
   return (
     <main className={`${styles.container} ${inter.className} min-h-screen bg-white relative overflow-hidden`}>
-      {/* Centered color blemishes */}
-      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 w-[600px] h-[600px]">
-        <div className="absolute top-0 left-0 w-2/3 h-2/3 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-        <div className="absolute top-0 right-0 w-2/3 h-2/3 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        <div className="absolute top-1/3 bottom-0 left-1/4 w-2/3 h-2/3 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-      </div>
+      {/* New background gradient */}
+      <div className={styles.backgroundGradient}></div>
 
       <div className={styles.header}>
         <div className={styles.logoContainer}>
@@ -35,20 +31,63 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`flex flex-col items-center justify-center text-center px-4 py-20 relative z-10 ${dm_sans.className}`}>
+      <div className={`flex flex-col items-center justify-center text-center px-4 py-20 ${dm_sans.className} relative z-10`}>
         <h1 className="text-5xl md:text-6xl font-medium text-gray-800 mb-6 mt-12">
-          Preview your Interview with us.
+          Revolutionize Hiring with <span className={styles.highlightedText}>AI Interviews.</span>
         </h1>
-        <p className="text-xl font-medium text-gray-600 mb-12 max-w-2xl">
-          Lucence uses AI to simulate real interviews for any job. Get personalized feedback, build confidence, accelerate your career.
+        <p className="text-xl font-medium text-gray-600 mb-12 max-w-3xl">
+          Lucence automates recruiting by offering customizable AI-led interviews & screening for any role. Save time, reduce costs and find top talent effortlessly.
         </p>
-        <Link href="/dashboard" className="bg-black text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-700 transition-all duration-400 ease-in-out mt-7">
-          Take Your First Interview →
-        </Link>
+        <div className="flex space-x-4 relative z-20">
+          <Link href="/demo" className={`${styles.actionButton} ${styles.primaryButton}`}>
+            Request a Demo
+          </Link>
+          <Link href="/dashboard" className={`${styles.actionButton} ${styles.secondaryButton}`}>
+            Try a Mock Interview →
+          </Link>
+        </div>
       </div>
 
-      {/* Space for future product screenshot */}
-      <div className="mt-20"></div>
+      {/* Added graphic */}
+      <div className={`mt-20 flex justify-center ${styles.graphicContainer}`}>
+        <div className={styles.gradientBackground}></div>
+        <img
+          src="/Graphic.png"
+          alt="Product Screenshot"
+          className={styles.graphic}
+        />
+      </div>
+
+      {/* Updated Footer Layout */}
+      <footer className={`${styles.footer} ${dm_sans.className}`}>
+        <hr className={styles.footerLine} />
+        <div className={styles.footerContent}>
+          <div className={styles.footerLeft}>
+            <div className={styles.logoAndName}>
+              <Image
+                src="/logo (1).png"
+                alt="Lucence Logo"
+                width={28}
+                height={28}
+                className={styles.footerLogo}
+              />
+              <h2 className={styles.footerTitle}>Lucence</h2>
+            </div>
+            <p className={styles.footerTagline}>
+              Conversational AI Lab building products<br />to empower enterprise workflows.
+            </p>
+          </div>
+          <div className={styles.footerRight}>
+            <div className={styles.socialIcons}>
+              <Link href="#" className={styles.socialIcon}><Image src="/twitter.png" alt="Twitter" width={24} height={24} /></Link>
+              <Link href="#" className={styles.socialIcon}><Image src="/linkedin-logo.png" alt="LinkedIn" width={24} height={24} /></Link>
+              <Link href="#" className={styles.socialIcon}><Image src="/github.png" alt="GitHub" width={24} height={24} /></Link>
+              <Link href="#" className={styles.socialIcon}><Image src="/email.png" alt="Email" width={24} height={24} /></Link>
+            </div>
+            <p className={styles.footerBottom}>© 2024 Lucence Inc. Made with ❤️ in the Bay Area.</p>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
