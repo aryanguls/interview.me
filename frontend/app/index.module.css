@@ -170,10 +170,11 @@
 
 .graphicContainer {
   position: relative;
-  width: 1280px;  /* Match the width of your graphic */
-  height: 690px;  /* Match the height of your graphic */
-  margin: 2rem auto;
-  overflow: visible;  /* Allow the gradient to extend beyond the container */
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  margin: 6rem auto;
+  overflow: visible;
 }
 
 .gradientBackground {
@@ -181,19 +182,21 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 160%;  /* Increased from 140% to extend further */
-  height: 160%;  /* Increased from 140% to extend further */
+  width: 160%;
+  height: 160%;
   background: radial-gradient(ellipse at center, 
-              rgba(0, 59, 101, 0.5) 0%,  /* Deeper blue with higher opacity */
-              rgba(0, 75, 129, 0.3) 40%,  /* Original blue, fading out */
+              rgba(0, 59, 101, 0.5) 0%,
+              rgba(0, 75, 129, 0.3) 40%,
               rgba(255, 255, 255, 0) 70%);
   z-index: 1;
-  filter: blur(30px);  /* Add a subtle blur effect */
+  filter: blur(30px);
 }
 
 .graphic {
   position: relative;
   z-index: 2;
+  width: 100%;
+  height: auto;
 }
 
 .highlightedText {
@@ -413,5 +416,56 @@
 @media (max-width: 768px) {
   .featureCard {
     width: 100%;
+  }
+}
+
+.ctaGraphic {
+  width: 70%;
+  height: 300px;
+  border-radius: 8px;
+  margin: 30px 0px 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graphicPlaceholder {
+  font-size: 24px;
+  color: #9ca3af;
+}
+
+.actionButton {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.primaryButton {
+  background-color: #000000;
+  color: white;
+}
+
+.primaryButton:hover {
+  background-color: #1a1a1a;
+}
+
+.secondaryButton {
+  background-color: white;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.secondaryButton:hover {
+  background-color: #f3f4f6;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .ctaGraphic {
+    height: 300px;
+    margin-top: 2rem;
   }
 }
