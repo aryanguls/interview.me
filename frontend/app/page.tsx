@@ -3,11 +3,45 @@ import Image from 'next/image';
 import { Inter, DM_Sans } from 'next/font/google';
 import styles from './index.module.css';
 import Link from 'next/link';
+import { BarChart, Battery, Cog, FileText, UserCheck, Scale, Clock, Target, Zap } from 'lucide-react';
 
 const inter = Inter({ subsets: ["latin"] });
 const dm_sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] });
 
 export default function Home() {
+  const features = [
+    { 
+      icon: <UserCheck size={24} />,
+      title: "AI-Powered Interviews", 
+      description: "Conduct fair and consistent interviews using advanced AI technology."
+    },
+    { 
+      icon: <Cog size={24} />,
+      title: "Customizable Questions", 
+      description: "Tailor interview questions to match your specific role requirements."
+    },
+    { 
+      icon: <BarChart size={24} />,
+      title: "Comprehensive Analytics", 
+      description: "Gain valuable insights with detailed candidate performance reports."
+    },
+    { 
+      icon: <Clock size={24} />,
+      title: "Time-Saving Automation", 
+      description: "Streamline your hiring process and reduce time-to-hire significantly."
+    },
+    { 
+      icon: <Target size={24} />,
+      title: "Precision Matching", 
+      description: "Find candidates that precisely match your job requirements and company culture."
+    },
+    { 
+      icon: <Zap size={24} />,
+      title: "Instant Feedback", 
+      description: "Provide immediate feedback to candidates, enhancing their experience."
+    },
+  ];
+
   return (
     <main className={`${styles.container} ${inter.className} min-h-screen bg-white relative overflow-hidden`}>
       {/* New background gradient */}
@@ -56,6 +90,27 @@ export default function Home() {
           alt="Product Screenshot"
           className={styles.graphic}
         />
+      </div>
+
+      {/* Updated Features Section */}
+      <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-medium text-center mb-4">Supercharge your hiring process</h2>
+          <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+            With Lucence, you can streamline your recruitment and find top talent efficiently.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {features.map((feature, index) => (
+              <div key={index} className="border border-gray-200 rounded-lg p-6 flex flex-col items-start">
+                <div className="bg-gray-100 p-3 rounded-full mb-4 self-start">
+                  {feature.icon}
+                </div>
+                <h3 className="text-lg font-medium mb-2">{feature.title}</h3>
+                <p className="text-gray-600 text-sm">{feature.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
 
       {/* Updated Footer Layout */}

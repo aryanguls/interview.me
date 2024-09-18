@@ -47,7 +47,7 @@
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
   background-color: #000000;
   padding: 0.5rem 1.1rem;
-  border-radius: 100px;
+  border-radius: 7px;
   margin-left: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -141,14 +141,12 @@
 }
 
 .actionButton {
-  cursor: pointer;
-  font-size: 1.125rem;
-  text-decoration: none;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
   font-weight: 500;
-  padding: 1rem 2rem;
-  border-radius: 9999px;
+  text-align: center;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .primaryButton {
@@ -157,18 +155,17 @@
 }
 
 .primaryButton:hover {
-  background-color: #004b81;
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  background-color: #222;
 }
 
 .secondaryButton {
-  background-color: #e5e7eb;
+  background-color: white;
   color: #000000;
+  border: 2px solid #000000;
 }
 
 .secondaryButton:hover {
-  background-color: #d1d5db;
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ececec;
 }
 
 .graphicContainer {
@@ -200,7 +197,7 @@
 }
 
 .highlightedText {
-  color: #004b81;
+  color: #0062a7;
 }
 
 .footer {
@@ -208,7 +205,7 @@
   padding: 40px 20px;
   box-sizing: border-box;
   background-color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .footerLine {
@@ -349,5 +346,72 @@
     margin-top: 0.5rem;
   }
 }
+.featuresSection {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+  margin-top: 80px; /* Add space from the top */
+}
 
+.featuresContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
 
+.featureGrid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.featureCard {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.featureIcon {
+  background-color: #f3f4f6;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+
+.featureContent {
+  flex-grow: 1;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .featureGrid {
+    flex-wrap: wrap;
+  }
+
+  .featureCard {
+    width: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 768px) {
+  .featureCard {
+    width: 100%;
+  }
+}
