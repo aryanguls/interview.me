@@ -115,32 +115,38 @@ export default function Home() {
 
       {/* Updated CTA section */}
       <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start">
-          <div className="md:w-1/2 md:pr-8">
-          <h2 className={`text-4xl font-medium mb-4 ${styles.gradientText}`}>
-              Smarter hiring starts here.
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              Screen more candidates, faster and hire better. Only pay by number of candidates screened.
-            </p>
-            <div className="flex space-x-4">
-              <Link href="/demo" className={`${styles.actionButton} ${styles.primaryButton}`}>
-                Request a Demo
-              </Link>
-              <Link href="/dashboard" className={`${styles.actionButton} ${styles.secondaryButton}`}>
-                Try a Mock Interview →
-              </Link>
-            </div>
-          </div>
-          <div className="md:w-1/2 mt-8 md:mt-0 flex justify-end">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className={`text-4xl font-medium mb-4`}>
+            Seamlessly integrates with existing workflows
+          </h2>
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            Screen more candidates, faster & hire better. Without lifting a finger.
+          </p>
+          <div className={`flex justify-center ${styles.workflowGraphicContainer}`}>
+            <div className={styles.workflowGradientBackground}></div>
             <div className={styles.ctaGraphic}>
-              {/* Replace this with your actual graphic */}
               <img
-                src="/CTA_Graphic.png"
-                alt="CTA Graphic"
-                // className={styles.graphic}
+                src="/Workflow_Graphic.png"
+                alt="Workflow Graphic"
+                className="max-w-full h-auto relative z-10"
               />
             </div>
+          </div>
+          
+          {/* New heading, engaging subtitle, and buttons */}
+          <h2 className={`text-4xl font-medium mb-4 mt-16 ${styles.gradientText}`}>
+            Smarter hiring starts here.
+          </h2>
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            Still sifting through resumes manually? Join the AI revolution in hiring.
+          </p>
+          <div className="flex justify-center space-x-4">
+            <Link href="/demo" className={`${styles.actionButton} ${styles.primaryButton}`}>
+              Request a Demo
+            </Link>
+            <Link href="/dashboard" className={`${styles.actionButton} ${styles.secondaryButton}`}>
+              Try a Mock Interview →
+            </Link>
           </div>
         </div>
       </div>

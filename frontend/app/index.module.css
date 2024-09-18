@@ -173,7 +173,7 @@
   width: 100%;
   max-width: 1280px;
   height: auto;
-  margin: 6rem auto;
+  margin: 7rem auto;
   overflow: visible;
 }
 
@@ -352,7 +352,7 @@
 .featuresSection {
   background-color: #f8f9fa;
   padding: 80px 0;
-  margin-top: 80px; /* Add space from the top */
+  margin-top: 70px; /* Add space from the top */
 }
 
 .featuresContainer {
@@ -480,3 +480,50 @@
   display: inline-block;
 }
 
+.ctaGraphic {
+  width: 100%;
+  max-width: 1500px; /* Adjust this value as needed */
+  margin: 100px 0px 100px 0px;
+}
+
+.ctaGraphic img {
+  width: 100%;
+  height: auto;
+}
+
+.workflowGraphicContainer {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  margin: 7rem auto;
+  overflow: visible;
+}
+
+.workflowGradientBackground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 160%;
+  height: 160%;
+  background: radial-gradient(ellipse at center, 
+              rgba(0, 98, 167, 0.5) 0%,
+              rgba(0, 126, 215, 0.3) 40%,
+              rgba(255, 255, 255, 0) 70%);
+  z-index: 1;
+  filter: blur(30px);
+}
+
+.ctaGraphic {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 50px 0px 50px 0px;
+  z-index: 2;
+}
+
+.ctaGraphic img {
+  width: 100%;
+  height: auto;
+}
