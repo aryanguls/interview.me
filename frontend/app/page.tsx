@@ -60,8 +60,8 @@ export default function Home() {
         </div>
         <div className={styles.buttonContainer}>
           <Link href="/contact" className={styles.textButton}>Contact</Link>
-          <Link href="/login" className={styles.textButton}>Login</Link>
-          <Link href="/signup" className={styles.button}>Get Started</Link>
+          <Link href="/login" className={styles.textButton}>Candidates</Link>
+          <Link href="/signup" className={styles.button}>Companies</Link>
         </div>
       </div>
 
@@ -113,6 +113,54 @@ export default function Home() {
         </div>
       </div>
 
+
+      {/* New Customizable Interviews Section */}
+      <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
+            <h2 className="text-4xl font-medium mb-4">Customizable AI Interviews</h2>
+            <p className="text-xl text-gray-600 mb-6">
+              Connect to your internal question base, order interview flow, integrate role-based tasks and more.
+            </p>
+          </div>
+          <div className="md:w-1/2 flex justify-center">
+            <div className={styles.customInterviewGraphicContainer}>
+              <div className={styles.customInterviewGradientBackground}></div>
+              <div className={styles.graphicPlaceholder}>
+                <Image 
+                  src="/Custom_Interviews.png" 
+                  alt="Customizable Interviews" 
+                  width={500} 
+                  height={400} 
+                  layout="intrinsic"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* New Analytics Section */}
+      <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center">
+          <div className="md:w-1/2 md:pl-8 mb-8 md:mb-0">
+            <h2 className="text-4xl font-medium mb-4">Comprehensive Analytics</h2>
+            <p className="text-xl text-gray-600 mb-6">
+              Gain valuable insights into your hiring process with our detailed analytics. Track candidate performance, identify top talent, and make data-driven decisions to improve your recruitment strategy.
+            </p>
+          </div>
+          <div className="md:w-1/2 flex justify-center">
+            <div className={styles.graphicPlaceholder}>
+              {/* Replace this with your actual graphic */}
+              <Image src="/placeholder-image.jpg" alt="Analytics Dashboard" width={500} height={300} />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Spacer */}
+      {/* <div className="py-10"></div> */}
+
       {/* Updated CTA section */}
       <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
         <div className="max-w-6xl mx-auto text-center">
@@ -132,6 +180,8 @@ export default function Home() {
               />
             </div>
           </div>
+
+
           
           {/* New heading, engaging subtitle, and buttons */}
           <h2 className={`text-4xl font-medium mb-4 mt-16 ${styles.gradientText}`}>
