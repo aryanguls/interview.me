@@ -8,8 +8,9 @@
   background-color: white;
   padding: 0 1rem;
   position: relative;
-  overflow: hidden;
+  overflow: visible; /* Change this to visible */
 }
+
 
 .header {
   width: 95%;

@@ -66,11 +66,11 @@ export default function Home() {
       </div>
 
       <div className={`flex flex-col items-center justify-center text-center px-4 py-20 ${dm_sans.className} relative z-10`}>
-        <h1 className="text-5xl md:text-6xl font-medium text-gray-800 mb-6 mt-12">
-          Revolutionize Hiring with <span className={styles.highlightedText}>AI Interviews.</span>
+        <h1 className={`text-5xl md:text-6xl font-medium text-gray-800 mb-6 mt-12 ${styles.gradientText}`} style={{ lineHeight: '1.2' }}>
+            Hiring Intelligence for your Enterprise
         </h1>
         <p className="text-xl font-medium text-gray-600 mb-12 max-w-3xl">
-          Lucence automates recruiting by offering customizable AI-led interviews & screening for any role. Save time, reduce costs and find top talent effortlessly.
+          Lucence automates recruiting by offering customizable <span className={styles.highlightedText}>AI-led interviews & screening</span> for any role. Save time, reduce costs and find top talent effortlessly.
         </p>
         <div className="flex space-x-4 relative z-20">
           <Link href="/demo" className={`${styles.actionButton} ${styles.primaryButton}`}>
