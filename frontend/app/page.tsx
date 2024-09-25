@@ -70,7 +70,7 @@ export default function Home() {
             Hiring Intelligence for your Enterprise
         </h1>
         <p className="text-xl font-medium text-gray-600 mb-12 max-w-3xl">
-          Lucence automates recruiting by offering customizable <span className={styles.highlightedText}>AI-led interviews & screening</span> for any role. Save time, reduce costs and find top talent effortlessly.
+          Lucence automates recruiting by offering customizable <span className={styles.highlightedText}>AI-led interviews & screening</span> for any role. Save time, reduce costs and hire top talent effortlessly.
         </p>
         <div className="flex space-x-4 relative z-20">
           <Link href="/demo" className={`${styles.actionButton} ${styles.primaryButton}`}>
