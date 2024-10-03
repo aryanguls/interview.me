@@ -1,12 +1,14 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { Inter, DM_Sans } from 'next/font/google';
+import { Inter, DM_Sans, Gloria_Hallelujah, Playfair_Display, Pacifico} from 'next/font/google';
 import styles from './index.module.css';
 import Link from 'next/link';
 import { BarChart, Battery, Cog, FileText, UserCheck, Scale, Clock, Target, Zap } from 'lucide-react';
 
 const inter = Inter({ subsets: ["latin"] });
 const dm_sans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] });
+const playfair_display = Playfair_Display({ subsets: ['latin'], weight: ['400', '700'] });
+const pacifico = Pacifico({ subsets: ['latin'], weight: ['400'] });
 
 export default function Home() {
   const features = [
@@ -49,13 +51,15 @@ export default function Home() {
 
       <div className={styles.header}>
         <div className={styles.logoContainer}>
-          <Image
-            src="/logo (1).png"
-            alt="Logo"
-            width={40}
-            height={40}
+          <video
+            src="/Animation - 1727914209042 - black.webm"
+            width={60}
+            height={60}
             className={styles.logo}
-            priority
+            autoPlay
+            loop
+            muted
+            playsInline
           />
         </div>
         <div className={styles.buttonContainer}>
@@ -65,35 +69,47 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`flex flex-col items-center justify-center text-center px-4 py-20 ${dm_sans.className} relative z-10`}>
-        <h1 className={`text-5xl md:text-6xl font-medium text-gray-800 mb-6 mt-12 ${styles.gradientText}`} style={{ lineHeight: '1.2' }}>
-            Hiring Intelligence for your Enterprise
-        </h1>
-        <p className="text-xl font-medium text-gray-600 mb-12 max-w-3xl">
-          Lucence automates recruiting by offering customizable <span className={styles.highlightedText}>AI-led interviews & screening</span> for any role. Save time, reduce costs and hire top talent effortlessly.
-        </p>
-        <div className="flex space-x-4 relative z-20">
-          <Link href="/demo" className={`${styles.actionButton} ${styles.primaryButton}`}>
-            Request a Demo
-          </Link>
-          <Link href="/dashboard" className={`${styles.actionButton} ${styles.secondaryButton}`}>
-            Try a Mock Interview →
-          </Link>
+      <div className={`${styles.heroSection} ${dm_sans.className}`}>
+        <div className={styles.heroContent}>
+          <h1 className={`text-6xl md:text-7xl font-medium mb-6`} style={{ lineHeight: '1.1' }}>
+            <span className={pacifico.className}>Hiring Intelligence</span> for Enterprises
+          </h1>
+          <p className="text-xl font-medium text-gray-600 mb-12 max-w-2xl">
+          Lucence automates recruiting by offering customizable AI-led interviews & screening for any role. Save time, reduce costs and hire top talent effortlessly.
+          </p>
+          <div className={styles.buttonGroup}>
+            <Link href="/demo" className={`${styles.actionButton} ${styles.primaryButton}`}>
+              Request a Demo
+            </Link>
+            <Link href="/dashboard" className={`${styles.actionButton} ${styles.secondaryButton}`}>
+              Try a Mock Interview →
+            </Link>
+          </div>
+        </div>
+        <div className={styles.heroGraphic}>
+          <video
+            src="/Audio_Wave.webm"  // Replace with your actual WebM file name
+            className={styles.heroVideo}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
         </div>
       </div>
 
       {/* Added graphic */}
-      <div className={`mt-20 flex justify-center ${styles.graphicContainer}`}>
+      {/* <div className={`mt-20 flex justify-center ${styles.graphicContainer}`}>
         <div className={styles.gradientBackground}></div>
         <img
           src="/Graphic.png"
           alt="Product Screenshot"
           className={styles.graphic}
         />
-      </div>
+      </div> */}
 
       {/* Updated Features Section */}
-      <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
+      {/* <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-medium text-center mb-4">Supercharge your hiring process</h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
@@ -111,11 +127,11 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/* New Customizable Interviews Section */}
-      <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
+      {/* <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
             <h2 className="text-4xl font-medium mb-4">Customizable AI Interviews</h2>
@@ -138,10 +154,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* New Analytics Section */}
-      <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
+      {/* <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center">
           <div className="md:w-1/2 md:pl-8 mb-8 md:mb-0">
             <h2 className="text-4xl font-medium mb-4">Comprehensive Analytics</h2>
@@ -151,18 +167,17 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className={styles.graphicPlaceholder}>
-              {/* Replace this with your actual graphic */}
               <Image src="/placeholder-image.jpg" alt="Analytics Dashboard" width={500} height={300} />
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Spacer */}
       {/* <div className="py-10"></div> */}
 
       {/* Updated CTA section */}
-      <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
+      {/* <div className={`py-20 px-4 bg-white ${dm_sans.className}`}>
         <div className="max-w-6xl mx-auto text-center">
           <h2 className={`text-4xl font-medium mb-4`}>
             Seamlessly integrates with existing workflows
@@ -181,9 +196,6 @@ export default function Home() {
             </div>
           </div>
 
-
-          
-          {/* New heading, engaging subtitle, and buttons */}
           <h2 className={`text-4xl font-medium mb-4 mt-16 ${styles.gradientText}`}>
             Smarter hiring starts here.
           </h2>
@@ -199,20 +211,23 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Updated Footer Layout */}
-      <footer className={`${styles.footer} ${dm_sans.className}`}>
+      {/* <footer className={`${styles.footer} ${dm_sans.className}`}>
         <hr className={styles.footerLine} />
         <div className={styles.footerContent}>
           <div className={styles.footerLeft}>
             <div className={styles.logoAndName}>
-              <Image
-                src="/logo (1).png"
-                alt="Lucence Logo"
-                width={28}
-                height={28}
+              <video
+                src="/Animation - 1727914209042 - black.webm"
+                width={38}
+                height={38}
                 className={styles.footerLogo}
+                autoPlay
+                loop
+                muted
+                playsInline
               />
               <h2 className={styles.footerTitle}>Lucence</h2>
             </div>
@@ -230,7 +245,7 @@ export default function Home() {
             <p className={styles.footerBottom}>© 2024 Lucence Inc. Made with ❤️ in the Bay Area.</p>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </main>
   );
 }

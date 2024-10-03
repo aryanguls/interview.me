@@ -13,7 +13,7 @@
 
 
 .header {
-  width: 95%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +41,7 @@
 
 .button {
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   text-decoration: none;
   color: white;
   font-weight: 500;
@@ -54,7 +54,7 @@
 }
 
 .button:hover {
-  background-color: #004b81;
+  background-color: #333;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -70,7 +70,7 @@
 }
 
 .textButton:hover {
-  color: #004b81;
+  color: #777;
 }
 
 .centeredContent {
@@ -550,3 +550,134 @@
     max-width: 100%;
   }
 }
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  position: relative;
+  z-index: 2;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  min-height: calc(100vh - 180px); /* Adjust based on your header height */
+  padding: 0 5%;
+  gap: 4rem;
+  margin: 0 auto; /* Center the hero section */
+}
+
+.heroContent {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+}
+
+.heroGraphic {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroVideo {
+  width: 100%;
+  height: auto;
+  max-width: 900px; /* Adjust this value as needed */
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: flex-start; /* Align buttons to the left */
+}
+
+.actionButton {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.primaryButton {
+  background-color: #000000;
+  color: white;
+}
+
+.primaryButton:hover {
+  background-color: #333;
+}
+
+.secondaryButton {
+  background-color: white;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.secondaryButton:hover {
+  background-color: #eaeaea;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .heroSection {
+    flex-direction: column;
+    text-align: left; /* Keep text left-aligned on smaller screens */
+    padding: 3rem 5%;
+  }
+
+  .heroContent {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .heroGraphic {
+    width: 100%;
+  }
+
+  .buttonGroup {
+    justify-content: flex-start; /* Keep buttons left-aligned on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 2rem 5%;
+  }
+
+  .heroContent h1 {
+    font-size: 2.5rem;
+  }
+
+  .heroContent p {
+    font-size: 1rem;
+  }
+
+  .actionButton {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+}
+
