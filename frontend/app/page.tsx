@@ -53,8 +53,8 @@ export default function Home() {
         <div className={styles.logoContainer}>
           <video
             src="/Animation - 1727914209042 - black.webm"
-            width={60}
-            height={60}
+            width={50}
+            height={50}
             className={styles.logo}
             autoPlay
             loop
@@ -63,25 +63,25 @@ export default function Home() {
           />
         </div>
         <div className={styles.buttonContainer}>
-          <Link href="/contact" className={styles.textButton}>Contact</Link>
-          <Link href="/login" className={styles.textButton}>Candidates</Link>
-          <Link href="/signup" className={styles.button}>Companies</Link>
+          <Link href="mailto:hello@lucence.ai" className={styles.textButton}>Contact</Link>
+          <Link href="/candidate" className={styles.textButton}>Candidates</Link>
+          <Link href="https://calendly.com/lucence-ai/30min" className={styles.button} target="_blank" rel="noopener noreferrer">Companies</Link>
         </div>
       </div>
 
       <div className={`${styles.heroSection} ${dm_sans.className}`}>
         <div className={styles.heroContent}>
           <h1 className={`text-6xl md:text-7xl font-medium mb-6`} style={{ lineHeight: '1.1' }}>
-            <span className={pacifico.className}>Hiring Intelligence</span> for Enterprises
+            <span className={pacifico.className}>Smart Interviews</span>, Smarter Hires.
           </h1>
           <p className="text-xl font-medium text-gray-600 mb-12 max-w-2xl">
           Lucence automates recruiting by offering customizable AI-led interviews & screening for any role. Save time, reduce costs and hire top talent effortlessly.
           </p>
           <div className={styles.buttonGroup}>
-            <Link href="/demo" className={`${styles.actionButton} ${styles.primaryButton}`}>
-              Request a Demo
+            <Link href="https://calendly.com/lucence-ai/30min" className={`${styles.actionButton} ${styles.primaryButton}`}>
+              Book a Demo
             </Link>
-            <Link href="/dashboard" className={`${styles.actionButton} ${styles.secondaryButton}`}>
+            <Link href="/candidate" className={`${styles.actionButton} ${styles.secondaryButton}`}>
               Try a Mock Interview →
             </Link>
           </div>

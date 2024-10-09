@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lucence | Hiring Intelligence for Enterprises",
+  title: "Lucence | Interviewing Intelligence for Everyone",
   description: "Lucence automates recruiting by offering customizable AI-led interviews & screening for any role. Save time, reduce costs and hire top talent effortlessly.",
 };
 
