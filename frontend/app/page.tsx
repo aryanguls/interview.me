@@ -53,8 +53,8 @@ export default function Home() {
         <div className={styles.logoContainer}>
           <video
             src="/Animation - 1727914209042 - black.webm"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
             className={styles.logo}
             autoPlay
             loop
