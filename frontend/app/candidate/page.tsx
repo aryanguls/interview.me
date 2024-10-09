@@ -67,7 +67,13 @@ export default function Candidate() {
           </div>
           <div className={styles.backButtonContainer}>
             <Link href="/" className={styles.backButton}>
-              Back
+                <img
+                src="/log-out.png"
+                alt="Back"
+                width={24}
+                height={24}
+                className={styles.backIcon}
+                />
             </Link>
           </div>
         </nav>

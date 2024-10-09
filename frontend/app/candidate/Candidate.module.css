@@ -201,3 +201,26 @@
   .spin {
     animation: spin 1s linear infinite;
   }
+
+  .backButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(var(--foreground-rgb));
+    text-decoration: none;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .backButton:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  } */
+  
+  .backIcon {
+    width: 24px;
+    height: 24px;
+  }
