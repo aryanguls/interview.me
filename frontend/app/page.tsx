@@ -71,18 +71,18 @@ export default function Home() {
 
       <div className={`${styles.heroSection} ${dm_sans.className}`}>
         <div className={styles.heroContent}>
-          <h1 className={`text-6xl md:text-7xl font-medium mb-6`} style={{ lineHeight: '1.1' }}>
-            <span className={pacifico.className}>Smart Interviews</span>, Smarter Hires.
+          <h1 className={`text-6xl md:text-6xl font-medium mb-6`} style={{ lineHeight: '1.1' }}>
+            <span className={pacifico.className}>Smart Interviews</span>, Smarter Recruiting.
           </h1>
           <p className="text-xl font-medium text-gray-600 mb-12 max-w-2xl">
-          Lucence automates recruiting by offering customizable AI-led interviews & screening for any role. Save time, reduce costs and hire top talent effortlessly.
+          Lucence automates recruiting by offering the complete AI-led interview platform for candidates and companies. Practice to ace your next role, or find top talent effortlessly.
           </p>
           <div className={styles.buttonGroup}>
             <Link href="https://calendly.com/lucence-ai/30min" className={`${styles.actionButton} ${styles.primaryButton}`}>
-              Book a Demo
+              Hire with Lucence
             </Link>
             <Link href="/candidate" className={`${styles.actionButton} ${styles.secondaryButton}`}>
-              Try a Mock Interview →
+              Prepare for Interviews →
             </Link>
           </div>
         </div>
