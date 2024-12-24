@@ -1,4 +1,4 @@
-# Lucence
+# Interview.me
 Your AI Interview Coach
 
 ## Tech Stack
