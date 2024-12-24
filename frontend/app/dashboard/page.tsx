@@ -1,150 +1,186 @@
-'use client';
-
-import Image from 'next/image';
+"use client"
+import React, { useState, useRef } from 'react';
 import Link from 'next/link';
-import { useState, useRef, useEffect, MouseEvent } from 'react';
-import styles from './app.module.css';
-import CreateInterviewModal from './CreateInterviewModal';
+import { FileText, Upload, Loader, Check } from 'lucide-react';
+import styles from './Candidate.module.css';
 
-interface AccountDropdownProps {
-  isOpen: boolean;
-  onClose: () => void;
-}
+export default function NewDashboard() {
+  const [step, setStep] = useState(1);
+  const [resumeFile, setResumeFile] = useState(null);
+  const [uploadStatus, setUploadStatus] = useState('idle');
+  const [selectedCompany, setSelectedCompany] = useState('');
+  const [selectedRole, setSelectedRole] = useState('');
+  const [interviewType, setInterviewType] = useState('resume');
+  const [interviewLength, setInterviewLength] = useState('');
+  const fileInputRef = useRef(null);
 
-function AccountDropdown({ isOpen, onClose }: AccountDropdownProps) {
-  if (!isOpen) return null;
+  const companies = ['Google', 'Meta (Facebook)', 'Tesla', 'Airbnb', 'Shopify', 'Amazon', 'Apple', 'Microsoft'];
+  const roles = ['Software Engineer', 'Product Manager', 'Data Scientist', 'UX Designer', 'Research Scientist', 'Machine Learning Engineer', 'AI Engineer'];
 
-  return (
-    <div className={styles.dropdownMenu}>
-      <Link href="/account" className={styles.dropdownItem} onClick={onClose}>Account</Link>
-      <Link href="/settings" className={styles.dropdownItem} onClick={onClose}>Settings</Link>
-      <Link href="/signup" className={styles.dropdownItem} onClick={onClose}>Sign Up</Link>
+  const handleFileChange = (event) => {
+    if (event.target.files && event.target.files[0]) {
+      setResumeFile(event.target.files[0]);
+      setUploadStatus('success');
+    }
+  };
+
+  const handleSubmit = async () => {
+    setUploadStatus('uploading');
+    const formData = new FormData();
+    formData.append('resume', resumeFile);
+    formData.append('company', selectedCompany);
+    formData.append('role', selectedRole);
+
+    try {
+      const response = await fetch('http://127.0.0.1:5000/upload_resume', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        window.location.href = '/setup';
+      } else {
+        throw new Error('Upload failed');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      setUploadStatus('error');
+    }
+  };
+
+  const renderStep1 = () => (
+    <div className={styles.contentContainer}>
+      <div className={styles.uploadBox}>
+        <FileText className={styles.uploadIcon} />
+        <h2 className={styles.uploadTitle}>Create Your Interview</h2>
+        <p className={styles.uploadSubtitle}>Upload your resume to start the interview process.</p>
+        
+        <div className={styles.inputContainer}>
+          <input
+            type="file"
+            ref={fileInputRef}
+            onChange={handleFileChange}
+            style={{ display: 'none' }}
+            accept=".pdf,.doc,.docx"
+          />
+          {!resumeFile ? (
+            <button 
+              className={styles.uploadButton}
+              onClick={() => fileInputRef.current?.click()}
+            >
+              <Upload className={styles.uploadButtonIcon} />
+              Upload Resume
+            </button>
+          ) : (
+            <button 
+              className={styles.detailsButton}
+              onClick={() => setStep(2)}
+            >
+              <Check className={styles.uploadButtonIcon} />
+              Enter Details
+            </button>
+          )}
+          {resumeFile && <p className={styles.fileName}>{resumeFile.name}</p>}
+        </div>
+      </div>
     </div>
   );
-}
 
-export default function AppPage() {
-  const [activeTab, setActiveTab] = useState('All');
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
+  const renderStep2 = () => (
+    <div className={styles.contentContainer}>
+      <div className={styles.uploadBox}>
+        <h2 className={styles.uploadTitle}>Interview Setup</h2>
+        <p className={styles.uploadSubtitle}>Configure your interview preferences.</p>
 
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsDropdownOpen(false);
-      }
-    }
+        <div className={styles.horizontalInputs}>
+          <select 
+            className={styles.dropdown}
+            value={selectedCompany}
+            onChange={(e) => setSelectedCompany(e.target.value)}
+          >
+            <option value="">Select Company</option>
+            {companies.map((company) => (
+              <option key={company} value={company}>{company}</option>
+            ))}
+          </select>
 
-    document.addEventListener("mousedown", handleClickOutside as unknown as EventListener);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside as unknown as EventListener);
-    };
-  }, []);
+          <select 
+            className={styles.dropdown}
+            value={selectedRole}
+            onChange={(e) => setSelectedRole(e.target.value)}
+          >
+            <option value="">Select Role *</option>
+            {roles.map((role) => (
+              <option key={role} value={role}>{role}</option>
+            ))}
+          </select>
+        </div>
 
+        <div className={styles.horizontalInputs}>
+          <select 
+            className={styles.dropdown}
+            value={interviewLength}
+            onChange={(e) => setInterviewLength(e.target.value)}
+          >
+            <option value="">Select Interview Length *</option>
+            <option value="20">20 mins</option>
+            <option value="30">30 mins</option>
+            <option value="45">45 mins</option>
+            <option value="60">60 mins</option>
+          </select>
+
+          <select 
+            className={styles.dropdown}
+            value={interviewType}
+            onChange={(e) => setInterviewType(e.target.value)}
+          >
+            <option value="resume">Resume Review</option>
+            <option value="behavioral" disabled>Behavioral (Coming Soon)</option>
+            <option value="technical" disabled>Technical (Coming Soon)</option>
+          </select>
+        </div>
+
+        <div className={styles.bottomActions}>
+          <button 
+            className={styles.startButton} 
+            onClick={handleSubmit}
+            disabled={!selectedCompany || !selectedRole || !interviewLength}
+          >
+            Start Interview
+          </button>
+        </div>
+      </div>
+    </div>
+  );
 
   return (
-    <div className={styles.container}>
-      <div className={styles.backgroundBlemishes}></div>
-      <div className={`${styles.contentWrapper} ${isModalOpen ? styles.blurred : ''}`}>
-        <header className={styles.header}>
-          <Link href="/dashboard" className={styles.logoLink}>
-            <div className={styles.logoContainer}>
-              <Image
-                src="/logo (1).png"
-                alt="Lucence Logo"
-                width={40}
-                height={40}
-              />
-            </div>
-          </Link>
-          <div className={styles.accountContainer} ref={dropdownRef}>
-            <button 
-              className={styles.accountButton}
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            >
-              <Image
-                src="/placeholder-user.jpg"
-                alt="User"
-                width={40}
-                height={40}
-                className={styles.userIcon}
-              />
-            </button>
-            <AccountDropdown 
-              isOpen={isDropdownOpen} 
-              onClose={() => setIsDropdownOpen(false)}
+    <main className={styles.container}>
+      <nav className={styles.navbar}>
+        <div className={styles.logoContainer}>
+          <video
+            src="/Animation - 1727914209042 - black.webm"
+            width={60}
+            height={60}
+            className={styles.logo}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </div>
+        <div className={styles.backButtonContainer}>
+          <Link href="/" className={styles.backButton}>
+            <img
+              src="/log-out.png"
+              alt="Back"
+              width={24}
+              height={24}
+              className={styles.backIcon}
             />
-          </div>
-        </header>
-        
-        <main className={styles.main}>
-          <div className={styles.controlsContainer}>
-            <div className={styles.tabsContainer}>
-              {['All', 'Completed', 'Scheduled'].map((tab) => (
-                <button 
-                  key={tab}
-                  className={`${styles.tabButton} ${activeTab === tab ? styles.active : ''}`}
-                  onClick={() => setActiveTab(tab)}
-                >
-                  {tab}
-                </button>
-              ))}
-            </div>
-            <button 
-              className={styles.addButton} 
-              onClick={() => setIsModalOpen(true)}
-            >
-              Start New Interview
-            </button>
-          </div>
-          <div className={styles.mockInterviewContainer}>
-            <div className={styles.mockInterviewHeader}>
-              <h2 className={styles.mockInterviewTitle}>Mock Interviews</h2>
-              <p className={styles.mockInterviewSubtitle}>Practice your interview skills with our AI-powered mock interviews.</p>
-            </div>
-            <table className={styles.table}>
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>COMPANY</th>
-                  <th>ROLE</th>
-                  <th>DATE</th>
-                  <th>STATUS</th>
-                  <th>SCORE</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td colSpan={6} className={styles.placeholderCell}>
-                    <div className={styles.placeholderContent}>
-                      <Image
-                        src="/placeholder.png"
-                        alt="Placeholder"
-                        width={200}
-                        height={200}
-                        className={styles.placeholderImage}
-                      />
-                      {/* <p className={styles.noInterviewsText}>No interviews scheduled yet</p> */}
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div className={styles.pagination}>
-              <span>Showing <strong>0</strong> of <strong>0</strong> interviews</span>
-              <div>
-                <button disabled>Prev</button>
-                <button disabled>Next</button>
-              </div>
-            </div>
-          </div>
-        </main>
-      </div>
-      <CreateInterviewModal 
-        isOpen={isModalOpen} 
-        onClose={() => setIsModalOpen(false)} 
-      />
-    </div>
+          </Link>
+        </div>
+      </nav>
+      {step === 1 ? renderStep1() : renderStep2()}
+    </main>
   );
 }

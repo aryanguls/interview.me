@@ -58,7 +58,7 @@ const InterviewSetup = () => {
         const dataArray = new Uint8Array(analyserRef.current.frequencyBinCount);
         analyserRef.current.getByteFrequencyData(dataArray);
         const average = dataArray.reduce((sum, value) => sum + value, 0) / dataArray.length;
-        const normalizedLevel = Math.min(average / 128, 1); // Normalize to 0-1 range, cap at 1
+        const normalizedLevel = Math.min(average / 128, 1);
         
         setAudioLevels([
           normalizedLevel > 0.25 ? 1 : 0,
@@ -79,21 +79,30 @@ const InterviewSetup = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.backgroundBlemishes}></div>
       <div className={styles.contentWrapper}>
-        <header className={styles.header}>
-          <Link href="/dashboard" className={styles.logoLink}>
-            <div className={styles.logoContainer}>
-              <Image
-                src="/logo (1).png"
-                alt="Lucence Logo"
-                width={40}
-                height={40}
-              />
-            </div>
-          </Link>
-          <Link href="/dashboard" className={styles.backLink}>Back</Link>
-        </header>
+      <header className={styles.header}>
+        <div className={styles.logoContainer}>
+          <video
+            src="/Animation - 1727914209042 - black.webm"
+            width={60}
+            height={60}
+            className={styles.logo}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </div>
+        <Link href="/dashboard" className={styles.backButtonContainer}>
+          <img
+            src="/log-out.png"
+            alt="Back"
+            width={24}
+            height={24}
+            className={styles.backIcon}
+          />
+        </Link>
+      </header>
         
         <main className={styles.main}>
           <div className={styles.videoPreviewContainer}>

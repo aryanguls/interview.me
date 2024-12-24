@@ -1,31 +1,12 @@
 .container {
   min-height: 100vh;
-  background-color: #f0f4f8;
+  background-color: rgb(var(--background-rgb));
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   position: relative;
   overflow: hidden;
-}
-
-.backgroundBlemishes {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.8;
-  pointer-events: none;
-  background: linear-gradient(
-    135deg,
-    rgba(135, 206, 250, 0.4) 0%,
-    rgba(135, 206, 250, 0.1) 25%,
-    rgba(135, 206, 250, 0.05) 50%,
-    rgba(135, 206, 250, 0.1) 75%,
-    rgba(135, 206, 250, 0.4) 100%
-  );
-  z-index: 0;
 }
 
 .contentWrapper {
@@ -49,18 +30,21 @@
   position: relative;
 }
 
-.backLink {
+.backButtonContainer {
   position: absolute;
-  right: 0;
-  color: #000;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
+  top: 50%;
+  right: 3rem;
+  transform: translateY(-50%);
 }
 
-.backLink:hover{
-  color: #004b81;
+.backIcon {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.3s ease;
+}
+
+.backButtonContainer:hover .backIcon {
+  opacity: 0.7;
 }
 
 .logoContainer {
@@ -138,13 +122,13 @@
   width: 35%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Changed from space-between to center */
-  align-items: center; /* Added to center child elements horizontally */
+  justify-content: center;
+  align-items: center;
   height: 100%;
   padding: 2rem;
   background-color: transparent;
   border-radius: 15px;
-  text-align: center; /* Ensure all text is centered */
+  text-align: center;
 }
 
 .setupTitle {
@@ -158,7 +142,7 @@
 .interviewer {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the image and name */
+  align-items: center;
   margin-bottom: 2rem;
 }
 
@@ -178,33 +162,31 @@
 }
 
 .startButton {
-  background-color: #000000;
+  background-color: #000;
   color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 1.1rem 3rem;
   border: none;
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  font-weight: 400;
+  border-radius: 6px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius: 50px;
-  width: auto;
-  display: inline-block;
-  min-width: 200px;
-  max-width: 80%;
-  margin: 2rem auto 0;
+  transition: background-color 0.3s ease;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 .startButton:hover {
-  background-color: #004b81;
-  transform: translateY(-2px);
+  background-color: #333;
 }
 
 .audioIndicator {
   position: absolute;
   bottom: 15px;
   right: 20px;
-  width: 25px; /* Increased to accommodate 4 bars with spacing */
+  width: 25px;
   height: 15px;
   display: flex;
   justify-content: space-between;
@@ -223,4 +205,9 @@
 .audioBar.active {
   height: 15px;
   background-color: #ffffff;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
 }
